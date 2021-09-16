@@ -1,0 +1,28 @@
+---
+title: "Welcome to NSC-R Workshops"
+description: |
+  Welcome to our new blog, NSCRWorkshops. We report from workshops which to place and alert you to workshops that are planned in the near future
+author:
+  - name: Wim Bernasco, Alex Trinidad, Asier Moneva and Sam Langton
+    url: https://nscr.nl
+    affiliation: NSCR
+    preview: images/workshop.
+date: June 6 2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+
+<centre>
+
+![](logo_NSCR.svg)
+
+</centre>    
+
+We are a group which organize on regurly basis workshops on modern data analysis, mostly by using the R-program system. We want to share our knowledge and stimulate each in using new techniques xxx

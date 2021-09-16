@@ -1,15 +1,42 @@
 ---
-title: "NSC-R"
-description: |
-  Welcome to the website. I hope you enjoy it!
+title: "About us"
 site: distill::distill_website
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
 ```
+
+<center>
+
+![](images/workshop.png){width=50%}
+
+</centre>    
+
+## What is the goal of NSC-R?
+
+**NSC-R** is an interdisciplinary community at NSCR dedicated to promoting a fun and supportive culture of co-learning in data science skills and open science principles. We host workshops and social events where attendees can learn and work on projects among friends and colleagues. NSC-R welcomes everyone who wants to better their know-how in all things data, regardless of skill level. We want to replace statistics anxiety and code fear with inspiration and motivation to learn and share.
+
+## Contact Us and Get involved
+
+Whether you’re a beginner, intermediate, or expert, we want you to be involved with the NSC-R workshops. There are different ways to get involved   
+
+**1. Slack**
+
+Join the [NSC-R slack workspace]() and be part of our co-learning community. Everyone is welcome. Ask Questions and team up with other members.
+
+
+**2. Mailing List**
+
+Join the [mailing list](). If you have interest, please [email](wbernasco@nscr.nl) to join.
+
+**3. Suggest a Workshop**
+
+We’re all learners in NSC-R. Request a workshop, and if you are interested in helping teach it, we’ll support you!
+
+xxx
+
+
 
