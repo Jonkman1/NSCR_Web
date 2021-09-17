@@ -6,6 +6,7 @@ author:
   - name: Alex Trinidad
     url: https://nscr.nl/medewerker/dr-alex-trinidad/
 date: September 2 2021
+preview: workshop3.png
 output:
   distill::distill_article:
     self_contained: false
@@ -16,8 +17,11 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-![](workshop3.png){width=50%}
-   
+```{r, out.width="50%"}
+knitr::include_graphics("workshop3.png")
+
+```
+
 The third meeting of the NSC-R Workshop was on Thursday September 2, 13:00-14:00 hr. Alex Trinidad introduced us to *spatial data* and how they can be processed in R. 
  
 Learning to work with spatial data allows us to broaden our toolbox and our research horizons. In this workshop, we worked on the basic concepts of spatial data usage, data preparation, and basic visualisations. The aim was to introduce you to how to work with spatial data in R and provide materials that helped to go deeper into this type of data. 

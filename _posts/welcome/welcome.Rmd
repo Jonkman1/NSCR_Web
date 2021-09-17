@@ -6,7 +6,7 @@ author:
   - name: Wim Bernasco, Alex Trinidad, Asier Moneva and Sam Langton
     url: https://nscr.nl
     affiliation: NSCR
-    preview: images/workshop.
+preview: workshop.png
 date: June 6 2021
 output:
   distill::distill_article:
@@ -19,10 +19,10 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-<centre>
+```{r, out.width="50%"}
+knitr::include_graphics("workshop.png")
 
-![](logo_NSCR.svg)
-
-</centre>    
+```
+ 
 
 We are a group which organize on regurly basis workshops on modern data analysis, mostly by using the R-program system. We want to share our knowledge and stimulate each in using new techniques xxx

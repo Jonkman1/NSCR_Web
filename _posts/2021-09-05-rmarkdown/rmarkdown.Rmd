@@ -5,8 +5,8 @@ description: |
 author:
   - name: Asier Moneva
     url: https://nscr.nl/en/medewerker/asier-moneva/
-preview: rmarkdown.jpg
 date: July 6 2021
+preview: workshop2.png
 output:
   distill::distill_article:
     self_contained: false
@@ -17,8 +17,12 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+```{r, out.width="50%"}
+knitr::include_graphics("workshop2.png")
 
-![](workshop2.png){width=50%}
+```
+
+
 
 **Markdown** is a language for producing formatted text with a simple text editor conceived with the idea of being human-readable from source. If you remember Thomas de Graaff's talk from two weeks ago, having human readable code is important for a number of reasons, such as being easy to debug, maintain, and extend. 
 

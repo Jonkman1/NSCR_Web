@@ -6,6 +6,7 @@ author:
   - name: Thomas de Graaff
     url: https://research.vu.nl/en/persons/thomas-de-graaff
 date: June 24 2021
+preview: workshop01.png
 output:
   distill::distill_article:
     self_contained: false
@@ -16,7 +17,9 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-![](workshop01.png){width=50%}
+```{r, out.width="50%"}
+knitr::include_graphics("workshop01.png")
+```
 
 On Thursday June 24, 13:00-14:00, we kicked off the NSC-R Workshop initiative. The topic of this first meeting was reproducibility, which is about how to organize your research workflow to create documented code and reproducible findings. The focus **was not on why** (we should know), but on practical guidelines **on how to do it**. It was presented by Thomas de Graaff. 
 
