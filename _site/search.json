@@ -5,28 +5,28 @@
       "title": "Posts",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-09-17T13:30:52+02:00"
+      "last_modified": "2021-09-21T16:33:32+02:00"
     },
     {
       "path": "index.html",
       "title": "About us",
       "author": [],
       "contents": "\n\n\n\nWhat is the goal of NSC-R?\nNSC-R is an interdisciplinary community at NSCR dedicated to promoting a fun and supportive culture of co-learning in data science skills and open science principles. We host workshops and social events where attendees can learn and work on projects among friends and colleagues. NSC-R welcomes everyone who wants to better their know-how in all things data, regardless of skill level. We want to replace statistics anxiety and code fear with inspiration and motivation to learn and share.\nContact Us and Get involved\nWhether you’re a beginner, intermediate, or expert, we want you to be involved with the NSC-R workshops. There are different ways to get involved\n1. Slack\nJoin the NSC-R slack workspace and be part of our co-learning community. Everyone is welcome. Ask Questions and team up with other members.\n2. Mailing List\nJoin the mailing list. If you have interest, please email to join.\n3. Suggest a Workshop\nWe’re all learners in NSC-R. Request a workshop, and if you are interested in helping teach it, we’ll support you!\nxxx\n\n\n\n",
-      "last_modified": "2021-09-17T13:30:53+02:00"
+      "last_modified": "2021-09-21T16:33:33+02:00"
     },
     {
       "path": "other.html",
       "title": "Whatever extra ...",
       "author": [],
       "contents": "\nWork-in-progress\nHere we can place whatever we want.\n–\n\n\n\n",
-      "last_modified": "2021-09-17T13:30:54+02:00"
+      "last_modified": "2021-09-21T16:33:33+02:00"
     },
     {
       "path": "teaching.html",
       "title": "Teaching",
       "author": [],
       "contents": "\nWorkshop 1: Data Skills for Reproducible Science\nSee\nCommands\nTyping commands in the R Studio concole (bottom left window). Note that on a line in the editor, anything after is automagically green and treated as comment, not code (like ’*’ in Stata and SPSS)\n\n\nrm(list=ls())\n\n1 + 1\n\n\n[1] 2\n\n1 + 2 + 3\n\n\n[1] 6\n\n1 +\n  2\n\n\n[1] 3\n\nStrings\n\n\n\"Good morning\"\n\n\n[1] \"Good morning\"\n\nSingle quotes can be used as well, but not prefered\n\n\n'Good Morning'\n\n\n[1] \"Good Morning\"\n\nQuotes\nUse single quotes if the string must cntain double quotes, or vice versa\n\n\n\"'Good morning', she said\"\n\n\n[1] \"'Good morning', she said\"\n\n'\"Good morning\", he replied'\n\n\n[1] \"\\\"Good morning\\\", he replied\"\n\nCat\nThe command cat prints to the screen whatever is between brackets\n\n\ncat(\"'Good morning', she said\")\n\n\n'Good morning', she said\n\ncat('\"Good morning\", he replied')\n\n\n\"Good morning\", he replied\n\nVariables\nWe start with variables that represent just one number (you may think of an SPSSS or Stata variable in a dataset with N=1)\nUse the assignment operator ‘<-’\nR stores the number in the variable ‘variable1’\n\n\nvariable1 <- 5\nvariable1\n\n\n[1] 5\n\nalternatively (seldom very useful)\n\n\nassign(\"variable2\", 7)  # note the variable name is between quotes hre\nvariable2\n\n\n[1] 7\n\nWe can use the variable in subsequent calculations\n\n\nvariable1 * variable2\n\n\n[1] 35\n\n# and assign the result to another variable\nvariable3 <- variable1 + variable2\n\n\n\nJust as in SPSS, you can overwrite the original value\n\n\nvariable1 <- variable1 * variable2\nvariable1\n\n\n[1] 35\n\nA variable does not need to be a single number, it can be a vector like our variables in Stata and SPSS\n\n\nmyvariable <- c(2,3,5,7,11,13)\nmyvariable\n\n\n[1]  2  3  5  7 11 13\n\nJust as in Stata or SPSS, assignment of values to variables is static. Here is an example from the online course:\n\n\nthis_year <- 2019\nmy_birth_year <- 1976\nmy_age <- this_year - my_birth_year\nthis_year <- 2020\n# your age is not updated automatically!\n\n\n\nLook at the upper right panel (‘Global Environment’)\nFunctions\nAlmost everything is R works with functions. hey are small programs that you feed with something and that return something else.\nThree numbers go in (the functionarguments), 10 come out (the value of the function)\n\n\nrnorm(n=10, mean=0, sd=1)\n\n\n [1]  2.1584534 -0.1593465  0.2190316  1.8124061  0.5985249 -1.0292724\n [7] -1.8004985 -0.7141248 -0.4760577 -0.2493621\n\nYou often use a function in a function. sum() is also a function\n\n\nsum(rnorm(n=10, mean=0, sd=1))\n\n\n[1] 1.467972\n\nGetting help is easy for beginners, but understanding it is not always easy\n\n\nhelp(\"rnorm\")\n?rnorm\n\n\n\nPackages\nThe power of R is in the packages. There are hundreds of them, for specific tasks. It can be overwhelming, esp. if multiple packages offer similar possibilities (i.e. inter-rater reliability assessment)\nYou can do it by commandline (take away #)\n\n\n# install.packages(\"ggExtra\")\n\n\n\nOr via menu (Tools-Install packages) or pane Packages (Install). After installing: load package (one per session, typically at the top of yur script/syntax)\n\n\nlibrary(ggExtra)\n\n\n\nRead section 1.6.1 carefully. It is about how to organize your script\n\n\n\n",
-      "last_modified": "2021-09-17T13:30:56+02:00"
+      "last_modified": "2021-09-21T16:33:35+02:00"
     }
   ],
   "collections": ["posts/posts.json"]

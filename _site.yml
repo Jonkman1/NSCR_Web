@@ -15,7 +15,17 @@ navbar:
     - text: "Non-Blog"
       href: other.html
     - text: "Teaching"
-      href: teaching.html
+      menu:
+      - text: "1_Introducing"
+        href: teaching.html
+      - text: "2_Transforming"
+        href: transforming.html
+      - text: "3_Visualizing"
+        href: visualizing.html
+      - text: "4_Modeling"
+        href: modeling.html
+      - text: "5_Communicating"
+        href: communicating.html
     - icon: fa fa-github
       href: 
     - icon: fa fa-twitter
