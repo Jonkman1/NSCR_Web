@@ -29,5 +29,5 @@ No prior reading is necessary, but if you might want to skim through a [recent b
 
 [Here](https://github.com/Jonkman1/NSC_R/tree/main/Meeting_4_OpenData) you can find his materials: Sams presentation (presentation.pdf), his syntax (demo.R) and the results of his syntax (worksheet.pdf)
 
-> Sam Langron is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on the spatial and temporal patterning of crime and police demand.
+> Sam Langton is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on the spatial and temporal patterning of crime and police demand.
 
