@@ -1,5 +1,5 @@
 ---
-title: "spatialregression"
+title: "Spatial Regression"
 description: |
   This session will be about regression analysis and spatial regression analysis in R.
 author:

@@ -23,7 +23,7 @@ knitr::include_graphics("workshop01.png")
 
 On Thursday June 24, 13:00-14:00, we kicked off the NSC-R Workshop initiative. The topic of this first meeting was reproducibility, which is about how to organize your research workflow to create documented code and reproducible findings. The focus **was not on why** (we should know), but on practical guidelines **on how to do it**. It was presented by Thomas de Graaff. 
 
-Here you find the [presentation](https://github.com/Jonkman1/NSC_R/tree/main/Meeting_1_Reproducibility/reproducibility.pdf)
+Here you find the [presentation](https://www.dropbox.com/s/vn7rn9m5ht2miol/reproducibility.pdf?dl=0)
 
 To prepare for the first meeting, Thomas de Graaff suggested you might want to take a look at the following links. This is obviously not mandatory, but the materials may give rise to ideas or questions that you may want to discuss in the workshop meeting:   
 - A very readable post on [reproducible workflow in R](https://cyberhelp.sesync.org/blog/reproducible-r-workflow.html).   
