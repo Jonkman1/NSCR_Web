@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/2021-09-27-spatialregression/",
+    "title": "spatialregression",
+    "description": "This session will be about regression analysis and spatial regression analysis in R.",
+    "author": [
+      {
+        "name": "Wouter Steenbeek",
+        "url": "https://nscr.nl/medewerker/dr-alex-trinidad/"
+      }
+    ],
+    "date": "2021-09-27",
+    "categories": [],
+    "contents": "\n\n\n\nThis workshop session provides an introduction to Spatial regression using R.\n\n\n\n",
+    "preview": "posts/2021-09-27-spatialregression/workshop5.png",
+    "last_modified": "2021-09-27T09:54:46+02:00",
+    "input_file": {},
+    "preview_width": 480,
+    "preview_height": 481
+  },
+  {
     "path": "posts/2021-09-14-opendata/",
     "title": "OpenData",
     "description": "Introduction to open data and how they can be found, downloaded and processed in R.",
