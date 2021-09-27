@@ -20,19 +20,18 @@
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -52,7 +51,7 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
@@ -88,7 +87,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_meta_tags-->
 <title>NSC-R: spatialregression</title>
 
-<meta property="description" itemprop="description" content="This session will be about regression analysis and spatial regression analysis in R."/>
+<meta property="description" itemprop="description" content="This session will be about regression analysis and spatial regression analysis in R. &quot;This is Alex&quot;"/>
 
 <link rel="canonical" href="https://nscrweb.netlify.app/posts/2021-09-27-spatialregression/"/>
 
@@ -100,7 +99,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
 <meta property="og:title" content="NSC-R: spatialregression"/>
 <meta property="og:type" content="article"/>
-<meta property="og:description" content="This session will be about regression analysis and spatial regression analysis in R."/>
+<meta property="og:description" content="This session will be about regression analysis and spatial regression analysis in R. &quot;This is Alex&quot;"/>
 <meta property="og:url" content="https://nscrweb.netlify.app/posts/2021-09-27-spatialregression/"/>
 <meta property="og:image" content="https://nscrweb.netlify.app/posts/2021-09-27-spatialregression/workshop5.png"/>
 <meta property="og:image:width" content="480"/>
@@ -111,7 +110,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary_large_image"/>
 <meta property="twitter:title" content="NSC-R: spatialregression"/>
-<meta property="twitter:description" content="This session will be about regression analysis and spatial regression analysis in R."/>
+<meta property="twitter:description" content="This session will be about regression analysis and spatial regression analysis in R. &quot;This is Alex&quot;"/>
 <meta property="twitter:url" content="https://nscrweb.netlify.app/posts/2021-09-27-spatialregression/"/>
 <meta property="twitter:image" content="https://nscrweb.netlify.app/posts/2021-09-27-spatialregression/workshop5.png"/>
 <meta property="twitter:image:width" content="480"/>
@@ -127,12 +126,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["spatialregression"]},{"type":"character","attributes":{},"value":["This session will be about regression analysis and spatial regression analysis in R."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Wouter Steenbeek"]},{"type":"character","attributes":{},"value":["https://nscr.nl/medewerker/dr-alex-trinidad/"]}]}]},{"type":"character","attributes":{},"value":["09-27-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://nscrweb.netlify.app/posts/2021-09-27-spatialregression/"]},{"type":"character","attributes":{},"value":["https://nscrweb.netlify.app/posts/2021-09-27-spatialregression/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["spatialregression"]},{"type":"character","attributes":{},"value":["This session will be about regression analysis and spatial regression analysis in R. \"This is Alex\""]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Wouter Steenbeek"]},{"type":"character","attributes":{},"value":["https://nscr.nl/en/medewerker/wouter-steenbeek/"]}]}]},{"type":"character","attributes":{},"value":["09-27-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://nscrweb.netlify.app/posts/2021-09-27-spatialregression/"]},{"type":"character","attributes":{},"value":["https://nscrweb.netlify.app/posts/2021-09-27-spatialregression/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["workshop5.png"]}
+  {"type":"character","attributes":{},"value":["spatialregression_files/anchor-4.2.2/anchor.min.js","spatialregression_files/bowser-1.9.3/bowser.min.js","spatialregression_files/distill-2.2.21/template.v2.js","spatialregression_files/header-attrs-2.9/header-attrs.js","spatialregression_files/jquery-1.11.3/jquery.min.js","spatialregression_files/popper-2.6.0/popper.min.js","spatialregression_files/tippy-6.2.7/tippy-bundle.umd.min.js","spatialregression_files/tippy-6.2.7/tippy-light-border.css","spatialregression_files/tippy-6.2.7/tippy.css","spatialregression_files/tippy-6.2.7/tippy.umd.min.js","spatialregression_files/webcomponents-2.0.0/webcomponents.js","workshop5.png"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2376,6 +2375,7 @@ d-appendix d-footnote-list a.footnote-backlink {
   color: var(--hover-color, white);
 }</style>
 <!--/radix_placeholder_distill-->
+  <script src="../../site_libs/header-attrs-2.9/header-attrs.js"></script>
   <script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
   <script src="../../site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="../../site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
@@ -2396,7 +2396,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"spatialregression","description":"This session will be about regression analysis and spatial regression analysis in R.","authors":[{"author":"Wouter Steenbeek","authorURL":"https://nscr.nl/medewerker/dr-alex-trinidad/","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-09-27T00:00:00.000+00:00","citationText":"Steenbeek, 2021"}
+{"title":"spatialregression","description":"This session will be about regression analysis and spatial regression analysis in R. \"This is Alex\"","authors":[{"author":"Wouter Steenbeek","authorURL":"https://nscr.nl/en/medewerker/wouter-steenbeek/","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-09-27T00:00:00.000+00:00","citationText":"Steenbeek, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2449,11 +2449,11 @@ Teaching
 <h1>spatialregression</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>This session will be about regression analysis and spatial regression analysis in R.</p></p>
+<p><p>This session will be about regression analysis and spatial regression analysis in R. “This is Alex”</p></p>
 </div>
 
 <div class="d-byline">
-  Wouter Steenbeek <a href="https://nscr.nl/medewerker/dr-alex-trinidad/" class="uri">https://nscr.nl/medewerker/dr-alex-trinidad/</a> 
+  Wouter Steenbeek <a href="https://nscr.nl/en/medewerker/wouter-steenbeek/" class="uri">https://nscr.nl/en/medewerker/wouter-steenbeek/</a> 
   
 <br/>09-27-2021
 </div>
