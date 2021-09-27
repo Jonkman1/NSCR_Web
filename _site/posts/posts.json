@@ -6,15 +6,15 @@
     "author": [
       {
         "name": "Wouter Steenbeek",
-        "url": "https://nscr.nl/medewerker/dr-alex-trinidad/"
+        "url": "https://nscr.nl/en/medewerker/wouter-steenbeek/#onderzoeksgebieden"
       }
     ],
     "date": "2021-09-27",
     "categories": [],
-    "contents": "\n\n\n\nThis workshop session provides an introduction to Spatial regression using R.\n\n\n\n",
+    "contents": "\r\n\r\n\r\n\r\nThis workshop session provides an introduction to Spatial regression using R.\r\n\r\n\r\n\r\n",
     "preview": "posts/2021-09-27-spatialregression/workshop5.png",
-    "last_modified": "2021-09-27T09:54:46+02:00",
-    "input_file": {},
+    "last_modified": "2021-09-27T10:09:41+02:00",
+    "input_file": "spatialregression.knit.md",
     "preview_width": 480,
     "preview_height": 481
   },

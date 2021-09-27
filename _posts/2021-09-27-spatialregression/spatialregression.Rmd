@@ -4,7 +4,7 @@ description: |
   This session will be about regression analysis and spatial regression analysis in R.
 author:
   - name: Wouter Steenbeek
-    url: https://nscr.nl/medewerker/dr-alex-trinidad/
+    url: https://nscr.nl/en/medewerker/wouter-steenbeek/#onderzoeksgebieden
 date: 09-27-2021
 output:
   distill::distill_article:
