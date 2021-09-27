@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-09-27-hotroutesstreetprofiles/",
+    "title": "HotRoutes and Street Profiles",
+    "description": "Hot routes and street profiles.",
+    "author": [
+      {
+        "name": "Reka Solymosi",
+        "url": "https://www.research.manchester.ac.uk/portal/reka.solymosi.html"
+      }
+    ],
+    "date": "2021-12-10",
+    "categories": [],
+    "contents": "\r\nIn this workshop, dr. Reka Solymosi will provide an introduction to various methods of analyzing and visualing spatial network data (such a street networks, or Underground lines).\r\nReka is a Lecturer in Quantitative Methods at the Department of Criminology at University of Manchester. Her research focuses on making use of new forms of data to gain insight into people’s behaviour and subjective experiences, particularly focusing on crime, victimisation, transport, and spatial research. She is also dedicated to promoting data literacy in social science study and practice.\r\nYou can find some of her work at her blog site\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-09-27T15:59:31+02:00",
+    "input_file": "hotroutesstreetprofiles.knit.md"
+  },
+  {
     "path": "posts/2021-09-27-spatialregression/",
     "title": "Spatial Regression",
     "description": "This session will be about regression analysis and spatial regression analysis in R.",
