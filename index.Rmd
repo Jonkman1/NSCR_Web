@@ -15,28 +15,22 @@ knitr::opts_chunk$set(echo = FALSE)
 
 </centre>    
 
-## What is the goal of NSC-R?
+## Aim of the NSC-R Workshops?
 
-**NSC-R** is an interdisciplinary community at NSCR dedicated to promoting a fun and supportive culture of co-learning in data science skills and open science principles. We host workshops and social events where attendees can learn and work on projects among friends and colleagues. NSC-R welcomes everyone who wants to better their know-how in all things data, regardless of skill level. We want to replace statistics anxiety and code fear with inspiration and motivation to learn and share.
+The **NSC-R Workshops** is a series of bi-weekly one-hour online instructional sessions to support participants in developing their data science skills in R, and to promote open science principles. The NSC-R workshops are organized by people from NSCR, but are open to everyone, regardless of affiliation or skill level. 
+
+## NSC-R Workshop Team ##
+The NSC-R Workshop Team coordinates the NSC-R Workshops. We discuss potential topics, invite presenters, plan the meetings and send invitations. Currently the team includes Wim Bernasco (NSCR), Sam Langton (NSCR), Asier Moneva (NSCR and The Hague University of Applied Sciences) and Alex Trinidad (University of Cologne)
 
 ## Contact Us and Get involved
 
-Whether you’re a beginner, intermediate, or expert, we want you to be involved with the NSC-R workshops. There are different ways to get involved   
 
-**1. Slack**
-
-Join the [NSC-R slack workspace]() and be part of our co-learning community. Everyone is welcome. Ask Questions and team up with other members.
+If you want your e-mail address on our mailing list, please send an e-mail to [Wim Bernasco](wbernasco@nscr.nl).
 
 
-**2. Mailing List**
+If you have suggestions for workshop topics, or are interested in presenting one, please send a message to [Wim Bernasco](wbernasco@nscr.nl), [Asier Moneva](amoneva@nscr.nl) or [Sam Langton](slangton@nscr.nl).
 
-Join the [mailing list](). If you have interest, please [email](wbernasco@nscr.nl) to join.
 
-**3. Suggest a Workshop**
-
-We’re all learners in NSC-R. Request a workshop, and if you are interested in helping teach it, we’ll support you!
-
-xxx
 
 
 

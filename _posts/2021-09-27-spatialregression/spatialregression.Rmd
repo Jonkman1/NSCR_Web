@@ -1,7 +1,7 @@
 ---
 title: "Spatial Regression"
 description: |
-  This session will be about regression analysis and spatial regression analysis in R.
+  Regression analysis and spatial regression analysis in R.
 author:
   - name: Wouter Steenbeek
     url: https://nscr.nl/en/medewerker/wouter-steenbeek/#onderzoeksgebieden
@@ -16,10 +16,6 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-```
-
-```{r, out.width="50%"}
-knitr::include_graphics("workshop5.png")
 ```
 
 This workshop session will be about using R for **regression analysis**, both in a **non-spatial and a spatial context**. Wouter and Stijn will be presenting parts of what they prepared for a [recent book chapter](https://osf.io/jwnqx) (in press).
