@@ -17,18 +17,18 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Aim of the NSC-R Workshops?
 
-The **NSC-R Workshops** is a series of bi-weekly one-hour online instructional sessions to support participants in developing their data science skills in R, and to promote open science principles. The NSC-R workshops are organized by people from NSCR, but are open to everyone, regardless of affiliation or skill level. 
+The **NSC-R Workshops** is a series of bi-weekly one-hour online instructional sessions to support participants in developing their data science skills in R, and to promote open science principles. The NSC-R workshops are organized by a team affliated people at the Netherlands Institute for the Study of Crime and Law Enforcement [(NSCR)](https://www.nscr.nl/en/), but are open to everyone, regardless of affiliation or skill level. 
 
 ## NSC-R Workshop Team ##
-The NSC-R Workshop Team coordinates the NSC-R Workshops. We discuss potential topics, invite presenters, plan the meetings and send invitations. Currently the team includes Wim Bernasco (NSCR), Sam Langton (NSCR), Asier Moneva (NSCR and The Hague University of Applied Sciences) and Alex Trinidad (University of Cologne)
+The NSC-R Workshop Team coordinates the NSC-R Workshops. We discuss potential topics, invite presenters, plan the meetings and send invitations. Currently the team includes Wim Bernasco, Sam Langton, Asier Moneva and Alex Trinidad.
 
 ## Contact Us and Get involved
 
 
-If you want your e-mail address on our mailing list, please send an e-mail to [Wim Bernasco](wbernasco@nscr.nl).
+If you want your e-mail address on our mailing list, please send an e-mail to Wim Bernasco at wbernasco@nscr.nl.
 
 
-If you have suggestions for workshop topics, or are interested in presenting one, please send a message to [Wim Bernasco](wbernasco@nscr.nl), [Asier Moneva](amoneva@nscr.nl) or [Sam Langton](slangton@nscr.nl).
+If you have suggestions for workshop topics, or are interested in presenting one, please send a message to Wim Bernasco  (wbernasco@nscr.nl), Asier Moneva (amoneva@nscr.nl), Sam Langton (slangton@nscr.nl) or Alex Trinidad (atrinidad@nscr.nl).
 
 
 
