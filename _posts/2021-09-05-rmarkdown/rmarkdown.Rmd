@@ -19,7 +19,6 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```{r, out.width="50%"}
 knitr::include_graphics("workshop2.png")
-
 ```
 
 
@@ -35,8 +34,8 @@ knitr::include_graphics("workshop2.png")
 - And for a quick overview of RMarkdown, just watch [this video](https://vimeo.com/178485416).
 
 
-Here you find the [presentation, scripts and additional materials](https://github.com/Jonkman1/NSC_R/tree/main/Meeting_2_RMarkdown/nsc_r_workshop/scripts).
+Here you can find the [presentation, scripts and additional materials](https://github.com/Jonkman1/NSC_R/tree/main/Meeting_2_RMarkdown/nsc_r_workshop/scripts).
 
-Here you find am [Elsevier template](https://github.com/Jonkman1/NSC_R/tree/main/Meeting_2_RMarkdown/nsc_r_workshop/templates/elsevier)
+Here you can find an [Elsevier template for RMarkdown](https://github.com/Jonkman1/NSC_R/tree/main/Meeting_2_RMarkdown/nsc_r_workshop/templates/elsevier)
 
 > Asier is a postdoc at the NSCR and The Hague University of Applied Sciences with a background in criminology. He started specializing in crime analysis with R during his master's degree and has since developed an interest in open science. 

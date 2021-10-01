@@ -4,9 +4,8 @@ description: |
   Introduction to open data and how they can be found, downloaded and processed in R. 
 author:
   - name: Sam Langton
-    url: https://nscr.nl/medewerker/dr-alex-trinidad/
+    url: https://nscr.nl/medewerker/sam-langton/
 date: September 14 2021
-preview: workshop4.png
 output:
   distill::distill_article:
     self_contained: false
@@ -18,16 +17,11 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-```{r, out.width="50%"}
-knitr::include_graphics("workshop4.png")
-```
-
-
 This workshop session provides an introduction to **open data using R**. Following a brief introductory presentation (e.g. definitions, purpose) the bulk of the workshop will focus on practical examples which demonstrate how to obtain and handle open data within the R environment. 
  
 No prior reading is necessary, but if you might want to skim through a [recent book chapter](https://osf.io/a96y7/) (in press) by Sam and Reka Solymosi on using open data in R to study the geography of crime. 
 
 [Here](https://github.com/Jonkman1/NSC_R/tree/main/Meeting_4_OpenData) you can find his materials: Sams presentation (presentation.pdf), his syntax (demo.R) and the results of his syntax (worksheet.pdf)
 
-> Sam Langron is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on the spatial and temporal patterning of crime and police demand.
+> Sam Langton is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on the spatial and temporal patterning of crime and police demand.
 
