@@ -18,8 +18,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-This workshop session will be about using R for **regression analysis**, both in a **non-spatial and a spatial context**. Wouter and Stijn will be presenting parts of what they prepared for a [recent book chapter](https://osf.io/jwnqx) (in press).
-You may scan these materials to get an idea of what the workshop will cover.Here you can find the data, the syntax and the html-file presented [material](https://github.com/Jonkman1/NSCR_Web/tree/main/_posts/2021-09-27-spatialregression)
+This workshop session was about using R for **regression analysis**, both in a **non-spatial and a spatial context**. Wouter and Stijn will be presenting parts of what they prepared for a [recent book chapter](https://osf.io/jwnqx) (in press).These materials were scaned to get an idea of what the workshop will cover.Here you can find the data, the syntax and the html-file presented [material](https://github.com/Jonkman1/NSCR_Web/tree/main/_posts/2021-09-27-spatialregression)
 
 > **Wouter** is a Senior Researcher at the NSCR. For analyses he has used Excel, SPSS, Stata Mplus, MLWiN, and QGis. Not a big fan of C++ and Java, but once upon a time he knew the basics. Wouter started using R around 2012, due to a collaboration with a visiting scholar who used R. Classic case of SIR model (Susceptible - Infection - Recovery) although he has never recovered from his R infection. Also, the R bug destroyed his interest in the above-mentioned programs :-). His main research interests are in spatial patterns of crime and quantitative research methods.
 
