@@ -20,9 +20,9 @@
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode { white-space: pre; position: relative; }
 div.sourceCode { margin: 1em 0; }
@@ -32,16 +32,14 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
 }
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(title);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
+    border: none; pointer-events: all; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -50,9 +48,9 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {   }
+  {  }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+a.sourceLine::before { text-decoration: underline; }
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
@@ -2158,8 +2156,8 @@ html {
   --aside-size:      12px;
   --fig-cap-size:    13px;
   /*-- Main font colors --*/
-  --title-color:     #651A34;
-  --header-color:    #651A34;
+  --title-color:     #C71585;
+  --header-color:    #C71585;
   --body-color:      rgba(0, 0, 0, 0.8);
   --aside-color:     rgba(0, 0, 0, 0.6);
   --fig-cap-color:   rgba(0, 0, 0, 0.6);
@@ -2396,7 +2394,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Reproducibility","description":"Here you find information on the first NSC-R workshop on Reproducibility","authors":[{"author":"Thomas de Graaff","authorURL":"https://research.vu.nl/en/persons/thomas-de-graaff","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-06-24T00:00:00.000+02:00","citationText":"Graaff, 2021"}
+{"title":"Reproducibility","description":"Here you find information on the first NSC-R workshop on Reproducibility","authors":[{"author":"Thomas de Graaff","authorURL":"https://research.vu.nl/en/persons/thomas-de-graaff","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-06-24T00:00:00.000+00:00","citationText":"Graaff, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2449,7 +2447,7 @@ Teaching
 <h1>Reproducibility</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Here you find information on the first NSC-R workshop on Reproducibility</p></p>
+<p>Here you find information on the first NSC-R workshop on Reproducibility</p>
 </div>
 
 <div class="d-byline">
@@ -2463,7 +2461,7 @@ Teaching
 <p><img src="workshop01.png" width="50%" /></p>
 </div>
 <p>On Thursday June 24, 13:00-14:00, we kicked off the NSC-R Workshop initiative. The topic of this first meeting was reproducibility, which is about how to organize your research workflow to create documented code and reproducible findings. The focus <strong>was not on why</strong> (we should know), but on practical guidelines <strong>on how to do it</strong>. It was presented by Thomas de Graaff.</p>
-<p>Here you find the <a href="https://github.com/Jonkman1/NSC_R/tree/main/Meeting_1_Reproducibility/reproducibility.pdf">presentation</a></p>
+<p>Here you find the <a href="https://www.dropbox.com/s/vn7rn9m5ht2miol/reproducibility.pdf?dl=0">presentation</a></p>
 <p>To prepare for the first meeting, Thomas de Graaff suggested you might want to take a look at the following links. This is obviously not mandatory, but the materials may give rise to ideas or questions that you may want to discuss in the workshop meeting:<br />
 - A very readable post on <a href="https://cyberhelp.sesync.org/blog/reproducible-r-workflow.html">reproducible workflow in R</a>.</p>
 <ul>
@@ -2501,7 +2499,7 @@ Teaching
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
 <div class="distill-site-nav distill-site-footer">
-  <p>Â© NSC_R 2021. Thanks to Lisa Lendway and Alison Hill. Made with the R <a href="https://rstudio.github.io/distill/">distill</a> package.</p>
+  <p>© NSC_R 2021. Thanks to Lisa Lendway and Alison Hill. Made with the R <a href="https://rstudio.github.io/distill/">distill</a> package.</p>
 </div>
 <!--/radix_placeholder_navigation_after_body-->
 
