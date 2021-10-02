@@ -1,6 +1,6 @@
 ---
 title: "Reproducibility"
-description: The first NSC-R workshop was on how to organize your research workflow in R to create documented code and reproducible findings.
+description: How to organize your research workflow in R to create documented code and reproducible findings.
 
 author:
   - name: Thomas de Graaff

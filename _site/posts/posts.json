@@ -89,7 +89,7 @@
   {
     "path": "posts/2021-09-04-workshop1-reproducibility/",
     "title": "Reproducibility",
-    "description": "The first NSC-R workshop was on how to organize your research workflow in R to create documented code and reproducible findings.",
+    "description": "How to organize your research workflow in R to create documented code and reproducible findings.",
     "author": [
       {
         "name": "Thomas de Graaff",
@@ -100,7 +100,7 @@
     "categories": [],
     "contents": "\r\nOn Thursday June 24, 13:00-14:00, we kicked off the NSC-R Workshop initiative. The topic of this first meeting was reproducibility, which is about how to organize your research workflow to create documented code and reproducible findings. The focus was not on why (we should know), but on practical guidelines on how to do it. It was presented by Thomas de Graaff.\r\nHere you find the presentation\r\nTo prepare for the first meeting, Thomas de Graaff suggested you might want to take a look at the following links. This is obviously not mandatory, but the materials may give rise to ideas or questions that you may want to discuss in the workshop meeting:\r\n- A very readable post on reproducible workflow in R.\r\nA nice short blog post about R projects.\r\nIf you are using R already and in particular if you use tidyverse, a long book-down document from about [style] (https://style.tidyverse.org/index.html).\r\nA wonderful but distressing lecture (and long: about 50 minutes) from Richard McElreath about working with software in the social sciences, with a criminology paper example in the end on racial disparity in police use of deadly force.find here.\r\n\r\nThomas de Graaf is associate professor at the department of Spatial Economics at the Vrije Universiteit in Amsterdam.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-10-02T20:15:12+02:00",
+    "last_modified": "2021-10-02T20:18:02+02:00",
     "input_file": "workshop1-reproducibility.knit.md"
   },
   {
