@@ -20,9 +20,9 @@
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode { white-space: pre; position: relative; }
 div.sourceCode { margin: 1em 0; }
@@ -32,14 +32,16 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(title);
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
+    border: none; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -48,9 +50,9 @@ pre.numberSource a.sourceLine::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {  }
+  {   }
 @media screen {
-a.sourceLine::before { text-decoration: underline; }
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
@@ -124,7 +126,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["spatialregression_files/anchor-4.2.2/anchor.min.js","spatialregression_files/bowser-1.9.3/bowser.min.js","spatialregression_files/distill-2.2.21/template.v2.js","spatialregression_files/header-attrs-2.9/header-attrs.js","spatialregression_files/jquery-1.11.3/jquery.min.js","spatialregression_files/popper-2.6.0/popper.min.js","spatialregression_files/tippy-6.2.7/tippy-bundle.umd.min.js","spatialregression_files/tippy-6.2.7/tippy-light-border.css","spatialregression_files/tippy-6.2.7/tippy.css","spatialregression_files/tippy-6.2.7/tippy.umd.min.js","spatialregression_files/webcomponents-2.0.0/webcomponents.js","workshop5.png"]}
+  {"type":"character","attributes":{},"value":["NSCR-R_workshop_regression_20210930.html","spatialregression_files/anchor-4.2.2/anchor.min.js","spatialregression_files/bowser-1.9.3/bowser.min.js","spatialregression_files/distill-2.2.21/template.v2.js","spatialregression_files/header-attrs-2.9/header-attrs.js","spatialregression_files/jquery-1.11.3/jquery.min.js","spatialregression_files/popper-2.6.0/popper.min.js","spatialregression_files/tippy-6.2.7/tippy-bundle.umd.min.js","spatialregression_files/tippy-6.2.7/tippy-light-border.css","spatialregression_files/tippy-6.2.7/tippy.css","spatialregression_files/tippy-6.2.7/tippy.umd.min.js","spatialregression_files/webcomponents-2.0.0/webcomponents.js","workshop5.png"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2388,7 +2390,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Spatial Regression","description":"Regression analysis and spatial regression analysis in R.","authors":[{"author":"Wouter Steenbeek","authorURL":"https://nscr.nl/en/medewerker/wouter-steenbeek/#onderzoeksgebieden","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-09-27T00:00:00.000+02:00","citationText":"Steenbeek, 2021"}
+{"title":"Spatial Regression","description":"Regression analysis and spatial regression analysis in R.","authors":[{"author":"Wouter Steenbeek","authorURL":"https://nscr.nl/en/medewerker/wouter-steenbeek/#onderzoeksgebieden","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-09-27T00:00:00.000+00:00","citationText":"Steenbeek, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2441,7 +2443,7 @@ Teaching
 <h1>Spatial Regression</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p>Regression analysis and spatial regression analysis in R.</p>
+<p><p>Regression analysis and spatial regression analysis in R.</p></p>
 </div>
 
 <div class="d-byline">
@@ -2451,7 +2453,7 @@ Teaching
 </div>
 
 <div class="d-article">
-<p>This workshop session will be about using R for <strong>regression analysis</strong>, both in a <strong>non-spatial and a spatial context</strong>. Wouter and Stijn will be presenting parts of what they prepared for a <a href="https://osf.io/jwnqx">recent book chapter</a> (in press). You may scan these materials to get an idea of what the workshop will cover.</p>
+<p>This workshop session was about using R for <strong>regression analysis</strong>, both in a <strong>non-spatial and a spatial context</strong>. Wouter and Stijn will be presenting parts of what they prepared for a <a href="https://osf.io/jwnqx">recent book chapter</a> (in press).These materials were scaned to get an idea of what the workshop will cover.Here you can find the data, the syntax and the html-file presented <a href="https://github.com/Jonkman1/NSCR_Web/tree/main/_posts/2021-09-27-spatialregression">material</a></p>
 <blockquote>
 <p><strong>Wouter</strong> is a Senior Researcher at the NSCR. For analyses he has used Excel, SPSS, Stata Mplus, MLWiN, and QGis. Not a big fan of C++ and Java, but once upon a time he knew the basics. Wouter started using R around 2012, due to a collaboration with a visiting scholar who used R. Classic case of SIR model (Susceptible - Infection - Recovery) although he has never recovered from his R infection. Also, the R bug destroyed his interest in the above-mentioned programs :-). His main research interests are in spatial patterns of crime and quantitative research methods.</p>
 </blockquote>
@@ -2485,7 +2487,7 @@ Teaching
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
 <div class="distill-site-nav distill-site-footer">
-  <p>Â© NSC_R 2021. Thanks to Lisa Lendway and Alison Hill. Made with the R <a href="https://rstudio.github.io/distill/">distill</a> package.</p>
+  <p>© NSC_R 2021. Thanks to Lisa Lendway and Alison Hill. Made with the R <a href="https://rstudio.github.io/distill/">distill</a> package.</p>
 </div>
 <!--/radix_placeholder_navigation_after_body-->
 
