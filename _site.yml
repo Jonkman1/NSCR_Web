@@ -10,7 +10,7 @@ navbar:
   right:
     - text: "NSC-R"
       href: index.html
-    - text: "Blog"
+    - text: "Workshops"
       href: blog.html
     - text: "Non-Blog"
       href: other.html
