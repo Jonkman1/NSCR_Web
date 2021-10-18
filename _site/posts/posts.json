@@ -11,9 +11,9 @@
     ],
     "date": "2021-10-12",
     "categories": [],
-    "contents": "\nThis workshop will cover the basics of the tidyverse – a collection of packages in R which can be used to import, tidy, transform and visualise data. The material is suitable for people with very little experience in R, but also seasoned R users who have not yet delved into the tidyverse. The skills covered are foundational and generic to almost any research project. The workshop will centre around a demonstration which tackles a realistic, ‘messy’ dataset about animal rescue incidents dealt with by the London Fire Brigade. The material can be found on the corresponding GitHub repository.\n\nSam Langton is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on the spatial and temporal patterning of crime and police demand. You can find read more about Sam on his website.\n\n\n\n\n",
+    "contents": "\r\nThis workshop will cover the basics of the tidyverse – a collection of packages in R which can be used to import, tidy, transform and visualise data. The material is suitable for people with very little experience in R, but also seasoned R users who have not yet delved into the tidyverse. The skills covered are foundational and generic to almost any research project. The workshop will centre around a demonstration which tackles a realistic, ‘messy’ dataset about animal rescue incidents dealt with by the London Fire Brigade. The material can be found on the corresponding GitHub repository or the Dropbox folder.\r\n\r\nSam Langton is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on the spatial and temporal patterning of crime and police demand. You can find read more about Sam on his website.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-10-11T09:15:54+02:00",
+    "last_modified": "2021-10-18T09:30:46+02:00",
     "input_file": {}
   },
   {
@@ -28,9 +28,9 @@
     ],
     "date": "2021-09-27",
     "categories": [],
-    "contents": "\nThis workshop session was about using R for regression analysis, both in a non-spatial and a spatial context. Wouter and Stijn will be presenting parts of what they prepared for a recent book chapter (in press).These materials were scaned to get an idea of what the workshop will cover.Here you can find the data, the syntax and the html-file presented material\n\nWouter is a Senior Researcher at the NSCR. For analyses he has used Excel, SPSS, Stata Mplus, MLWiN, and QGis. Not a big fan of C++ and Java, but once upon a time he knew the basics. Wouter started using R around 2012, due to a collaboration with a visiting scholar who used R. Classic case of SIR model (Susceptible - Infection - Recovery) although he has never recovered from his R infection. Also, the R bug destroyed his interest in the above-mentioned programs :-). His main research interests are in spatial patterns of crime and quantitative research methods.\n\n\nStijn is a Senior Researcher and management team member at the NSCR. He is program leader of two of its five research groups, and also Professor at the Department of Sociology, Utrecht University. Stijn has used R ever since he attended the Summer School in Ann Arbor in 2004, even for generating his kitchen tiling pattern. His main research interests are in Geographic and Environmental Criminology, Policing, Quantitative, Analytical, and Computational Sociology, and he is a great believer in Open Science and Open-source.\n\n\n\n\n",
+    "contents": "\r\nThis workshop session was about using R for regression analysis, both in a non-spatial and a spatial context. Wouter and Stijn will be presenting parts of what they prepared for a recent book chapter (in press).These materials were scaned to get an idea of what the workshop will cover.Here you can find the data, the syntax and the html-file presented material\r\n\r\nWouter is a Senior Researcher at the NSCR. For analyses he has used Excel, SPSS, Stata Mplus, MLWiN, and QGis. Not a big fan of C++ and Java, but once upon a time he knew the basics. Wouter started using R around 2012, due to a collaboration with a visiting scholar who used R. Classic case of SIR model (Susceptible - Infection - Recovery) although he has never recovered from his R infection. Also, the R bug destroyed his interest in the above-mentioned programs :-). His main research interests are in spatial patterns of crime and quantitative research methods.\r\n\r\n\r\nStijn is a Senior Researcher and management team member at the NSCR. He is program leader of two of its five research groups, and also Professor at the Department of Sociology, Utrecht University. Stijn has used R ever since he attended the Summer School in Ann Arbor in 2004, even for generating his kitchen tiling pattern. His main research interests are in Geographic and Environmental Criminology, Policing, Quantitative, Analytical, and Computational Sociology, and he is a great believer in Open Science and Open-source.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-10-01T22:37:00+02:00",
+    "last_modified": "2021-10-06T15:36:00+02:00",
     "input_file": {}
   },
   {
@@ -45,9 +45,9 @@
     ],
     "date": "2021-09-14",
     "categories": [],
-    "contents": "\nThis workshop session provides an introduction to open data using R. Following a brief introductory presentation (e.g. definitions, purpose) the bulk of the workshop will focus on practical examples which demonstrate how to obtain and handle open data within the R environment.\nNo prior reading is necessary, but if you might want to skim through a recent book chapter (in press) by Sam and Reka Solymosi on using open data in R to study the geography of crime.\nHere you can find his materials: Sams presentation (presentation.pdf), his syntax (demo.R) and the results of his syntax (worksheet.pdf)\n\nSam Langton is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on the spatial and temporal patterning of crime and police demand.\n\n\n\n\n",
+    "contents": "\r\nThis workshop session provides an introduction to open data using R. Following a brief introductory presentation (e.g. definitions, purpose) the bulk of the workshop will focus on practical examples which demonstrate how to obtain and handle open data within the R environment.\r\nNo prior reading is necessary, but if you might want to skim through a recent book chapter (in press) by Sam and Reka Solymosi on using open data in R to study the geography of crime.\r\nHere you can find his materials: Sams presentation (presentation.pdf), his syntax (demo.R) and the results of his syntax (worksheet.pdf)\r\n\r\nSam Langton is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on the spatial and temporal patterning of crime and police demand.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-10-01T21:47:45+02:00",
+    "last_modified": "2021-10-06T15:36:00+02:00",
     "input_file": {}
   },
   {
@@ -62,9 +62,9 @@
     ],
     "date": "2021-09-02",
     "categories": [],
-    "contents": "\nThe third meeting of the NSC-R Workshop was on Thursday September 2, 13:00-14:00 hr. Alex Trinidad introduced us to spatial data and how they can be processed in R.\nLearning to work with spatial data allows us to broaden our toolbox and our research horizons. In this workshop, we worked on the basic concepts of spatial data usage, data preparation, and basic visualisations. The aim was to introduce you to how to work with spatial data in R and provide materials that helped to go deeper into this type of data.\nTo prepare for the meeting, Alex suggested you might want to take a look at the following links. This is obviously not mandatory, but the materials may give rise to ideas or questions that you may want to discuss in the workshop meeting:\nLovelance, R., Nowosad, J., & Muenchow, J. Geocomputation with R. CRC Press.\nBivand, R. S., Pebesba, E., & Gómez-Rubio, V. Applied Spatial Data Analysis with R. Springer.(Access from university library)\nScripts and data you can find here.\n\nAlex is a postdoctoral researcher at the NSCR and the University of the Basque Country UPV/EHU. His interest in spatial analysis began when he started his PhD, exploring the spatial distribution of juvenile delinquency and the contextual factors associated with it. It was also during his PhD that he began his journey with R.\n\n\n\n\n",
+    "contents": "\r\nThe third meeting of the NSC-R Workshop was on Thursday September 2, 13:00-14:00 hr. Alex Trinidad introduced us to spatial data and how they can be processed in R.\r\nLearning to work with spatial data allows us to broaden our toolbox and our research horizons. In this workshop, we worked on the basic concepts of spatial data usage, data preparation, and basic visualisations. The aim was to introduce you to how to work with spatial data in R and provide materials that helped to go deeper into this type of data.\r\nTo prepare for the meeting, Alex suggested you might want to take a look at the following links. This is obviously not mandatory, but the materials may give rise to ideas or questions that you may want to discuss in the workshop meeting:\r\nLovelance, R., Nowosad, J., & Muenchow, J. Geocomputation with R. CRC Press.\r\nBivand, R. S., Pebesba, E., & Gómez-Rubio, V. Applied Spatial Data Analysis with R. Springer.(Access from university library)\r\nScripts and data you can find here.\r\n\r\nAlex is a postdoctoral researcher at the NSCR and the University of the Basque Country UPV/EHU. His interest in spatial analysis began when he started his PhD, exploring the spatial distribution of juvenile delinquency and the contextual factors associated with it. It was also during his PhD that he began his journey with R.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-10-01T21:47:45+02:00",
+    "last_modified": "2021-10-06T15:36:00+02:00",
     "input_file": {}
   },
   {
@@ -79,9 +79,9 @@
     ],
     "date": "2021-07-06",
     "categories": [],
-    "contents": "\nMarkdown is a language for producing formatted text with a simple text editor conceived with the idea of being human-readable from source. If you remember Thomas de Graaff’s talk from two weeks ago, having human readable code is important for a number of reasons, such as being easy to debug, maintain, and extend.\nRMarkdown is simply a software that allows the implementation of this language in R. This makes it possible to produce open-access, fully reproducible documents.\nTo show you the basics, Asier followed the book R Markdown: The Definitive Guide by Xie, Allaire and Grolemund. He recommends you read the Preface before the workshop. However, as a definitive guide, you can deduce that this book does not only cover the basics, so you can also use it to go deeper.\nTo have all the main commands at hand, you can print this double-sided RMarkdown cheat sheet. (We love cheat sheets.)\nAnd for a quick overview of RMarkdown, just watch this video.\nHere you can find the presentation, scripts and additional materials.\nHere you can find an Elsevier template for RMarkdown\n\nAsier is a postdoc at the NSCR and The Hague University of Applied Sciences with a background in criminology. He started specializing in crime analysis with R during his master’s degree and has since developed an interest in open science.\n\n\n\n\n",
+    "contents": "\r\nMarkdown is a language for producing formatted text with a simple text editor conceived with the idea of being human-readable from source. If you remember Thomas de Graaff’s talk from two weeks ago, having human readable code is important for a number of reasons, such as being easy to debug, maintain, and extend.\r\nRMarkdown is simply a software that allows the implementation of this language in R. This makes it possible to produce open-access, fully reproducible documents.\r\nTo show you the basics, Asier followed the book R Markdown: The Definitive Guide by Xie, Allaire and Grolemund. He recommends you read the Preface before the workshop. However, as a definitive guide, you can deduce that this book does not only cover the basics, so you can also use it to go deeper.\r\nTo have all the main commands at hand, you can print this double-sided RMarkdown cheat sheet. (We love cheat sheets.)\r\nAnd for a quick overview of RMarkdown, just watch this video.\r\nHere you can find the presentation, scripts and additional materials.\r\nHere you can find an Elsevier template for RMarkdown\r\n\r\nAsier is a postdoc at the NSCR and The Hague University of Applied Sciences with a background in criminology. He started specializing in crime analysis with R during his master’s degree and has since developed an interest in open science.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-10-11T09:15:54+02:00",
+    "last_modified": "2021-10-06T15:36:00+02:00",
     "input_file": {}
   },
   {
@@ -96,9 +96,9 @@
     ],
     "date": "2021-06-24",
     "categories": [],
-    "contents": "\nOn Thursday June 24, 13:00-14:00, we kicked off the NSC-R Workshop initiative. The topic of this first meeting was reproducibility, which is about how to organize your research workflow to create documented code and reproducible findings. The focus was not on why (we should know), but on practical guidelines on how to do it. It was presented by Thomas de Graaff.\nHere you find the presentation\nTo prepare for the first meeting, Thomas de Graaff suggested you might want to take a look at the following links. This is obviously not mandatory, but the materials may give rise to ideas or questions that you may want to discuss in the workshop meeting:\n- A very readable post on reproducible workflow in R.\nA nice short blog post about R projects.\nIf you are using R already and in particular if you use tidyverse, a long book-down document from about [style] (https://style.tidyverse.org/index.html).\nA wonderful but distressing lecture (and long: about 50 minutes) from Richard McElreath about working with software in the social sciences, with a criminology paper example in the end on racial disparity in police use of deadly force.find here.\n\nThomas de Graaf is associate professor at the department of Spatial Economics at the Vrije Universiteit in Amsterdam.\n\n\n\n\n",
+    "contents": "\r\nOn Thursday June 24, 13:00-14:00, we kicked off the NSC-R Workshop initiative. The topic of this first meeting was reproducibility, which is about how to organize your research workflow to create documented code and reproducible findings. The focus was not on why (we should know), but on practical guidelines on how to do it. It was presented by Thomas de Graaff.\r\nHere you find the presentation\r\nTo prepare for the first meeting, Thomas de Graaff suggested you might want to take a look at the following links. This is obviously not mandatory, but the materials may give rise to ideas or questions that you may want to discuss in the workshop meeting:\r\n- A very readable post on reproducible workflow in R.\r\nA nice short blog post about R projects.\r\nIf you are using R already and in particular if you use tidyverse, a long book-down document from about [style] (https://style.tidyverse.org/index.html).\r\nA wonderful but distressing lecture (and long: about 50 minutes) from Richard McElreath about working with software in the social sciences, with a criminology paper example in the end on racial disparity in police use of deadly force.find here.\r\n\r\nThomas de Graaf is associate professor at the department of Spatial Economics at the Vrije Universiteit in Amsterdam.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-10-11T09:15:54+02:00",
+    "last_modified": "2021-10-06T15:36:00+02:00",
     "input_file": {}
   },
   {
@@ -113,9 +113,9 @@
     ],
     "date": "2021-06-06",
     "categories": [],
-    "contents": "\n\n\n\nWe are a group which organize on regurly basis workshops on modern data analysis, mostly by using the R-program system. We want to share our knowledge and stimulate each in using new techniques xxx\n\n\n\n",
+    "contents": "\r\n\r\n\r\n\r\nWe are a group which organize on regurly basis workshops on modern data analysis, mostly by using the R-program system. We want to share our knowledge and stimulate each in using new techniques xxx\r\n\r\n\r\n\r\n",
     "preview": "posts/welcome/workshop.png",
-    "last_modified": "2021-09-17T13:23:55+02:00",
+    "last_modified": "2021-09-27T09:23:42+02:00",
     "input_file": {},
     "preview_width": 480,
     "preview_height": 480
