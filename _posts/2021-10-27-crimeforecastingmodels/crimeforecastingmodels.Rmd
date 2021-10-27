@@ -1,7 +1,7 @@
 ---
-title: "Crimeforecastingmodels"
+title: "Crime forecasting models"
 description: |
-  A short description of the post.
+  Using R to analyze time series data and forecast crime.
 author:
   - name: Matt Ashby
     url: https://www.ucl.ac.uk/jill-dando-institute/people/dr-matt-ashby
