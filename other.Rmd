@@ -1,12 +1,27 @@
 ---
-title: "Whatever extra ..."
+title: "Extra material"
 site: distill::distill_website
 ---
 
 
-## Work-in-progress   
+## On Learning R  
 
-Here we can place whatever we want.
+Here we can place information on extra materials
+
+
+## On Reproducibility
+
+## On RMarkdown
+
+## On Spatial data
+
+## On Open data
+
+## On Spatial regression
+
+## On Tidyverse
+
+## On crime forecasting
 
 
 

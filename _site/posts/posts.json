@@ -14,7 +14,7 @@
     "contents": "\nMatt Ashby talks about how to use time-series data in R for tasks such as understanding temporal patterns in crime data and forecasting the future frequency of crime under different scenarios, either for future planning or as a counter-factual against which to compare actual against forecast crime frequency.\nMatt Ashby is a lecturer in crime science at the Jill Dando Institute of Security and Crime Science at University College London (UCL). He uses R to analyse spatial and temporal patterns of crime and police data as well as teaching crime mapping and crime analysis in R. He is also the author of the ‘crimedata’ package for conveniently accessing large datasets of recorded crime for research.\n\n\n\n",
     "preview": {},
     "last_modified": "2021-10-27T10:11:51+02:00",
-    "input_file": "crimeforecastingmodels.knit.md"
+    "input_file": {}
   },
   {
     "path": "posts/2021-09-27-tidyverse/",
@@ -30,8 +30,8 @@
     "categories": [],
     "contents": "\nThis workshop covers the basics of the tidyverse – a collection of packages in R which can be used to import, tidy, transform and visualise data. The material is suitable for people with very little experience in R, but also seasoned R users who have not yet delved into the tidyverse. The skills covered are foundational and generic to almost any research project. The workshop centres around a demonstration which tackles a realistic, ‘messy’ dataset about animal rescue incidents dealt with by the London Fire Brigade. The material can be found on the corresponding GitHub repository or the Dropbox folder.\n\nSam Langton is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on the spatial and temporal patterning of crime and police demand. You can find read more about Sam on his website.\n\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-10-27T09:59:02+02:00",
-    "input_file": "tidyverse.knit.md"
+    "last_modified": "2021-10-27T09:59:03+02:00",
+    "input_file": {}
   },
   {
     "path": "posts/2021-09-27-spatialregression/",
