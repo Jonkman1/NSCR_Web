@@ -20,19 +20,19 @@
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+code.sourceCode { white-space: pre-wrap; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -52,7 +52,7 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
@@ -126,7 +126,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["tidyverse_files/anchor-4.2.2/anchor.min.js","tidyverse_files/bowser-1.9.3/bowser.min.js","tidyverse_files/distill-2.2.21/template.v2.js","tidyverse_files/header-attrs-2.9/header-attrs.js","tidyverse_files/jquery-1.11.3/jquery.min.js","tidyverse_files/popper-2.6.0/popper.min.js","tidyverse_files/tippy-6.2.7/tippy-bundle.umd.min.js","tidyverse_files/tippy-6.2.7/tippy-light-border.css","tidyverse_files/tippy-6.2.7/tippy.css","tidyverse_files/tippy-6.2.7/tippy.umd.min.js","tidyverse_files/webcomponents-2.0.0/webcomponents.js","workshop6.png"]}
+  {"type":"character","attributes":{},"value":["tidyverse_files/anchor-4.2.2/anchor.min.js","tidyverse_files/bowser-1.9.3/bowser.min.js","tidyverse_files/distill-2.2.21/template.v2.js","tidyverse_files/header-attrs-2.9/header-attrs.js","tidyverse_files/jquery-1.11.3/jquery.min.js","tidyverse_files/jquery-3.6.0/jquery-3.6.0.js","tidyverse_files/jquery-3.6.0/jquery-3.6.0.min.js","tidyverse_files/jquery-3.6.0/jquery-3.6.0.min.map","tidyverse_files/popper-2.6.0/popper.min.js","tidyverse_files/tippy-6.2.7/tippy-bundle.umd.min.js","tidyverse_files/tippy-6.2.7/tippy-light-border.css","tidyverse_files/tippy-6.2.7/tippy.css","tidyverse_files/tippy-6.2.7/tippy.umd.min.js","tidyverse_files/webcomponents-2.0.0/webcomponents.js","workshop6.png"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2370,8 +2370,7 @@ d-appendix d-footnote-list a.footnote-backlink {
   color: var(--hover-color, white);
 }</style>
 <!--/radix_placeholder_distill-->
-  <script src="../../site_libs/header-attrs-2.9/header-attrs.js"></script>
-  <script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <script src="../../site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="../../site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="../../site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2454,7 +2453,7 @@ Teaching
 </div>
 
 <div class="d-article">
-<p>This workshop will cover the basics of the tidyverse – a collection of packages in R which can be used to import, tidy, transform and visualise data. The material is suitable for people with very little experience in R, but also seasoned R users who have not yet delved into the tidyverse. The skills covered are foundational and generic to almost any research project. The workshop will centre around a demonstration which tackles a realistic, ‘messy’ dataset about animal rescue incidents dealt with by the London Fire Brigade. The material can be found on the corresponding <a href="https://github.com/langtonhugh/rss_r">GitHub repository</a> or the <a href="https://www.dropbox.com/sh/wfq4og1dig01p9q/AAA003pRT2Qxa3BK35pBANP1a?dl=0">Dropbox folder</a>.</p>
+<p>This workshop covers the basics of the tidyverse – a collection of packages in R which can be used to import, tidy, transform and visualise data. The material is suitable for people with very little experience in R, but also seasoned R users who have not yet delved into the tidyverse. The skills covered are foundational and generic to almost any research project. The workshop centres around a demonstration which tackles a realistic, ‘messy’ dataset about animal rescue incidents dealt with by the London Fire Brigade. The material can be found on the corresponding <a href="https://github.com/langtonhugh/rss_r">GitHub repository</a> or the <a href="https://www.dropbox.com/sh/wfq4og1dig01p9q/AAA003pRT2Qxa3BK35pBANP1a?dl=0">Dropbox folder</a>.</p>
 <blockquote>
 <p>Sam Langton is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on the spatial and temporal patterning of crime and police demand. You can find read more about Sam on his <a href="www.samlangton.info">website</a>.</p>
 </blockquote>

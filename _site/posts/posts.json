@@ -11,10 +11,10 @@
     ],
     "date": "2021-10-12",
     "categories": [],
-    "contents": "\nThis workshop will cover the basics of the tidyverse – a collection of packages in R which can be used to import, tidy, transform and visualise data. The material is suitable for people with very little experience in R, but also seasoned R users who have not yet delved into the tidyverse. The skills covered are foundational and generic to almost any research project. The workshop will centre around a demonstration which tackles a realistic, ‘messy’ dataset about animal rescue incidents dealt with by the London Fire Brigade. The material can be found on the corresponding GitHub repository or the Dropbox folder.\n\nSam Langton is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on the spatial and temporal patterning of crime and police demand. You can find read more about Sam on his website.\n\n\n\n\n",
+    "contents": "\nThis workshop covers the basics of the tidyverse – a collection of packages in R which can be used to import, tidy, transform and visualise data. The material is suitable for people with very little experience in R, but also seasoned R users who have not yet delved into the tidyverse. The skills covered are foundational and generic to almost any research project. The workshop centres around a demonstration which tackles a realistic, ‘messy’ dataset about animal rescue incidents dealt with by the London Fire Brigade. The material can be found on the corresponding GitHub repository or the Dropbox folder.\n\nSam Langton is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on the spatial and temporal patterning of crime and police demand. You can find read more about Sam on his website.\n\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-10-27T09:34:14+02:00",
-    "input_file": {}
+    "last_modified": "2021-10-27T09:59:02+02:00",
+    "input_file": "tidyverse.knit.md"
   },
   {
     "path": "posts/2021-09-27-spatialregression/",
