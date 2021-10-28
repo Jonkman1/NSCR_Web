@@ -1,0 +1,24 @@
+---
+title: "Using R package distill to build websites"
+description: |
+  How to use the R package distill to build websites (like this one) 
+author: 
+  - name: Harrie Jonkman
+    url: www.harriejonkman.nl/
+date: 12-07-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+> Harrie Jonkman is a senior researcher at the [Verwey Jonker Institute](https://www.verwey-jonker.nl/).
+
+
+
