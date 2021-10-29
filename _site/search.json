@@ -5,7 +5,7 @@
       "title": "Workshops",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-10-27T10:11:51+02:00"
+      "last_modified": "2021-10-29T10:10:43+02:00"
     },
     {
       "path": "index.html",
@@ -18,8 +18,8 @@
       "path": "other.html",
       "title": "Extra material",
       "author": [],
-      "contents": "\nOn Learning R\nHere we can place information on extra materials\nOn Reproducibility\nOn RMarkdown\nOn Spatial data\nOn Open data\nOn Spatial regression\nOn Tidyverse\nOn crime forecasting\n–\n\n\n\n",
-      "last_modified": "2021-10-27T10:33:20+02:00"
+      "contents": "\nOn Learning R\nBatra, N. (ed, 2021). The Epidemiologist R Handbook. here\nBaumer, B.S., Kaplan, D.T. & Horton, N.J. (2018). Modern Data Science with R. Boca Raton: CRC Press.\nGrolemund, G. & Wickham, H. (2019). R for Data Science. here\nIrizarry, R.A. (2019). Introduction to Data Science. Data Analysis and Prediction Algorithms with R. here\nOn Reproducibility\nOn RMarkdown\nXie, Y., Allaire, J.J. & Grolemund, G.(2019). R Markdown: The Definitive Guide. here\nXie, Y., Dervieux, C. & Riederer, E. (2021). RMarkdown Cookbook. [here(https://bookdown.org/yihui/rmarkdown-cookbook/)\nOn Spatial data\nOn Open data\nOn Spatial regression\nOn Tidyverse\nOn crime forecasting\n–\n\n\n\n",
+      "last_modified": "2021-10-29T10:21:45+02:00"
     }
   ],
   "collections": ["posts/posts.json"]
