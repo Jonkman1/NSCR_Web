@@ -1,12 +1,42 @@
 ---
-title: "Whatever extra ..."
+title: "Extra material"
 site: distill::distill_website
 ---
 
 
-## Work-in-progress   
+## On Learning R  
 
-Here we can place whatever we want.
+Batra, N. (ed, 2021). *The Epidemiologist R Handbook*. [here](https://epirhandbook.com/index.html)
+
+Baumer, B.S., Kaplan, D.T. & Horton, N.J. (2018). *Modern Data Science with R*. Boca Raton: CRC Press. 
+
+Grolemund, G. & Wickham, H. (2019). *R for Data Science*. [here](https://r4ds.had.co.nz/) 
+
+Irizarry, R.A. (2019). *Introduction to Data Science. Data Analysis and Prediction Algorithms with R*. [here](https://rafalab.github.io/dsbook/) 
+
+
+## On Reproducibility
+
+
+## On RMarkdown
+Xie, Y., Allaire, J.J. & Grolemund, G.(2019). *R Markdown: The Definitive Guide*. [here](https://bookdown.org/yihui/rmarkdown/) 
+
+Xie, Y., Dervieux, C. & Riederer, E. (2021). *RMarkdown Cookbook*. [here(https://bookdown.org/yihui/rmarkdown-cookbook/)
+
+
+## On Spatial data
+
+
+## On Open data
+
+
+## On Spatial regression
+
+
+## On Tidyverse
+
+
+## On crime forecasting
 
 
 

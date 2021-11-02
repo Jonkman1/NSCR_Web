@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 The **NSC-R Workshops** is a series of bi-weekly one-hour online instructional sessions to support participants in developing their data science skills in R, and to promote open science principles. The NSC-R workshops are organized by a team affliated people at the Netherlands Institute for the Study of Crime and Law Enforcement [(NSCR)](https://www.nscr.nl/en/), but are open to everyone, regardless of affiliation or skill level. 
 
-## NSC-R Workshop Team ##
+## NSC-R Workshop Team 
 The NSC-R Workshop Team coordinates the NSC-R Workshops. We discuss potential topics, invite presenters, plan the meetings and send invitations. Currently the team includes Wim Bernasco, Sam Langton, Asier Moneva and Alex Trinidad.
 
 ## Contact Us and Get involved

@@ -1,0 +1,24 @@
+---
+title: "Using GitHub for version control, collaboration and code sharing."
+description: |
+  Using GitHub for version control, collaboration and code sharing.
+author: 
+  - name: Harrie Jonkman
+    url: www.harriejonkman.nl/
+date: 11-25-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+> Harrie Jonkman is a senior researcher at the [Verwey Jonker Institute](https://www.verwey-jonker.nl/).
+
+
+

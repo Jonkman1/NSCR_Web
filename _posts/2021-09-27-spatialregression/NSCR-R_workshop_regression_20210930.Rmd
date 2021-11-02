@@ -1,0 +1,323 @@
+---
+title: 'Non-spatial and Spatial Linear Regression'
+subtitle: 'NSC-R workshop'
+author: Wouter Steenbeek, Stijn Ruiter
+date: "Sep 30, 2021"
+output: 
+  html_document:
+    df_print: paged
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    number_sections: true
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = TRUE)
+```
+
+# (Install and) load packages
+
+We use the package `pacman` to install and load a number of packages. 
+
+```{r packages}
+# install.packages("pacman") # run this line if not already installed
+
+pacman::p_load(tidyverse, tmap, sf, spdep, spatialreg, classInt, jtools, sandwich, broom.mixed, lmtest, MASS, ggstance)
+```
+
+# Load data, and plot data
+
+We use data from Washington, D.C. The units of analysis are hexagons that we created ourselves, covering Washington, D.C. For detailed steps that generate the data used, and a discussion of units of analysis for spatial data, please see the supplementary material on https://osf.io/z2347/.
+
+```{r}
+hex_sf <- readRDS("NSCR-R_workshop_regression_20210930_hex_sf.rds")
+``` 
+
+We use package `tmap` to create a dynamic map, using OpenStreetMap as a background layer.
+
+```{r}
+tmap_mode("view") # switch to tmap view mode
+
+tm_shape(hex_sf) + tm_borders(col = "blue", lwd = 1) +
+  tm_scale_bar(position = c("right", "bottom")) +
+  tm_basemap("OpenStreetMap")
+```
+
+Our outcome variable of interest is the average annual robbery count in 2015-2019 per areal unit. Criminological literature suggests that robberies are more likely to occur at or close to places with liquor licensee locations, and that will be our predictor variable. Let's plot these two variables on the map op Washington, D.C. We use `classInt::classIntervals()` to cut the counts into five categories using the Jenks algorithm, and the `viridisLite` package to get the viridis color palette. We use the `alpha` option to specify semi-transparency.
+
+```{r}
+# cut robbery and frequency of liquor stores into categories
+hex_sf <- hex_sf %>%
+  mutate(robbery_cut = cut(robbery, breaks = classInt::classIntervals(robbery, n = 5, 
+                           style = "jenks")$brks, include.lowest = TRUE)) %>%
+  mutate(liquor_cut = cut(liquor, breaks = classInt::classIntervals(liquor, n = 5, 
+                          style = "jenks")$brks, include.lowest = TRUE))
+```
+
+```{r}
+tm_shape(hex_sf) + tm_polygons("robbery_cut", 
+                               palette = viridisLite::viridis(5), 
+                               alpha = .7, lwd = .2) +
+  tm_scale_bar(position = c("right", "bottom")) +
+  tm_basemap("OpenStreetMap")
+```
+
+```{r}
+tm_shape(hex_sf) + tm_polygons("liquor_cut", 
+                               palette = viridisLite::viridis(5), 
+                               alpha = .7, lwd = .2) +
+  tm_scale_bar(position = c("right", "bottom")) +
+  tm_basemap("OpenStreetMap")
+```
+
+At first sight, there seems to be some overlap between the two distributions. 
+
+Let's take a look at the underlying data:
+
+```{r}
+# Note that select(robber, liquor) doesn't work by itself,
+# because dplyr::select() is masked by MASS::select
+hex_sf %>% st_drop_geometry() %>% dplyr::select(robbery, liquor)
+``` 
+
+For now, let's *ignore* the spatial information in the data. I.e., inspect a scatterplot of the two variables. We plot the *non-spatial* bivariate relationship between these two variables:
+
+```{r scatter}
+with(hex_sf, plot(liquor, robbery,pch=19,cex=.5))
+```
+
+This plot suggest a relationship between liquor licensee locations and robbery. Hexagons with a larger number of liquor licensee locations tend to have a higher average robbery count.
+
+
+# Regression analysis with one predictor variable
+
+In R, a linear OLS regression model is fitted using `lm(formula = ..., data = ..., ...)`. See `?lm` for details.
+
+```{r}
+# regress robbery count on number of liquor stores in each hexagon
+# save in object my_model
+my_model <- lm(robbery ~ liquor, hex_sf)
+# print summary of the regression results
+summary(my_model)
+```
+
+We plot the bivariate relationship and the best-fitting line:
+
+```{r figols}
+with(hex_sf, plot(liquor, robbery,pch=19,cex=.5)) # scatterplot
+abline(my_model, col = "blue", lwd = 2) # add regression line
+```
+
+# Multiple regression
+
+Multiple regression is estimated using:
+
+```{r}
+my_model <- lm(robbery ~ liquor + grocery + school + atm_fac, data = hex_sf)
+summary(my_model)
+```
+
+We could standardize a continuous predictor variable $x$ by subtracting its mean and then dividing by its standard deviation $sd(x)$.
+
+```{r}
+hex_sf_z <- hex_sf %>% 
+  mutate(liquor = (liquor - mean(liquor)) / sd(liquor),
+         grocery = (grocery - mean(grocery)) / sd(grocery),
+         school = (school - mean(school)) / sd(school))
+
+my_model_z <- lm(robbery ~ liquor + grocery + school + atm_fac, data = hex_sf_z)
+summary(my_model_z)
+```
+
+We use the function `plot_summs()` from the package `jtools` to show the standardized regression parameters with their corresponding confidence intervals graphically. Three types of confidence intervals are presented. 
+
+```{r REGPLOT}
+jtools::plot_summs(my_model, my_model, my_model, scale = TRUE, 
+                   robust = list(FALSE, "HC1", "HC3"),
+                   model.names = c("OLS", "HC1", "HC3"),
+                   coefs=c("Liquor licenses" = "liquor", 
+                           "Grocery stores" = "grocery",
+                           "Schools"="school",
+                           "ATM"="atm_fac"))
+```
+
+# Model diagnostics
+
+A range of model diagnostics can be accessed easily by using the `plot()` function, which can handle `lm` objects:
+
+```{r diagnostics, fig.show='hold', fig.height=10}
+par(mfrow=c(3,2)) # print next plots in 3 rows and 2 columns
+plot(my_model, which = 1:6)
+par(mfrow=c(1,1)) # print next plots one at a time
+```
+
+We also refer to a number of functions from the packages `car` and `lmtest` (note you need to install `car` and `lmtest` first using `install.packages("car")` and `install.packages("lmtest")` if not already installed). In addition, see R package `olsrr` that incorporates a variety of diagnostic tests for OLS regression models. See https://cran.r-project.org/web/packages/olsrr/vignettes/intro.html for an introduction to this package.
+
+```{r eval = FALSE}
+car::residualPlots(my_model)
+# Breusch-Pagan tests
+lmtest::bptest(my_model)
+car::ncvTest(my_model)
+# Multicollinearity
+car::vif(my_model)
+# Outliers and Influence plots
+car::outlierTest(my_model)
+# The `car` package provides the `influencePlot()` function to display the 
+# Cook's distance, studentized residuals, and leverage of all cases in a 
+# single plot, and the `dfbetaPlots()` function to assess whether the model 
+# parameters would change much by excluding cases from the model.
+car::influencePlot(my_model)
+car::dfbetaPlots(my_model)
+```
+
+# Intermezzo: generalized linear models
+
+For these data, we might want to consider *generalized linear models* such as logistic regression, Poisson regression, and Negative binomial regression.
+
+A *logistic regression model* is estimated using:
+
+```{r}
+# First, we need to create the dichotomous outcome variable from the average robbery count over the five years
+hex_sf <- hex_sf %>% mutate(robbery_dich = robbery>0)
+
+# Note: After the next line R returns a warning, usually indicating that one or more predictor variables perfectly separate robbery == NO vs robbery == YES.
+summary(my_logistic_model <- glm(robbery_dich ~ liquor + grocery + school + atm_fac, data = hex_sf, family = "binomial"))
+```
+
+Count models like the *Poisson* and *Negative binomial model* assume that the outcome variable has integer values. Therefore, let's estimate the models on `robbery_sum`, the sum of all robbery counts within each hexagon over the study period. A Poisson model is estimated using: 
+
+```{r}
+summary(my_poisson_model <- glm(robbery_sum ~ liquor + grocery + school + atm_fac, family = "poisson", data = hex_sf))
+```
+
+The Poisson regression model rests on the assumption that the conditional variance and conditional mean are equal (i.e. no overdispersion). If this assumption does not hold, the negative binomial model might better fit the data. A negative binomial model is estimated using the `glm.nb` function from the `MASS` package.
+
+```{r}
+summary(my_negbin_model <- MASS::glm.nb(robbery_sum ~ liquor + grocery + school + atm_fac, data = hex_sf))
+```
+
+Because the Poisson model is nested in the negative binomial model, we can use a Likelihood Ratio test to compare the two models and test whether the Poisson model's assumption holds.
+
+```{r}
+pchisq(2 * (logLik(my_negbin_model) - logLik(my_poisson_model)), df = 1, lower.tail = FALSE)
+```
+
+We can get the confidence intervals for the coefficients of the Negative binomial model by profiling the likelihood function:
+
+```{r}
+(est <- cbind(Estimate = coef(my_negbin_model), confint(my_negbin_model)))
+```
+
+Incident Rate Ratios are obtained by exponentiating the parameters:
+
+```{r}
+exp(est)
+```
+
+This tutorial is about showcasing a number of modeling techniques in $R$, focusing on linear regression and linear spatial regression. As such, we do not go into detail about which model we would choose to analyze these data, and instead switch back to the standard linear regression approach we used earlier. So, let's continue with `my_model`.
+
+# Spatial dependence
+
+The regression models discussed thus far assumed a data generating process for a sample of $n$ *independent* observations $y_i, i = 1,\dots,n$ that are linearly related to predictor variables. When we analyze areal units like street segments or census blocks with the equation above, we effectively assume that the observed values at one location are *independent* of the observed values at other locations. How realistic is this assumption in a spatial context? Not very...
+
+We will use $R$ to (1) create 1st-order neighbors of all hexagons covering Washington, D.C. and (2) create a "W" (row-standardized) weights matrix.
+
+```{r}
+# create spatial 1st order rook contiguity neighbors
+hex_nb <- spdep::poly2nb(hex_sf, queen = FALSE)
+
+# spatial weights using coding scheme "W"
+my_weights <- spdep::nb2listw(hex_nb, style = "W")
+```
+
+We use the function `moran.plot()` to create the Moran scatter plot of our OLS residuals on the $x$-axis and their spatially lagged values on the $y$-axis. The plot is divided into quadrants that indicate how the OLS residuals and their spatial lags correlate.
+
+```{r}
+mp <- moran.plot(residuals(my_model), listw = my_weights, 
+                 cex = 1, xlab = "OLS residuals", ylab = "lagged OLS residuals")
+```
+
+The global Moran's $I$ value reflects the linear relationship between the $x$ and $y$ values in the plot, which itself is again a slope of a regression line through the data points in the plot. A two-sided test on the OLS residuals:
+
+```{r}
+# two-sided moran.test
+(my_model_lm_moran <- lm.morantest(my_model, 
+                                   my_weights, 
+                                   alternative = "two.sided"))
+```
+
+The statistic is positive and statistically significant, indicating that hexagons with positive OLS residuals---i.e. more robbery than expected---are typically surrounded by hexagons that also experience more-than-expected robbery.
+
+# Spatial regression
+
+The current regression model doesn't "solve" the spatial dependence in the data. How to go from here is not straightforward! See chapter & supplementary material for more discussion.
+
+Now, we turn to models that can incorporate spatial dependency. Spatial regression analysis functions are found in the `spatialreg` package.
+
+|Dep. var | Non-spatial Predictor variables | Spatially-lagged predictor variables |  Spatially-lagged outcome variable | Spatial error | Random error | Model | Function |
+|:------:|:------------:|:------------------:|:----------------:|:--------------:|:------:|------------:|:--------|
+| $y=$ | $\mathbf{X}\beta\ +$ |            |            |            | $\epsilon$ | Ordinary Least Squares (OLS) | `lm(...)` |
+| $y=$ | $\mathbf{X}\beta\ +$ | $\theta\mathbf{W}\mathbf{X}\ +$ |            |            | $\epsilon$ | Spatially-lagged X (SLX) | `lmSLX(...)` |
+| $y=$ | $\mathbf{X}\beta\ +$ |            | $\mathbf{\delta}\mathbf{W}y\ +$ |            | $\epsilon$ | Spatial Lag Model (SLM) | `lagsarlm(..., Durbin = FALSE)` |
+| $y=$ | $\mathbf{X}\beta\ +$ |            |            | $\lambda\mathbf{W}u\ +$ | $\epsilon$ | Spatial Error Model (SEM) | `errorsarlm(..., Durbin = FALSE)`  or `spautolm(..., family = "SAR")` |
+| $y=$ | $\mathbf{X}\beta\ +$ | $\theta\mathbf{W}\mathbf{X}\ +$ | $\mathbf{\delta}\mathbf{W}y\ +$ |            | $\epsilon$ | Spatial Durbin Model (SDM) | `lagsarlm(..., Durbin=TRUE)` |
+| $y=$ | $\mathbf{X}\beta\ +$ |            | $\mathbf{\delta}\mathbf{W}y\ +$ | $\lambda\mathbf{W}u\ +$ | $\epsilon$ | Spatial Autoregressive Combined (SAC) | `sacsarlm(..., Durbin = FALSE)` |
+| $y=$ | $\mathbf{X}\beta\ +$ | $\theta\mathbf{W}\mathbf{X}\ +$ |            | $\lambda\mathbf{W}u\ +$ | $\epsilon$ | Spatial Durbin Error Model (SDEM) | `errorsarlm(..., Durbin = TRUE)` |
+| $y=$ | $\mathbf{X}\beta\ +$ | $\theta\mathbf{W}\mathbf{X}\ +$ | $\mathbf{\delta}\mathbf{W}y\ +$ | $\lambda\mathbf{W}u\ +$ | $\epsilon$ | General Nested Model (GNM) | `sacsarlm(..., Durbin = TRUE)` |
+
+# Spatially-lagged X model
+
+The spatially-lagged X model is actually simply an OLS regression that includes one or more spatially-lagged explanatory variables. By using the function `lmSLX` in the `spatialreg` package, R automatically creates the spatially-lagged version of all predictor variables (`liquor`, `grocery`, `school`, and `atm_fac`).
+
+```{r}
+# SLX model for all predictor variables
+my_model_slx <- lmSLX(robbery ~ liquor + grocery + school + atm_fac,
+                      data = hex_sf, listw = my_weights)
+summary(my_model_slx)
+```
+
+# Choice of spatial model
+
+*Lagrange Multiplier test* (LM) statistics can be used to suggest whether the data generating process is better captured using a spatial error or a spatial lag model. The `lm.LMtests()` function in the `spdep` package needs a regression object and a spatial weights object. The procedure can perform multiple LM tests at the same time using `lm.LMtests(my_model_slx, my_lw, test = c("LMerr","RLMerr","LMlag","RLMlag"))`:
+
+```{r lm_table}
+# run LM tests
+res <- lm.LMtests(my_model_slx, listw = my_weights, 
+                  test = c("LMerr","RLMerr","LMlag","RLMlag"))
+
+# Make output a little prettier
+tres <- t(sapply(res, function(x) c(x$statistic, x$parameter, x$p.value)))
+colnames(tres) <- c("Statistic", "df", "p-value")
+
+# print output
+tres
+```
+
+Based on these results (see chapter) we proceed to fit a spatial lag model. Because we also include spatially-lagged predictor variables, this means a Spatial Durbin model is specified: `lagsarlm(..., Durbin=TRUE)`.
+
+```{r}
+# Spatial Durbin model
+my_model_sdm <- lagsarlm(robbery ~ liquor + grocery + school + atm_fac, 
+                         data = hex_sf, listw = my_weights, Durbin=TRUE)
+# Display model summary
+summary(my_model_sdm)
+```
+
+# Interpreting spatial regression models: Impacts
+
+We should *not* interpret the regression results table of models that include a spatially-lagged dependent variable---i.e., the results directly above this text---because a one unit change in a predictor variable cascades throughout the system. Instead, the function `impacts()` in the `spatialreg` package decomposes the impact of variables into the *average direct* impact, the *average total* impact, and the *average indirect* impact.
+
+```{r}
+impacts(my_model_sdm, listw = my_weights)
+```
+
+# R session info
+
+```{r}
+sessionInfo()
+```
+
+# References / Copyright
+
+The code for this workshop is based on a book chapter that has been accepted for publication in E.Groff and C. Haberman (Eds.), The study of crime and place: A methods handbook (Temple University Press, 2021). Please see https://osf.io/z2347/ for a pre-print of the chapter and supplementary material.
