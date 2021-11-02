@@ -20,9 +20,9 @@
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode { white-space: pre; position: relative; }
 div.sourceCode { margin: 1em 0; }
@@ -32,14 +32,16 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(title);
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
+    border: none; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -48,9 +50,9 @@ pre.numberSource a.sourceLine::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {  }
+  {   }
 @media screen {
-a.sourceLine::before { text-decoration: underline; }
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
@@ -84,7 +86,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-<title>NSC-R: Small area estimation for crime analysis</title>
+<title>NSC-R: Small area estimation from victimisation surveys</title>
 
 <meta property="description" itemprop="description" content="Small area estimation for crime analysis."/>
 
@@ -96,7 +98,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <meta name="article:author" content="David Buil-Gil"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-<meta property="og:title" content="NSC-R: Small area estimation for crime analysis"/>
+<meta property="og:title" content="NSC-R: Small area estimation from victimisation surveys"/>
 <meta property="og:type" content="article"/>
 <meta property="og:description" content="Small area estimation for crime analysis."/>
 <meta property="og:url" content="https://nscrweb.netlify.app/posts/2021-10-12-small_area_estimation/"/>
@@ -105,12 +107,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary"/>
-<meta property="twitter:title" content="NSC-R: Small area estimation for crime analysis"/>
+<meta property="twitter:title" content="NSC-R: Small area estimation from victimisation surveys"/>
 <meta property="twitter:description" content="Small area estimation for crime analysis."/>
 <meta property="twitter:url" content="https://nscrweb.netlify.app/posts/2021-10-12-small_area_estimation/"/>
 
 <!--  https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
-<meta name="citation_title" content="NSC-R: Small area estimation for crime analysis"/>
+<meta name="citation_title" content="NSC-R: Small area estimation from victimisation surveys"/>
 <meta name="citation_fulltext_html_url" content="https://nscrweb.netlify.app/posts/2021-10-12-small_area_estimation/"/>
 <meta name="citation_online_date" content="2021/11/09"/>
 <meta name="citation_publication_date" content="2021/11/09"/>
@@ -119,12 +121,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Small area estimation for crime analysis"]},{"type":"character","attributes":{},"value":["Small area estimation for crime analysis."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["David Buil-Gil"]},{"type":"character","attributes":{},"value":["http://lesscrime.info/"]}]}]},{"type":"character","attributes":{},"value":["11-09-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://nscrweb.netlify.app/posts/2021-10-12-small_area_estimation/"]},{"type":"character","attributes":{},"value":["https://nscrweb.netlify.app/posts/2021-10-12-small_area_estimation/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Small area estimation from victimisation surveys"]},{"type":"character","attributes":{},"value":["Small area estimation for crime analysis."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["David Buil-Gil"]},{"type":"character","attributes":{},"value":["https://builgil.com/"]}]}]},{"type":"character","attributes":{},"value":["11-09-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://nscrweb.netlify.app/posts/2021-10-12-small_area_estimation/"]},{"type":"character","attributes":{},"value":["https://nscrweb.netlify.app/posts/2021-10-12-small_area_estimation/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"NULL"}
+  {"type":"character","attributes":{},"value":["small_area_estimation_files/anchor-4.2.2/anchor.min.js","small_area_estimation_files/bowser-1.9.3/bowser.min.js","small_area_estimation_files/distill-2.2.21/template.v2.js","small_area_estimation_files/jquery-1.11.3/jquery.min.js","small_area_estimation_files/popper-2.6.0/popper.min.js","small_area_estimation_files/tippy-6.2.7/tippy-bundle.umd.min.js","small_area_estimation_files/tippy-6.2.7/tippy-light-border.css","small_area_estimation_files/tippy-6.2.7/tippy.css","small_area_estimation_files/tippy-6.2.7/tippy.umd.min.js","small_area_estimation_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2368,7 +2370,7 @@ d-appendix d-footnote-list a.footnote-backlink {
   color: var(--hover-color, white);
 }</style>
 <!--/radix_placeholder_distill-->
-  <script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <script src="../../site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="../../site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="../../site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2388,7 +2390,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Small area estimation for crime analysis","description":"Small area estimation for crime analysis.","authors":[{"author":"David Buil-Gil","authorURL":"http://lesscrime.info/","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-11-09T00:00:00.000+00:00","citationText":"Buil-Gil, 2021"}
+{"title":"Small area estimation from victimisation surveys","description":"Small area estimation for crime analysis.","authors":[{"author":"David Buil-Gil","authorURL":"https://builgil.com/","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-11-09T00:00:00.000+00:00","citationText":"Buil-Gil, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2401,8 +2403,22 @@ d-appendix d-footnote-list a.footnote-backlink {
 </div>
 <div class="nav-right">
 <a href="../../index.html">NSC-R</a>
-<a href="../../blog.html">Workshops</a>
-<a href="../../other.html">Extra Material</a>
+<a href="../../blog.html">Blog</a>
+<a href="../../other.html">Non-Blog</a>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+Teaching
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="../../teaching.html">1_Introducing</a>
+<a href="../../transforming.html">2_Transforming</a>
+<a href="../../visualizing.html">3_Visualizing</a>
+<a href="../../modeling.html">4_Modeling</a>
+<a href="../../communicating.html">5_Communicating</a>
+</div>
+</div>
 <a>
 <i class="fa fa-github" aria-hidden="true"></i>
 </a>
@@ -2424,19 +2440,23 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Small area estimation for crime analysis</h1>
+<h1>Small area estimation from victimisation surveys</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p>Small area estimation for crime analysis.</p>
+<p><p>Small area estimation for crime analysis.</p></p>
 </div>
 
 <div class="d-byline">
-  David Buil-Gil <a href="http://lesscrime.info/" class="uri">http://lesscrime.info/</a> 
+  David Buil-Gil <a href="https://builgil.com/" class="uri">https://builgil.com/</a> 
   
 <br/>11-09-2021
 </div>
 
 <div class="d-article">
+<p>According to <strong>David Buil-Gil</strong>, victimization surveys provide key information about crimes known and unknown to the police, and are the main source of data to analyse perceived safety and confidence in policing. These surveys, however, are only designed to allow aggregating responses and producing reliable direct estimates (i.e., weighted means or totals) at very large spatial scales, such as countries or states. Sample sizes are too small to produce direct estimates of adequate precision at the increasingly refined spatial scales of the criminology of place. Model-based small area estimation techniques may be used to improve the reliability of small area estimates produced from victimization surveys. Small area estimation techniques are applied to produce reliable estimates of parameters of interest (and their associated measures of error) for areas for which only small or zero sample sizes are available. This workshop will introduce theory and show a step-by-step exemplar study in R to illustrate the utility of small area estimation for crime and place research.</p>
+<blockquote>
+<p><strong>David Buil-Gil</strong> is a Lecturer in Quantitative Criminology at the Department of Criminology of the University of Manchester, and a core member of the Manchester Centre for Digital Trust and Society. His research areas cover geographic criminology, small area estimation applications in criminology, measurement error in criminological research, new methods for data collection, and open data.</p>
+</blockquote>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -2452,11 +2472,11 @@ d-appendix d-footnote-list a.footnote-backlink {
 <div class="appendix-bottom">
   <h3 id="citation">Citation</h3>
   <p>For attribution, please cite this work as</p>
-  <pre class="citation-appendix short">Buil-Gil (2021, Nov. 9). NSC-R: Small area estimation for crime analysis. Retrieved from https://nscrweb.netlify.app/posts/2021-10-12-small_area_estimation/</pre>
+  <pre class="citation-appendix short">Buil-Gil (2021, Nov. 9). NSC-R: Small area estimation from victimisation surveys. Retrieved from https://nscrweb.netlify.app/posts/2021-10-12-small_area_estimation/</pre>
   <p>BibTeX citation</p>
   <pre class="citation-appendix long">@misc{buil-gil2021small,
   author = {Buil-Gil, David},
-  title = {NSC-R: Small area estimation for crime analysis},
+  title = {NSC-R: Small area estimation from victimisation surveys},
   url = {https://nscrweb.netlify.app/posts/2021-10-12-small_area_estimation/},
   year = {2021}
 }</pre>
