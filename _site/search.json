@@ -2,31 +2,38 @@
   "articles": [
     {
       "path": "blog.html",
-      "title": "Posts",
+      "title": "Workshops",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-11-01T20:30:14+01:00"
+      "last_modified": "2021-11-02T19:22:29+01:00"
     },
     {
       "path": "index.html",
       "title": "About us",
       "author": [],
       "contents": "\n\n\n\nAim of the NSC-R Workshops?\nThe NSC-R Workshops is a series of bi-weekly one-hour online instructional sessions to support participants in developing their data science skills in R, and to promote open science principles. The NSC-R workshops are organized by a team affliated people at the Netherlands Institute for the Study of Crime and Law Enforcement (NSCR), but are open to everyone, regardless of affiliation or skill level.\nNSC-R Workshop Team\nThe NSC-R Workshop Team coordinates the NSC-R Workshops. We discuss potential topics, invite presenters, plan the meetings and send invitations. Currently the team includes Wim Bernasco, Sam Langton, Asier Moneva and Alex Trinidad.\nContact Us and Get involved\nIf you want your e-mail address on our mailing list, please send an e-mail to Wim Bernasco at wbernasco@nscr.nl.\nIf you have suggestions for workshop topics, or are interested in presenting one, please send a message to Wim Bernasco (wbernasco@nscr.nl), Asier Moneva (amoneva@nscr.nl), Sam Langton (slangton@nscr.nl) or Alex Trinidad (atrinidad@nscr.nl).\n\n\n\n",
-      "last_modified": "2021-11-01T20:31:12+01:00"
+      "last_modified": "2021-11-02T14:52:37+01:00"
     },
     {
       "path": "other.html",
-      "title": "Whatever extra ...",
+      "title": "Extra material",
       "author": [],
-      "contents": "\nWork-in-progress\nHere we can place whatever we want.\n–\n\n\n\n",
-      "last_modified": "2021-10-30T09:40:07+02:00"
+      "contents": "\nOn Learning R\nBatra, N. (ed, 2021). The Epidemiologist R Handbook. here\nBaumer, B.S., Kaplan, D.T. & Horton, N.J. (2018). Modern Data Science with R. Boca Raton: CRC Press.\nGrolemund, G. & Wickham, H. (2019). R for Data Science. here\nIrizarry, R.A. (2019). Introduction to Data Science. Data Analysis and Prediction Algorithms with R. here\nOn Reproducibility\nOn RMarkdown\nXie, Y., Allaire, J.J. & Grolemund, G.(2019). R Markdown: The Definitive Guide. here\nXie, Y., Dervieux, C. & Riederer, E. (2021). RMarkdown Cookbook. [here(https://bookdown.org/yihui/rmarkdown-cookbook/)\nOn Spatial data\nOn Open data\nOn Spatial regression\nOn Tidyverse\nOn crime forecasting\n–\n\n\n\n",
+      "last_modified": "2021-11-02T14:52:37+01:00"
     },
     {
-      "path": "teaching.html",
-      "title": "Teaching",
-      "author": [],
-      "contents": "\nWorkshop 1: Data Skills for Reproducible Science\nSee\nCommands\nTyping commands in the R Studio concole (bottom left window). Note that on a line in the editor, anything after is automagically green and treated as comment, not code (like ’*’ in Stata and SPSS)\n\n\nrm(list=ls())\n\n1 + 1\n\n\n[1] 2\n\n1 + 2 + 3\n\n\n[1] 6\n\n1 +\n  2\n\n\n[1] 3\n\nStrings\n\n\n\"Good morning\"\n\n\n[1] \"Good morning\"\n\nSingle quotes can be used as well, but not prefered\n\n\n'Good Morning'\n\n\n[1] \"Good Morning\"\n\nQuotes\nUse single quotes if the string must cntain double quotes, or vice versa\n\n\n\"'Good morning', she said\"\n\n\n[1] \"'Good morning', she said\"\n\n'\"Good morning\", he replied'\n\n\n[1] \"\\\"Good morning\\\", he replied\"\n\nCat\nThe command cat prints to the screen whatever is between brackets\n\n\ncat(\"'Good morning', she said\")\n\n\n'Good morning', she said\n\ncat('\"Good morning\", he replied')\n\n\n\"Good morning\", he replied\n\nVariables\nWe start with variables that represent just one number (you may think of an SPSSS or Stata variable in a dataset with N=1)\nUse the assignment operator ‘<-’\nR stores the number in the variable ‘variable1’\n\n\nvariable1 <- 5\nvariable1\n\n\n[1] 5\n\nalternatively (seldom very useful)\n\n\nassign(\"variable2\", 7)  # note the variable name is between quotes hre\nvariable2\n\n\n[1] 7\n\nWe can use the variable in subsequent calculations\n\n\nvariable1 * variable2\n\n\n[1] 35\n\n# and assign the result to another variable\nvariable3 <- variable1 + variable2\n\n\n\nJust as in SPSS, you can overwrite the original value\n\n\nvariable1 <- variable1 * variable2\nvariable1\n\n\n[1] 35\n\nA variable does not need to be a single number, it can be a vector like our variables in Stata and SPSS\n\n\nmyvariable <- c(2,3,5,7,11,13)\nmyvariable\n\n\n[1]  2  3  5  7 11 13\n\nJust as in Stata or SPSS, assignment of values to variables is static. Here is an example from the online course:\n\n\nthis_year <- 2019\nmy_birth_year <- 1976\nmy_age <- this_year - my_birth_year\nthis_year <- 2020\n# your age is not updated automatically!\n\n\n\nLook at the upper right panel (‘Global Environment’)\nFunctions\nAlmost everything is R works with functions. hey are small programs that you feed with something and that return something else.\nThree numbers go in (the functionarguments), 10 come out (the value of the function)\n\n\nrnorm(n=10, mean=0, sd=1)\n\n\n [1]  0.26326799 -0.29013949  1.02055721 -0.42446289  1.53118732\n [6]  0.57271862  0.05489215 -0.08084479  2.10574561  2.08074140\n\nYou often use a function in a function. sum() is also a function\n\n\nsum(rnorm(n=10, mean=0, sd=1))\n\n\n[1] -0.6581088\n\nGetting help is easy for beginners, but understanding it is not always easy\n\n\nhelp(\"rnorm\")\n?rnorm\n\n\n\nPackages\nThe power of R is in the packages. There are hundreds of them, for specific tasks. It can be overwhelming, esp. if multiple packages offer similar possibilities (i.e. inter-rater reliability assessment)\nYou can do it by commandline (take away #)\n\n\n# install.packages(\"ggExtra\")\n\n\n\nOr via menu (Tools-Install packages) or pane Packages (Install). After installing: load package (one per session, typically at the top of yur script/syntax)\n\n\nlibrary(ggExtra)\n\n\n\nRead section 1.6.1 carefully. It is about how to organize your script\n\n\n\n",
-      "last_modified": "2021-10-30T09:40:07+02:00"
+      "path": "small_area_estimation.html",
+      "title": "Small area estimation for crime analysis",
+      "description": "Small area estimation for crime analysis.\n",
+      "author": [
+        {
+          "name": "David Buil-Gil",
+          "url": "http://lesscrime.info/"
+        }
+      ],
+      "date": "11-09-2021",
+      "contents": "\nAccording to David Buil-Gil, victimization surveys provide key information about crimes known and unknown to the police, and are the main source of data to analyse perceived safety and confidence in policing. These surveys, however, are only designed to allow aggregating responses and producing reliable direct estimates (i.e., weighted means or totals) at very large spatial scales, such as countries or states. Sample sizes are too small to produce direct estimates of adequate precision at the increasingly refined spatial scales of the criminology of place. Model-based small area estimation techniques may be used to improve the reliability of small area estimates produced from victimization surveys. Small area estimation techniques are applied to produce reliable estimates of parameters of interest (and their associated measures of error) for areas for which only small or zero sample sizes are available. This workshop will introduce theory and show a step-by-step exemplar study in R to illustrate the utility of small area estimation for crime and place research.\n\nDavid Buil-Gil is a Lecturer in Quantitative Criminology at the Department of Criminology of the University of Manchester, and a core member of the Manchester Centre for Digital Trust and Society. His research areas cover geographic criminology, small area estimation applications in criminology, measurement error in criminological research, new methods for data collection, and open data.\n\n\n\n\n",
+      "last_modified": "2021-11-03T10:51:23+01:00"
     }
   ],
   "collections": ["posts/posts.json"]

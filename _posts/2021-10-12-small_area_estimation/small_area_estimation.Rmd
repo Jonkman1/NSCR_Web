@@ -1,10 +1,10 @@
 ---
-title: "Small area estimation from victimisation surveys"
+title: "Small area estimation for crime analysis"
 description: |
   Small area estimation for crime analysis.
 author: 
   - name: David Buil-Gil
-    url: https://builgil.com/
+    url: http://lesscrime.info/
 date: 11-09-2021
 output:
   distill::distill_article:

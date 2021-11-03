@@ -1,0 +1,24 @@
+---
+title: "Introduction to the tidyverse"
+description: |
+  Introduction to the tidyverse collection of packages.
+author: 
+  - name: Sam Langton
+    url: https://nscr.nl/medewerker/sam-langton/
+date: 10-12-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+This workshop covers the basics of the tidyverse – a collection of packages in R which can be used to import, tidy, transform and visualise data. The material is suitable for people with very little experience in R, but also seasoned R users who have not yet delved into the tidyverse. The skills covered are foundational and generic to almost any research project. The workshop centres around a demonstration which tackles a realistic, ‘messy’ dataset about animal rescue incidents dealt with by the London Fire Brigade. The material can be found on the corresponding [GitHub repository](https://github.com/langtonhugh/rss_r) or the [Dropbox folder](https://www.dropbox.com/sh/wfq4og1dig01p9q/AAA003pRT2Qxa3BK35pBANP1a?dl=0).
+
+> Sam Langton is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on the spatial and temporal patterning of crime and police demand. You can find read more about Sam on his [website](www.samlangton.info).
+
+
+
