@@ -18,7 +18,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 
 
-> Harrie Jonkman is a senior researcher at the [Verwey Jonker Institute](https://www.verwey-jonker.nl/).
+
+> [Harrie Jonkman](www.harriejonkman.nl)is a senior researcher at the [Verwey Jonker Institute](https://www.verwey-jonker.nl/). He works in the field of cognitive and social development of children and youngsters in relation to the contexts in which they grow up (family, school, friends, community and country). Recently he edited with David Farrington and Frederick Groeger-Roth [Delinquency and Substance Use in Europe. Understanding Risk and Protecive Factors](https://link.springer.com/book/10.1007/978-3-030-58442-9). He also finished recently the open-source book [Terugschrijven](http://www.harriejonkman.nl/wp-content/uploads/2021/05/Terugschrijven_def.pdf) on knowledge, development and democracy. Het is interested in open-source data analysis and has his blog [Harrie's Hoekje](http://www.harriejonkman.nl/HarriesHoekje/) on this topic.
 
 
 
