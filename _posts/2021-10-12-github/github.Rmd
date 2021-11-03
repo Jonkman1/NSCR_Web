@@ -18,6 +18,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Version control is essential for keeping track of data analysis projects. it is also essential for collaboration with other researchers and developers. Git, GitHub in combination with R/RStudio allow you to back up texts and scripts and to collaborate on complex projects. Git and GitHub are open source version control systems which work quiet well together with R/RStudio. In this workshop you will be introduced to this system, you understand how to open a repository on GitHub and how this works in R/RStudio. Also will be shown how collaboration works in a repository/project. This workshop is connected to the next workshop in which the new NSC-R website will be presented. This website is developed by the NSC-R teammembers who worked together on this in Git, GitHub and R/RStudio.  
 
+<br>
+
 > [Harrie Jonkman](www.harriejonkman.nl)is a senior researcher at the [Verwey Jonker Institute](https://www.verwey-jonker.nl/). He works in the field of cognitive and social development of children and youngsters in relation to the contexts in which they grow up (family, school, friends, community and country). Recently he edited with David Farrington and Frederick Groeger-Roth [Delinquency and Substance Use in Europe. Understanding Risk and Protecive Factors](https://link.springer.com/book/10.1007/978-3-030-58442-9). He also finished recently the open-source book [Terugschrijven](http://www.harriejonkman.nl/wp-content/uploads/2021/05/Terugschrijven_def.pdf) on knowledge, development and democracy. Het is interested in open-source data analysis and has his blog [Harrie's Hoekje](http://www.harriejonkman.nl/HarriesHoekje/) on this topic.
 
 
