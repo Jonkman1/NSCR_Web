@@ -5,35 +5,21 @@
       "title": "Workshops",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-11-02T19:22:29+01:00"
+      "last_modified": "2021-11-25T13:54:43+01:00"
     },
     {
       "path": "index.html",
       "title": "About us",
       "author": [],
       "contents": "\n\n\n\nAim of the NSC-R Workshops?\nThe NSC-R Workshops is a series of bi-weekly one-hour online instructional sessions to support participants in developing their data science skills in R, and to promote open science principles. The NSC-R workshops are organized by a team affliated people at the Netherlands Institute for the Study of Crime and Law Enforcement (NSCR), but are open to everyone, regardless of affiliation or skill level.\nNSC-R Workshop Team\nThe NSC-R Workshop Team coordinates the NSC-R Workshops. We discuss potential topics, invite presenters, plan the meetings and send invitations. Currently the team includes Wim Bernasco, Sam Langton, Asier Moneva and Alex Trinidad.\nContact Us and Get involved\nIf you want your e-mail address on our mailing list, please send an e-mail to Wim Bernasco at wbernasco@nscr.nl.\nIf you have suggestions for workshop topics, or are interested in presenting one, please send a message to Wim Bernasco (wbernasco@nscr.nl), Asier Moneva (amoneva@nscr.nl), Sam Langton (slangton@nscr.nl) or Alex Trinidad (atrinidad@nscr.nl).\n\n\n\n",
-      "last_modified": "2021-11-02T14:52:37+01:00"
+      "last_modified": "2021-11-29T15:27:49+01:00"
     },
     {
       "path": "other.html",
       "title": "Extra material",
       "author": [],
-      "contents": "\nOn Learning R\nBatra, N. (ed, 2021). The Epidemiologist R Handbook. here\nBaumer, B.S., Kaplan, D.T. & Horton, N.J. (2018). Modern Data Science with R. Boca Raton: CRC Press.\nGrolemund, G. & Wickham, H. (2019). R for Data Science. here\nIrizarry, R.A. (2019). Introduction to Data Science. Data Analysis and Prediction Algorithms with R. here\nOn Reproducibility\nOn RMarkdown\nXie, Y., Allaire, J.J. & Grolemund, G.(2019). R Markdown: The Definitive Guide. here\nXie, Y., Dervieux, C. & Riederer, E. (2021). RMarkdown Cookbook. [here(https://bookdown.org/yihui/rmarkdown-cookbook/)\nOn Spatial data\nOn Open data\nOn Spatial regression\nOn Tidyverse\nOn crime forecasting\n–\n\n\n\n",
-      "last_modified": "2021-11-02T14:52:37+01:00"
-    },
-    {
-      "path": "small_area_estimation.html",
-      "title": "Small area estimation for crime analysis",
-      "description": "Small area estimation for crime analysis.\n",
-      "author": [
-        {
-          "name": "David Buil-Gil",
-          "url": "http://lesscrime.info/"
-        }
-      ],
-      "date": "11-09-2021",
-      "contents": "\nAccording to David Buil-Gil, victimization surveys provide key information about crimes known and unknown to the police, and are the main source of data to analyse perceived safety and confidence in policing. These surveys, however, are only designed to allow aggregating responses and producing reliable direct estimates (i.e., weighted means or totals) at very large spatial scales, such as countries or states. Sample sizes are too small to produce direct estimates of adequate precision at the increasingly refined spatial scales of the criminology of place. Model-based small area estimation techniques may be used to improve the reliability of small area estimates produced from victimization surveys. Small area estimation techniques are applied to produce reliable estimates of parameters of interest (and their associated measures of error) for areas for which only small or zero sample sizes are available. This workshop will introduce theory and show a step-by-step exemplar study in R to illustrate the utility of small area estimation for crime and place research.\n\nDavid Buil-Gil is a Lecturer in Quantitative Criminology at the Department of Criminology of the University of Manchester, and a core member of the Manchester Centre for Digital Trust and Society. His research areas cover geographic criminology, small area estimation applications in criminology, measurement error in criminological research, new methods for data collection, and open data.\n\n\n\n\n",
-      "last_modified": "2021-11-03T10:51:23+01:00"
+      "contents": "\nOn Learning R\nBatra, N. (ed, 2021). The Epidemiologist R Handbook. here\nBaumer, B.S., Kaplan, D.T. & Horton, N.J. (2018). Modern Data Science with R. Boca Raton: CRC Press.\nGrolemund, G. & Wickham, H. (2019). R for Data Science. here\nIrizarry, R.A. (2019). Introduction to Data Science. Data Analysis and Prediction Algorithms with R. here\nKaplan, J. (2021). Crime by the Numbers: A Criminologist’s Guide to R. here\nOn Reproducibility\nGandrud, C. Reproducible Research with R and RStudio, Second edition. here\nNavarro, D. (2019). Learning statistics with R: A tutorial for psychology students and other beginners. here\nOn RMarkdown\nXie, Y., Allaire, J.J. & Grolemund, G.(2019). R Markdown: The Definitive Guide. here\nXie, Y., Dervieux, C. & Riederer, E. (2021). RMarkdown Cookbook. [here(https://bookdown.org/yihui/rmarkdown-cookbook/)\nOn Spatial data\nLovelace, R., Nowosad, J. & Muenchow, J. (2021, this version). Geocomputation with R. here\nOn Open data\nOn Spatial regression\nOn Tidyverse\nGrolemund, G. & Wickham, H. (2019). R for Data Science. here\nOn crime forecasting\nOn small area estimation\nOn Git, GitHub and R/RStudio\nDouglas, A., Roos, D., Mancini, F., Couto, A. and Lusseau, D., An introduction to R, chapter 9, here. Thank you.\nBryan, J., Happy Git and GitHub for the useR, here\nLendway, L., github_for_collaboration, here\nOn youtube, here\nOn youtube also, here\nOn distill\n–\n\n\n\n",
+      "last_modified": "2021-11-29T16:04:55+01:00"
     }
   ],
   "collections": ["posts/posts.json"]

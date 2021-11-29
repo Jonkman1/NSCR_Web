@@ -3,7 +3,6 @@ title: "Extra material"
 site: distill::distill_website
 ---
 
-
 ## On Learning R  
 
 Batra, N. (ed, 2021). *The Epidemiologist R Handbook*. [here](https://epirhandbook.com/index.html)
@@ -14,9 +13,13 @@ Grolemund, G. & Wickham, H. (2019). *R for Data Science*. [here](https://r4ds.ha
 
 Irizarry, R.A. (2019). *Introduction to Data Science. Data Analysis and Prediction Algorithms with R*. [here](https://rafalab.github.io/dsbook/) 
 
+Kaplan, J. (2021). Crime by the Numbers: A Criminologist's Guide to R. [here](https://crimebythenumbers.com/)
 
 ## On Reproducibility
 
+Gandrud, C. *Reproducible Research with R and RStudio, Second edition*. [here](https://radhakrishna.typepad.com/reproducible-research-with-r-and-rstudio---second-edition.pdf) 
+
+Navarro, D. (2019). *Learning statistics with R: A tutorial for psychology students and other beginners*. [here](https://learningstatisticswithr.com/book/)
 
 ## On RMarkdown
 Xie, Y., Allaire, J.J. & Grolemund, G.(2019). *R Markdown: The Definitive Guide*. [here](https://bookdown.org/yihui/rmarkdown/) 
@@ -25,7 +28,7 @@ Xie, Y., Dervieux, C. & Riederer, E. (2021). *RMarkdown Cookbook*. [here(https:/
 
 
 ## On Spatial data
-
+Lovelace, R., Nowosad, J. & Muenchow, J. (2021, this version). *Geocomputation with R*. [here](https://geocompr.robinlovelace.net/)
 
 ## On Open data
 
@@ -34,9 +37,27 @@ Xie, Y., Dervieux, C. & Riederer, E. (2021). *RMarkdown Cookbook*. [here(https:/
 
 
 ## On Tidyverse
-
+Grolemund, G. & Wickham, H. (2019). *R for Data Science*. [here](https://r4ds.had.co.nz/) 
 
 ## On crime forecasting
+
+
+## On small area estimation
+
+
+## On Git, GitHub and R/RStudio
+
+Douglas, A., Roos, D., Mancini, F., Couto, A. and Lusseau, D., *An introduction to R*, chapter 9, [here](https://intro2r.com/github_r.html). Thank you.
+
+Bryan, J., *Happy Git and GitHub for the useR*, [here](https://happygitwithr.com/)
+
+Lendway, L., *github_for_collaboration*, [here](https://github.com/llendway/github_for_collaboration)
+
+On youtube, [here](https://www.youtube.com/watch?v=QLFc9gw_Hfs)
+
+On youtube also, [here](https://www.youtube.com/watch?v=megZYkCLMA4)
+
+## On distill
 
 
 

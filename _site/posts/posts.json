@@ -14,7 +14,7 @@
     "contents": "\nDistill is a package which is built on and for RMarkdown, the ecosystem of packages for creating computational documents in R. The goal of the distill package is to provide an output format optimized for online scientific and technical communication. The distill-R package provides HTML output formats for R Markdown documents. With the use of distill you can make articles, blogs and website. The idea was to create a platform to help scientists harness the benefits of modern HTML-based communication, which digital designers and journalists have been using to create interactive and engaging articles that meet readers where they are: online.\nIn this workshop you are introduced to this package. You learn how to build your own website and blog, how to place it on GitHub and deploy it for free by using Netlify. The NSC-R teammembers recently developed a website for the NSC-R workshops by using distill. We will look to this results of the NSC-Rwebsite .\n\n\nHarrie Jonkmanis a senior researcher at the Verwey Jonker Institute. He works in the field of cognitive and social development of children and youngsters in relation to the contexts in which they grow up (family, school, friends, community and country). Recently he edited with David Farrington and Frederick Groeger-Roth Delinquency and Substance Use in Europe. Understanding Risk and Protective Factors. He also finished recently the open-source book Terugschrijven on knowledge, development and democracy. He is interested in open-source data analysis and has his blog Harrie’s Hoekje on this topic.\n\n\n\n\n",
     "preview": {},
     "last_modified": "2021-11-09T11:52:56+01:00",
-    "input_file": "distill.knit.md"
+    "input_file": {}
   },
   {
     "path": "posts/2021-10-12-github/",
@@ -30,8 +30,8 @@
     "categories": [],
     "contents": "\nVersion control is essential for keeping track of data analysis projects. it is also essential for collaboration with other researchers and developers. Git, GitHub in combination with R/RStudio allow you to back up texts and scripts and to collaborate on complex projects. Git and GitHub are open source version control systems which work quiet well together with R/RStudio. In this workshop you will be introduced to this system, you understand how to open a repository on GitHub and how this works in R/RStudio. Also will be shown how collaboration works in a simple repository/project. This workshop is connected to the next workshop in which the new NSC-R website will be presented. This website is developed by the NSC-R teammembers who worked together on this in Git, GitHub and R/RStudio and deployed the GitHub pages in Netlify.\n\n\nHarrie Jonkmanis a senior researcher at the Verwey Jonker Institute. He works in the field of cognitive and social development of children and youngsters in relation to the contexts in which they grow up (family, school, friends, community and country). Recently he edited with David Farrington and Frederick Groeger-Roth Delinquency and Substance Use in Europe. Understanding Risk and Protective Factors. He also finished recently the open-source book Terugschrijven on knowledge, development and democracy. He is interested in open-source data analysis and has his blog Harrie’s Hoekje on this topic.\n\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-11-09T11:53:13+01:00",
-    "input_file": "github.knit.md"
+    "last_modified": "2021-11-25T13:54:43+01:00",
+    "input_file": {}
   },
   {
     "path": "posts/2021-10-12-small_area_estimation/",
@@ -47,8 +47,8 @@
     "categories": [],
     "contents": "\nAccording to David Buil-Gil, victimization surveys provide key information about crimes known and unknown to the police, and are the main source of data to analyse perceived safety and confidence in policing. These surveys, however, are only designed to allow aggregating responses and producing reliable direct estimates (i.e., weighted means or totals) at very large spatial scales, such as countries or states. Sample sizes are too small to produce direct estimates of adequate precision at the increasingly refined spatial scales of the criminology of place. Model-based small area estimation techniques may be used to improve the reliability of small area estimates produced from victimization surveys. Small area estimation techniques are applied to produce reliable estimates of parameters of interest (and their associated measures of error) for areas for which only small or zero sample sizes are available. This workshop will introduce theory and show a step-by-step exemplar study in R to illustrate the utility of small area estimation for crime and place research.\n\nDavid Buil-Gil is a Lecturer in Quantitative Criminology at the Department of Criminology of the University of Manchester, and a core member of the Manchester Centre for Digital Trust and Society. His research areas cover geographic criminology, small area estimation applications in criminology, measurement error in criminological research, new methods for data collection, and open data.\n\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-11-03T10:57:49+01:00",
-    "input_file": "small_area_estimation.knit.md"
+    "last_modified": "2021-11-03T12:28:13+01:00",
+    "input_file": {}
   },
   {
     "path": "posts/2021-10-27-crimeforecastingmodels/",
@@ -130,10 +130,10 @@
     ],
     "date": "2021-09-02",
     "categories": [],
-    "contents": "\r\nThe third meeting of the NSC-R Workshop was on Thursday September 2, 13:00-14:00 hr. Alex Trinidad introduced us to spatial data and how they can be processed in R.\r\nLearning to work with spatial data allows us to broaden our toolbox and our research horizons. In this workshop, we worked on the basic concepts of spatial data usage, data preparation, and basic visualisations. The aim was to introduce you to how to work with spatial data in R and provide materials that helped to go deeper into this type of data.\r\nTo prepare for the meeting, Alex suggested you might want to take a look at the following links. This is obviously not mandatory, but the materials may give rise to ideas or questions that you may want to discuss in the workshop meeting:\r\nLovelance, R., Nowosad, J., & Muenchow, J. Geocomputation with R. CRC Press.\r\nBivand, R. S., Pebesba, E., & Gómez-Rubio, V. Applied Spatial Data Analysis with R. Springer.(Access from university library)\r\nScripts and data you can find here.\r\n\r\nAlex is a postdoctoral researcher/ lecturer at the Institute of Sociology and Social Psychology (ISS) at the University of Cologne, Germany. He is also a research fellow at the Netherlands Institute for the Study of Crime and Law Enforcement (NSCR). His interest in spatial analysis began when he started his PhD, exploring the spatial distribution of juvenile delinquency and the contextual factors associated with it. It was also during his PhD that he began his journey with R.\r\n\r\n\r\n\r\n\r\n",
+    "contents": "\nThe third meeting of the NSC-R Workshop was on Thursday September 2, 13:00-14:00 hr. Alex Trinidad introduced us to spatial data and how they can be processed in R.\nLearning to work with spatial data allows us to broaden our toolbox and our research horizons. In this workshop, we worked on the basic concepts of spatial data usage, data preparation, and basic visualisations. The aim was to introduce you to how to work with spatial data in R and provide materials that helped to go deeper into this type of data.\nTo prepare for the meeting, Alex suggested you might want to take a look at the following links. This is obviously not mandatory, but the materials may give rise to ideas or questions that you may want to discuss in the workshop meeting:\nLovelance, R., Nowosad, J., & Muenchow, J. Geocomputation with R. CRC Press.\nBivand, R. S., Pebesba, E., & Gómez-Rubio, V. Applied Spatial Data Analysis with R. Springer.(Access from university library)\nScripts and data you can find here.\n\nAlex is a postdoctoral researcher/ lecturer at the Institute of Sociology and Social Psychology (ISS) at the University of Cologne, Germany. He is also a research fellow at the Netherlands Institute for the Study of Crime and Law Enforcement (NSCR). His interest in spatial analysis began when he started his PhD, exploring the spatial distribution of juvenile delinquency and the contextual factors associated with it. It was also during his PhD that he began his journey with R.\n\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-11-05T16:11:53+01:00",
-    "input_file": "spatioldata.knit.md"
+    "last_modified": "2021-11-09T11:44:03+01:00",
+    "input_file": {}
   },
   {
     "path": "posts/2021-09-05-rmarkdown/",
@@ -149,8 +149,8 @@
     "categories": [],
     "contents": "\nMarkdown is a language for producing formatted text with a simple text editor conceived with the idea of being human-readable from source. If you remember Thomas de Graaff’s talk from two weeks ago, having human readable code is important for a number of reasons, such as being easy to debug, maintain, and extend.\nRMarkdown is simply a software that allows the implementation of this language in R. This makes it possible to produce open-access, fully reproducible documents.\nTo show you the basics, Asier followed the book R Markdown: The Definitive Guide by Xie, Allaire and Grolemund. He recommends you read the Preface before the workshop. However, as a definitive guide, you can deduce that this book does not only cover the basics, so you can also use it to go deeper.\nTo have all the main commands at hand, you can print this double-sided RMarkdown cheat sheet. (We love cheat sheets.)\nAnd for a quick overview of RMarkdown, just watch this video.\nHere you can find the presentation, scripts and additional materials.\nHere you can find an Elsevier template for RMarkdown\n\nAsier is a postdoc at the NSCR and The Hague University of Applied Sciences with a background in criminology. He started specializing in crime analysis with R during his master’s degree and has since developed an interest in open science.\n\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-11-03T11:50:41+01:00",
-    "input_file": "rmarkdown.knit.md"
+    "last_modified": "2021-11-03T11:50:42+01:00",
+    "input_file": {}
   },
   {
     "path": "posts/2021-09-04-workshop1-reproducibility/",
