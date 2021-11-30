@@ -5,7 +5,7 @@
       "title": "Workshops",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-11-25T13:54:43+01:00"
+      "last_modified": "2021-11-29T16:08:06+01:00"
     },
     {
       "path": "index.html",
@@ -18,8 +18,8 @@
       "path": "other.html",
       "title": "Extra material",
       "author": [],
-      "contents": "\nOn Learning R\nBatra, N. (ed, 2021). The Epidemiologist R Handbook. here\nBaumer, B.S., Kaplan, D.T. & Horton, N.J. (2018). Modern Data Science with R. Boca Raton: CRC Press.\nGrolemund, G. & Wickham, H. (2019). R for Data Science. here\nIrizarry, R.A. (2019). Introduction to Data Science. Data Analysis and Prediction Algorithms with R. here\nKaplan, J. (2021). Crime by the Numbers: A Criminologist’s Guide to R. here\nOn Reproducibility\nGandrud, C. Reproducible Research with R and RStudio, Second edition. here\nNavarro, D. (2019). Learning statistics with R: A tutorial for psychology students and other beginners. here\nOn RMarkdown\nXie, Y., Allaire, J.J. & Grolemund, G.(2019). R Markdown: The Definitive Guide. here\nXie, Y., Dervieux, C. & Riederer, E. (2021). RMarkdown Cookbook. [here(https://bookdown.org/yihui/rmarkdown-cookbook/)\nOn Spatial data\nLovelace, R., Nowosad, J. & Muenchow, J. (2021, this version). Geocomputation with R. here\nOn Open data\nOn Spatial regression\nOn Tidyverse\nGrolemund, G. & Wickham, H. (2019). R for Data Science. here\nOn crime forecasting\nOn small area estimation\nOn Git, GitHub and R/RStudio\nDouglas, A., Roos, D., Mancini, F., Couto, A. and Lusseau, D., An introduction to R, chapter 9, here. Thank you.\nBryan, J., Happy Git and GitHub for the useR, here\nLendway, L., github_for_collaboration, here\nOn youtube, here\nOn youtube also, here\nOn distill\n–\n\n\n\n",
-      "last_modified": "2021-11-29T16:04:55+01:00"
+      "contents": "\nOn Learning R\nBatra, N. (ed, 2021). The Epidemiologist R Handbook. here\nBaumer, B.S., Kaplan, D.T. & Horton, N.J. (2018). Modern Data Science with R. Boca Raton: CRC Press.\nGrolemund, G. & Wickham, H. (2019). R for Data Science. here\nIrizarry, R.A. (2019). Introduction to Data Science. Data Analysis and Prediction Algorithms with R. here\nKaplan, J. (2021). Crime by the Numbers: A Criminologist’s Guide to R. here\nOn Reproducibility\nGandrud, C. Reproducible Research with R and RStudio, Second edition. here\nNavarro, D. (2019). Learning statistics with R: A tutorial for psychology students and other beginners. here\nOn RMarkdown\nXie, Y., Allaire, J.J. & Grolemund, G.(2019). R Markdown: The Definitive Guide. here\nXie, Y., Dervieux, C. & Riederer, E. (2021). RMarkdown Cookbook. [here(https://bookdown.org/yihui/rmarkdown-cookbook/)\nOn Spatial data\nLovelace, R., Nowosad, J. & Muenchow, J. (2021, this version). Geocomputation with R. here\nOn Open data\nOn Spatial regression\nOn Tidyverse\nGrolemund, G. & Wickham, H. (2019). R for Data Science. here\nOn crime forecasting\nOn small area estimation\nOn Git, GitHub and R/RStudio\nDouglas, A., Roos, D., Mancini, F., Couto, A. and Lusseau, D., An introduction to R, chapter 9, here. Thank you.\nBryan, J., Happy Git and GitHub for the useR, here\nLendway, L., github_for_collaboration, here\nOn youtube, here\nOn youtube also, here\nOn distill\nLiza Lendways nice description, here\nDifferent steps, here\nRStduio’s official website link, here\nRStduio’s neww developements on distill,here\nWorkshop on distill you find, here\n–\n\n\n\n",
+      "last_modified": "2021-11-30T09:53:53+01:00"
     }
   ],
   "collections": ["posts/posts.json"]

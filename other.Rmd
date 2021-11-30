@@ -59,6 +59,17 @@ On youtube also, [here](https://www.youtube.com/watch?v=megZYkCLMA4)
 
 ## On distill
 
+Liza Lendways nice description, [here](https://lisalendway.netlify.app/posts/2020-12-09-buildingdistill/?utm_source=dlvr.it&utm_medium=facebook)
+
+
+Different steps, [here](https://themockup.blog/posts/2020-08-01-building-a-blog-with-distill/)
+
+RStduio's official website link, [here](https://rstudio.github.io/distill/)
+
+RStduio's neww developements on distill,[here](https://www.rstudio.com/blog/distill/)
+
+
+Workshop on distill you find, [here](https://rstudio.github.io/distill/)
 
 
 

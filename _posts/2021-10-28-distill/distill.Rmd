@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 [Distill](https://rstudio.github.io/distill/) is a package which is built on and for `RMarkdown`, the ecosystem of packages for creating computational documents in R. The goal of the `distill` package is to provide an output format optimized for online scientific and technical communication. The `distill`-R package provides HTML output formats for R Markdown documents. With the use of `distill` you can make articles, blogs and website. The idea was to create a platform to help scientists harness the benefits of modern HTML-based communication, which digital designers and journalists have been using to create interactive and engaging articles that meet readers where they are: online.
 
-In this workshop you are introduced to this package. You learn how to build your own website and blog, how to place it on GitHub and deploy it for free by using Netlify. The NSC-R teammembers recently developed a website for the NSC-R workshops by using distill. We will look to this results of the [NSC-Rwebsite](https://nscrweb.netlify.app/) . 
+In this workshop you are introduced to this package. You learn how to build your own website and blog, how to place it on GitHub and deploy it for free by using Netlify. The NSC-R teammembers recently developed a website for the NSC-R workshops by using distill. We will look to this results of the [NSC-Rwebsite](https://nscrweb.netlify.app/). Materials on `dsitill` you see on Extra materials. 
 
 
 <br>
