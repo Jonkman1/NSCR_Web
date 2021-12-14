@@ -19,6 +19,17 @@ knitr::opts_chunk$set(echo = FALSE)
 
 **Matt Ashby** talks about how to use time-series data in R for tasks such as understanding temporal patterns in crime data and forecasting the future frequency of crime under different scenarios, either for future planning or as a counter-factual against which to compare actual against forecast crime frequency.
 
+**Here are links to**
+
+* [Matt's slides for the presentation](http://lesscrime.info/slides/time-series-models-nscr/#1)
+
+* [The code creating the slides for the presentation](  https://github.com/mpjashby/police-crime-forecasting/blob/master/output/forecasting-time-series-in-r.Rmd)
+
+* [The code for the example](https://github.com/mpjashby/police-crime-forecasting/blob/master/output/forecasting-time-series-in-r-example.R) that Matt worked 
+ through during the presentation.
+
+
+
 > **Matt Ashby** is a lecturer in crime science at the Jill Dando Institute of Security and Crime Science at University College London (UCL). He uses R to analyse spatial and temporal patterns of crime and police data as well as teaching crime mapping and crime analysis in R. He is also the author of the ‘crimedata’ package for conveniently accessing large datasets of recorded crime for research.
 
 
