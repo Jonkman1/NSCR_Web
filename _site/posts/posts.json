@@ -1,5 +1,39 @@
 [
   {
+    "path": "posts/2021-12-14-text-analysis-in-r/",
+    "title": "Text analysis in R",
+    "description": "How to conduct text analysis in R?",
+    "author": [
+      {
+        "name": "Anthony Dixon",
+        "url": "https://www.researchgate.net/profile/Anthony-Dixon-10/"
+      }
+    ],
+    "date": "2022-02-03",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-12-14T23:39:54+01:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2021-12-14-network-analysis-in-r/",
+    "title": "Network analysis in R",
+    "description": "An introduction to network data, network visualization and network analysis. description of the post.",
+    "author": [
+      {
+        "name": "Ieke de Vries",
+        "url": "https://www.iekedevries.com/"
+      }
+    ],
+    "date": "2022-01-20",
+    "categories": [],
+    "contents": "\r\n\r\nIeke de Vries is an assistant professor at Institute of Crimina Law and Criminology at Leiden University.\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-12-14T23:28:50+01:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-10-28-distill/",
     "title": "Using R package distill to build websites",
     "description": "How to use the R package distill to build websites (like this one)",

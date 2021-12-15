@@ -5,21 +5,21 @@
       "title": "Workshops",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-12-14T23:08:17+01:00"
+      "last_modified": "2021-12-15T09:52:54+01:00"
     },
     {
       "path": "index.html",
       "title": "About us",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\nAim of the NSC-R Workshops?\r\nThe NSC-R Workshops is a series of weekly one-hour online instructional sessions to support participants in developing their data science skills in R, and to promote open science principles. The NSC-R workshop meetings are organized by a team affliated with the Netherlands Institute for the Study of Crime and Law Enforcement (NSCR), but they are open to everyone, regardless of affiliation or skill level.\r\nNSC-R Workshop Team\r\nThe NSC-R Workshop Team coordinates the NSC-R Workshops. They discuss potential topics, invite presenters, plan the meetings and send invitations. Currently the team includes Wim Bernasco, Sam Langton, Asier Moneva and Alex Trinidad.\r\nContact Us and Get involved\r\nIf you want your e-mail address on our mailing list, please send an e-mail to Wim Bernasco at wbernasco@nscr.nl.\r\nIf you have suggestions for workshop topics, or are interested in presenting one, please send a message to Wim Bernasco (wbernasco@nscr.nl), Asier Moneva (amoneva@nscr.nl), Sam Langton (slangton@nscr.nl) or Alex Trinidad (atrinidad@nscr.nl).\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-12-14T23:11:12+01:00"
+      "last_modified": "2021-12-15T09:52:57+01:00"
     },
     {
       "path": "other.html",
       "title": "Extra material",
       "author": [],
       "contents": "\r\nOn Learning R\r\nBatra, N. (ed, 2021). The Epidemiologist R Handbook. here\r\nBaumer, B.S., Kaplan, D.T. & Horton, N.J. (2018). Modern Data Science with R. Boca Raton: CRC Press.\r\nGrolemund, G. & Wickham, H. (2019). R for Data Science. here\r\nIrizarry, R.A. (2019). Introduction to Data Science. Data Analysis and Prediction Algorithms with R. here\r\nKaplan, J. (2021). Crime by the Numbers: A Criminologist’s Guide to R. here\r\nOn Reproducibility\r\nGandrud, C. Reproducible Research with R and RStudio, Second edition. here\r\nNavarro, D. (2019). Learning statistics with R: A tutorial for psychology students and other beginners. here\r\nOn RMarkdown\r\nXie, Y., Allaire, J.J. & Grolemund, G.(2019). R Markdown: The Definitive Guide. here\r\nXie, Y., Dervieux, C. & Riederer, E. (2021). RMarkdown Cookbook. [here(https://bookdown.org/yihui/rmarkdown-cookbook/)\r\nOn Spatial data\r\nLovelace, R., Nowosad, J. & Muenchow, J. (2021, this version). Geocomputation with R. here\r\nOn Open data\r\nOn Spatial regression\r\nOn Tidyverse\r\nGrolemund, G. & Wickham, H. (2019). R for Data Science. here\r\nOn crime forecasting\r\nOn small area estimation\r\nOn Git, GitHub and R/RStudio\r\nDouglas, A., Roos, D., Mancini, F., Couto, A. and Lusseau, D., An introduction to R, chapter 9, here. Thank you.\r\nBryan, J., Happy Git and GitHub for the useR, here\r\nLendway, L., github_for_collaboration, here\r\nOn youtube, here\r\nOn youtube also, here\r\nOn distill\r\nLiza Lendways nice description, here\r\nDifferent steps, here\r\nRStduio’s official website link, here\r\nRStduio’s neww developements on distill,here\r\nWorkshop on distill you find, here\r\n–\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-12-14T23:08:19+01:00"
+      "last_modified": "2021-12-15T09:53:00+01:00"
     }
   ],
   "collections": ["posts/posts.json"]
