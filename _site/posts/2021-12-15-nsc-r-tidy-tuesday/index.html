@@ -20,9 +20,9 @@
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode { white-space: pre; position: relative; }
 div.sourceCode { margin: 1em 0; }
@@ -32,16 +32,14 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
 }
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(title);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
+    border: none; pointer-events: all; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -50,9 +48,9 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {   }
+  {  }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+a.sourceLine::before { text-decoration: underline; }
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
@@ -86,47 +84,47 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-<title>NSC-R: Using R package distill to build websites</title>
+<title>NSC-R: NSC-R Tidy Tuesday</title>
 
-<meta property="description" itemprop="description" content="How to use the R package distill to build websites (like this one)"/>
+<meta property="description" itemprop="description" content="Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues."/>
 
-<link rel="canonical" href="https://nscrweb.netlify.app/posts/2021-10-28-distill/"/>
+<link rel="canonical" href="https://nscrweb.netlify.app/posts/2021-12-15-nsc-r-tidy-tuesday/"/>
 
 <!--  https://schema.org/Article -->
-<meta property="article:published" itemprop="datePublished" content="2021-12-07"/>
-<meta property="article:created" itemprop="dateCreated" content="2021-12-07"/>
-<meta name="article:author" content="Harrie Jonkman"/>
+<meta property="article:published" itemprop="datePublished" content="2022-01-11"/>
+<meta property="article:created" itemprop="dateCreated" content="2022-01-11"/>
+<meta name="article:author" content="Sam Langton"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-<meta property="og:title" content="NSC-R: Using R package distill to build websites"/>
+<meta property="og:title" content="NSC-R: NSC-R Tidy Tuesday"/>
 <meta property="og:type" content="article"/>
-<meta property="og:description" content="How to use the R package distill to build websites (like this one)"/>
-<meta property="og:url" content="https://nscrweb.netlify.app/posts/2021-10-28-distill/"/>
+<meta property="og:description" content="Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues."/>
+<meta property="og:url" content="https://nscrweb.netlify.app/posts/2021-12-15-nsc-r-tidy-tuesday/"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:site_name" content="NSC-R"/>
 
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary"/>
-<meta property="twitter:title" content="NSC-R: Using R package distill to build websites"/>
-<meta property="twitter:description" content="How to use the R package distill to build websites (like this one)"/>
-<meta property="twitter:url" content="https://nscrweb.netlify.app/posts/2021-10-28-distill/"/>
+<meta property="twitter:title" content="NSC-R: NSC-R Tidy Tuesday"/>
+<meta property="twitter:description" content="Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues."/>
+<meta property="twitter:url" content="https://nscrweb.netlify.app/posts/2021-12-15-nsc-r-tidy-tuesday/"/>
 
 <!--  https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
-<meta name="citation_title" content="NSC-R: Using R package distill to build websites"/>
-<meta name="citation_fulltext_html_url" content="https://nscrweb.netlify.app/posts/2021-10-28-distill/"/>
-<meta name="citation_online_date" content="2021/12/07"/>
-<meta name="citation_publication_date" content="2021/12/07"/>
-<meta name="citation_author" content="Harrie Jonkman"/>
+<meta name="citation_title" content="NSC-R: NSC-R Tidy Tuesday"/>
+<meta name="citation_fulltext_html_url" content="https://nscrweb.netlify.app/posts/2021-12-15-nsc-r-tidy-tuesday/"/>
+<meta name="citation_online_date" content="2022/01/11"/>
+<meta name="citation_publication_date" content="2022/01/11"/>
+<meta name="citation_author" content="Sam Langton"/>
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Using R package distill to build websites"]},{"type":"character","attributes":{},"value":["How to use the R package distill to build websites (like this one)"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Harrie Jonkman"]},{"type":"character","attributes":{},"value":["www.harriejonkman.nl/"]}]}]},{"type":"character","attributes":{},"value":["12-07-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://nscrweb.netlify.app/posts/2021-10-28-distill/"]},{"type":"character","attributes":{},"value":["https://nscrweb.netlify.app/posts/2021-10-28-distill/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["NSC-R Tidy Tuesday"]},{"type":"character","attributes":{},"value":["Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Sam Langton"]},{"type":"character","attributes":{},"value":["https://nscr.nl/en/medewerker/sam-langton/"]}]}]},{"type":"character","attributes":{},"value":["01-11-2022"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://nscrweb.netlify.app/posts/2021-12-15-nsc-r-tidy-tuesday/"]},{"type":"character","attributes":{},"value":["https://nscrweb.netlify.app/posts/2021-12-15-nsc-r-tidy-tuesday/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["distill_files/anchor-4.2.2/anchor.min.js","distill_files/bowser-1.9.3/bowser.min.js","distill_files/distill-2.2.21/template.v2.js","distill_files/jquery-1.11.3/jquery.min.js","distill_files/jquery-3.6.0/jquery-3.6.0.js","distill_files/jquery-3.6.0/jquery-3.6.0.min.js","distill_files/jquery-3.6.0/jquery-3.6.0.min.map","distill_files/popper-2.6.0/popper.min.js","distill_files/tippy-6.2.7/tippy-bundle.umd.min.js","distill_files/tippy-6.2.7/tippy-light-border.css","distill_files/tippy-6.2.7/tippy.css","distill_files/tippy-6.2.7/tippy.umd.min.js","distill_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"character","attributes":{},"value":["nsc-r-tidy-tuesday_files/anchor-4.2.2/anchor.min.js","nsc-r-tidy-tuesday_files/bowser-1.9.3/bowser.min.js","nsc-r-tidy-tuesday_files/distill-2.2.21/template.v2.js","nsc-r-tidy-tuesday_files/jquery-1.11.3/jquery.min.js","nsc-r-tidy-tuesday_files/popper-2.6.0/popper.min.js","nsc-r-tidy-tuesday_files/tippy-6.2.7/tippy-bundle.umd.min.js","nsc-r-tidy-tuesday_files/tippy-6.2.7/tippy-light-border.css","nsc-r-tidy-tuesday_files/tippy-6.2.7/tippy.css","nsc-r-tidy-tuesday_files/tippy-6.2.7/tippy.umd.min.js","nsc-r-tidy-tuesday_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2370,7 +2368,7 @@ d-appendix d-footnote-list a.footnote-backlink {
   color: var(--hover-color, white);
 }</style>
 <!--/radix_placeholder_distill-->
-  <script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
   <script src="../../site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="../../site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="../../site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2390,7 +2388,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Using R package distill to build websites","description":"How to use the R package distill to build websites (like this one)","authors":[{"author":"Harrie Jonkman","authorURL":"www.harriejonkman.nl/","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-12-07T00:00:00.000+01:00","citationText":"Jonkman, 2021"}
+{"title":"NSC-R Tidy Tuesday","description":"Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.","authors":[{"author":"Sam Langton","authorURL":"https://nscr.nl/en/medewerker/sam-langton/","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2022-01-11T00:00:00.000+01:00","citationText":"Langton, 2022"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2426,25 +2424,20 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Using R package distill to build websites</h1>
+<h1>NSC-R Tidy Tuesday</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>How to use the R package distill to build websites (like this one)</p></p>
+<p>Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.</p>
 </div>
 
 <div class="d-byline">
-  Harrie Jonkman www.harriejonkman.nl/ 
+  Sam Langton <a href="https://nscr.nl/en/medewerker/sam-langton/" class="uri">https://nscr.nl/en/medewerker/sam-langton/</a> 
   
-<br/>12-07-2021
+<br/>01-11-2022
 </div>
 
 <div class="d-article">
-<p><a href="https://rstudio.github.io/distill/">Distill</a> is a package which is built on and for <code>RMarkdown</code>, the ecosystem of packages for creating computational documents in R. The goal of the <code>distill</code> package is to provide an output format optimized for online scientific and technical communication. The <code>distill</code>-R package provides HTML output formats for R Markdown documents. With the use of <code>distill</code> you can make articles, blogs and website. The idea was to create a platform to help scientists harness the benefits of modern HTML-based communication, which digital designers and journalists have been using to create interactive and engaging articles that meet readers where they are: online.</p>
-<p>In this workshop you are introduced to this package. You learn how to build your own website and blog, how to place it on GitHub and deploy it for free by using Netlify. The NSC-R teammembers recently developed a website for the NSC-R workshops by using distill. We will look to this results of the <a href="https://nscrweb.netlify.app/">NSC-Rwebsite</a> .</p>
-<p><br></p>
-<blockquote>
-<p><a href="https://www.harriejonkman.nl">Harrie Jonkman</a>is a senior researcher at the <a href="https://www.verwey-jonker.nl/">Verwey Jonker Institute</a>. He works in the field of cognitive and social development of children and youngsters in relation to the contexts in which they grow up (family, school, friends, community and country). Recently he edited with David Farrington and Frederick Groeger-Roth <a href="https://link.springer.com/book/10.1007/978-3-030-58442-9">Delinquency and Substance Use in Europe. Understanding Risk and Protective Factors</a>. He also finished recently the open-source book <a href="http://www.harriejonkman.nl/wp-content/uploads/2021/05/Terugschrijven_def.pdf">Terugschrijven</a> on knowledge, development and democracy. He is interested in open-source data analysis and has his blog <a href="http://www.harriejonkman.nl/HarriesHoekje/">Harrie’s Hoekje</a> on this topic.</p>
-</blockquote>
+<p>The NSC-R Tidy Tuesday workshop sessions are inspired by the <a href="https://www.tidytuesday.com/">Tidy Tuesday</a> initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -2460,13 +2453,13 @@ d-appendix d-footnote-list a.footnote-backlink {
 <div class="appendix-bottom">
   <h3 id="citation">Citation</h3>
   <p>For attribution, please cite this work as</p>
-  <pre class="citation-appendix short">Jonkman (2021, Dec. 7). NSC-R: Using R package distill to build websites. Retrieved from https://nscrweb.netlify.app/posts/2021-10-28-distill/</pre>
+  <pre class="citation-appendix short">Langton (2022, Jan. 11). NSC-R: NSC-R Tidy Tuesday. Retrieved from https://nscrweb.netlify.app/posts/2021-12-15-nsc-r-tidy-tuesday/</pre>
   <p>BibTeX citation</p>
-  <pre class="citation-appendix long">@misc{jonkman2021using,
-  author = {Jonkman, Harrie},
-  title = {NSC-R: Using R package distill to build websites},
-  url = {https://nscrweb.netlify.app/posts/2021-10-28-distill/},
-  year = {2021}
+  <pre class="citation-appendix long">@misc{langton2022nsc-r,
+  author = {Langton, Sam},
+  title = {NSC-R: NSC-R Tidy Tuesday},
+  url = {https://nscrweb.netlify.app/posts/2021-12-15-nsc-r-tidy-tuesday/},
+  year = {2022}
 }</pre>
 </div>
 <!--/radix_placeholder_appendices-->
