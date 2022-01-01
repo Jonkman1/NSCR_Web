@@ -1,0 +1,18 @@
+---
+title: "Looping in R"
+description: |
+  Learn how to use loops in R.
+author: Wouter Steenbeek
+date: 02-17-2022
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+A loop is a sequence of one or more R commands that is carried out repeatedly. In this workshop meeting you will learn how to efficiently program loops in R.
+
+

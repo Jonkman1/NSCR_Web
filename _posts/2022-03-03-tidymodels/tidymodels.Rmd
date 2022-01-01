@@ -1,0 +1,23 @@
+---
+title: "Tidymodels"
+description: |
+  An introduction to the tidymodels package 
+author:
+  - name: Nathan Khadaroo-McCheyne
+    url: https://www.researchgate.net/profile/Nathan-Khadaroo
+date: 03-03-2022
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+> **Nathan Khadaroo-McCheyne** is a PhD candidate at the Institute for Data Science and Artificial Intelligence at the University of Manchester.
+
+
+
+

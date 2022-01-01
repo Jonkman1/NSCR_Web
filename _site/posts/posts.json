@@ -1,6 +1,74 @@
 [
   {
-    "path": "posts/2021-12-14-text-analysis-in-r/",
+    "path": "posts/2022-03-03-tidymodels/",
+    "title": "Tidymodels",
+    "description": "An introduction to the tidymodels package",
+    "author": [
+      {
+        "name": "Nathan Khadaroo-McCheyne",
+        "url": "https://www.researchgate.net/profile/Nathan-Khadaroo"
+      }
+    ],
+    "date": "2022-03-03",
+    "categories": [],
+    "contents": "\r\n\r\nNathan Khadaroo-McCheyne is a PhD candidate at the Institute for Data Science and Artificial Intelligence at the University of Manchester.\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-01-01T12:57:12+01:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2022-02-22-nsc-r-tidy-tuesday/",
+    "title": "NSC-R Tidy Tuesday",
+    "description": "Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.",
+    "author": [
+      {
+        "name": "Alex Trinidad",
+        "url": "https://www.alexandertrinidad.com/"
+      }
+    ],
+    "date": "2022-02-22",
+    "categories": [],
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-01-01T10:54:53+01:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2022-02-17-looping-in-r/",
+    "title": "Looping in R",
+    "description": "Learn how to use loops in R.",
+    "author": [
+      {
+        "name": "Wouter Steenbeek",
+        "url": {}
+      }
+    ],
+    "date": "2022-02-17",
+    "categories": [],
+    "contents": "\r\nA loop is a sequence of one or more R commands that is carried out repeatedly. In this workshop meeting you will learn how to efficiently program loops in R.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-01-01T10:12:40+01:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2022-02-08-nsc-r-tidy-tuesday/",
+    "title": "NSC-R Tidy Tuesday",
+    "description": "Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.",
+    "author": [
+      {
+        "name": "Asier Moneva",
+        "url": "https://nscr.nl/en/medewerker/asier-moneva/"
+      }
+    ],
+    "date": "2022-02-08",
+    "categories": [],
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-01-01T11:01:54+01:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2022-02-03-text-analysis-in-r/",
     "title": "Text analysis in R",
     "description": "How to conduct text analysis in R?",
     "author": [
@@ -17,9 +85,26 @@
     "input_file": {}
   },
   {
-    "path": "posts/2021-12-14-network-analysis-in-r/",
+    "path": "posts/2022-01-25-nsc-r-tidy-tuesday/",
+    "title": "NSC-R Tidy Tuesday",
+    "description": "Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.",
+    "author": [
+      {
+        "name": "Wim Bernasco",
+        "url": "https://nscr.nl/en/medewerker/wim-bernasco/"
+      }
+    ],
+    "date": "2022-01-25",
+    "categories": [],
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-12-21T22:24:02+01:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2022-01-20-network-analysis-in-r/",
     "title": "Network analysis in R",
-    "description": "An introduction to network data, network visualization and network analysis. description of the post.",
+    "description": "An introduction to network data, network visualization and network analysis.",
     "author": [
       {
         "name": "Ieke de Vries",
@@ -28,13 +113,13 @@
     ],
     "date": "2022-01-20",
     "categories": [],
-    "contents": "\r\n\r\nIeke de Vries is an assistant professor at Institute of Crimina Law and Criminology at Leiden University.\r\n\r\n\r\n\r\n\r\n",
+    "contents": "\r\n\r\nIeke de Vries is an assistant professor at the Institute of Criminal Law and Criminology at Leiden University.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-12-14T23:28:50+01:00",
+    "last_modified": "2021-12-21T22:19:30+01:00",
     "input_file": {}
   },
   {
-    "path": "posts/2021-12-15-nsc-r-tidy-tuesday/",
+    "path": "posts/2022-01-11-nsc-r-tidy-tuesday/",
     "title": "NSC-R Tidy Tuesday",
     "description": "Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.",
     "author": [
@@ -51,7 +136,7 @@
     "input_file": {}
   },
   {
-    "path": "posts/2021-10-28-distill/",
+    "path": "posts/2021-12-07-distill/",
     "title": "Using R package distill to build websites",
     "description": "How to use the R package distill to build websites (like this one)",
     "author": [
@@ -68,7 +153,7 @@
     "input_file": {}
   },
   {
-    "path": "posts/2021-10-12-github/",
+    "path": "posts/2021-11-25-github/",
     "title": "Using GitHub for version control, collaboration and code sharing.",
     "description": "A workshop on using GitHub for version control, collaboration and code sharing.",
     "author": [
@@ -99,6 +184,23 @@
     "contents": "\r\nAccording to David Buil-Gil, victimization surveys provide key information about crimes known and unknown to the police, and are the main source of data to analyse perceived safety and confidence in policing. These surveys, however, are only designed to allow aggregating responses and producing reliable direct estimates (i.e., weighted means or totals) at very large spatial scales, such as countries or states. Sample sizes are too small to produce direct estimates of adequate precision at the increasingly refined spatial scales of the criminology of place. Model-based small area estimation techniques may be used to improve the reliability of small area estimates produced from victimization surveys. Small area estimation techniques are applied to produce reliable estimates of parameters of interest (and their associated measures of error) for areas for which only small or zero sample sizes are available. This workshop will introduce theory and show a step-by-step exemplar study in R to illustrate the utility of small area estimation for crime and place research. You find materials here. And his presentation here\r\n\r\nDavid Buil-Gil is a Lecturer in Quantitative Criminology at the Department of Criminology of the University of Manchester, and a core member of the Manchester Centre for Digital Trust and Society. His research areas cover geographic criminology, small area estimation applications in criminology, measurement error in criminological research, new methods for data collection, and open data.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
     "last_modified": "2021-12-14T22:57:16+01:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2021-10-12-forecasting/",
+    "title": "COVID-19 crime forecasting models",
+    "description": "COVID-19 crime forecasting models.",
+    "author": [
+      {
+        "name": "Matt Ashby",
+        "url": "http://lesscrime.info/"
+      }
+    ],
+    "date": "2021-10-28",
+    "categories": [],
+    "contents": "\r\n\r\nMatt Ashby is a lecturer in crime science at the Jill Dando Institute of Security and Crime Science at University College London (UCL). He is interested in crime analysis – particularly how crime concentrates in time and space – in crime prevention and in transport crime. You can find read more about Matt on his website.\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-10-12T08:35:47+02:00",
     "input_file": {}
   },
   {
@@ -143,13 +245,17 @@
       {
         "name": "Wouter Steenbeek",
         "url": "https://nscr.nl/en/medewerker/wouter-steenbeek/#onderzoeksgebieden"
+      },
+      {
+        "name": "Stijn Ruiter",
+        "url": "https://nscr.nl/en/medewerker/stijn-ruiter/#onderzoeksgebieden"
       }
     ],
     "date": "2021-09-27",
     "categories": [],
-    "contents": "\r\nThis workshop session was about using R for regression analysis, both in a non-spatial and a spatial context. Wouter and Stijn will be presenting parts of what they prepared for a recent book chapter (in press).These materials were scaned to get an idea of what the workshop will cover.Here you can find the data, the syntax and the html-file presented material\r\n\r\nWouter is a Senior Researcher at the NSCR. For analyses he has used Excel, SPSS, Stata Mplus, MLWiN, and QGis. Not a big fan of C++ and Java, but once upon a time he knew the basics. Wouter started using R around 2012, due to a collaboration with a visiting scholar who used R. Classic case of SIR model (Susceptible - Infection - Recovery) although he has never recovered from his R infection. Also, the R bug destroyed his interest in the above-mentioned programs :-). His main research interests are in spatial patterns of crime and quantitative research methods.\r\n\r\n\r\nStijn is a Senior Researcher and management team member at the NSCR. He is program leader of two of its five research groups, and also Professor at the Department of Sociology, Utrecht University. Stijn has used R ever since he attended the Summer School in Ann Arbor in 2004, even for generating his kitchen tiling pattern. His main research interests are in Geographic and Environmental Criminology, Policing, Quantitative, Analytical, and Computational Sociology, and he is a great believer in Open Science and Open-source.\r\n\r\n\r\n\r\n\r\n",
+    "contents": "\r\nThis workshop session was about using R for regression analysis, both in a non-spatial and a spatial context. Wouter and Stijn presented parts of what they prepared for a recent book chapter (in press). Here you can find the data, the syntax and the html-file presented in the workshop meeting.\r\n\r\nWouter is a Senior Researcher at the NSCR. For analyses he has used Excel, SPSS, Stata Mplus, MLWiN, and QGis. Not a big fan of C++ and Java, but once upon a time he knew the basics. Wouter started using R around 2012, due to a collaboration with a visiting scholar who used R. Classic case of SIR model (Susceptible - Infection - Recovery) although he has never recovered from his R infection. Also, the R bug destroyed his interest in the above-mentioned programs :-). His main research interests are in spatial patterns of crime and quantitative research methods.\r\n\r\n\r\nStijn is a Senior Researcher and management team member at the NSCR. He is program leader of two of its five research groups, and also Professor at the Department of Sociology, Utrecht University. Stijn has used R ever since he attended the Summer School in Ann Arbor in 2004, even for generating his kitchen tiling pattern. His main research interests are in Geographic and Environmental Criminology, Policing, Quantitative, Analytical, and Computational Sociology, and he is a great believer in Open Science and Open-source.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-12-14T22:57:16+01:00",
+    "last_modified": "2022-01-01T22:36:39+01:00",
     "input_file": {}
   },
   {
@@ -170,7 +276,7 @@
     "input_file": {}
   },
   {
-    "path": "posts/2021-09-05-spatioldata/",
+    "path": "posts/2021-09-02-spatialdata/",
     "title": "Spatial Data",
     "description": "How to work with spatial data.",
     "author": [
@@ -187,7 +293,7 @@
     "input_file": {}
   },
   {
-    "path": "posts/2021-09-05-rmarkdown/",
+    "path": "posts/2021-07-06-rmarkdown/",
     "title": "RMarkdown",
     "description": "Introduction to literate programming using RMarkdown",
     "author": [
@@ -204,7 +310,7 @@
     "input_file": {}
   },
   {
-    "path": "posts/2021-09-04-workshop1-reproducibility/",
+    "path": "posts/2021-06-24-workshop1-reproducibility/",
     "title": "Reproducibility",
     "description": "How to organize your research workflow in R to create documented code and reproducible findings.",
     "author": [
