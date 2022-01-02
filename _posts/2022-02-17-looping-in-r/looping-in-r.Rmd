@@ -15,4 +15,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 A loop is a sequence of one or more R commands that is carried out repeatedly. In this workshop meeting you will learn how to efficiently program loops in R.
 
+Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/89872375187?pwd=V2V3dTJrSzlwN3VwaEp5RkxsTE4xUT09)
+
+
+
+
+
 

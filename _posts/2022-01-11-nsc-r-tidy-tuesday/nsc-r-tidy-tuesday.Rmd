@@ -17,5 +17,5 @@ The NSC-R Tidy Tuesday workshop sessions are inspired by the [Tidy Tuesday](http
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-
+Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/86851126863?pwd=LzM5bU42Y0crRnJoRGtTWWExUHNSdz09)
 

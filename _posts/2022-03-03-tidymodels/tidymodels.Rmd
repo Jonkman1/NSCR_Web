@@ -18,6 +18,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 > **Nathan Khadaroo-McCheyne** is a PhD candidate at the Institute for Data Science and Artificial Intelligence at the University of Manchester.
 
+Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/85416485724?pwd=K3ZNTXNEYk00cVNnTFJFV040RHlRZz09)
+
 
 
 

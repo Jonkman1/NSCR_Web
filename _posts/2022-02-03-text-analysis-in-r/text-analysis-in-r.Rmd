@@ -16,5 +16,8 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/85477754782?pwd=cExxK2NCSFVWdERVcERMMVg3WjFCdz09)
+
+
 
 
