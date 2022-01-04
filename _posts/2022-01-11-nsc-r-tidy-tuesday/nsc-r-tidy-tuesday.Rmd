@@ -1,7 +1,7 @@
 ---
 title: "NSC-R Tidy Tuesday"
 description: |
-  Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.
+  Improve your R skills in entertaining, inspiring and supportive sessions presented by your colleagues.
 author:
   - name: Sam Langton
     url: https://nscr.nl/en/medewerker/sam-langton/
@@ -10,12 +10,17 @@ output:
   distill::distill_article:
     self_contained: false
 ---
-The NSC-R Tidy Tuesday workshop sessions are inspired by the [Tidy Tuesday](https://www.tidytuesday.com/) initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data. 
 
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/86851126863?pwd=LzM5bU42Y0crRnJoRGtTWWExUHNSdz09)
+The NSC-R Tidy Tuesday workshop sessions are inspired by the [Tidy Tuesday](https://www.tidytuesday.com/) initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data. 
 
+On *Tuesday 11 January*, Sam Langton will demonstrate some foundational R skills using a [Tidy Tuesday dataset](https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-12-21/starbucks.csv) on the nutritional (or not so nutritional) content of Starbucks drinks. If you'd like to learn more about basic wrangling and visualization in R, then come along and listen.
+
+Join this workshop on Zoom by clicking [this link](https://us02web.zoom.us/j/86851126863?pwd=LzM5bU42Y0crRnJoRGtTWWExUHNSdz09)
+
+
+*Sam* is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on describing and explaining the spatial and temporal patterning of police demand. Sam is interested in promoting open science in criminology, particularly through open data and sharing his knowledge (and struggles) in R
