@@ -1,5 +1,5 @@
 ---
-title: "NSC-R Tidy Tuesday"
+title: "NSC-R Tidy 2's Day"
 description: |
   Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.
 author:
@@ -17,6 +17,8 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 The NSC-R Tidy Tuesday workshop sessions are inspired by the [Tidy Tuesday](https://www.tidytuesday.com/) initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.
+
+This Tidy Tuesday happens to take place on 2's day, a palindrome date in the Dutch date notation (2022-22-02).  
 
 Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/84912367177?pwd=cElFYmZ4ckNidSs4QzdvdUQ4M2tlUT09)
 

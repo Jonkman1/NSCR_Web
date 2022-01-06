@@ -18,7 +18,7 @@
   },
   {
     "path": "posts/2022-02-22-nsc-r-tidy-tuesday/",
-    "title": "NSC-R Tidy Tuesday",
+    "title": "NSC-R Tidy 2's Day",
     "description": "Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.",
     "author": [
       {
@@ -28,10 +28,10 @@
     ],
     "date": "2022-02-22",
     "categories": [],
-    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\n\r\n\r\n",
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nThis Tidy Tuesday happens to take place on 2’s day, a palindrome date in the Dutch date notation (2022-22-02).\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-01-04T19:15:14+01:00",
-    "input_file": {}
+    "last_modified": "2022-01-06T14:25:37+01:00",
+    "input_file": "nsc-r-tidy-tuesday.knit.md"
   },
   {
     "path": "posts/2022-02-17-looping-in-r/",
