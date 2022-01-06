@@ -28,9 +28,9 @@
     ],
     "date": "2022-02-22",
     "categories": [],
-    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nThis Tidy Tuesday happens to take place on 2’s day, a palindrome date in the Dutch date notation (2022-22-02).\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\n\r\n\r\n",
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nThis Tidy Tuesday happens to take place on 2’s day, a palindrome date in the Dutch date notation (22-02-2022).\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-01-06T14:25:37+01:00",
+    "last_modified": "2022-01-06T14:36:57+01:00",
     "input_file": "nsc-r-tidy-tuesday.knit.md"
   },
   {
