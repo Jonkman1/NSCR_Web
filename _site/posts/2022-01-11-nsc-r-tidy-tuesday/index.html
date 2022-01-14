@@ -20,26 +20,28 @@
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(title);
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
+    border: none; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -48,9 +50,9 @@ pre.numberSource a.sourceLine::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {  }
+  {   }
 @media screen {
-a.sourceLine::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
@@ -125,7 +127,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["nsc-r-tidy-tuesday_files/anchor-4.2.2/anchor.min.js","nsc-r-tidy-tuesday_files/bowser-1.9.3/bowser.min.js","nsc-r-tidy-tuesday_files/distill-2.2.21/template.v2.js","nsc-r-tidy-tuesday_files/jquery-1.11.3/jquery.min.js","nsc-r-tidy-tuesday_files/jquery-3.6.0/jquery-3.6.0.js","nsc-r-tidy-tuesday_files/jquery-3.6.0/jquery-3.6.0.min.js","nsc-r-tidy-tuesday_files/jquery-3.6.0/jquery-3.6.0.min.map","nsc-r-tidy-tuesday_files/popper-2.6.0/popper.min.js","nsc-r-tidy-tuesday_files/tippy-6.2.7/tippy-bundle.umd.min.js","nsc-r-tidy-tuesday_files/tippy-6.2.7/tippy-light-border.css","nsc-r-tidy-tuesday_files/tippy-6.2.7/tippy.css","nsc-r-tidy-tuesday_files/tippy-6.2.7/tippy.umd.min.js","nsc-r-tidy-tuesday_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"character","attributes":{},"value":["nsc-r-tidy-tuesday_files/anchor-4.2.2/anchor.min.js","nsc-r-tidy-tuesday_files/bowser-1.9.3/bowser.min.js","nsc-r-tidy-tuesday_files/distill-2.2.21/template.v2.js","nsc-r-tidy-tuesday_files/header-attrs-2.11/header-attrs.js","nsc-r-tidy-tuesday_files/jquery-1.11.3/jquery.min.js","nsc-r-tidy-tuesday_files/jquery-3.6.0/jquery-3.6.0.js","nsc-r-tidy-tuesday_files/jquery-3.6.0/jquery-3.6.0.min.js","nsc-r-tidy-tuesday_files/jquery-3.6.0/jquery-3.6.0.min.map","nsc-r-tidy-tuesday_files/popper-2.6.0/popper.min.js","nsc-r-tidy-tuesday_files/tippy-6.2.7/tippy-bundle.umd.min.js","nsc-r-tidy-tuesday_files/tippy-6.2.7/tippy-light-border.css","nsc-r-tidy-tuesday_files/tippy-6.2.7/tippy.css","nsc-r-tidy-tuesday_files/tippy-6.2.7/tippy.umd.min.js","nsc-r-tidy-tuesday_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -471,7 +473,7 @@ d-title {
 
 </style>
 
-<script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <link href="../../site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
 <link href="../../site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
 <script src="../../site_libs/headroom-0.9.4/headroom.min.js"></script>
@@ -1878,7 +1880,10 @@ function init_distill() {
 
     // hoverable references
     $('span.citation[data-cites]').each(function() {
-      var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+      var refs = $(this).attr('data-cites').split(" ");
+      var refHtml = refs.map(function(ref) {
+        return "<p>" + $('#ref-' + ref).html() + "</p>";
+      }).join("\n");
       window.tippy(this, {
         allowHTML: true,
         content: refHtml,
@@ -2369,6 +2374,7 @@ d-appendix d-footnote-list a.footnote-backlink {
   color: var(--hover-color, white);
 }</style>
 <!--/radix_placeholder_distill-->
+  <script src="../../site_libs/header-attrs-2.11/header-attrs.js"></script>
   <script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <script src="../../site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="../../site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
@@ -2428,7 +2434,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <h1>NSC-R Tidy Tuesday</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p>Improve your R skills in entertaining, inspiring and supportive sessions presented by your colleagues.</p>
+<p><p>Improve your R skills in entertaining, inspiring and supportive sessions presented by your colleagues.</p></p>
 </div>
 
 <div class="d-byline">
@@ -2441,7 +2447,13 @@ d-appendix d-footnote-list a.footnote-backlink {
 <p>The NSC-R Tidy Tuesday workshop sessions are inspired by the <a href="https://www.tidytuesday.com/">Tidy Tuesday</a> initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.</p>
 <p>Sam Langton will demonstrate some foundational R skills using a <a href="https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-12-21/starbucks.csv">Tidy Tuesday dataset</a> on the nutritional (or not so nutritional) content of Starbucks drinks. If you’d like to learn more about basic wrangling and visualization in R, then come along and listen.</p>
 <p>Join this workshop <em>Tuesday January 11, 2022 at 13:00</em> on Zoom by clicking <a href="https://us02web.zoom.us/j/86851126863?pwd=LzM5bU42Y0crRnJoRGtTWWExUHNSdz09">this link</a></p>
-<p><em>Sam</em> is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on describing and explaining the spatial and temporal patterning of police demand. Sam is interested in promoting open science in criminology, particularly through open data and sharing his knowledge (and struggles) in R</p>
+<p><em>Sam</em> is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on describing and explaining the spatial and temporal patterning of police demand. Sam is interested in promoting open science in criminology, particularly through open data and sharing his knowledge (and struggles) in R.</p>
+<h3 id="materials">Materials</h3>
+<ul>
+<li>The <a href="../../../tidytuesday/11jan2022/presentation.pdf">slides (PDF)</a> of Sam’s presentation.</li>
+<li>The <a href="../../../tidytuesday/11jan2022/script.R">script (R)</a> that Sam worked through.</li>
+<li>The <a href="../../../tidytuesday/11jan2022/starbucks_plot.png">plot (PNG)</a> that was created by the script.</li>
+</ul>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -2467,11 +2479,13 @@ d-appendix d-footnote-list a.footnote-backlink {
 }</pre>
 </div>
 <!--/radix_placeholder_appendices-->
-<!--radix_placeholder_navigation_after_body-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<!--radix_placeholder_navigation_after_body--><html><body>
 <div class="distill-site-nav distill-site-footer">
-  <p>Â© NSC-R Workshops 2021. Thanks to Lisa Lendway, Alison Hill and Harrie Jonkman. Made with the R <a href="https://rstudio.github.io/distill/">distill</a> package.</p>
+<p>Â© NSC-R Workshops 2021. Thanks to Lisa Lendway, Alison Hill and Harrie Jonkman. Made with the R <a href="https://rstudio.github.io/distill/">distill</a> package.</p>
 </div>
 <!--/radix_placeholder_navigation_after_body-->
+</body></html>
 
 
 </body>

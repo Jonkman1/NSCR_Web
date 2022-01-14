@@ -3,14 +3,16 @@ title: "NSC-R Tidy Tuesday"
 description: |
   Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.
 author:
-  - name: Wim Bernasco
-    url: https://nscr.nl/en/medewerker/wim-bernasco/
+  - name: Sam Langton
+    url: https://nscr.nl/en/medewerker/sam-langton/
 date: 01-25-2022
 output:
   distill::distill_article:
     self_contained: false
 ---
 The NSC-R Tidy Tuesday workshop sessions are inspired by the [Tidy Tuesday](https://www.tidytuesday.com/) initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data. 
+
+As a continuation of his workshop on January 11, Sam Langton will demonstrate some foundational R skills using a [Tidy Tuesday dataset](https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-12-21/starbucks.csv) on the nutritional (or not so nutritional) content of Starbucks drinks. If you'd like to learn more about basic wrangling and visualization in R, then come along and listen. No problem if you did not attend the previous meeting.
 
 
 ```{r setup, include=FALSE}
@@ -21,4 +23,4 @@ knitr::opts_chunk$set(echo = FALSE)
 Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/82076162418?pwd=cUN0QmxETng3d3g3QlpObWsvRmk3dz09)
 
 
-
+*Sam* is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on describing and explaining the spatial and temporal patterning of police demand. Sam is interested in promoting open science in criminology, particularly through open data and sharing his knowledge (and struggles) in R.

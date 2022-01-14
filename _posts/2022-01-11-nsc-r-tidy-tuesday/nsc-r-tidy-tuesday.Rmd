@@ -23,4 +23,10 @@ Sam Langton will demonstrate some foundational R skills using a [Tidy Tuesday da
 Join this workshop *Tuesday January 11, 2022 at 13:00* on Zoom by clicking [this link](https://us02web.zoom.us/j/86851126863?pwd=LzM5bU42Y0crRnJoRGtTWWExUHNSdz09)
 
 
-*Sam* is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on describing and explaining the spatial and temporal patterning of police demand. Sam is interested in promoting open science in criminology, particularly through open data and sharing his knowledge (and struggles) in R
+*Sam* is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on describing and explaining the spatial and temporal patterning of police demand. Sam is interested in promoting open science in criminology, particularly through open data and sharing his knowledge (and struggles) in R.
+
+### Materials
+
+- The [slides (PDF)](../../../tidytuesday/11jan2022/presentation.pdf) of Sam's presentation.
+- The [script (R)](../../../tidytuesday/11jan2022/script.R) that Sam worked through.
+- The [plot (PNG)](../../../tidytuesday/11jan2022/starbucks_plot.png) that was created by the script.

@@ -15,7 +15,7 @@ glimpse(star_df)
 dim(star_df)
 sum(is.na(star_df))
 
-# Subset brewed coffee.
+# Subset brewed coffee (just an example).
 brew_df <- star_df %>% 
   filter(str_detect(product_name, "brewed coffee"))
 
@@ -32,7 +32,7 @@ big_ones_df <- star_df %>%
                             `4` = "coconut",
                             `5` = "whole")) # These categories are on the tt git page.
   
-# What in the relationship between calories and fat?
+# What in the relationship between calories and sugar?
 my_plot_gg <- ggplot(data = big_ones_df) +
   geom_point(mapping = aes(x = total_fat_g, y = calories, fill = whip_char),
              size = 2, alpha = 0.8, pch = 21, colour = "black") +
@@ -41,7 +41,7 @@ my_plot_gg <- ggplot(data = big_ones_df) +
        caption = "Data notes: grande drink size | Data source: tidytuesday | NSC-R workshop 11 Jan 2022",
        fill = NULL, x = "total fat (grams)") +
   scale_fill_manual(values = c("#036635", "#b5651d"),
-                      labels = c("Without whipped cream", "With whipped cream")) +
+                    labels = c("Without whipped cream", "With whipped cream")) +
   theme_bw() +
   theme(legend.position = "bottom",
         axis.text = element_text(size = 6),
@@ -49,6 +49,6 @@ my_plot_gg <- ggplot(data = big_ones_df) +
         plot.title = element_text(hjust = 0.5),
         plot.caption = element_text(size = 4))
 
-# Save.
+# Save. Note: change the file location according to your own laptop!!!
 ggsave(my_plot_gg, file = "C:/Users/langt/Documents/GitHub/nscr_graphics/visuals/starbucks_plot.png",
        height = 12, width = 12, unit = "cm")

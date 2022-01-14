@@ -20,26 +20,28 @@
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(title);
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
+    border: none; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -48,13 +50,13 @@ pre.numberSource a.sourceLine::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {  }
+  {   }
 @media screen {
-a.sourceLine::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -75,13 +77,14 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
+
 
   <!--radix_placeholder_meta_tags-->
 <title>NSC-R: NSC-R Tidy Tuesday</title>
@@ -93,7 +96,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--  https://schema.org/Article -->
 <meta property="article:published" itemprop="datePublished" content="2022-01-25"/>
 <meta property="article:created" itemprop="dateCreated" content="2022-01-25"/>
-<meta name="article:author" content="Wim Bernasco"/>
+<meta name="article:author" content="Sam Langton"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
 <meta property="og:title" content="NSC-R: NSC-R Tidy Tuesday"/>
@@ -114,12 +117,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <meta name="citation_fulltext_html_url" content="https://nscrweb.netlify.app/posts/2022-01-25-nsc-r-tidy-tuesday/"/>
 <meta name="citation_online_date" content="2022/01/25"/>
 <meta name="citation_publication_date" content="2022/01/25"/>
-<meta name="citation_author" content="Wim Bernasco"/>
+<meta name="citation_author" content="Sam Langton"/>
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["NSC-R Tidy Tuesday"]},{"type":"character","attributes":{},"value":["Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Wim Bernasco"]},{"type":"character","attributes":{},"value":["https://nscr.nl/en/medewerker/wim-bernasco/"]}]}]},{"type":"character","attributes":{},"value":["01-25-2022"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://nscrweb.netlify.app/posts/2022-01-25-nsc-r-tidy-tuesday/"]},{"type":"character","attributes":{},"value":["https://nscrweb.netlify.app/posts/2022-01-25-nsc-r-tidy-tuesday/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["NSC-R Tidy Tuesday"]},{"type":"character","attributes":{},"value":["Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Sam Langton"]},{"type":"character","attributes":{},"value":["https://nscr.nl/en/medewerker/sam-langton/"]}]}]},{"type":"character","attributes":{},"value":["01-25-2022"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://nscrweb.netlify.app/posts/2022-01-25-nsc-r-tidy-tuesday/"]},{"type":"character","attributes":{},"value":["https://nscrweb.netlify.app/posts/2022-01-25-nsc-r-tidy-tuesday/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -470,7 +473,7 @@ d-title {
 
 </style>
 
-<script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <link href="../../site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
 <link href="../../site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
 <script src="../../site_libs/headroom-0.9.4/headroom.min.js"></script>
@@ -1877,7 +1880,10 @@ function init_distill() {
 
     // hoverable references
     $('span.citation[data-cites]').each(function() {
-      var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+      var refs = $(this).attr('data-cites').split(" ");
+      var refHtml = refs.map(function(ref) {
+        return "<p>" + $('#ref-' + ref).html() + "</p>";
+      }).join("\n");
       window.tippy(this, {
         allowHTML: true,
         content: refHtml,
@@ -2368,7 +2374,8 @@ d-appendix d-footnote-list a.footnote-backlink {
   color: var(--hover-color, white);
 }</style>
 <!--/radix_placeholder_distill-->
-  <script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="../../site_libs/header-attrs-2.11/header-attrs.js"></script>
+  <script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <script src="../../site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="../../site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="../../site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2388,7 +2395,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"NSC-R Tidy Tuesday","description":"Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.","authors":[{"author":"Wim Bernasco","authorURL":"https://nscr.nl/en/medewerker/wim-bernasco/","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2022-01-25T00:00:00.000+01:00","citationText":"Bernasco, 2022"}
+{"title":"NSC-R Tidy Tuesday","description":"Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.","authors":[{"author":"Sam Langton","authorURL":"https://nscr.nl/en/medewerker/sam-langton/","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2022-01-25T00:00:00.000+01:00","citationText":"Langton, 2022"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2427,18 +2434,20 @@ d-appendix d-footnote-list a.footnote-backlink {
 <h1>NSC-R Tidy Tuesday</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p>Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.</p>
+<p><p>Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.</p></p>
 </div>
 
 <div class="d-byline">
-  Wim Bernasco <a href="https://nscr.nl/en/medewerker/wim-bernasco/" class="uri">https://nscr.nl/en/medewerker/wim-bernasco/</a> 
+  Sam Langton <a href="https://nscr.nl/en/medewerker/sam-langton/" class="uri">https://nscr.nl/en/medewerker/sam-langton/</a> 
   
 <br/>01-25-2022
 </div>
 
 <div class="d-article">
 <p>The NSC-R Tidy Tuesday workshop sessions are inspired by the <a href="https://www.tidytuesday.com/">Tidy Tuesday</a> initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.</p>
+<p>As a continuation of his workshop on January 11, Sam Langton will demonstrate some foundational R skills using a <a href="https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-12-21/starbucks.csv">Tidy Tuesday dataset</a> on the nutritional (or not so nutritional) content of Starbucks drinks. If you’d like to learn more about basic wrangling and visualization in R, then come along and listen. No problem if you did not attend the previous meeting.</p>
 <p>Join this workshop meeting on Zoom by clicking <a href="https://us02web.zoom.us/j/82076162418?pwd=cUN0QmxETng3d3g3QlpObWsvRmk3dz09">this link</a></p>
+<p><em>Sam</em> is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on describing and explaining the spatial and temporal patterning of police demand. Sam is interested in promoting open science in criminology, particularly through open data and sharing his knowledge (and struggles) in R.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -2454,21 +2463,23 @@ d-appendix d-footnote-list a.footnote-backlink {
 <div class="appendix-bottom">
   <h3 id="citation">Citation</h3>
   <p>For attribution, please cite this work as</p>
-  <pre class="citation-appendix short">Bernasco (2022, Jan. 25). NSC-R: NSC-R Tidy Tuesday. Retrieved from https://nscrweb.netlify.app/posts/2022-01-25-nsc-r-tidy-tuesday/</pre>
+  <pre class="citation-appendix short">Langton (2022, Jan. 25). NSC-R: NSC-R Tidy Tuesday. Retrieved from https://nscrweb.netlify.app/posts/2022-01-25-nsc-r-tidy-tuesday/</pre>
   <p>BibTeX citation</p>
-  <pre class="citation-appendix long">@misc{bernasco2022nsc-r,
-  author = {Bernasco, Wim},
+  <pre class="citation-appendix long">@misc{langton2022nsc-r,
+  author = {Langton, Sam},
   title = {NSC-R: NSC-R Tidy Tuesday},
   url = {https://nscrweb.netlify.app/posts/2022-01-25-nsc-r-tidy-tuesday/},
   year = {2022}
 }</pre>
 </div>
 <!--/radix_placeholder_appendices-->
-<!--radix_placeholder_navigation_after_body-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<!--radix_placeholder_navigation_after_body--><html><body>
 <div class="distill-site-nav distill-site-footer">
-  <p>Â© NSC-R Workshops 2021. Thanks to Lisa Lendway, Alison Hill and Harrie Jonkman. Made with the R <a href="https://rstudio.github.io/distill/">distill</a> package.</p>
+<p>Â© NSC-R Workshops 2021. Thanks to Lisa Lendway, Alison Hill and Harrie Jonkman. Made with the R <a href="https://rstudio.github.io/distill/">distill</a> package.</p>
 </div>
 <!--/radix_placeholder_navigation_after_body-->
+</body></html>
 
 
 </body>
