@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <center>
 
-![](images/workshop_2.png){width=50%}
+![](images/workshop_2.png){width=30%}
 
 </centre>    
 
