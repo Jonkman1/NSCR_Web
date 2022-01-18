@@ -22,6 +22,18 @@ Network analysis is a topic of growing interest in criminology and beyond. This 
 Join this workshop meeting on *Thursday January 20, 2022 at 13:00* on Zoom by clicking [this link](https://us02web.zoom.us/j/81102670544?pwd=WXFCY01Fblhab3lDOW5rZis1RG1Vdz09)
 
 
+To prepare for the workshop, you may want to install a few R packages (just copy and paste these lines into your R Studio Editor and run them):
+
+install.packages("tidyverse")
+
+install.packages("igraph")
+
+install.packages("tidygraph")
+
+install.packages("ggraph")
+
+install.packages("statnet")
+
 > *Ieke de Vries* is an Assistant Professor at the Institute of Criminal Law and Criminology at Leiden University. In her current work, she applies a network approach to examine co-arrest and spatial networks in Chicago, social and spatial networks in the context of human trafficking, and networks of victimizing experiences and behaviors. Besides conducting her research mostly in R, she has also taught an ‘Introduction to Computational Statistics in R’ to graduate students and ‘Programming with Data in Python’ to undergraduate students at Northeastern University and a Summer Course on ‘Crime, Data, and Ethics’ to honours students at Leiden University. 
 
 
