@@ -1,0 +1,28 @@
+---
+title: "Create websites with shiny (2nd session of 2)"
+description: |
+  In this workshop and the previous one you will learn how to create interactive web content (i.e. websites) with the shiny package.
+author:
+  - name: Nick van Doormaal
+    url: https://www.linkedin.com/in/nick-van-doormaal-9213a7a2/
+date: 03-31-2022
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+In this workshop, Nick will demonstrate how the R package **shiny** can be used to create interactive websites. Note that this is the second session of a two-sesssion workshop. The first session is on Thursday March 17.
+
+> **Nick van Doormaal** is a former PhD candidate at the NSCR and is currently a tactical analysist at the Gelderse Omgevingsdiensten.
+
+Join this workshop meeting on Zoom by clicking [this link](
+https://us02web.zoom.us/j/86850017443?pwd=cnE5Wmw0Tk9TbE1kTEc1aCtMdFhDUT09)
+
+
+
+

@@ -1,5 +1,56 @@
 [
   {
+    "path": "posts/2022-03-31-shiny-2of2/",
+    "title": "Create websites with shiny (2nd session of 2)",
+    "description": "In this workshop and the previous one you will learn how to create interactive web content (i.e. websites) with the shiny package.",
+    "author": [
+      {
+        "name": "Nick van Doormaal",
+        "url": "https://www.linkedin.com/in/nick-van-doormaal-9213a7a2/"
+      }
+    ],
+    "date": "2022-03-31",
+    "categories": [],
+    "contents": "\r\nIn this workshop, Nick will demonstrate how the R package shiny can be used to create interactive websites. Note that this is the second session of a two-sesssion workshop. The first session is on Thursday March 17.\r\n\r\nNick van Doormaal is a former PhD candidate at the NSCR and is currently a tactical analysist at the Gelderse Omgevingsdiensten.\r\n\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-01-26T11:33:26+01:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2022-03-17-shiny-1of2/",
+    "title": "Create websites with shiny (1st session of 2)",
+    "description": "In this workshop and the next one you will learn how to create interactive web content (i.e. websites) with the shiny package.",
+    "author": [
+      {
+        "name": "Nick van Doormaal",
+        "url": "https://www.linkedin.com/in/nick-van-doormaal-9213a7a2/"
+      }
+    ],
+    "date": "2022-03-17",
+    "categories": [],
+    "contents": "\r\nIn this workshop, Nick will demonstrate how the R package shiny can be used to create interactive websites. Note that this is the first session of a two-sesssion workshop. The second session is on Thursday March 31.\r\n\r\nNick van Doormaal is a former PhD candidate at the NSCR and is currently a tactical analysist at the Gelderse Omgevingsdiensten.\r\n\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-01-26T11:29:51+01:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2022-03-08-nsc-r-tidy-tuesday/",
+    "title": "NSC-R Tidy Tuesday",
+    "description": "Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.",
+    "author": [
+      {
+        "name": "Tim Verlaan",
+        "url": "https://nscr.nl/en/medewerker/tim-verlaan"
+      }
+    ],
+    "date": "2022-03-08",
+    "categories": [],
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nJoin this workshop meeting on Zoom by clicking this link\r\nIn this meeting, Tim will explain what Sankey diagrams are, and how they can be created in R.\r\n\r\nTim Verlaan is a PhD candidate at the Netherlands Institute for the Study of Crime and Law Enforcement (NSCR).\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-01-26T11:04:33+01:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2022-03-03-tidymodels/",
     "title": "Tidymodels",
     "description": "An introduction to the tidymodels package",
@@ -115,8 +166,8 @@
     "categories": [],
     "contents": "\r\nNetwork analysis is a topic of growing interest in criminology and beyond. This workshop gives a short introduction and overview of network analysis in R, beginning with a conceptual discussion of what networks are. In their simplest form, networks are comprised of actors (“nodes”) and relationships between them (“edges”). Network analysis concerns the analytical approach to study these edges between nodes of any kind (e.g., individuals, businesses, experiences, words, or streets). The workshop proceeds with an introduction to network analysis in R, focusing on i) creating and reading network data; ii) describing and visualizing networks; and iii) explaining the formation of networks. Materials for the workshop will be uploaded at Github.\r\nJoin this workshop meeting on Thursday January 20, 2022 at 13:00 on Zoom by clicking this link\r\nTo prepare for the workshop, you may want to install a few R packages (just copy and paste these lines into your R Studio Editor and run them):\r\ninstall.packages(“tidyverse”)\r\ninstall.packages(“igraph”)\r\ninstall.packages(“tidygraph”)\r\ninstall.packages(“ggraph”)\r\ninstall.packages(“statnet”)\r\n\r\nIeke de Vries is an Assistant Professor at the Institute of Criminal Law and Criminology at Leiden University. In her current work, she applies a network approach to examine co-arrest and spatial networks in Chicago, social and spatial networks in the context of human trafficking, and networks of victimizing experiences and behaviors. Besides conducting her research mostly in R, she has also taught an ‘Introduction to Computational Statistics in R’ to graduate students and ‘Programming with Data in Python’ to undergraduate students at Northeastern University and a Summer Course on ‘Crime, Data, and Ethics’ to honours students at Leiden University.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-01-18T15:55:26+01:00",
-    "input_file": "network-analysis-in-r.knit.md"
+    "last_modified": "2022-01-18T15:55:27+01:00",
+    "input_file": {}
   },
   {
     "path": "posts/2022-01-11-nsc-r-tidy-tuesday/",
