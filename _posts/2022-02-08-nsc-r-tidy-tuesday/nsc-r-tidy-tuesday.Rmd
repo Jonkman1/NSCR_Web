@@ -24,4 +24,5 @@ Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.
 
 ### Materials
 
-- The [script (R)](../../../tidytuesday/08feb2022/script.R) that Asier worked through.
+-   The [script (R)](https://github.com/amoneva/tidy_tuesday/blob/main/week4_board_games.R) that Asier worked through.
+-   The Tidy Data [paper (pre-print)](https://vita.had.co.nz/papers/tidy-data.pdf) by Hadley Wickham (2014)

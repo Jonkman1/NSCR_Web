@@ -113,10 +113,10 @@
     ],
     "date": "2022-02-08",
     "categories": [],
-    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nThe dataset for this Tidy Tuesday was about board games! Asier Moneva explored the following research questions: “What are the top 3 best-selling board games by game type?” and “How do board game sales relate to online user ratings?” Feel free to explore these questions yourselves and share your experience with us.\r\nJoin this workshop meeting on Zoom by clicking this link\r\nMaterials\r\nThe script (R) that Asier worked through.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nThe dataset for this Tidy Tuesday was about board games! Asier Moneva explored the following research questions: “What are the top 3 best-selling board games by game type?” and “How do board game sales relate to online user ratings?” Feel free to explore these questions yourselves and share your experience with us.\r\nJoin this workshop meeting on Zoom by clicking this link\r\nMaterials\r\nThe script (R) that Asier worked through.\r\nThe Tidy Data paper (pre-print) by Hadley Wickham (2014)\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-02-08T14:34:47+01:00",
-    "input_file": {}
+    "last_modified": "2022-02-09T11:19:37+01:00",
+    "input_file": "nsc-r-tidy-tuesday.knit.md"
   },
   {
     "path": "posts/2022-02-03-text-analysis-in-r/",
