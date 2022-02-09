@@ -18,10 +18,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 The NSC-R Tidy Tuesday workshop sessions are inspired by the [Tidy Tuesday](https://www.tidytuesday.com/) initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.
 
-The [dataset](https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-01-25) for this Tidy Tuesday was about board games! [Asier Moneva](https://twitter.com/crimoneva) explored the following research questions: "What are the top 3 best-selling board games by game type?" and "How do board game sales relate to online user ratings?" Feel free to explore these questions yourselves and share your experience with us.
-
-Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/89862418874?pwd=aGhnM2ZEb1RFZW1uc0ZiZDljTmlndz09)
+The [dataset](https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-01-25) for this Tidy Tuesday is about board games! [Asier Moneva](https://twitter.com/crimoneva) explores the following research questions: "What are the top 3 best-selling board games by game type?" and "How do board game sales relate to online user ratings?" Feel free to explore these questions yourselves and share your experience with us. 
 
 ### Materials
 
-- The [script (R)](../../../tidytuesday/08feb2022/script.R) that Asier worked through.
+-   The [script (R)](https://github.com/amoneva/tidy_tuesday/blob/main/week4_board_games.R) that Asier worked through.
+-   The Tidy Data [paper (pre-print)](https://vita.had.co.nz/papers/tidy-data.pdf) by Hadley Wickham (2014)
