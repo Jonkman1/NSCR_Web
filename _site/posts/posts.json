@@ -121,7 +121,7 @@
   {
     "path": "posts/2022-02-03-text-analysis-in-r/",
     "title": "Text analysis in R",
-    "description": "How to conduct text analysis in R?",
+    "description": "How to process free-text data in R",
     "author": [
       {
         "name": "Anthony Dixon",
@@ -130,9 +130,9 @@
     ],
     "date": "2022-02-03",
     "categories": [],
-    "contents": "\r\nMuch information is stored as free-text. Free-text is weakly structured and therefore hard to extract and organize. This workshop will explore some elements of working with free-text data in R, principally how it can be prepared and transformed to be used with machine learning algorithms.\r\nJoin this workshop meeting on Zoom by clicking this link\r\nAnthony Dixon is a postgraduate researcher at the University of Leeds, working in the School of Law and the Leeds Institute of Data Analytics. The topic of his thesis is ‘Improving Problem-oriented policing with Natural Language Processing’, which seeks to explore the use of state-of-the-art deep learning models to automatically extract information from police free-text data. Additionally he has joint published a number of papers covering crime changes as a result of the covid-19 pandemic.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nMuch information is stored as free-text. Free-text is weakly structured and therefore hard to extract and organize. This workshop will explore some elements of working with free-text data in R, principally how it can be prepared and transformed to be used with machine learning algorithms.\r\nYou can download the materials used in the workshop here.\r\nAnthony Dixon is a postgraduate researcher at the University of Leeds, working in the School of Law and the Leeds Institute of Data Analytics. The topic of his thesis is ‘Improving Problem-oriented policing with Natural Language Processing’, which seeks to explore the use of state-of-the-art deep learning models to automatically extract information from police free-text data. Additionally he has joint published a number of papers covering crime changes as a result of the covid-19 pandemic.\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-01-11T14:32:49+01:00",
+    "last_modified": "2022-02-10T15:03:37+01:00",
     "input_file": {}
   },
   {
