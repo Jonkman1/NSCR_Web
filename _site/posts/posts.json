@@ -96,10 +96,10 @@
     ],
     "date": "2022-02-17",
     "categories": [],
-    "contents": "\r\nA loop is a sequence of one or more R commands that is carried out repeatedly. In this workshop meeting you will learn how to efficiently program loops in R\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\nWouter Steenbeek is a senior researcher at the Netherlands Institute for the Study of Crime and Law Enforcement (NSCR). He started using R around 2012. His main research interests are in spatial patterns of crime and quantitative research methods.\r\n\r\n\r\n\r\n\r\n",
+    "contents": "\r\nA loop is a sequence of one or more R commands that is carried out repeatedly. In this workshop meeting you will learn how to efficiently program loops in R\r\nJoin this workshop meeting on Zoom by clicking this link\r\nBy way of preparation, you might want to install two packages:\r\ninstall.packages(“tidyverse”)\r\ninstall.packages(“foreach”)\r\n\r\nWouter Steenbeek is a senior researcher at the Netherlands Institute for the Study of Crime and Law Enforcement (NSCR). He started using R around 2012. His main research interests are in spatial patterns of crime and quantitative research methods.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-02-14T13:57:24+01:00",
-    "input_file": {}
+    "last_modified": "2022-02-15T20:37:33+01:00",
+    "input_file": "looping-in-r.knit.md"
   },
   {
     "path": "posts/2022-02-08-nsc-r-tidy-tuesday/",
