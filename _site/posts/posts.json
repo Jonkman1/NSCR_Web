@@ -79,10 +79,10 @@
     ],
     "date": "2022-02-22",
     "categories": [],
-    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\n\r\n\r\n",
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\nAlex Trinidad is a postdoctoral researcher and lecturer at the Institute of Sociology and Social Psychology (ISS) at the University of Cologne, and a research fellow at the NSCR and at the University of the Basque Country UPV/EHU. He is interested in how social phenomena distribute in space and time. His main focus has been the study of spatial and temporal variation of crime and its correlates. He is also interested in the development and application new methods in the Social Sciences.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-02-14T14:01:14+01:00",
-    "input_file": {}
+    "last_modified": "2022-02-18T17:46:56+01:00",
+    "input_file": "nsc-r-tidy-tuesday.knit.md"
   },
   {
     "path": "posts/2022-02-17-looping-in-r/",
