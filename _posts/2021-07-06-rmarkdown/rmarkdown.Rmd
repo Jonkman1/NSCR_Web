@@ -20,14 +20,17 @@ knitr::opts_chunk$set(echo = FALSE)
 
 **RMarkdown** is simply a software that allows the implementation of this language in R. This makes it possible to produce open-access, fully reproducible documents.   
 
-- To show you the basics, Asier followed the book [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) by Xie, Allaire and Grolemund. He recommends you read the Preface before the workshop. However, as a definitive guide, you can deduce that this book does not only cover the basics, so you can also use it to go deeper.   
+- Here you can find Asier's [presentation, scripts and additional materials](https://github.com/Jonkman1/NSC_R/tree/main/Meeting_2_RMarkdown/nsc_r_workshop/scripts).
+
+- To show you the basics, Asier followed the book [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/) by Xie, Allaire and Grolemund. He recommends you read the Preface before the workshop. However, as a definitive guide, you can deduce that this book does not only cover the basics, so you can also use it to go deeper. 
+
+- Once you have mastered tha basics of RMarkdown, you might want to take a look at the [RMarkdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/)
 
 - To have all the main commands at hand, you can print this double-sided [RMarkdown cheat sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf). (We love cheat sheets.)   
 
 - And for a quick overview of RMarkdown, just watch [this video](https://vimeo.com/178485416).
 
-Here you can find the [presentation, scripts and additional materials](https://github.com/Jonkman1/NSC_R/tree/main/Meeting_2_RMarkdown/nsc_r_workshop/scripts).
+- Here you can find an [Elsevier template for RMarkdown](https://github.com/Jonkman1/NSC_R/tree/main/Meeting_2_RMarkdown/nsc_r_workshop/templates/elsevier)
 
-Here you can find an [Elsevier template for RMarkdown](https://github.com/Jonkman1/NSC_R/tree/main/Meeting_2_RMarkdown/nsc_r_workshop/templates/elsevier)
 
 > Asier is a postdoc at the NSCR and The Hague University of Applied Sciences with a background in criminology. He started specializing in crime analysis with R during his master's degree and has since developed an interest in open science. 

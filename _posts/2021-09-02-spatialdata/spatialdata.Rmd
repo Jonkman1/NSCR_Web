@@ -25,7 +25,7 @@ To prepare for the meeting, Alex suggested you might want to take a look at the 
 - Lovelance, R., Nowosad, J., & Muenchow, J. [Geocomputation with R. CRC Press](https://geocompr.robinlovelace.net/).    
 - [Bivand, R. S., Pebesba, E., & Gómez-Rubio, V.](https://link.springer.com/book/10.1007/978-1-4614-7618-4) Applied Spatial Data Analysis with R. Springer.(Access from university library)
 
-[Scripts and data](https://github.com/Jonkman1/NSC_R/tree/main/Meeting_3_SpatialData) you can find here.
+[Alex' scripts and data](https://github.com/Jonkman1/NSC_R/tree/main/Meeting_3_SpatialData) you can find here.
 
 
 > Alex is a postdoctoral researcher/ lecturer at the Institute of Sociology and Social Psychology (ISS) at the University of Cologne, Germany. He is also a research fellow at the Netherlands Institute for the Study of Crime and Law Enforcement (NSCR). His interest in spatial analysis began when he started his PhD, exploring the spatial distribution of juvenile delinquency and the contextual factors associated with it. It was also during his PhD that he began his journey with R. 

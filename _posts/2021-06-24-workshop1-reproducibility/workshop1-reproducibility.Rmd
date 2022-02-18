@@ -21,12 +21,19 @@ On Thursday June 24, 13:00-14:00, we kicked off the NSC-R Workshop initiative. T
 Here you find the [presentation](https://www.dropbox.com/s/vn7rn9m5ht2miol/reproducibility.pdf?dl=0)
 
 To prepare for the first meeting, Thomas de Graaff suggested you might want to take a look at the following links. This is obviously not mandatory, but the materials may give rise to ideas or questions that you may want to discuss in the workshop meeting:   
+
 - A very readable post on [reproducible workflow in R](https://cyberhelp.sesync.org/blog/reproducible-r-workflow.html).   
  
 - A nice short blog post [about R projects](https://www.tidyverse.org/blog/2017/12/workflow-vs-script/).    
  
-- If you are using R already and in particular if you use tidyverse, a long book-down document from about [style] (https://style.tidyverse.org/index.html).    
- 
-- A wonderful but distressing lecture (and long: about 50 minutes) from Richard McElreath about working with software in the social sciences, with a criminology paper example in the end on racial disparity in police use of deadly force.[find here](https://www.youtube.com/watch?v=zwRdO9_GGhY).
+- If you are using R already and in particular if you use tidyverse, a long book-down document about [coding style conventions](https://style.tidyverse.org/index.html).    
+
+- A wonderful but distressing lecture (and long: about 50 minutes) from Richard McElreath about working with software in the social sciences, with a criminology paper example in the end on racial disparity in police use of deadly force. [Click this YouTube link](https://www.youtube.com/watch?v=zwRdO9_GGhY).
+
+You may also want to consult this textbook:
+
+Gandrud, C. *Reproducible Research with R and RStudio, Second edition*. [Click to download the PDF](https://radhakrishna.typepad.com/reproducible-research-with-r-and-rstudio---second-edition.pdf) 
+
+
 
 > Thomas de Graaf is associate professor at the department of Spatial Economics at the Vrije Universiteit in Amsterdam.

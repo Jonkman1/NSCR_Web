@@ -20,19 +20,19 @@
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -52,11 +52,11 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -77,13 +77,14 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
+
 
   <!--radix_placeholder_meta_tags-->
 <title>NSC-R: Using GitHub for version control, collaboration and code sharing.</title>
@@ -126,7 +127,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["github_files/anchor-4.2.2/anchor.min.js","github_files/bowser-1.9.3/bowser.min.js","github_files/distill-2.2.21/template.v2.js","github_files/jquery-1.11.3/jquery.min.js","github_files/jquery-3.6.0/jquery-3.6.0.js","github_files/jquery-3.6.0/jquery-3.6.0.min.js","github_files/jquery-3.6.0/jquery-3.6.0.min.map","github_files/popper-2.6.0/popper.min.js","github_files/tippy-6.2.7/tippy-bundle.umd.min.js","github_files/tippy-6.2.7/tippy-light-border.css","github_files/tippy-6.2.7/tippy.css","github_files/tippy-6.2.7/tippy.umd.min.js","github_files/webcomponents-2.0.0/webcomponents.js","VersioncontrolGit.pdf"]}
+  {"type":"character","attributes":{},"value":["github_files/anchor-4.2.2/anchor.min.js","github_files/bowser-1.9.3/bowser.min.js","github_files/distill-2.2.21/template.v2.js","github_files/header-attrs-2.11/header-attrs.js","github_files/jquery-1.11.3/jquery.min.js","github_files/jquery-3.6.0/jquery-3.6.0.js","github_files/jquery-3.6.0/jquery-3.6.0.min.js","github_files/jquery-3.6.0/jquery-3.6.0.min.map","github_files/popper-2.6.0/popper.min.js","github_files/tippy-6.2.7/tippy-bundle.umd.min.js","github_files/tippy-6.2.7/tippy-light-border.css","github_files/tippy-6.2.7/tippy.css","github_files/tippy-6.2.7/tippy.umd.min.js","github_files/webcomponents-2.0.0/webcomponents.js","VersioncontrolGit.pdf"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2373,6 +2374,7 @@ d-appendix d-footnote-list a.footnote-backlink {
   color: var(--hover-color, white);
 }</style>
 <!--/radix_placeholder_distill-->
+  <script src="../../site_libs/header-attrs-2.11/header-attrs.js"></script>
   <script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <script src="../../site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="../../site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
@@ -2436,8 +2438,23 @@ d-appendix d-footnote-list a.footnote-backlink {
 </div>
 
 <div class="d-article">
-<p>Version control is essential for keeping track of data analysis projects. it is also essential for collaboration with other researchers and developers. Git, GitHub in combination with R/RStudio allow you to back up texts and scripts and to collaborate on complex projects. Git and GitHub are open source version control systems which work quiet well together with R/RStudio. In this workshop you will be introduced to this system, you understand how to open a repository on GitHub and how this works in R/RStudio (see presentation <a href="VersioncontrolGit.pdf">here</a>. Also will be shown how collaboration works in a simple repository/project. This workshop is connected to the next workshop in which the new NSC-R website will be presented. This website is developed by the NSC-R teammembers who worked together on this in Git, GitHub and R/RStudio and deployed the GitHub pages in Netlify.</p>
-<p><br></p>
+<p>Version control is essential for keeping track of data analysis projects. It is also essential for collaboration with other researchers and developers.</p>
+<p><strong>Git</strong>, <strong>GitHub</strong> in combination with <strong>R/RStudio</strong> allow you to back up texts and scripts and to collaborate on complex projects. Git and GitHub are open source version control systems which work quiet well together with R/RStudio.</p>
+<p>This workshop introduced this system, demonstrated how to create a repository on GitHub, and how to do this from R/RStudio (see <a href="VersioncontrolGit.pdf">Harrie’s presentation (PDF)</a>).</p>
+<p>The workshop also included a live demonstration of how collaboration between multiple people works in a simple repository/project.</p>
+<p>The workshop was connected to the subsequent workshop in which the new NSC-R Workshop website was be presented (the one you are reading now). This website is developed by the NSC-R team members who worked together on this in Git, GitHub and R/RStudio.</p>
+<h3 id="more-information">More information</h3>
+<p>Below are links to potentially usefull sources about Git, Github and their integration with R/RStudio.</p>
+<ul>
+<li><p>Douglas, A., Roos, D., Mancini, F., Couto, A. and Lusseau, D., <em>An introduction to R</em>, chapter 9, <a href="https://intro2r.com/github_r.html">here</a>.</p></li>
+<li><p>Bryan, J., <em>Happy Git and GitHub for the useR</em>, <a href="https://happygitwithr.com/">here</a></p></li>
+<li><p>Lendway, L., <em>github_for_collaboration</em>, <a href="https://github.com/llendway/github_for_collaboration">here</a></p></li>
+</ul>
+<h3 id="lisa-lendway-on-youtube">Lisa Lendway on YouTube</h3>
+<ul>
+<li><p><a href="https://www.youtube.com/watch?v=QLFc9gw_Hfs">Using Git and GitHub in R Studio</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=megZYkCLMA4">Using Git and GitHub in R</a></p></li>
+</ul>
 <blockquote>
 <p><a href="https://www.harriejonkman.nl">Harrie Jonkman</a>is a senior researcher at the <a href="https://www.verwey-jonker.nl/">Verwey Jonker Institute</a>. He works in the field of cognitive and social development of children and youngsters in relation to the contexts in which they grow up (family, school, friends, community and country). Recently he edited with David Farrington and Frederick Groeger-Roth <a href="https://link.springer.com/book/10.1007/978-3-030-58442-9">Delinquency and Substance Use in Europe. Understanding Risk and Protective Factors</a>. He also finished recently the open-source book <a href="http://www.harriejonkman.nl/wp-content/uploads/2021/05/Terugschrijven_def.pdf">Terugschrijven</a> on knowledge, development and democracy. He is interested in open-source data analysis and has his blog <a href="http://www.harriejonkman.nl/HarriesHoekje/">Harrie’s Hoekje</a> on this topic.</p>
 </blockquote>

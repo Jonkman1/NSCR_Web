@@ -1,5 +1,5 @@
 ---
-title: "Create websites with shiny (2nd session of 2)"
+title: "Create websites with shiny (2/2)"
 description: |
   In this workshop and the previous one you will learn how to create interactive web content (i.e. websites) with the shiny package.
 author:
