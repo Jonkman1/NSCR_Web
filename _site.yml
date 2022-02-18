@@ -1,5 +1,5 @@
 name: "website"
-title: "NSC-R"
+title: "NSC-R Workshops"
 output_dir: "_site"
 base_url: https://nscrweb.netlify.app/
 logo:
@@ -8,12 +8,10 @@ collections:
   posts:
 navbar:
   right:
-    - text: "NSC-R"
+    - text: "About us"
       href: index.html
     - text: "Workshops"
       href: blog.html
-    - text: "Extra Material"
-      href: other.html
     - icon: fa fa-github
       href: https://github.com/Jonkman1/NSCR_Web
     # - icon: fa fa-twitter
