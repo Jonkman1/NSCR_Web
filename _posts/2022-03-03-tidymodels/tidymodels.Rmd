@@ -1,7 +1,6 @@
 ---
-title: "Tidymodels | NSC-R Tidy Tuesday"
-description: |
-  Introduction to the `tidymodels` package for modeling and machine learning | Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.
+title: "Tidymodels"
+description: "Introduction to the `tidymodels` package for modeling and machine learning."
 author:
   - name: Natan Khadaroo-McCheyne
     url: [https://twitter.com/nathankhadaroo]

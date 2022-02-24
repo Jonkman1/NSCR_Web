@@ -52,8 +52,8 @@
   },
   {
     "path": "posts/2022-03-03-tidymodels/",
-    "title": "Tidymodels | NSC-R Tidy Tuesday",
-    "description": "Introduction to the `tidymodels` package for modeling and machine learning | Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.",
+    "title": "Tidymodels",
+    "description": "Introduction to the `tidymodels` package for modeling and machine learning.",
     "author": [
       {
         "name": "Natan Khadaroo-McCheyne",
@@ -64,7 +64,7 @@
     "categories": [],
     "contents": "\r\n\r\n\r\nThis session will provide a hands-on overview of basic concepts in machine learning, and show how they can be easily implemented in R using the new Tidymodels framework. The Tidymodels framework is a collection of packages for modeling and machine learning using tidyverse principles. We will cover how to build fully reproducible machine learning workflows that are easy to interpret and implement, including key steps such as pre-processing, model fitting and tuning, and model performance evaluation and visualisation.\r\n\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\n\r\n\r\n\r\n\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\n\r\nNathan is a PhD candidate at the Institute for Data Science and Artificial Intelligence at the University of Manchester. He is writing his thesis on new methods for crowdsourcing spatio-temporal data. Nathan completed his BA in political science at the University of Manchester. His current research interests include citizen science, exploring statistical methodology for new and unconventional forms of data, contemporary debates in philosophy of statistics, open-sourced software (in particular R and Julia languages), communicating uncertainty, and cooking.\r\n\r\n\r\nMaterials\r\nMaterials will be made available by Nathan after the workshop! We will post links to the material here.\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-02-24T09:14:03+01:00",
+    "last_modified": "2022-02-24T09:15:20+01:00",
     "input_file": "tidymodels.knit.md"
   },
   {
