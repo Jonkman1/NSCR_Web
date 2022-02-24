@@ -1,25 +1,46 @@
 ---
-title: "Tidymodels"
+title: "Tidymodels | NSC-R Tidy Tuesday"
 description: |
-  An introduction to the tidymodels package 
+  Introduction to the `tidymodels` package for modeling and machine learning | Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.
 author:
-  - name: Nathan Khadaroo-McCheyne
-    url: https://www.researchgate.net/profile/Nathan-Khadaroo
-date: 03-03-2022
+  - name: Natan Khadaroo-McCheyne
+    url: [https://twitter.com/nathankhadaroo]
+date: [03-03-2022]
 output:
   distill::distill_article:
     self_contained: false
+# Remove the following line to publish
+# draft: true
 ---
 
-
-```{r setup, include=FALSE}
+```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-> **Nathan Khadaroo-McCheyne** is a PhD candidate at the Institute for Data Science and Artificial Intelligence at the University of Manchester.
+<!-- 1. Description --> 
 
-Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/85416485724?pwd=K3ZNTXNEYk00cVNnTFJFV040RHlRZz09)
+<!-- 1.1. Follow this structure for regular sessions --> 
+This session will provide a hands-on overview of basic concepts in machine learning, and show how they can be easily implemented in R using the new [Tidymodels framework](https://www.tidymodels.org). The Tidymodels framework is a collection of packages for modeling and machine learning using tidyverse principles. We will cover how to build fully reproducible machine learning workflows that are easy to interpret and implement, including key steps such as pre-processing, model fitting and tuning, and model performance evaluation and visualisation.
 
+<!-- 1.2. Follow this structure for Tidy Tuesday sessions --> 
+The NSC-R Tidy Tuesday workshop sessions are inspired by the [Tidy Tuesday](https://www.tidytuesday.com/) initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.
 
+<!-- The [dataset](URL) for this Tidy Tuesday is about [TOPIC]! [PRESENTER'S NAME](URL) explores the following research questions: "[RESEARCH QUESTION 1]" and "[RESEARCH QUESTION 2]" Feel free to explore these questions yourselves and share your experience with us.  -->
 
+<!-- 2. (OPTIONAL) Additional information --> 
+<!-- [ADDITIONAL INFORMATION FOR THE SESSION (e.g. To prepare for the workshop, you may want to install a few R packages (just copy and paste these lines into your R Studio Editor and run them)]: -->
 
+<!-- 3. Zoom link. Remove the following line after adding the materials of the session --> 
+Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/85477754782?pwd=cExxK2NCSFVWdERVcERMMVg3WjFCdz09)
+
+<!-- 4. Bio --> 
+> Nathan is a PhD candidate at the Institute for Data Science and Artificial Intelligence at the University of Manchester. He is writing his thesis on new methods for crowdsourcing spatio-temporal data.
+Nathan completed his BA in political science at the University of Manchester. His current research interests include citizen science, exploring statistical methodology for new and unconventional forms of data, contemporary debates in philosophy of statistics, open-sourced software (in particular R and Julia languages), communicating uncertainty, and cooking.
+
+<!-- 5. Materials --> 
+### Materials
+
+Materials will be made available by Nathan after the workshop! We will post links to the material here.
+
+<!-- -   The [script (R)](URL) that [PRESENTER'S NAME] worked through. -->
+<!-- -   [ADDITIONAL MATERIAL](URL) -->

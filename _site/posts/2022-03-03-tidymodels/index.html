@@ -20,26 +20,28 @@
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(title);
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
+    border: none; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -48,13 +50,13 @@ pre.numberSource a.sourceLine::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {  }
+  {   }
 @media screen {
-a.sourceLine::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -75,7 +77,7 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
@@ -83,48 +85,49 @@ code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
-  <!--radix_placeholder_meta_tags-->
-<title>NSC-R Workshops: Tidymodels</title>
 
-<meta property="description" itemprop="description" content="An introduction to the tidymodels package"/>
+  <!--radix_placeholder_meta_tags-->
+<title>NSC-R Workshops: Tidymodels | NSC-R Tidy Tuesday</title>
+
+<meta property="description" itemprop="description" content="Introduction to the `tidymodels` package for modeling and machine learning | Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues."/>
 
 <link rel="canonical" href="https://nscrweb.netlify.app/posts/2022-03-03-tidymodels/"/>
 
 <!--  https://schema.org/Article -->
 <meta property="article:published" itemprop="datePublished" content="2022-03-03"/>
 <meta property="article:created" itemprop="dateCreated" content="2022-03-03"/>
-<meta name="article:author" content="Nathan Khadaroo-McCheyne"/>
+<meta name="article:author" content="Natan Khadaroo-McCheyne"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-<meta property="og:title" content="NSC-R Workshops: Tidymodels"/>
+<meta property="og:title" content="NSC-R Workshops: Tidymodels | NSC-R Tidy Tuesday"/>
 <meta property="og:type" content="article"/>
-<meta property="og:description" content="An introduction to the tidymodels package"/>
+<meta property="og:description" content="Introduction to the `tidymodels` package for modeling and machine learning | Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues."/>
 <meta property="og:url" content="https://nscrweb.netlify.app/posts/2022-03-03-tidymodels/"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:site_name" content="NSC-R Workshops"/>
 
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary"/>
-<meta property="twitter:title" content="NSC-R Workshops: Tidymodels"/>
-<meta property="twitter:description" content="An introduction to the tidymodels package"/>
+<meta property="twitter:title" content="NSC-R Workshops: Tidymodels | NSC-R Tidy Tuesday"/>
+<meta property="twitter:description" content="Introduction to the `tidymodels` package for modeling and machine learning | Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues."/>
 <meta property="twitter:url" content="https://nscrweb.netlify.app/posts/2022-03-03-tidymodels/"/>
 
 <!--  https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
-<meta name="citation_title" content="NSC-R Workshops: Tidymodels"/>
+<meta name="citation_title" content="NSC-R Workshops: Tidymodels | NSC-R Tidy Tuesday"/>
 <meta name="citation_fulltext_html_url" content="https://nscrweb.netlify.app/posts/2022-03-03-tidymodels/"/>
 <meta name="citation_online_date" content="2022/03/03"/>
 <meta name="citation_publication_date" content="2022/03/03"/>
-<meta name="citation_author" content="Nathan Khadaroo-McCheyne"/>
+<meta name="citation_author" content="Natan Khadaroo-McCheyne"/>
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Tidymodels"]},{"type":"character","attributes":{},"value":["An introduction to the tidymodels package"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Nathan Khadaroo-McCheyne"]},{"type":"character","attributes":{},"value":["https://www.researchgate.net/profile/Nathan-Khadaroo"]}]}]},{"type":"character","attributes":{},"value":["03-03-2022"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://nscrweb.netlify.app/posts/2022-03-03-tidymodels/"]},{"type":"character","attributes":{},"value":["https://nscrweb.netlify.app/posts/2022-03-03-tidymodels/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Tidymodels | NSC-R Tidy Tuesday"]},{"type":"character","attributes":{},"value":["Introduction to the `tidymodels` package for modeling and machine learning | Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Natan Khadaroo-McCheyne"]},{"type":"character","attributes":{},"value":["https://twitter.com/nathankhadaroo"]}]}]},{"type":"character","attributes":{},"value":["03-03-2022"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://nscrweb.netlify.app/posts/2022-03-03-tidymodels/"]},{"type":"character","attributes":{},"value":["https://nscrweb.netlify.app/posts/2022-03-03-tidymodels/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["tidymodels_files/anchor-4.2.2/anchor.min.js","tidymodels_files/bowser-1.9.3/bowser.min.js","tidymodels_files/distill-2.2.21/template.v2.js","tidymodels_files/jquery-1.11.3/jquery.min.js","tidymodels_files/popper-2.6.0/popper.min.js","tidymodels_files/tippy-6.2.7/tippy-bundle.umd.min.js","tidymodels_files/tippy-6.2.7/tippy-light-border.css","tidymodels_files/tippy-6.2.7/tippy.css","tidymodels_files/tippy-6.2.7/tippy.umd.min.js","tidymodels_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"character","attributes":{},"value":["tidymodels_files/anchor-4.2.2/anchor.min.js","tidymodels_files/bowser-1.9.3/bowser.min.js","tidymodels_files/distill-2.2.21/template.v2.js","tidymodels_files/header-attrs-2.11/header-attrs.js","tidymodels_files/jquery-1.11.3/jquery.min.js","tidymodels_files/jquery-3.6.0/jquery-3.6.0.js","tidymodels_files/jquery-3.6.0/jquery-3.6.0.min.js","tidymodels_files/jquery-3.6.0/jquery-3.6.0.min.map","tidymodels_files/popper-2.6.0/popper.min.js","tidymodels_files/tippy-6.2.7/tippy-bundle.umd.min.js","tidymodels_files/tippy-6.2.7/tippy-light-border.css","tidymodels_files/tippy-6.2.7/tippy.css","tidymodels_files/tippy-6.2.7/tippy.umd.min.js","tidymodels_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2371,7 +2374,8 @@ d-appendix d-footnote-list a.footnote-backlink {
   color: var(--hover-color, white);
 }</style>
 <!--/radix_placeholder_distill-->
-  <script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="../../site_libs/header-attrs-2.11/header-attrs.js"></script>
+  <script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <script src="../../site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="../../site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="../../site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2391,7 +2395,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Tidymodels","description":"An introduction to the tidymodels package","authors":[{"author":"Nathan Khadaroo-McCheyne","authorURL":"https://www.researchgate.net/profile/Nathan-Khadaroo","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2022-03-03T00:00:00.000+01:00","citationText":"Khadaroo-McCheyne, 2022"}
+{"title":"Tidymodels | NSC-R Tidy Tuesday","description":"Introduction to the `tidymodels` package for modeling and machine learning | Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.","authors":[{"author":"Natan Khadaroo-McCheyne","authorURL":"https://twitter.com/nathankhadaroo","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2022-03-03T00:00:00.000+01:00","citationText":"Khadaroo-McCheyne, 2022"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2420,23 +2424,38 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Tidymodels</h1>
+<h1>Tidymodels | NSC-R Tidy Tuesday</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p>An introduction to the tidymodels package</p>
+<p><p>Introduction to the <code>tidymodels</code> package for modeling and machine learning | Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.</p></p>
 </div>
 
 <div class="d-byline">
-  Nathan Khadaroo-McCheyne <a href="https://www.researchgate.net/profile/Nathan-Khadaroo" class="uri">https://www.researchgate.net/profile/Nathan-Khadaroo</a> 
+  Natan Khadaroo-McCheyne <a href="https://twitter.com/nathankhadaroo" class="uri">https://twitter.com/nathankhadaroo</a> 
   
 <br/>03-03-2022
 </div>
 
 <div class="d-article">
+<!-- 1. Description -->
+<!-- 1.1. Follow this structure for regular sessions -->
+<p>This session will provide a hands-on overview of basic concepts in machine learning, and show how they can be easily implemented in R using the new <a href="https://www.tidymodels.org">Tidymodels framework</a>. The Tidymodels framework is a collection of packages for modeling and machine learning using tidyverse principles. We will cover how to build fully reproducible machine learning workflows that are easy to interpret and implement, including key steps such as pre-processing, model fitting and tuning, and model performance evaluation and visualisation.</p>
+<!-- 1.2. Follow this structure for Tidy Tuesday sessions -->
+<p>The NSC-R Tidy Tuesday workshop sessions are inspired by the <a href="https://www.tidytuesday.com/">Tidy Tuesday</a> initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.</p>
+<!-- The [dataset](URL) for this Tidy Tuesday is about [TOPIC]! [PRESENTER'S NAME](URL) explores the following research questions: "[RESEARCH QUESTION 1]" and "[RESEARCH QUESTION 2]" Feel free to explore these questions yourselves and share your experience with us.  -->
+<!-- 2. (OPTIONAL) Additional information -->
+<!-- [ADDITIONAL INFORMATION FOR THE SESSION (e.g. To prepare for the workshop, you may want to install a few R packages (just copy and paste these lines into your R Studio Editor and run them)]: -->
+<!-- 3. Zoom link. Remove the following line after adding the materials of the session -->
+<p>Join this workshop meeting on Zoom by clicking <a href="https://us02web.zoom.us/j/85477754782?pwd=cExxK2NCSFVWdERVcERMMVg3WjFCdz09">this link</a></p>
+<!-- 4. Bio -->
 <blockquote>
-<p><strong>Nathan Khadaroo-McCheyne</strong> is a PhD candidate at the Institute for Data Science and Artificial Intelligence at the University of Manchester.</p>
+<p>Nathan is a PhD candidate at the Institute for Data Science and Artificial Intelligence at the University of Manchester. He is writing his thesis on new methods for crowdsourcing spatio-temporal data. Nathan completed his BA in political science at the University of Manchester. His current research interests include citizen science, exploring statistical methodology for new and unconventional forms of data, contemporary debates in philosophy of statistics, open-sourced software (in particular R and Julia languages), communicating uncertainty, and cooking.</p>
 </blockquote>
-<p>Join this workshop meeting on Zoom by clicking <a href="https://us02web.zoom.us/j/85416485724?pwd=K3ZNTXNEYk00cVNnTFJFV040RHlRZz09">this link</a></p>
+<!-- 5. Materials -->
+<h3 id="materials">Materials</h3>
+<p>Materials will be made available by Nathan after the workshop! We will post links to the material here.</p>
+<!-- -   The [script (R)](URL) that [PRESENTER'S NAME] worked through. -->
+<!-- -   [ADDITIONAL MATERIAL](URL) -->
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -2452,11 +2471,11 @@ d-appendix d-footnote-list a.footnote-backlink {
 <div class="appendix-bottom">
   <h3 id="citation">Citation</h3>
   <p>For attribution, please cite this work as</p>
-  <pre class="citation-appendix short">Khadaroo-McCheyne (2022, March 3). NSC-R Workshops: Tidymodels. Retrieved from https://nscrweb.netlify.app/posts/2022-03-03-tidymodels/</pre>
+  <pre class="citation-appendix short">Khadaroo-McCheyne (2022, March 3). NSC-R Workshops: Tidymodels | NSC-R Tidy Tuesday. Retrieved from https://nscrweb.netlify.app/posts/2022-03-03-tidymodels/</pre>
   <p>BibTeX citation</p>
   <pre class="citation-appendix long">@misc{khadaroo-mccheyne2022tidymodels,
-  author = {Khadaroo-McCheyne, Nathan},
-  title = {NSC-R Workshops: Tidymodels},
+  author = {Khadaroo-McCheyne, Natan},
+  title = {NSC-R Workshops: Tidymodels | NSC-R Tidy Tuesday},
   url = {https://nscrweb.netlify.app/posts/2022-03-03-tidymodels/},
   year = {2022}
 }</pre>
