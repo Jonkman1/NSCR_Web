@@ -27,6 +27,6 @@ In this meeting, Tim will explain what Sankey diagrams are, and how they can be 
 
 ### Materials
 
-- The [script (R)]("../../../tidytuesday/08march2022/script.R") that Tim worked through.
-- The [presentation]("../../../tidytuesday/08march2022/presentation.pptx") that Tim used.
+- The [script (R)](../../../tidytuesday/08march2022/script.R) that Tim worked through.
+- The [presentation](../../../tidytuesday/08march2022/presentation.pptx) that Tim used.
 
