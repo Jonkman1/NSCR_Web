@@ -29,4 +29,4 @@ The [dataset](https://github.com/rfordatascience/tidytuesday/tree/master/data/20
 
 - The [script (R)](https://uni-koeln.sciebo.de/s/si6tjDuWIOIm0tF) that Alex worked through.
 - The CRAN [documentation](https://cran.r-project.org/web/packages/lubridate/lubridate.pdf).
-- lubridate [web](https://lubridate.tidyverse.org/) 
+- About [lubridate](https://lubridate.tidyverse.org/).
