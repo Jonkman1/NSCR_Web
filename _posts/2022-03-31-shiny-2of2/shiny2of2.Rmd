@@ -1,7 +1,7 @@
 ---
-title: "Create websites with shiny (2/2)"
+title: "Creating web applications with Shiny (2/2)"
 description: |
-  In this workshop and the previous one you will learn how to create interactive web content (i.e. websites) with the shiny package.
+  Learn how to make interactive tables, graphs and text from data.
 author:
   - name: Nick van Doormaal
     url: https://www.linkedin.com/in/nick-van-doormaal-9213a7a2/
@@ -16,13 +16,23 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-In this workshop, Nick will demonstrate how the R package **shiny** can be used to create interactive websites. Note that this is the second session of a two-sesssion workshop. The first session is on Thursday March 17.
+In a two-sessions workshop, Nick van Doormaal will demonstrate how to use the `shiny` package to create interactive web applications. Note that this is the second session of a two-sesssion workshop. The first session (on Thursday March 17) will be a basic introduction on the different components of a shiny app. In this second session we explore into more depth how 'reactivity' works, an important component of most shiny apps.
 
-> **Nick van Doormaal** is a former PhD candidate at the NSCR and is currently a tactical analysist at the Gelderse Omgevingsdiensten.
+For inspiration, you may want to spend a few minutes viewing some [fun apps](https://www.rstudio.com/blog/3-fun-shiny-apps-for-your-long-labor-day-weekend/) made with `shiny`, or [this `shiny` gallery](https://shiny.rstudio.com/gallery/).
+
+To prepare for the workshop, you could install these two R packages (just copy and paste this line into your R Studio Editor and run it)
+
+install.packages(c("tidyverse", "shiny"))
+
+
+> **Nick van Doormaal** is a former PhD candidate at the NSCR and currently a data analyst at the environmental service of the province of Gelderland. He got into R during his MSc thesis and internship and has been using R ever since.
 
 Join this workshop meeting on Zoom by clicking [this link](
 https://us02web.zoom.us/j/86850017443?pwd=cnE5Wmw0Tk9TbE1kTEc1aCtMdFhDUT09)
 
+### Materials
+
+Workshop materials will be added here soon.
 
 
 
