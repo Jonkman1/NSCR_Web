@@ -1,0 +1,34 @@
+---
+title: "Multiple Imputation of Missing Values in R"
+description: |
+  How to use R package 'mice' to solve missing data problems by multiple imputation
+author:
+  - name: Stef van Buuren
+    url: https://stefvanbuuren.name
+date: 04-28-2022
+output:
+  distill::distill_article:
+    self_contained: false
+
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+In this workshop you will learn why and how you can use the R package `mice` to solve missing data problems by means of multiple imputation. Multiple imputation is a generic approach to analyse incomplete data that reduces bias and increases precision.
+
+To get an idea of what the workshop is about, you could read (in Dutch) [his short and accessible overview of multiple imputation](https://stefvanbuuren.name/publications/2012%20Vogelvlucht%20-%20STAtOR.pdf). 
+
+To install the R package `mice` , copy and paste the next line into your R Studio Editor and run it: 
+
+**install.packages("mice")**
+
+Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/89683993175?pwd=ZDBCM3hTN3Bia2Q0czFSRXNieDluZz09)
+
+> Stef van Buuren is Professor of Statistical Analysis of Incomplete Data at the University of Utrecht and Principal Scientist at the Netherlands Organisation for Applied Scientific Research TNO in Leiden. He invented the MICE algorithm for multiple imputation of missing data. [Here](https://stefvanbuuren.name) you can find more details about Stef and his work.
+
+
+### Materials
+
+Workshop materials will be posted here as soon as they are available
