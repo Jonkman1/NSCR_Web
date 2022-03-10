@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 In this workshop you will learn why and how you can use the R package `mice` to solve missing data problems by means of multiple imputation. Multiple imputation is a generic approach to analyse incomplete data that reduces bias and increases precision.
 
-To get an idea of what the workshop is about, you could read (in Dutch) [his short and accessible overview of multiple imputation](https://stefvanbuuren.name/publications/2012%20Vogelvlucht%20-%20STAtOR.pdf). 
+To get an idea of what the workshop is about, you could read (in Dutch) [his short and accessible overview of multiple imputation](https://stefvanbuuren.name/publications/2012%20Vogelvlucht%20-%20STAtOR.pdf). Alternatively, you could check out the (English) [Wikipedia page](https://en.wikipedia.org/wiki/Imputation_(statistics)).
 
 To install the R package `mice` , copy and paste the next line into your R Studio Editor and run it: 
 

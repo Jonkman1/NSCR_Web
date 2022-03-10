@@ -11,9 +11,9 @@
     ],
     "date": "2022-04-28",
     "categories": [],
-    "contents": "\r\nIn this workshop you will learn why and how you can use the R package mice to solve missing data problems by means of multiple imputation. Multiple imputation is a generic approach to analyse incomplete data that reduces bias and increases precision.\r\nTo get an idea of what the workshop is about, you could read (in Dutch) his short and accessible overview of multiple imputation.\r\nTo install the R package mice , copy and paste the next line into your R Studio Editor and run it:\r\ninstall.packages(“mice”)\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\nStef van Buuren is Professor of Statistical Analysis of Incomplete Data at the University of Utrecht and Principal Scientist at the Netherlands Organisation for Applied Scientific Research TNO in Leiden. He invented the MICE algorithm for multiple imputation of missing data. Here you can find more details about Stef and his work.\r\n\r\nMaterials\r\nWorkshop materials will be posted here as soon as they are available\r\n\r\n\r\n\r\n",
+    "contents": "\r\nIn this workshop you will learn why and how you can use the R package mice to solve missing data problems by means of multiple imputation. Multiple imputation is a generic approach to analyse incomplete data that reduces bias and increases precision.\r\nTo get an idea of what the workshop is about, you could read (in Dutch) his short and accessible overview of multiple imputation. Alternatively, you could also check out the (English) Wikipedia page.\r\nTo install the R package mice , copy and paste the next line into your R Studio Editor and run it:\r\ninstall.packages(“mice”)\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\nStef van Buuren is Professor of Statistical Analysis of Incomplete Data at the University of Utrecht and Principal Scientist at the Netherlands Organisation for Applied Scientific Research TNO in Leiden. He invented the MICE algorithm for multiple imputation of missing data. Here you can find more details about Stef and his work.\r\n\r\nMaterials\r\nWorkshop materials will be posted here as soon as they are available\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-03-10T21:15:21+01:00",
+    "last_modified": "2022-03-10T21:47:43+01:00",
     "input_file": {}
   },
   {
