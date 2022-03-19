@@ -18,8 +18,12 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Much information is stored as free-text. Free-text is weakly structured and therefore hard to extract and organize. This workshop will explore some elements of working with free-text data in R, principally how it can be prepared and transformed to be used with machine learning algorithms.
 
-You can download the materials used in the workshop [here](https://github.com/Jonkman1/NSCR_Web/raw/main/materials/text_analytics_files.zip).
+Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/85477754782?pwd=cExxK2NCSFVWdERVcERMMVg3WjFCdz09)
 
 *Anthony Dixon* is a postgraduate researcher at the University of Leeds, working in the [School of Law](https://essl.leeds.ac.uk/law) and the [Leeds Institute of Data Analytics](https://lida.leeds.ac.uk). The topic of his thesis is ‘Improving Problem-oriented policing with Natural Language Processing’, which seeks to explore the use of state-of-the-art deep learning models to automatically extract information from police free-text data. Additionally he has joint published a number of papers covering crime changes as a result of the covid-19 pandemic.
 
-Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/85477754782?pwd=cExxK2NCSFVWdERVcERMMVg3WjFCdz09)
+
+### Materials
+
+You can download the materials used in the workshop [here](https://github.com/Jonkman1/NSCR_Web/raw/main/materials/text_analytics_files.zip).
+

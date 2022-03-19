@@ -28,13 +28,15 @@ We will try to answer a couple of simple questions:
 
 1. Is it true that there are less goals today than in earlier days?
 
-2. Is the number of goals related to the season?
+2. Is the number of goals related to the season of the year?
 
 3. Is playing home really an advantage?
 
 4. If so, has this advantage changed over time?
 
-Here is a [tiny R script](https://github.com/bernasco/a_century_football_in_spain) that helps you to start up. It installs packages, loads libraries and reads the data set. 
+### Materials
+
+- Here is a [tiny R script](https://github.com/bernasco/a_century_football_in_spain) that helps you to start up. It installs packages, loads libraries and reads the data set. 
 
 
 
