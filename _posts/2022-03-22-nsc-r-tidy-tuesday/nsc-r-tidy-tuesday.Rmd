@@ -36,7 +36,7 @@ We will try to answer a couple of simple questions:
 
 ### Materials
 
-- Here is a [tiny R script](https://github.com/bernasco/a_century_football_in_spain) that helps you to start up. It installs packages, loads libraries and reads the data set. 
+- Here is a [the R script](https://github.com/bernasco/NSC-R_tidy_tuesday_20220322) that documents the analysis that Wim demonstrated during the workshop. It includes installation of packages, loading libraries, reading data and substantive analysis. 
 
 
 
