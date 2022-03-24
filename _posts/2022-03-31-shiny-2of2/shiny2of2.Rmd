@@ -16,11 +16,11 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-In a two-sessions workshop, Nick van Doormaal will demonstrate how to use the `shiny` package to create interactive web applications. Note that this is the second session of a two-sesssion workshop. The first session (on Thursday March 17) will be a basic introduction on the different components of a shiny app. In this second session we explore into more depth how 'reactivity' works, an important component of most shiny apps.
+In a two-sessions workshop, Nick van Doormaal will demonstrate how to use the `shiny` package to create interactive web applications. Note that this is the second session of a two-sesssion workshop. The first session (on Thursday March 17) was be a basic introduction on the different components of a shiny app. In this second session we explore into more depth how 'reactivity' works, an important component of most shiny apps.
 
-For inspiration, you may want to spend a few minutes viewing some [fun apps](https://www.rstudio.com/blog/3-fun-shiny-apps-for-your-long-labor-day-weekend/) made with `shiny`, or [this `shiny` gallery](https://shiny.rstudio.com/gallery/).
+To prepae for the workshop, you may want to take a look this [key resource](https://mastering-shiny.org/) for `shiny`, in particular Chapter 3.
 
-To prepare for the workshop, you could install these two R packages (just copy and paste this line into your R Studio Editor and run it)
+In advance of the workshop, we suggest you install these two R packages (just copy and paste this line into your R Studio Editor and run it)
 
 install.packages(c("tidyverse", "shiny"))
 
@@ -31,6 +31,7 @@ Join this workshop meeting on Zoom by clicking [this link](
 https://us02web.zoom.us/j/86850017443?pwd=cnE5Wmw0Tk9TbE1kTEc1aCtMdFhDUT09)
 
 ### Materials
+
 
 Workshop materials will be added here soon.
 
