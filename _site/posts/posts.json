@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2022-05-03-nsc-r-tidy-tuesday/",
+    "title": "NSC-R Tidy Tuesday",
+    "description": "Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.",
+    "author": [
+      {
+        "name": "Alex Trinidad",
+        "url": "https://www.alexandertrinidad.com/"
+      }
+    ],
+    "date": "2022-05-03",
+    "categories": [],
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\nAlex Trinidad is a postdoctoral researcher/ lecturer at the Institute of Sociology and Social Psychology (ISS) at the University of Cologne, Germany. He is also a research fellow at the Netherlands Institute for the Study of Crime and Law Enforcement (NSCR). His interest in spatial analysis began when he started his PhD, exploring the spatial distribution of juvenile delinquency and the contextual factors associated with it. It was also during his PhD that he began his journey with R.\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-03-28T01:38:02+02:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2022-04-28-multiple-imputation-in-r/",
     "title": "Multiple Imputation of Missing Values in R",
     "description": "How to use R package 'mice' to solve missing data problems by multiple imputation",
@@ -14,6 +31,40 @@
     "contents": "\r\nIn this workshop you will learn why and how you can use the R package mice to solve missing data problems by means of multiple imputation. Multiple imputation is a generic approach to analyse incomplete data that reduces bias and increases precision.\r\nTo get an idea of what the workshop is about, you could read (in Dutch) his short and accessible overview of multiple imputation. Alternatively, you could also check out the (English) Wikipedia page.\r\nTo install the R package mice , copy and paste the next line into your R Studio Editor and run it:\r\ninstall.packages(“mice”)\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\nStef van Buuren is Professor of Statistical Analysis of Incomplete Data at the University of Utrecht and Principal Scientist at the Netherlands Organisation for Applied Scientific Research TNO in Leiden. He invented the MICE algorithm for multiple imputation of missing data. Here you can find more details about Stef and his work.\r\n\r\nMaterials\r\nWorkshop materials will be posted here as soon as they are available\r\n\r\n\r\n\r\n",
     "preview": {},
     "last_modified": "2022-03-10T21:47:43+01:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2022-04-19-nsc-r-tidy-tuesday/",
+    "title": "NSC-R Tidy Tuesday",
+    "description": "Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.",
+    "author": [
+      {
+        "name": "Asier Moneva",
+        "url": "https://nscr.nl/en/medewerker/asier-moneva/"
+      }
+    ],
+    "date": "2022-04-19",
+    "categories": [],
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\nAsier Moneva is a postdoc at the NSCR and The Hague University of Applied Sciences with a background in criminology. He started specializing in crime analysis with R during his master’s degree and has since developed an interest in open science.\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-03-28T01:30:19+02:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2022-04-14-discrete-spatial-choice-in-r/",
+    "title": "Discrete Spatial Choice in R",
+    "description": "Learn how to set up data and estimate discrete spatial choice models in R",
+    "author": [
+      {
+        "name": "Wim Bernasco",
+        "url": "https://nscr.nl/en/medewerker/prof-dr-wim-bernasco/"
+      }
+    ],
+    "date": "2022-04-14",
+    "categories": [],
+    "contents": "\r\nDiscrete choice is choosing a single item from a limited set of alternatives. We do it all the time, e.g. when we choose among alternatives brands of tea or alternative leisure activities. Discrete spatial choice is when the alternatives are spatial entities, e.g. when we choose a house to buy, a holiday destination or a location to commit a crime. If we have data on choice outcomes, discrete choice models can help us understand the decision process: what criteria (e.g. price, distance, comfort, …) affect the outcome of the decision?\r\nIn this workshop, Wim Bernasco will start with an brief explanation of the key elements of discrete choice models (just enough for you to get going and still know what you are doing). Subsequently he will demonstrate what the necessary data look like, how they can be organized, and how discrete choice models can be estimated in R.\r\nWim will cover a subset of the material covered in a recent handbook chapter. In the workshop, he will demonstrate a tidyverse style version of the script descrobed in the handbook chapter\r\nTo install the packages used in this workshop, type and run: install_packages(c(\"tidyverse\", \"survival\", \"mlogit\", \"car\"))\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\nWim Bernasco is senior researcher at NSCR and professor at the School of Business and Economics at the Vrije Universiteit Amsterdam. His work focuses on the geography of crime, incuding crime location choice and offender mobility. Read more on his personal wesbite.\r\n\r\nMaterials\r\nWorkshop materials will be posted here as soon as they are available\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-03-30T14:04:07+02:00",
     "input_file": {}
   },
   {
