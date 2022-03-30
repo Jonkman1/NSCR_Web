@@ -1,0 +1,35 @@
+---
+title: "Discrete Spatial Choice in R"
+description: |
+  Learn how to set up data and estimate discrete spatial choice models in R
+author:
+  - name: Wim Bernasco
+    url: https://nscr.nl/en/medewerker/prof-dr-wim-bernasco/
+date: 04-14-2022
+output:
+  distill::distill_article:
+    self_contained: false
+
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Discrete choice is choosing a single item from a limited set of alternatives. We do it all the time, e.g. when we choose among alternatives brands of tea or alternative leisure activities. Discrete **spatial** choice is when the alternatives are spatial entities, e.g. when we choose a house to buy, a holiday destination or a location to commit a crime. If we have data on choice outcomes, **discrete choice models** can help us understand the decision process: what criteria (e.g. price, distance, comfort, ...) affect the outcome of the decision? 
+
+In this workshop, **Wim Bernasco** will start with an brief explanation of the key elements of discrete choice models (just enough for you to get going and still know what you are doing). Subsequently he will demonstrate what the necessary data look like, how they can be organized, and how discrete choice models can be estimated in R. 
+
+Wim will cover a subset of the material covered in a [recent handbook chapter](https://osf.io/639cz/). In the workshop, he will demonstrate a `tidyverse` style version of the script descrobed in the handbook chapter 
+
+To install the packages used in this workshop, type and run: `install_packages(c("tidyverse", "survival", "mlogit", "car"))`
+
+
+Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/81735228803?pwd=VWNsRzhVNWMvK29qMDUrbjI0akVuQT09)
+
+> Wim Bernasco is senior researcher at NSCR and professor at the School of Business and Economics at the Vrije Universiteit Amsterdam. His work focuses on the geography of crime, incuding crime location choice and offender mobility. Read more on [his personal wesbite](http://www.wimbernasco.nl).
+
+
+### Materials
+
+Workshop materials will be posted here as soon as they are available
