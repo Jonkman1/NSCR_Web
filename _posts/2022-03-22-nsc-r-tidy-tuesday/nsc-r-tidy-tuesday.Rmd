@@ -34,13 +34,16 @@ We will try to answer a couple of simple questions:
 
 4. If so, has this advantage changed over time?
 
+
+
+> **Wim Bernasco** is a senior researcher at the Netherlands Institute for the Study of Crime and Law Enforcement (NSCR) and a professor in *Spatial analysis of crime* at the School of Business and Economics at the Vrije Universiteit Amsterdam. Most of his work in criminology is about the geography of crime, offender decision making and situational causes of crime.
+
+
+
 ### Materials
 
 - Here is a [the R script](https://github.com/bernasco/NSC-R_tidy_tuesday_20220322) that documents the analysis that Wim demonstrated during the workshop. It includes installation of packages, loading libraries, reading data and substantive analysis. 
 
-
-
-> **Wim Bernasco** is a senior researcher at the Netherlands Institute for the Study of Crime and Law Enforcement (NSCR) and a professor in *Spatial analysis of crime* at the School of Business and Economics at the Vrije Universiteit Amsterdam. Most of his work in criminology is about the geography of crime, offender decision making and situational causes of crime.
 
 
 

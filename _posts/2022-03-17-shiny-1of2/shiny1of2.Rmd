@@ -32,6 +32,8 @@ https://us02web.zoom.us/j/87228936745?pwd=NTcrU1R0ZjE4c3FHUkNFVnE3NVBFdz09)
 
 ### Materials
 
-Workshop materials will be added here soon.
+### Materials
+
+On Nick's GitHub repository [nscr-shiny-workshop](https://github.com/nvdoormaal/nscr-shiny-workshop) you can find the data and the R script that documents the development that Nick demonstrated during the second workshop on Thursday March 31. 
 
 
