@@ -13,7 +13,7 @@
     "categories": [],
     "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\nAlex Trinidad is a postdoctoral researcher/ lecturer at the Institute of Sociology and Social Psychology (ISS) at the University of Cologne, Germany. He is also a research fellow at the Netherlands Institute for the Study of Crime and Law Enforcement (NSCR). His interest in spatial analysis began when he started his PhD, exploring the spatial distribution of juvenile delinquency and the contextual factors associated with it. It was also during his PhD that he began his journey with R.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-03-28T01:38:02+02:00",
+    "last_modified": "2022-04-08T14:33:07+02:00",
     "input_file": {}
   },
   {
@@ -30,7 +30,7 @@
     "categories": [],
     "contents": "\r\nIn this workshop you will learn why and how you can use the R package mice to solve missing data problems by means of multiple imputation. Multiple imputation is a generic approach to analyse incomplete data that reduces bias and increases precision.\r\nTo get an idea of what the workshop is about, you could read (in Dutch) his short and accessible overview of multiple imputation. Alternatively, you could also check out the (English) Wikipedia page.\r\nTo install the R package mice , copy and paste the next line into your R Studio Editor and run it:\r\ninstall.packages(“mice”)\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\nStef van Buuren is Professor of Statistical Analysis of Incomplete Data at the University of Utrecht and Principal Scientist at the Netherlands Organisation for Applied Scientific Research TNO in Leiden. He invented the MICE algorithm for multiple imputation of missing data. Here you can find more details about Stef and his work.\r\n\r\nMaterials\r\nWorkshop materials will be posted here as soon as they are available\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-03-10T21:47:43+01:00",
+    "last_modified": "2022-04-08T14:33:07+02:00",
     "input_file": {}
   },
   {
@@ -47,7 +47,7 @@
     "categories": [],
     "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\nAsier Moneva is a postdoc at the NSCR and The Hague University of Applied Sciences with a background in criminology. He started specializing in crime analysis with R during his master’s degree and has since developed an interest in open science.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-03-28T01:30:19+02:00",
+    "last_modified": "2022-04-08T14:33:07+02:00",
     "input_file": {}
   },
   {
@@ -64,7 +64,7 @@
     "categories": [],
     "contents": "\r\nDiscrete choice is choosing a single item or action from a finite set of alternatives. We do it all the time, when we shop for new clothes, select a dish from the menu, choose to commute by bus, train or bike, select a job or an applicant, or when we swipe potential partners on Tinder.\r\nDiscrete spatial choice is when the alternatives are spatial entities, e.g. when we choose where to buy a house, where to go on holiday, or where to commit a crime. With data on what has been chosen and on what could have been chosen, discrete choice models can help us understand the decision process and predict its outcome: how do features of the alternatives (e.g. monetary cost of profits, distance, comfort, taste, looks) affect which alternative is chosen?\r\nIn this workshop, Wim Bernasco will explain the key elements of discrete choice models, just enough for you to get going and still know what you are doing. Subsequently he will show what the necessary data look like, how they can be organized, and how discrete choice models can be estimated in R.\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\nWim Bernasco is senior researcher at NSCR and professor at the School of Business and Economics at the Vrije Universiteit Amsterdam. His work focuses on the geography of crime, incuding crime location choice and offender mobility. Read more on his personal wesbite.\r\n\r\nMaterials\r\nTo install the packages used in this workshop, type and run: install_packages(c(\"tidyverse\", \"survival\", \"mlogit\", \"car\"))\r\nWim will cover a subset of the material covered in a recent handbook chapter. In the workshop, he will work with a tidyverse style version of the script that is described in the handbook chapter.\r\nAdditional workshop materials will be posted here as soon as they are available\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-04-05T23:28:47+02:00",
+    "last_modified": "2022-04-08T14:33:07+02:00",
     "input_file": {}
   },
   {
@@ -79,9 +79,9 @@
     ],
     "date": "2022-04-05",
     "categories": [],
-    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\nSam Langton is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on describing and explaining the spatial and temporal patterning of police demand. Sam is interested in promoting open science in criminology, particularly through open data and sharing his knowledge (and struggles) in R.\r\n\r\n\r\n\r\n\r\n",
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nIn this session, Sam Langton demonstrated long to wide (and wide to long) transformations using functions available in the tidyr package using data from the London Fire Brigade.\r\n\r\nSam Langton is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on describing and explaining the spatial and temporal patterning of police demand. Sam is interested in promoting open science in criminology, particularly through open data and sharing his knowledge (and struggles) in R.\r\n\r\nMaterials\r\nYou can find the material for this workshop here.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-03-04T14:15:43+01:00",
+    "last_modified": "2022-04-08T15:34:10+02:00",
     "input_file": {}
   },
   {
@@ -98,7 +98,7 @@
     "categories": [],
     "contents": "\r\nIn a two-sessions workshop, Nick van Doormaal will demonstrate how to use the shiny package to create interactive web applications. Note that this is the second session of a two-sesssion workshop. The first session (on Thursday March 17) was be a basic introduction on the different components of a shiny app. In this second session we explore into more depth how ‘reactivity’ works, an important component of most shiny apps.\r\nTo prepae for the workshop, you may want to take a look this key resource for shiny, in particular Chapter 3.\r\nIn advance of the workshop, we suggest you install these two R packages (just copy and paste this line into your R Studio Editor and run it)\r\ninstall.packages(c(“tidyverse”, “shiny”))\r\n\r\nNick van Doormaal is a former PhD candidate at the NSCR and currently a data analyst at the environmental service of the province of Gelderland. He got into R during his MSc thesis and internship and has been using R ever since.\r\n\r\nJoin this workshop meeting on Zoom by clicking this link\r\nMaterials\r\nOn Nick’s GitHub repository nscr-shiny-workshop you can find the data and the R script that documents the development that Nick demonstrated during the workshop.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-04-05T23:44:53+02:00",
+    "last_modified": "2022-04-08T14:33:07+02:00",
     "input_file": {}
   },
   {
@@ -115,7 +115,7 @@
     "categories": [],
     "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nJoin this workshop meeting on Zoom by clicking this link\r\nSports in general and football (soccer) in particular provides a sheer endless source of open data that can be explored at various levels (player, team, match, competition) and from various perspectives. In this meeting Wim Bernasco will use open data about football borrowed from a GitHub repository maintained by James Curley (James P. Curley (2016). engsoccerdata: English Soccer Data 1871-2016. R package version 0.1.5 DOI: 10.5281/zenodo.13158).\r\nThe engsoccerdata repository contains data on football matches from the UK Premier League and other European football leagues. In this Tidy Tuesday we will use data from almost a complete century (1929-2020) of matches in the Spanish League called La Liga.\r\nWe will try to answer a couple of simple questions:\r\nIs it true that there are less goals today than in earlier days?\r\nIs the number of goals related to the season of the year?\r\nIs playing home really an advantage?\r\nIf so, has this advantage changed over time?\r\n\r\nWim Bernasco is a senior researcher at the Netherlands Institute for the Study of Crime and Law Enforcement (NSCR) and a professor in Spatial analysis of crime at the School of Business and Economics at the Vrije Universiteit Amsterdam. Most of his work in criminology is about the geography of crime, offender decision making and situational causes of crime.\r\n\r\nMaterials\r\nHere is a the R script that documents the analysis that Wim demonstrated during the workshop. It includes installation of packages, loading libraries, reading data and substantive analysis.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-04-05T23:39:46+02:00",
+    "last_modified": "2022-04-08T14:33:07+02:00",
     "input_file": {}
   },
   {
@@ -132,7 +132,7 @@
     "categories": [],
     "contents": "\r\nIn a two-sessions workshop, Nick van Doormaal will demonstrate how to use the shiny package to create interactive web applications. Note that this is the first session of a two-sesssion workshop. This first session will be a basic introduction on the different components of a shiny app. In the second session (on Thursday March 31) we explore into more depth how ‘reactivity’ works, an important component of most shiny apps.\r\nFor inspiration, you may want to spend a few minutes viewing some fun apps made with shiny, or this shiny gallery.\r\nTo prepare for the workshop, you could install these two R packages (just copy and paste this line into your R Studio Editor and run it)\r\ninstall.packages(c(“tidyverse”, “shiny”))\r\n\r\nNick van Doormaal is a former PhD candidate at the NSCR and currently a data analyst at the environmental service of the province of Gelderland. He got into R during his MSc thesis and internship and has been using R ever since.\r\n\r\nJoin this workshop meeting on Zoom by clicking this link\r\nMaterials\r\nMaterials\r\nOn Nick’s GitHub repository nscr-shiny-workshop you can find the data and the R script that documents the development that Nick demonstrated during the second workshop on Thursday March 31.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-04-05T23:46:19+02:00",
+    "last_modified": "2022-04-08T14:33:07+02:00",
     "input_file": {}
   },
   {
@@ -149,7 +149,7 @@
     "categories": [],
     "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nJoin this workshop meeting on Zoom by clicking this link\r\nIn this meeting, Tim will explain what Sankey diagrams are, and how they can be created in R.\r\n\r\nTim Verlaan is a PhD candidate at the Netherlands Institute for the Study of Crime and Law Enforcement (NSCR).\r\n\r\nMaterials\r\nThe script (R) that Tim worked through.\r\nThe presentation that Tim used.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-03-09T10:11:57+01:00",
+    "last_modified": "2022-04-08T14:33:07+02:00",
     "input_file": {}
   },
   {
@@ -166,7 +166,7 @@
     "categories": [],
     "contents": "\r\n\r\n\r\nThis session will provide a hands-on overview of basic concepts in machine learning, and show how they can be easily implemented in R using the new Tidymodels framework. The Tidymodels framework is a collection of packages for modeling and machine learning using tidyverse principles. We will cover how to build fully reproducible machine learning workflows that are easy to interpret and implement, including key steps such as pre-processing, model fitting and tuning, and model performance evaluation and visualisation.\r\n\r\n\r\n\r\n\r\n\r\n\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\n\r\nNathan is a PhD candidate at the Institute for Data Science and Artificial Intelligence at the University of Manchester. He is writing his thesis on new methods for crowdsourcing spatio-temporal data. Nathan completed his BA in political science at the University of Manchester. His current research interests include citizen science, exploring statistical methodology for new and unconventional forms of data, contemporary debates in philosophy of statistics, open-sourced software (in particular R and Julia languages), communicating uncertainty, and cooking.\r\n\r\n\r\nMaterials\r\nMaterials will be made available by Nathan after the workshop! We will post links to the material here.\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-03-04T14:15:43+01:00",
+    "last_modified": "2022-02-24T09:46:45+01:00",
     "input_file": {}
   },
   {
@@ -183,7 +183,7 @@
     "categories": [],
     "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nJoin this workshop meeting on Zoom by clicking this link\r\nThe dataset for this Tidy Tuesday is about animal rescues! Alex Trinidad explores the temporal trends of animal rescues using lubridate package (Grolemund & Wickham, 2011).\r\nMaterials\r\nThe script (R) that Alex worked through.\r\nThe CRAN documentation.\r\nAbout lubridate.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-03-09T10:11:57+01:00",
+    "last_modified": "2022-04-08T14:33:07+02:00",
     "input_file": {}
   },
   {
@@ -200,7 +200,7 @@
     "categories": [],
     "contents": "\r\nA loop is a sequence of one or more R commands that is carried out repeatedly. In this workshop meeting you will learn how to efficiently program loops in R\r\nJoin this workshop meeting on Zoom by clicking this link\r\nBy way of preparation, you might want to install two packages:\r\ninstall.packages(“tidyverse”)\r\ninstall.packages(“foreach”)\r\n\r\nWouter Steenbeek is a senior researcher at the Netherlands Institute for the Study of Crime and Law Enforcement (NSCR). He started using R around 2012. His main research interests are in spatial patterns of crime and quantitative research methods.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-03-04T14:15:43+01:00",
+    "last_modified": "2022-02-24T09:07:39+01:00",
     "input_file": {}
   },
   {
@@ -217,7 +217,7 @@
     "categories": [],
     "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nThe dataset for this Tidy Tuesday is about board games! Asier Moneva explores the following research questions: “What are the top 3 best-selling board games by game type?” and “How do board game sales relate to online user ratings?” Feel free to explore these questions yourselves and share your experience with us.\r\nMaterials\r\nThe script (R) that Asier worked through.\r\nThe Tidy Data paper (pre-print) by Hadley Wickham (2014)\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-03-04T14:15:43+01:00",
+    "last_modified": "2022-02-10T14:57:32+01:00",
     "input_file": {}
   },
   {
@@ -234,7 +234,7 @@
     "categories": [],
     "contents": "\r\nMuch information is stored as free-text. Free-text is weakly structured and therefore hard to extract and organize. This workshop will explore some elements of working with free-text data in R, principally how it can be prepared and transformed to be used with machine learning algorithms.\r\nJoin this workshop meeting on Zoom by clicking this link\r\nAnthony Dixon is a postgraduate researcher at the University of Leeds, working in the School of Law and the Leeds Institute of Data Analytics. The topic of his thesis is ‘Improving Problem-oriented policing with Natural Language Processing’, which seeks to explore the use of state-of-the-art deep learning models to automatically extract information from police free-text data. Additionally he has joint published a number of papers covering crime changes as a result of the covid-19 pandemic.\r\nMaterials\r\nYou can download the materials used in the workshop here.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-03-19T20:25:44+01:00",
+    "last_modified": "2022-04-08T14:33:07+02:00",
     "input_file": {}
   },
   {
@@ -249,9 +249,9 @@
     ],
     "date": "2022-01-25",
     "categories": [],
-    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nAs a continuation of his workshop on January 11, Sam Langton will demonstrate some foundational R skills using a Tidy Tuesday dataset on the nutritional (or not so nutritional) content of Starbucks drinks. If you’d like to learn more about basic wrangling and visualization in R, then come along and listen. No problem if you did not attend the previous meeting.\r\nJoin this workshop meeting on Zoom by clicking this link\r\nSam is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on describing and explaining the spatial and temporal patterning of police demand. Sam is interested in promoting open science in criminology, particularly through open data and sharing his knowledge (and struggles) in R.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nAs a continuation of his workshop on January 11, Sam Langton demonstrated some foundational R skills using a Tidy Tuesday dataset on the nutritional (or not so nutritional) content of Starbucks drinks.\r\n\r\nSam Langton is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on describing and explaining the spatial and temporal patterning of police demand. Sam is interested in promoting open science in criminology, particularly through open data and sharing his knowledge (and struggles) in R.\r\n\r\nMaterials\r\nYou can find the material for this workshop here.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-03-04T14:15:42+01:00",
+    "last_modified": "2022-04-08T15:34:04+02:00",
     "input_file": {}
   },
   {
@@ -268,7 +268,7 @@
     "categories": [],
     "contents": "\r\nNetwork analysis is a topic of growing interest in criminology and beyond. This workshop gives a short introduction and overview of network analysis in R, beginning with a conceptual discussion of what networks are. In their simplest form, networks are comprised of actors (“nodes”) and relationships between them (“edges”). Network analysis concerns the analytical approach to study these edges between nodes of any kind (e.g., individuals, businesses, experiences, words, or streets). The workshop proceeds with an introduction to network analysis in R, focusing on i) creating and reading network data; ii) describing and visualizing networks; and iii) explaining the formation of networks.\r\nJoin this workshop meeting on Thursday January 20, 2022 at 13:00 on Zoom by clicking this link\r\nTo prepare for the workshop, you may want to install a few R packages (just copy and paste these lines into your R Studio Editor and run them):\r\ninstall.packages(“tidyverse”)\r\ninstall.packages(“igraph”)\r\ninstall.packages(“tidygraph”)\r\ninstall.packages(“ggraph”)\r\ninstall.packages(“statnet”)\r\n\r\nIeke de Vries is an Assistant Professor at the Institute of Criminal Law and Criminology at Leiden University. In her current work, she applies a network approach to examine co-arrest and spatial networks in Chicago, social and spatial networks in the context of human trafficking, and networks of victimizing experiences and behaviors. Besides conducting her research mostly in R, she has also taught an ‘Introduction to Computational Statistics in R’ to graduate students and ‘Programming with Data in Python’ to undergraduate students at Northeastern University and a Summer Course on ‘Crime, Data, and Ethics’ to honours students at Leiden University.\r\n\r\nMaterials\r\nMaterials for the workshop are available at Github.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-03-19T20:22:27+01:00",
+    "last_modified": "2022-04-08T14:33:07+02:00",
     "input_file": {}
   },
   {
@@ -283,9 +283,9 @@
     ],
     "date": "2022-01-11",
     "categories": [],
-    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nSam Langton will demonstrate some foundational R skills using a Tidy Tuesday dataset on the nutritional (or not so nutritional) content of Starbucks drinks. If you’d like to learn more about basic wrangling and visualization in R, then come along and listen.\r\nJoin this workshop Tuesday January 11, 2022 at 13:00 on Zoom by clicking this link\r\nSam is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on describing and explaining the spatial and temporal patterning of police demand. Sam is interested in promoting open science in criminology, particularly through open data and sharing his knowledge (and struggles) in R.\r\nMaterials\r\nThe slides (PDF) of Sam’s presentation.\r\nThe script (R) that Sam worked through.\r\nThe plot (PNG) that was created by the script.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nSam Langton demonstrated some foundational R skills using a Tidy Tuesday dataset on the nutritional (or not so nutritional) content of Starbucks drinks.\r\n\r\nSam Langton is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on describing and explaining the spatial and temporal patterning of police demand. Sam is interested in promoting open science in criminology, particularly through open data and sharing his knowledge (and struggles) in R.\r\n\r\nMaterials\r\nYou can find the material for this workshop here.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-03-04T14:15:42+01:00",
+    "last_modified": "2022-04-08T15:33:58+02:00",
     "input_file": {}
   },
   {
@@ -302,7 +302,7 @@
     "categories": [],
     "contents": "\r\nDistill is a package built on and for RMarkdown, the ecosystem of packages for creating computational documents in R.\r\nThe goal of the distill package is to provide an output format optimized for online scientific and technical communication. The distill-R package provides HTML output formats for R Markdown documents. With the use of distill you can make articles, blogs and websites.\r\nThe goal of the developers of distill was to create a platform to help scientists harness the benefits of modern HTML-based communication, which digital designers and journalists have been using to create interactive and engaging articles that meet readers where they are: online.\r\nIn this workshop you are introduced to this package. You learn how to build your own website and blog, how to place it on GitHub and deploy it for free by using Netlify. Harrie Jonkman and the NSC-R team members developed a website for the NSC-R workshops by using distill (you are reading it right now).\r\nMore information\r\nA very accessible description of how to use distill to build websitres is Building a distill website by by Liza Lendway.\r\nAnother description of how to build websites with distill is Building a blog with distill, targeted.\r\ndistill was created by people at R Studio. This is RStudio’s official website link on distill\r\nYou could also check out RStudio’s new developments on distill\r\n\r\nHarrie Jonkmanis a senior researcher at the Verwey Jonker Institute. He works in the field of cognitive and social development of children and youngsters in relation to the contexts in which they grow up (family, school, friends, community and country). Recently he edited with David Farrington and Frederick Groeger-Roth Delinquency and Substance Use in Europe. Understanding Risk and Protective Factors. He also finished recently the open-source book Terugschrijven on knowledge, development and democracy. He is interested in open-source data analysis and has his blog Harrie’s Hoekje on this topic.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-03-04T14:15:42+01:00",
+    "last_modified": "2022-02-24T09:07:39+01:00",
     "input_file": {}
   },
   {
@@ -319,7 +319,7 @@
     "categories": [],
     "contents": "\r\nVersion control is essential for keeping track of data analysis projects. It is also essential for collaboration with other researchers and developers.\r\nGit, GitHub in combination with R/RStudio allow you to back up texts and scripts and to collaborate on complex projects. Git and GitHub are open source version control systems which work quiet well together with R/RStudio.\r\nThis workshop introduced this system, demonstrated how to create a repository on GitHub, and how to do this from R/RStudio (see Harrie’s presentation (PDF)).\r\nThe workshop also included a live demonstration of how collaboration between multiple people works in a simple repository/project.\r\nThe workshop was connected to the subsequent workshop in which the new NSC-R Workshop website was be presented (the one you are reading now). This website is developed by the NSC-R team members who worked together on this in Git, GitHub and R/RStudio.\r\nMore information\r\nBelow are links to potentially usefull sources about Git, Github and their integration with R/RStudio.\r\nDouglas, A., Roos, D., Mancini, F., Couto, A. and Lusseau, D., An introduction to R, chapter 9, here.\r\nBryan, J., Happy Git and GitHub for the useR, here\r\nLendway, L., github_for_collaboration, here\r\nLisa Lendway on YouTube\r\nUsing Git and GitHub in R Studio\r\nUsing Git and GitHub in R\r\n\r\nHarrie Jonkmanis a senior researcher at the Verwey Jonker Institute. He works in the field of cognitive and social development of children and youngsters in relation to the contexts in which they grow up (family, school, friends, community and country). Recently he edited with David Farrington and Frederick Groeger-Roth Delinquency and Substance Use in Europe. Understanding Risk and Protective Factors. He also finished recently the open-source book Terugschrijven on knowledge, development and democracy. He is interested in open-source data analysis and has his blog Harrie’s Hoekje on this topic.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-03-04T14:15:42+01:00",
+    "last_modified": "2022-02-24T09:07:39+01:00",
     "input_file": {}
   },
   {
@@ -336,7 +336,7 @@
     "categories": [],
     "contents": "\r\nAccording to David Buil-Gil, victimization surveys provide key information about crimes known and unknown to the police, and are the main source of data to analyse perceived safety and confidence in policing. These surveys, however, are only designed to allow aggregating responses and producing reliable direct estimates (i.e., weighted means or totals) at very large spatial scales, such as countries or states. Sample sizes are too small to produce direct estimates of adequate precision at the increasingly refined spatial scales of the criminology of place. Model-based small area estimation techniques may be used to improve the reliability of small area estimates produced from victimization surveys. Small area estimation techniques are applied to produce reliable estimates of parameters of interest (and their associated measures of error) for areas for which only small or zero sample sizes are available. This workshop will introduce theory and show a step-by-step exemplar study in R to illustrate the utility of small area estimation for crime and place research. You find materials here. And his presentation here\r\n\r\nDavid Buil-Gil is a Lecturer in Quantitative Criminology at the Department of Criminology of the University of Manchester, and a core member of the Manchester Centre for Digital Trust and Society. His research areas cover geographic criminology, small area estimation applications in criminology, measurement error in criminological research, new methods for data collection, and open data.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-03-04T14:15:42+01:00",
+    "last_modified": "2022-01-04T13:09:42+01:00",
     "input_file": {}
   },
   {
@@ -353,7 +353,7 @@
     "categories": [],
     "contents": "\r\nMatt Ashby talks about how to use time-series data in R for tasks such as understanding temporal patterns in crime data and forecasting the future frequency of crime under different scenarios, either for future planning or as a counter-factual against which to compare actual against forecast crime frequency.\r\nHere are links to\r\nMatt’s slides for the presentation\r\nThe code creating the slides for the presentation\r\nThe code for the example that Matt worked through during the presentation.\r\n\r\nMatt Ashby is a lecturer in crime science at the Jill Dando Institute of Security and Crime Science at University College London (UCL). He uses R to analyse spatial and temporal patterns of crime and police data as well as teaching crime mapping and crime analysis in R. He is also the author of the ‘crimedata’ package for conveniently accessing large datasets of recorded crime for research.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-03-04T14:15:42+01:00",
+    "last_modified": "2022-01-04T13:09:42+01:00",
     "input_file": {}
   },
   {
@@ -370,7 +370,7 @@
     "categories": [],
     "contents": "\r\nThis workshop covers the basics of the tidyverse – a collection of packages in R which can be used to import, tidy, transform and visualise data. The material is suitable for people with very little experience in R, but also seasoned R users who have not yet delved into the tidyverse. The skills covered are foundational and generic to almost any research project. The workshop centres around a demonstration which tackles a realistic, ‘messy’ dataset about animal rescue incidents dealt with by the London Fire Brigade. The material can be found on the corresponding GitHub repository or the Dropbox folder.\r\n\r\nSam Langton is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on the spatial and temporal patterning of crime and police demand. You can find read more about Sam on his website.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-03-04T14:15:42+01:00",
+    "last_modified": "2022-01-04T13:09:42+01:00",
     "input_file": {}
   },
   {
@@ -391,7 +391,7 @@
     "categories": [],
     "contents": "\r\nThis workshop session was about using R for regression analysis, both in a non-spatial and a spatial context. Wouter and Stijn presented parts of what they prepared for a recent book chapter (in press). Here you can find the data, the syntax and the html-file presented in the workshop meeting.\r\n\r\nWouter is a Senior Researcher at the NSCR. For analyses he has used Excel, SPSS, Stata Mplus, MLWiN, and QGis. Not a big fan of C++ and Java, but once upon a time he knew the basics. Wouter started using R around 2012, due to a collaboration with a visiting scholar who used R. Classic case of SIR model (Susceptible - Infection - Recovery) although he has never recovered from his R infection. Also, the R bug destroyed his interest in the above-mentioned programs :-). His main research interests are in spatial patterns of crime and quantitative research methods.\r\n\r\n\r\nStijn is a Senior Researcher and management team member at the NSCR. He is program leader of two of its five research groups, and also Professor at the Department of Sociology, Utrecht University. Stijn has used R ever since he attended the Summer School in Ann Arbor in 2004, even for generating his kitchen tiling pattern. His main research interests are in Geographic and Environmental Criminology, Policing, Quantitative, Analytical, and Computational Sociology, and he is a great believer in Open Science and Open-source.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-03-04T14:15:42+01:00",
+    "last_modified": "2022-01-04T13:09:42+01:00",
     "input_file": {}
   },
   {
@@ -408,7 +408,7 @@
     "categories": [],
     "contents": "\r\nThis workshop session provides an introduction to open data using R. Following a brief introductory presentation (e.g. definitions, purpose) the bulk of the workshop will focus on practical examples which demonstrate how to obtain and handle open data within the R environment.\r\nNo prior reading is necessary, but if you might want to skim through a recent book chapter (in press) by Sam and Reka Solymosi on using open data in R to study the geography of crime.\r\nHere you can find his materials: Sams presentation (presentation.pdf), his syntax (demo.R) and the results of his syntax (worksheet.pdf)\r\n\r\nSam Langton is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on the spatial and temporal patterning of crime and police demand.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-03-04T14:15:42+01:00",
+    "last_modified": "2021-10-06T15:36:00+02:00",
     "input_file": {}
   },
   {
@@ -425,7 +425,7 @@
     "categories": [],
     "contents": "\r\nThe third meeting of the NSC-R Workshop was on Thursday September 2, 13:00-14:00 hr. Alex Trinidad introduced us to spatial data and how they can be processed in R.\r\nLearning to work with spatial data allows us to broaden our toolbox and our research horizons. In this workshop, we worked on the basic concepts of spatial data usage, data preparation, and basic visualisations. The aim was to introduce you to how to work with spatial data in R and provide materials that helped to go deeper into this type of data.\r\nTo prepare for the meeting, Alex suggested you might want to take a look at the following links. This is obviously not mandatory, but the materials may give rise to ideas or questions that you may want to discuss in the workshop meeting:\r\nLovelance, R., Nowosad, J., & Muenchow, J. Geocomputation with R. CRC Press.\r\nBivand, R. S., Pebesba, E., & Gómez-Rubio, V. Applied Spatial Data Analysis with R. Springer.(Access from university library)\r\nAlex’ scripts and data you can find here.\r\n\r\nAlex is a postdoctoral researcher/ lecturer at the Institute of Sociology and Social Psychology (ISS) at the University of Cologne, Germany. He is also a research fellow at the Netherlands Institute for the Study of Crime and Law Enforcement (NSCR). His interest in spatial analysis began when he started his PhD, exploring the spatial distribution of juvenile delinquency and the contextual factors associated with it. It was also during his PhD that he began his journey with R.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-03-04T14:15:42+01:00",
+    "last_modified": "2022-02-24T09:07:39+01:00",
     "input_file": {}
   },
   {
@@ -442,7 +442,7 @@
     "categories": [],
     "contents": "\r\nMarkdown is a language for producing formatted text with a simple text editor conceived with the idea of being human-readable from source. If you remember Thomas de Graaff’s talk from two weeks ago, having human readable code is important for a number of reasons, such as being easy to debug, maintain, and extend.\r\nRMarkdown is simply a software that allows the implementation of this language in R. This makes it possible to produce open-access, fully reproducible documents.\r\nHere you can find Asier’s presentation, scripts and additional materials.\r\nTo show you the basics, Asier followed the book R Markdown: The Definitive Guide by Xie, Allaire and Grolemund. He recommends you read the Preface before the workshop. However, as a definitive guide, you can deduce that this book does not only cover the basics, so you can also use it to go deeper.\r\nOnce you have mastered tha basics of RMarkdown, you might want to take a look at the RMarkdown Cookbook\r\nTo have all the main commands at hand, you can print this double-sided RMarkdown cheat sheet. (We love cheat sheets.)\r\nAnd for a quick overview of RMarkdown, just watch this video.\r\nHere you can find an Elsevier template for RMarkdown\r\n\r\nAsier is a postdoc at the NSCR and The Hague University of Applied Sciences with a background in criminology. He started specializing in crime analysis with R during his master’s degree and has since developed an interest in open science.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-03-04T14:15:42+01:00",
+    "last_modified": "2022-02-24T09:07:39+01:00",
     "input_file": {}
   },
   {
@@ -459,7 +459,7 @@
     "categories": [],
     "contents": "\r\nOn Thursday June 24, 13:00-14:00, we kicked off the NSC-R Workshop initiative. The topic of this first meeting was reproducibility, which is about how to organize your research workflow to create documented code and reproducible findings. The focus was not on why (we should know), but on practical guidelines on how to do it. It was presented by Thomas de Graaff.\r\nHere you find the presentation\r\nTo prepare for the first meeting, Thomas de Graaff suggested you might want to take a look at the following links. This is obviously not mandatory, but the materials may give rise to ideas or questions that you may want to discuss in the workshop meeting:\r\nA very readable post on reproducible workflow in R.\r\nA nice short blog post about R projects.\r\nIf you are using R already and in particular if you use tidyverse, a long book-down document about coding style conventions.\r\nA wonderful but distressing lecture (and long: about 50 minutes) from Richard McElreath about working with software in the social sciences, with a criminology paper example in the end on racial disparity in police use of deadly force. Click this YouTube link.\r\nYou may also want to consult this textbook:\r\nGandrud, C. Reproducible Research with R and RStudio, Second edition. Click to download the PDF\r\n\r\nThomas de Graaf is associate professor at the department of Spatial Economics at the Vrije Universiteit in Amsterdam.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-03-04T14:15:42+01:00",
+    "last_modified": "2022-02-24T09:07:39+01:00",
     "input_file": {}
   },
   {
@@ -476,7 +476,7 @@
     "categories": [],
     "contents": "\r\nThis blog serves as an agenda for future workshop meetings and as an archive for past workshop meetings. Each post:\r\nbriefly describes date, time and topic of a workshop\r\nprovides the Zoom link where you can join the workshop meeting\r\nlists any necessary suggested pre-workshop reading material\r\nintroduces the workshop presenter\r\nprovides links to the workshop materials provided by the presenter\r\nprovides links to additional information on the workshop topic\r\nOpen sources that may help you learn about R in general\r\nGrolemund, G. & Wickham, H. (2019). R for Data Science\r\nBatra, N. (ed, 2021). The Epidemiologist R Handbook\r\nBaumer, B.S., Kaplan, D.T. & Horton, N.J. (2018). Modern Data Science with R\r\nIrizarry, R.A. (2019). Introduction to Data Science. Data Analysis and Prediction Algorithms with R\r\nKaplan, J. (2021). Crime by the Numbers: A Criminologist’s Guide to R\r\nNavarro, D. (2019). Learning statistics with R: A tutorial for psychology students and other beginners\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": "posts/welcome/workshop.png",
-    "last_modified": "2022-03-04T14:15:43+01:00",
+    "last_modified": "2022-02-24T09:07:39+01:00",
     "input_file": {},
     "preview_width": 480,
     "preview_height": 480

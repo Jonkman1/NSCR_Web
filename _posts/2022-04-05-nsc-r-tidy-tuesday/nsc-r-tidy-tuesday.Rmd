@@ -18,11 +18,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 The NSC-R Tidy Tuesday workshop sessions are inspired by the [Tidy Tuesday](https://www.tidytuesday.com/) initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.
 
-Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/81301135129?pwd=WGY3MjltRW1PS2lJUFRBUmZ1cXJyUT09)
-
-
+In this session, Sam Langton demonstrated long to wide (and wide to long) transformations using functions available in the `tidyr` package using data from the London Fire Brigade.
 
 > *Sam Langton* is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on describing and explaining the spatial and temporal patterning of police demand. Sam is interested in promoting open science in criminology, particularly through open data and sharing his knowledge (and struggles) in R.
 
+### Materials
 
+- You can find the material for this workshop [here](https://github.com/langtonhugh/nscr_graphics).
 
