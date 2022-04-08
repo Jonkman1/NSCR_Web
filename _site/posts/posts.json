@@ -1,5 +1,39 @@
 [
   {
+    "path": "posts/2022-05-17-hotroutesstreetprofiles/",
+    "title": "Hot Routes and Street Profiles",
+    "description": "Hot routes and street profiles.",
+    "author": [
+      {
+        "name": "Reka Solymosi",
+        "url": "https://www.research.manchester.ac.uk/portal/reka.solymosi.html"
+      }
+    ],
+    "date": "2022-05-17",
+    "categories": [],
+    "contents": "\r\nIn this workshop, Reka Solymosi will provide an introduction to various methods of analyzing and visualing spatial network data (such a street networks, or Underground lines).\r\n\r\nReka Solymosi is a Lecturer in Quantitative Methods at the Department of Criminology at University of Manchester. Her research focuses on making use of new forms of data to gain insight into people’s behaviour and subjective experiences, particularly focusing on crime, victimisation, transport, and spatial research. She is also dedicated to promoting data literacy in social science study and practice.\r\n\r\nMaterials\r\nYou can find the material for this workshop here.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-04-08T15:47:43+02:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2022-05-12-cbsdata/",
+    "title": "cbsodataR package",
+    "description": "Demonstrating the cbsodataR package in R",
+    "author": [
+      {
+        "name": "Edwin de Jonge",
+        "url": {}
+      }
+    ],
+    "date": "2022-05-12",
+    "categories": [],
+    "contents": "\r\nIn this workshop, Edwin De Jonge from CBS will provide an introduction and demonstration to his package cbsodataR which can be used to query the CBS open data API.\r\nMaterials\r\nYou can find a quick start guide to using the pacakge here.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-04-08T15:51:34+02:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2022-05-03-nsc-r-tidy-tuesday/",
     "title": "NSC-R Tidy Tuesday",
     "description": "Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.",
@@ -285,7 +319,7 @@
     "categories": [],
     "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nSam Langton demonstrated some foundational R skills using a Tidy Tuesday dataset on the nutritional (or not so nutritional) content of Starbucks drinks.\r\n\r\nSam Langton is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on describing and explaining the spatial and temporal patterning of police demand. Sam is interested in promoting open science in criminology, particularly through open data and sharing his knowledge (and struggles) in R.\r\n\r\nMaterials\r\nYou can find the material for this workshop here.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-04-08T15:33:58+02:00",
+    "last_modified": "2022-04-08T15:47:19+02:00",
     "input_file": {}
   },
   {
@@ -368,9 +402,9 @@
     ],
     "date": "2021-10-12",
     "categories": [],
-    "contents": "\r\nThis workshop covers the basics of the tidyverse – a collection of packages in R which can be used to import, tidy, transform and visualise data. The material is suitable for people with very little experience in R, but also seasoned R users who have not yet delved into the tidyverse. The skills covered are foundational and generic to almost any research project. The workshop centres around a demonstration which tackles a realistic, ‘messy’ dataset about animal rescue incidents dealt with by the London Fire Brigade. The material can be found on the corresponding GitHub repository or the Dropbox folder.\r\n\r\nSam Langton is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on the spatial and temporal patterning of crime and police demand. You can find read more about Sam on his website.\r\n\r\n\r\n\r\n\r\n",
+    "contents": "\r\nThis workshop covered the basics of the tidyverse – a collection of packages in R which can be used to import, tidy, transform and visualise data. The material is suitable for people with very little experience in R, but also seasoned R users who have not yet delved into the tidyverse. The skills covered were foundational and generic to almost any research project. The workshop centred around a demonstration which tackles a realistic, ‘messy’ dataset about animal rescue incidents dealt with by the London Fire Brigade.\r\n\r\nSam Langton is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on describing and explaining the spatial and temporal patterning of police demand. Sam is interested in promoting open science in criminology, particularly through open data and sharing his knowledge (and struggles) in R.\r\n\r\nMaterials\r\nYou can find the material for this workshop on GitHub or alternatively on Dropbox.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-01-04T13:09:42+01:00",
+    "last_modified": "2022-04-08T15:40:47+02:00",
     "input_file": {}
   },
   {
@@ -406,9 +440,9 @@
     ],
     "date": "2021-09-14",
     "categories": [],
-    "contents": "\r\nThis workshop session provides an introduction to open data using R. Following a brief introductory presentation (e.g. definitions, purpose) the bulk of the workshop will focus on practical examples which demonstrate how to obtain and handle open data within the R environment.\r\nNo prior reading is necessary, but if you might want to skim through a recent book chapter (in press) by Sam and Reka Solymosi on using open data in R to study the geography of crime.\r\nHere you can find his materials: Sams presentation (presentation.pdf), his syntax (demo.R) and the results of his syntax (worksheet.pdf)\r\n\r\nSam Langton is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on the spatial and temporal patterning of crime and police demand.\r\n\r\n\r\n\r\n\r\n",
+    "contents": "\r\nThis workshop session provided an introduction to open data using R. Following a brief introductory presentation (e.g. definitions, purpose) the bulk of the workshop focused on practical examples which demonstrated how to obtain and handle open data within the R environment.\r\n\r\nSam Langton is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on describing and explaining the spatial and temporal patterning of police demand. Sam is interested in promoting open science in criminology, particularly through open data and sharing his knowledge (and struggles) in R.\r\n\r\nMaterials\r\nYou can find the material for this workshop here.\r\nYou might find this corresponding book chapter (in press) interesting too.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-10-06T15:36:00+02:00",
+    "last_modified": "2022-04-08T15:41:07+02:00",
     "input_file": {}
   },
   {

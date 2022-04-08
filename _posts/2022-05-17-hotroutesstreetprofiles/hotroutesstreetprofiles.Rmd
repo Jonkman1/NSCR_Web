@@ -1,0 +1,28 @@
+---
+title: "Hot Routes and Street Profiles"
+description: |
+  Hot routes and street profiles.
+author: 
+  - name: Reka Solymosi
+    url: https://www.research.manchester.ac.uk/portal/reka.solymosi.html
+date: 05-17-2022
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+In this workshop, Reka Solymosi will provide an introduction to various methods of analyzing and visualing spatial network data (such a street networks, or Underground lines). 
+
+> *Reka Solymosi* is a Lecturer in Quantitative Methods at the Department of Criminology at University of Manchester. Her research focuses on making use of new forms of data to gain insight into people's behaviour and subjective experiences, particularly focusing on crime, victimisation, transport, and spatial research. She is also dedicated to promoting data literacy in social science study and practice.
+
+### Materials
+
+- You can find the material for this workshop [here](https://rekadata.net/blog/hot-routes-tutorial/).
+
+
+

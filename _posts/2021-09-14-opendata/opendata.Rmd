@@ -17,11 +17,11 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-This workshop session provides an introduction to **open data using R**. Following a brief introductory presentation (e.g. definitions, purpose) the bulk of the workshop will focus on practical examples which demonstrate how to obtain and handle open data within the R environment. 
+This workshop session provided an introduction to **open data using R**. Following a brief introductory presentation (e.g. definitions, purpose) the bulk of the workshop focused on practical examples which demonstrated how to obtain and handle open data within the R environment. 
  
-No prior reading is necessary, but if you might want to skim through a [recent book chapter](https://osf.io/a96y7/) (in press) by Sam and Reka Solymosi on using open data in R to study the geography of crime. 
+> *Sam Langton* is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on describing and explaining the spatial and temporal patterning of police demand. Sam is interested in promoting open science in criminology, particularly through open data and sharing his knowledge (and struggles) in R.
 
-[Here](https://github.com/Jonkman1/NSC_R/tree/main/Meeting_4_OpenData) you can find his materials: Sam's presentation (presentation.pdf), his syntax (demo.R) and the results of his syntax (worksheet.pdf)
+### Materials
 
-> Sam Langton is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on the spatial and temporal patterning of crime and police demand. You can find read more about Sam on his [website](www.samlangton.info).
-
+- You can find the material for this workshop [here](https://github.com/Jonkman1/NSC_R/tree/main/Meeting_4_OpenData).
+- You might find this corresponding [book chapter](https://osf.io/a96y7/) (in press) interesting too.
