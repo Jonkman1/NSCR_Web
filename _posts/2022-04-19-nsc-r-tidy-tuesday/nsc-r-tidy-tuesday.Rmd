@@ -18,11 +18,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 The NSC-R Tidy Tuesday workshop sessions are inspired by the [Tidy Tuesday](https://www.tidytuesday.com/) initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.
 
+The [dataset](https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-04-12/indoor_pollution.csv) for this Tidy Tuesday is about indoor air pollution! **Asier Moneva** explores the following research question: “How have trends in deaths due to household air pollution from solid fuels evolved in the EU countries over the last 30 years?” Feel free to explore this question yourselves and share your experience with us.
+
 Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/82954366080?pwd=bzdpSzRkNktzVkZSOEdNUTlSdTNmdz09)
 
 
 
 > **Asier Moneva** is a postdoc at the NSCR and The Hague University of Applied Sciences with a background in criminology. He started specializing in crime analysis with R during his master's degree and has since developed an interest in open science.
 
+### Materials
 
+Workshop materials will be posted here as soon as they are available
 

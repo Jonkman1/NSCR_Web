@@ -19,7 +19,7 @@ In this workshop, Edwin De Jonge from CBS will provide an introduction and demon
 
 ### Materials
 
-- You can find a quick start guide to using the pacakge [here](https://www.cbs.nl/en-gb/our-services/open-data/statline-as-open-data/quick-start-guide).
+- You can find a quick start guide to using the package [here](https://www.cbs.nl/en-gb/our-services/open-data/statline-as-open-data/quick-start-guide).
 
 
 
