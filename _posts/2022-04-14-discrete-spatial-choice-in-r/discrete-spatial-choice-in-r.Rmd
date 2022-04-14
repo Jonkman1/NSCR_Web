@@ -31,7 +31,7 @@ Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.
 
 To install the packages used in this workshop, type and run: `install_packages(c("tidyverse", "broom", "survival", "mlogit", "car"))`
 
-Wim will cover a subset of the material covered in a [recent handbook chapter](https://osf.io/639cz/). In the workshop, he will work with a `tidyverse` style version of the script that is described in the handbook chapter.
+Wim covered a subset of the material presented in a [recent handbook chapter](https://osf.io/639cz/). In the workshop, he worked with a shortened `tidyverse` style version of the script that is described in the handbook chapter.
 
 
 Data files, data documentation and the R script are available in [this GitHub repository](https://github.com/bernasco/nsc-r_workshop_discrete_spatial_choice).
