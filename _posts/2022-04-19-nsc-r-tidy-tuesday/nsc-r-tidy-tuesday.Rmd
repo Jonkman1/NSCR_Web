@@ -28,5 +28,4 @@ Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.
 
 ### Materials
 
-Workshop materials will be posted here as soon as they are available
-
+-   The [script (R)](https://github.com/amoneva/tidy_tuesday/blob/main/week15_air_pollution.Rmd) that Asier worked through.
