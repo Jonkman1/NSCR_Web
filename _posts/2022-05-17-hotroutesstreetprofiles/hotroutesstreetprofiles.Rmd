@@ -16,7 +16,8 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-In this workshop, Reka Solymosi will provide an introduction to various methods of analyzing and visualing spatial network data (such a street networks, or Underground lines). 
+In this workshop, Reka Solymosi will introduce and discuss the implementation in R of two different methods for visualising crime along a route or network (such as rail or street networks): hot routes and street profile analysis.
+
 
 > *Reka Solymosi* is a Lecturer in Quantitative Methods at the Department of Criminology at University of Manchester. Her research focuses on making use of new forms of data to gain insight into people's behaviour and subjective experiences, particularly focusing on crime, victimisation, transport, and spatial research. She is also dedicated to promoting data literacy in social science study and practice.
 
