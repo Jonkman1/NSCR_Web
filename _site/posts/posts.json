@@ -11,10 +11,10 @@
     ],
     "date": "2022-05-17",
     "categories": [],
-    "contents": "\r\nIn this workshop, Reka Solymosi will provide an introduction to various methods of analyzing and visualing spatial network data (such a street networks, or Underground lines).\r\n\r\nReka Solymosi is a Lecturer in Quantitative Methods at the Department of Criminology at University of Manchester. Her research focuses on making use of new forms of data to gain insight into people’s behaviour and subjective experiences, particularly focusing on crime, victimisation, transport, and spatial research. She is also dedicated to promoting data literacy in social science study and practice.\r\n\r\nMaterials\r\nYou can find the material for this workshop here.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nIn this workshop, Reka Solymosi will introduce and discuss the implementation in R of two different methods for visualising crime along a route or network (such as rail or street networks): hot routes and street profile analysis.\r\n\r\nReka Solymosi is a Lecturer in Quantitative Methods at the Department of Criminology at University of Manchester. Her research focuses on making use of new forms of data to gain insight into people’s behaviour and subjective experiences, particularly focusing on crime, victimisation, transport, and spatial research. She is also dedicated to promoting data literacy in social science study and practice.\r\n\r\nMaterials\r\nYou can find the material for this workshop here.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-04-19T14:54:27+02:00",
-    "input_file": {}
+    "last_modified": "2022-04-21T09:26:03+02:00",
+    "input_file": "hotroutesstreetprofiles.knit.md"
   },
   {
     "path": "posts/2022-05-12-cbsdata/",
