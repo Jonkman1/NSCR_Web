@@ -28,6 +28,5 @@ Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.
 ### Materials & Instructions
 
 - The [script (R)](https://github.com/alexandertrinidad/tidy_tuesday/blob/main/tt_nscr_03_05.R) that Alex worked with. Please feel free to copy and paste the syntax in an new R script. If you run the whole script be aware that some errors will come up. Those are made on purpose, and the solution is in the next lines. If the error is due to a lack of package, check some of the comments (#) in the script, and install the needed package. 
-- 
 
 
