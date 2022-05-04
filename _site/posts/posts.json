@@ -1,5 +1,56 @@
 [
   {
+    "path": "posts/2022-06-09-writing-r-packages/",
+    "title": "Writing R packages",
+    "description": "How to write R packages that make life easier for you yourself and for others",
+    "author": [
+      {
+        "name": "Sophie Curtis-Ham",
+        "url": "https://www.researchgate.net/profile/Sophie-Curtis-Ham"
+      }
+    ],
+    "date": "2022-06-09",
+    "categories": [],
+    "contents": "\r\nR packages are collections of functions and datasets that extend the base functionality of R. You are already familar with them because whenever you type, for example, library(dplyr) in your R script you are using a package `dplyr’ and its functions. In this workshop Sophie Curtis-Ham will demonstrate how you yourself can create R packages.\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\nSophie Curtis-Ham, PhD, is Senior Research and Insights Advisor at the New Zealand police. She is the author of the R package gpsmartr, a tool for supporting geographic offender profiling.\r\n\r\nMaterials\r\nMaterials will be put here once they become available.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-05-04T12:06:03+02:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2022-05-31-nsc-r-tidy-tuesday/",
+    "title": "NSC-R Tidy Tuesday",
+    "description": "Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.",
+    "author": [
+      {
+        "name": "Sam Langton",
+        "url": "https://nscr.nl/en/medewerker/sam-langton/"
+      }
+    ],
+    "date": "2022-05-31",
+    "categories": [],
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\nSam Langton is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on describing and explaining the spatial and temporal patterning of police demand. Sam is interested in promoting open science in criminology, particularly through open data and sharing his knowledge (and struggles) in R.\r\n\r\nMaterials\r\nYou can find the materials for this workshop here when it becomes available.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-05-04T11:23:29+02:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2022-05-24-nsc-r-tidy-tuesday/",
+    "title": "NSC-R Tidy Tuesday",
+    "description": "Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.",
+    "author": [
+      {
+        "name": "Wim Bernasco",
+        "url": "https://nscr.nl/en/medewerker/prof-dr-wim-bernasco/"
+      }
+    ],
+    "date": "2022-05-24",
+    "categories": [],
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\nWim Bernasco is senior researcher at NSCR and professor at the School of Business and Economics at the Vrije Universiteit Amsterdam. His work focuses on the geography of crime, incuding crime location choice and offender mobility. Read more on his personal website.\r\n\r\nMaterials & Instructions\r\nMaterials and instructions will be posted here once they are available.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-05-04T11:17:28+02:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2022-05-17-hotroutesstreetprofiles/",
     "title": "Hot Routes and Street Profiles",
     "description": "Hot routes and street profiles.",
@@ -11,9 +62,9 @@
     ],
     "date": "2022-05-17",
     "categories": [],
-    "contents": "\r\nIn this workshop, Reka Solymosi will introduce and discuss the implementation in R of two different methods for visualising crime along a route or network (such as rail or street networks): hot routes and street profile analysis.\r\n\r\nReka Solymosi is a Lecturer in Quantitative Methods at the Department of Criminology at University of Manchester. Her research focuses on making use of new forms of data to gain insight into people’s behaviour and subjective experiences, particularly focusing on crime, victimisation, transport, and spatial research. She is also dedicated to promoting data literacy in social science study and practice.\r\n\r\nMaterials\r\nYou can find the material for this workshop here.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nIn this workshop, Reka Solymosi will introduce and discuss the implementation in R of two different methods for visualising crime along a route or network (such as rail or street networks): hot routes and street profile analysis.\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\nReka Solymosi is a Lecturer in Quantitative Methods at the Department of Criminology at University of Manchester. Her research focuses on making use of new forms of data to gain insight into people’s behaviour and subjective experiences, particularly focusing on crime, victimisation, transport, and spatial research. She is also dedicated to promoting data literacy in social science study and practice.\r\n\r\nMaterials\r\nYou can find the material for this workshop here.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-04-28T16:18:14+02:00",
+    "last_modified": "2022-05-04T11:16:16+02:00",
     "input_file": {}
   },
   {
@@ -47,8 +98,8 @@
     "categories": [],
     "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nThe dataset for this Tidy Tuesday is about Collegiate Sports in US. Alex Trinidad explores how revenue and expenditure are distributed in sports. He also looks at the differences in sport revenues and expenditures between men and women.\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\nAlex Trinidad is a postdoctoral researcher/ lecturer at the Institute of Sociology and Social Psychology (ISS) at the University of Cologne, Germany. He is also a research fellow at the Netherlands Institute for the Study of Crime and Law Enforcement (NSCR). His interest in spatial analysis began when he started his PhD, exploring the spatial distribution of juvenile delinquency and the contextual factors associated with it. It was also during his PhD that he began his journey with R.\r\n\r\nMaterials & Instructions\r\nThe script (R) that Alex worked with. Please feel free to copy and paste the syntax in an new R script. If you run the whole script be aware that some errors will come up. Those are made on purpose, and the solution is in the next lines. If the error is due to a lack of package, check some of the comments (#) in the script, and install the needed package.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-05-03T16:24:44+02:00",
-    "input_file": "nsc-r-tidy-tuesday.knit.md"
+    "last_modified": "2022-05-04T11:01:06+02:00",
+    "input_file": {}
   },
   {
     "path": "posts/2022-04-28-multiple-imputation-in-r/",

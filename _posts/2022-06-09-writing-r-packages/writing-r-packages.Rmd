@@ -1,0 +1,28 @@
+---
+title: "Writing R packages"
+description: |
+  How to write R packages that make life easier for you yourself and for others
+author:
+  - name: Sophie Curtis-Ham
+    url: https://www.researchgate.net/profile/Sophie-Curtis-Ham
+date: 06-09-2022
+output:
+  distill::distill_article:
+    self_contained: false
+
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+R packages are collections of functions and datasets that extend the base functionality of R. You are already familar with them because whenever you type, for example, `library(dplyr)` in your R script you are using a package `dplyr' and its functions.
+In this workshop **Sophie Curtis-Ham** will demonstrate how you yourself can create R packages. 
+
+Join this workshop meeting on Zoom by clicking [this link]( https://us02web.zoom.us/j/83201028780?pwd=bVV6dnlWZFdmYUFINElBczhYZGlJQT09)
+
+> **Sophie Curtis-Ham**, PhD, is Senior Research and Insights Advisor at the New Zealand police. She is the author of the R package `gpsmartr`, a tool for supporting geographic offender profiling.
+
+
+### Materials
+
+Materials will be put here once they become available.
