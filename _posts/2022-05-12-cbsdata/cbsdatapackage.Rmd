@@ -17,6 +17,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 In this workshop, Edwin De Jonge from CBS will provide an introduction and demonstration to his package `cbsodataR` which can be used to query the CBS open data API.
 
+Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/88090206805?pwd=ZGRvWWYzVnJLS2p4S01OTDlqTmxnUT09)
+
 ### Materials
 
 - You can find a quick start guide to using the package [here](https://www.cbs.nl/en-gb/our-services/open-data/statline-as-open-data/quick-start-guide).
