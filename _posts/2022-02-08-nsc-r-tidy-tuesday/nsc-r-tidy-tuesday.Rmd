@@ -22,5 +22,16 @@ The [dataset](https://github.com/rfordatascience/tidytuesday/tree/master/data/20
 
 ### Materials
 
--   The [script (R)](https://github.com/amoneva/tidy_tuesday/blob/main/week4_board_games.R) that Asier worked through.
--   The Tidy Data [paper (pre-print)](https://vita.had.co.nz/papers/tidy-data.pdf) by Hadley Wickham (2014)
+-   The R script that Asier worked through is in [this Github repository](https://github.com/amoneva/tidy_tuesday/blob/main/week4_board_games.R).
+-   The Tidy Data paper (pre-print) by Hardley Wickham (2014) is [here](https://vita.had.co.nz/papers/tidy-data.pdf).
+
+### How to download files from GitHub
+
+To download files from GitHub you can:
+
+`Clone` the repository to create a local copy in your computer. To clone a repository, follow the instructions [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+
+Alternatively, you can:
+
+1.    Download all files compressed in a `ZIP`. To do this, go to the repository and click on the green `code` button, then select `download ZIP`. Unzip the downloaded file into a folder on your local computer.
+2.    Download a specific file. To do this, select the desired file in the repository and click on the `raw` button. Then right click on the new page and select `save as`. Don't forget to put the proper extension in the save name, like `.R` or `.Rmd`.

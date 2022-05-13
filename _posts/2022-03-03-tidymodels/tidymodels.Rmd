@@ -30,7 +30,7 @@ This session will provide a hands-on overview of basic concepts in machine learn
 <!-- [ADDITIONAL INFORMATION FOR THE SESSION (e.g. To prepare for the workshop, you may want to install a few R packages (just copy and paste these lines into your R Studio Editor and run them)]: -->
 
 <!-- 3. Zoom link. Remove the following line after adding the materials of the session --> 
-Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/85477754782?pwd=cExxK2NCSFVWdERVcERMMVg3WjFCdz09)
+
 
 <!-- 4. Bio --> 
 > Nathan is a PhD candidate at the Institute for Data Science and Artificial Intelligence at the University of Manchester. He is writing his thesis on new methods for crowdsourcing spatio-temporal data.

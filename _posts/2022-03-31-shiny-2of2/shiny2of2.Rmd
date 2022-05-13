@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 In a two-sessions workshop, Nick van Doormaal will demonstrate how to use the `shiny` package to create interactive web applications. Note that this is the second session of a two-sesssion workshop. The first session (on Thursday March 17) was be a basic introduction on the different components of a shiny app. In this second session we explore into more depth how 'reactivity' works, an important component of most shiny apps.
 
-To prepae for the workshop, you may want to take a look this [key resource](https://mastering-shiny.org/) for `shiny`, in particular Chapter 3.
+To prepare for the workshop, you may want to take a look this [key resource](https://mastering-shiny.org/) for `shiny`, in particular Chapter 3.
 
 In advance of the workshop, we suggest you install these two R packages (just copy and paste this line into your R Studio Editor and run it)
 
@@ -34,5 +34,14 @@ https://us02web.zoom.us/j/86850017443?pwd=cnE5Wmw0Tk9TbE1kTEc1aCtMdFhDUT09)
 
 On Nick's GitHub repository [nscr-shiny-workshop](https://github.com/nvdoormaal/nscr-shiny-workshop) you can find the data and the R script that documents the development that Nick demonstrated during the workshop. 
 
+### How to download files from GitHub
 
+To download files from GitHub you can:
+
+`Clone` the repository to create a local copy in your computer. To clone a repository, follow the instructions [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+
+Alternatively, you can:
+
+1.    Download all files compressed in a `ZIP`. To do this, go to the repository and click on the green `code` button, then select `download ZIP`. Unzip the downloaded file into a folder on your local computer.
+2.    Download a specific file. To do this, select the desired file in the repository and click on the `raw` button. Then right click on the new page and select `save as`. Don't forget to put the proper extension in the save name, like `.R` or `.Rmd`.
 

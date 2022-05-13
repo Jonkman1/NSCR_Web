@@ -24,5 +24,16 @@ In this session, Sam Langton demonstrated long to wide (and wide to long) transf
 
 ### Materials
 
-- You can find the material for this workshop [here](https://github.com/langtonhugh/nscr_graphics).
+- You can find the material for this workshop [in this GitHub repository](https://github.com/langtonhugh/nscr_graphics).
 
+
+### How to download files from GitHub
+
+To download files from GitHub you can:
+
+`Clone` the repository to create a local copy in your computer. To clone a repository, follow the instructions [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+
+Alternatively, you can:
+
+1.    Download all files compressed in a `ZIP`. To do this, go to the repository and click on the green `code` button, then select `download ZIP`. Unzip the downloaded file into a folder on your local computer.
+2.    Download a specific file. To do this, select the desired file in the repository and click on the `raw` button. Then right click on the new page and select `save as`. Don't forget to put the proper extension in the save name, like `.R` or `.Rmd`.

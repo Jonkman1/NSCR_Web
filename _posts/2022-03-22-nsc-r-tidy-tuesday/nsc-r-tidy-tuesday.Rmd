@@ -18,13 +18,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 The NSC-R Tidy Tuesday workshop sessions are inspired by the [Tidy Tuesday](https://www.tidytuesday.com/) initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.
 
-Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/82014209706?pwd=WGdIY21XbFN3OStJSy94bElyMWhIZz09)
+Sports in general and football (soccer) in particular provides a sheer endless source of open data that can be explored at various levels (player, team, match, competition) and from various perspectives. In this meeting Wim Bernasco used open data about football borrowed from a [GitHub repository](https://github.com/jalapic/engsoccerdata)  maintained by James Curley (James P. Curley (2016). engsoccerdata: English Soccer Data 1871-2016. R package version 0.1.5 DOI: 10.5281/zenodo.13158).
 
-Sports in general and football (soccer) in particular provides a sheer endless source of open data that can be explored at various levels (player, team, match, competition) and from various perspectives. In this meeting Wim Bernasco will use open data about football borrowed from a [GitHub repository](https://github.com/jalapic/engsoccerdata)  maintained by James Curley (James P. Curley (2016). engsoccerdata: English Soccer Data 1871-2016. R package version 0.1.5 DOI: 10.5281/zenodo.13158).
+The `engsoccerdata` repository contains data on football matches from the UK Premier League and other European football leagues. In this Tidy Tuesday used data from almost a complete century (1929-2020) of matches in the Spanish League called **La Liga**.
 
-The `engsoccerdata` repository contains data on football matches from the UK Premier League and other European football leagues. In this Tidy Tuesday we will use data from almost a complete century (1929-2020) of matches in the Spanish League called **La Liga**.
-
-We will try to answer a couple of simple questions:
+We tried to answer a couple of simple questions:
 
 1. Is it true that there are less goals today than in earlier days?
 
@@ -42,8 +40,18 @@ We will try to answer a couple of simple questions:
 
 ### Materials
 
-- Here is a [the R script](https://github.com/bernasco/NSC-R_tidy_tuesday_20220322) that documents the analysis that Wim demonstrated during the workshop. It includes installation of packages, loading libraries, reading data and substantive analysis. 
+- The script that documents the analysis that Wim demonstrated during the workshop is available [in this GitHub repository](https://github.com/bernasco/NSC-R_tidy_tuesday_20220322). It includes installation of packages, loading libraries, reading data and substantive analysis. 
 
+### How to download files from GitHub
+
+To download files from GitHub you can:
+
+`Clone` the repository to create a local copy in your computer. To clone a repository, follow the instructions [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+
+Alternatively, you can:
+
+1.    Download all files compressed in a `ZIP`. To do this, go to the repository and click on the green `code` button, then select `download ZIP`. Unzip the downloaded file into a folder on your local computer.
+2.    Download a specific file. To do this, select the desired file in the repository and click on the `raw` button. Then right click on the new page and select `save as`. Don't forget to put the proper extension in the save name, like `.R` or `.Rmd`.
 
 
 

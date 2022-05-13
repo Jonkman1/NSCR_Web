@@ -16,7 +16,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-In a two-sessions workshop, Nick van Doormaal will demonstrate how to use the `shiny` package to create interactive web applications. Note that this is the first session of a two-sesssion workshop. This first session will be a basic introduction on the different components of a shiny app. In the second session (on Thursday March 31) we explore into more depth how 'reactivity' works, an important component of most shiny apps.
+In a two-sessions workshop, Nick van Doormaal demonstrated how to use the `shiny` package to create interactive web applications. Note that this was the first session of a two-sesssion workshop. This first session was be a basic introduction on the different components of a shiny app. In the second session (on Thursday March 31) we explored into more depth how 'reactivity' works, an important component of most shiny apps.
 
 For inspiration, you may want to spend a few minutes viewing some [fun apps](https://www.rstudio.com/blog/3-fun-shiny-apps-for-your-long-labor-day-weekend/) made with `shiny`, or [this `shiny` gallery](https://shiny.rstudio.com/gallery/).
 
@@ -27,13 +27,19 @@ install.packages(c("tidyverse", "shiny"))
 
 > **Nick van Doormaal** is a former PhD candidate at the NSCR and currently a data analyst at the environmental service of the province of Gelderland. He got into R during his MSc thesis and internship and has been using R ever since.
 
-Join this workshop meeting on Zoom by clicking [this link](
-https://us02web.zoom.us/j/87228936745?pwd=NTcrU1R0ZjE4c3FHUkNFVnE3NVBFdz09)
-
-### Materials
 
 ### Materials
 
 On Nick's GitHub repository [nscr-shiny-workshop](https://github.com/nvdoormaal/nscr-shiny-workshop) you can find the data and the R script that documents the development that Nick demonstrated during the second workshop on Thursday March 31. 
 
+### How to download files from GitHub
+
+To download files from GitHub you can:
+
+`Clone` the repository to create a local copy in your computer. To clone a repository, follow the instructions [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+
+Alternatively, you can:
+
+1.    Download all files compressed in a `ZIP`. To do this, go to the repository and click on the green `code` button, then select `download ZIP`. Unzip the downloaded file into a folder on your local computer.
+2.    Download a specific file. To do this, select the desired file in the repository and click on the `raw` button. Then right click on the new page and select `save as`. Don't forget to put the proper extension in the save name, like `.R` or `.Rmd`.
 

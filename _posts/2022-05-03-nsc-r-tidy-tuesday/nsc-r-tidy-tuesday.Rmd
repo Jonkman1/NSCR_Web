@@ -27,6 +27,15 @@ Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.
 
 ### Materials & Instructions
 
-- The [script (R)](https://github.com/alexandertrinidad/tidy_tuesday/blob/main/tt_nscr_03_05.R) that Alex worked with. Please feel free to copy and paste the syntax in an new R script. If you run the whole script be aware that some errors will come up. Those are made on purpose, and the solution is in the next lines. If the error is due to a lack of package, check some of the comments (#) in the script, and install the needed package. 
+- The R script that Alex worked with is in [this GitHub repository](https://github.com/alexandertrinidad/tidy_tuesday/blob/main/tt_nscr_03_05.R) that Alex worked with. Please feel free to copy and paste the syntax in an new R script. If you run the whole script be aware that some errors will come up. Those are made on purpose, and the solution is in the next lines. If the error is due to a lack of package, check some of the comments (#) in the script, and install the needed package. 
 
+### How to download files from GitHub
 
+To download files from GitHub you can:
+
+`Clone` the repository to create a local copy in your computer. To clone a repository, follow the instructions [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+
+Alternatively, you can:
+
+1.    Download all files compressed in a `ZIP`. To do this, go to the repository and click on the green `code` button, then select `download ZIP`. Unzip the downloaded file into a folder on your local computer.
+2.    Download a specific file. To do this, select the desired file in the repository and click on the `raw` button. Then right click on the new page and select `save as`. Don't forget to put the proper extension in the save name, like `.R` or `.Rmd`.
