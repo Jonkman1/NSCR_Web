@@ -18,15 +18,53 @@ knitr::opts_chunk$set(echo = FALSE)
 
 The NSC-R Tidy Tuesday workshop sessions are inspired by the [Tidy Tuesday](https://www.tidytuesday.com/) initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data. 
 
-   
 
 Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/83320826408?pwd=b2FTZENkUDRodEpqTnppd1NaYlBodz09)
+
+You are welcome to join the meeting and have a good time without any preparation, but you will probably get most from the meeting if some time before the workshop you spend an hour on preparation, by trying to perform some of the steps below.
+
+### Preparation for the workshop
+
+Below, in the **Materials section**, are links to two small datasets. One (`crime.csv`) contains the number of police recorded residential burglaries, bike thefts and assaults in the Netherlands per month between January 2012 and April 2022. The other (`population.csv`) contains the number of inhabitants of the Netherlands during the same period, per first day of the month (below, in the **Materials** section, you can find a link to the R script that creates these files by downloading open data from Statistics Netherlands).
+
+In the workshop we will together try to make sense of long-term temporal trends in these crimes, and hopefully also make useful statements about how things changed when the COVID pandemic arrived around February 2020. 
+
+We would suggest you just spend a single hour on preparation, no matter how far you get. Use any help you can find. Even very experienced R users consult the help files, their colleagues and the internet all the time, and so should you. Make sure you keep your R code in a script that you could share in the workshop, so we can learn from your ideas and creativity, and from your issues and errors.
+
+1.	Create a new folder on the computer where you run R, and store the two datafiles `crime.csv` and `residents.csv` in the folder.
+
+2.	Read both files from disk and assign each a name. Any name will do, but I suggest “crime” and “ residents”.
+
+3.	Explore the structure of the files. How many rows (observations), how many columns (variables), what are the variable names? What are their types: Are they integers, characters, dates, factors, …? keys? 
+
+4.	Visualize (plot) the development of the population size of the Netherlands between January 2012 and April 2022, and do the same for the frequencies of residential burglary, bike theft and assault. 
+
+5.	Create a residential burglary rate by relating number of residential burglaries to the size of the population, and think about how you can adjust for different months having a differentnumbers of days (28-31). To do this, you will need to merge (join) the “crime” dataframe with the “residents” dataframe by year and month.
+
+6.	Visualize the development of the three crime rates.
+
+7.	What can we say about the development of crime since February 2020, relative to the developments between 2012 and 2020? How can you quantify this with the data at hand?
+
+8.	Do anything else with the data that you find fun or seems to make sense
+
 
 > **Wim Bernasco** is senior researcher at NSCR and professor at the School of Business and Economics at the Vrije Universiteit Amsterdam. His work focuses on the geography of crime, incuding crime location choice and offender mobility. Read more on [his personal website](http://www.wimbernasco.nl).
 
 
 ### Materials & Instructions
 
-Materials and instructions will be posted here once they are available.
+
+- The datasets `crimes.csv` and `population.csv` and the R script that created these datasets is in [this GitHub repository](https://github.com/bernasco/NSC-R_tidy_tuesday_20220524.git). 
+
+### How to download files from GitHub
+
+To download files from GitHub you can:
+
+`Clone` the repository to create a local copy in your computer. To clone a repository, follow the instructions [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+
+Alternatively, you can:
+
+1.    Download all files compressed in a `ZIP`. To do this, go to the repository and click on the green `code` button, then select `download ZIP`. Unzip the downloaded file into a folder on your local computer.
+2.    Download a specific file. To do this, select the desired file in the repository and click on the `raw` button. Then right click on the new page and select `save as`. Don't forget to put the proper extension in the save name, like `.R` or `.Rmd`.
 
 
