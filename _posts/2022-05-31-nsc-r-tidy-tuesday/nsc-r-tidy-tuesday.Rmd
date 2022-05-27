@@ -16,12 +16,41 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-The NSC-R Tidy Tuesday workshop sessions are inspired by the [Tidy Tuesday](https://www.tidytuesday.com/) initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.
 
-Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/84922771263?pwd=N1ZJN0xLNGI1TWFSTHBEYVI4aFdsZz09)
+The NSC-R Tidy Tuesday workshop sessions are inspired by the [Tidy Tuesday](https://www.tidytuesday.com/) initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data. 
+
+
+Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/83320826408?pwd=b2FTZENkUDRodEpqTnppd1NaYlBodz09)
+
+You are welcome to join the meeting and have a good time without any preparation, but you will probably get most from the meeting if some time before the workshop you spend an hour on preparation, by trying to perform some of the steps below.
+
+### Preparation for the workshop
+
+1.	Create a new folder on your computer. You can name it whatever you want, but it is good practice to not include spaces. So, perhaps call it something like "tidytuesday_may2022".
+
+2. Open up RStudio. In the top left, you will see blue cube icon which when you hover over it will say _Create a project_. Click on this icon, choose _existing directory_, _Browse_, and then find and select the folder you have just created (e.g., tidytuesday_may2022). Once the folder has been selected, click _Create Project_.
+
+3. You are now working in an R Project, hooray! One major benefit of working within an R Project is that all your working directories will now begin wherever the project is located (i.e., the tidytuesday_may2022 folder). Try this now by running `getwd()` in the R Console. If you save all your data, scripts and project materials here, or in subfolders, you will find it way easier to manage your work, and your code will look cleaner too, courtesy of the shorter working directories.
+
+4. Let's start by creating some relevant folders in our project folder. You can do this manually, but let's try it in RStudio. In the R Console, just type and run `dir.create("scripts")`. This should have created a new folder called _scripts_ in your project folder. You can save all your scripts here. Try it again for our data folder: `dir.create("data")`. These subfolders should now existing within your project folder.
+
+5. For the workshop, we are going to use some open data on 911 calls in Detroit, United States. I have written a very short script which loads the data automatically. You just need to download this script, save it in the _scripts_ folder, and run it. You can find the script [here](https://github.com/langtonhugh/nscr_graphics/blob/main/scripts/tidytuesday_start_31may2022.R). Either copy and paste the code into an R script, or right click on _Raw_ (right hand side) and click _Save link as..._. Remember to save the script in your _scripts_ folder.
+
+6. Open up the script and run it. It should download the data automatically and then end with a brief summary of the data thanks to `glimpse()`.
+
+7. Try to figure out the following. No pressure -- you can ask us about anything queries or problems you have during the workshop!
+  - What variable names are in the data?
+  - How many 911 calls for service (i.e., rows) do we have?
+  - What is the average response time (`totalresponsetime`) for calls?
+  - What is the most common call type? The call type is defined by the `calldescription` variable.
+  - How many calls were in-progress shots fired ('SHOTS FIRED IP')?
+  - How does average response time differ between call types? Here, you might want to use `group_by()`.
+  - Explore some temporal trends. What hours of the day have the highest frequency of shots fired? Here, you will want to make use of functions in the `lubridate` package.
+
+See you on Tuesday!
 
 > *Sam Langton* is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on describing and explaining the spatial and temporal patterning of police demand. Sam is interested in promoting open science in criminology, particularly through open data and sharing his knowledge (and struggles) in R.
 
 ### Materials
 
-- You can find the materials for this workshop here when it becomes available.
+All you need is the script mentioned above, which can be viewed [here](https://github.com/langtonhugh/nscr_graphics/blob/main/scripts/tidytuesday_start_31may2022.R). Either copy and paste the code into an R script, or right click on _Raw_ (right hand side) and click _Save link as..._. Remember to save the script in your _scripts_ folder (see above).

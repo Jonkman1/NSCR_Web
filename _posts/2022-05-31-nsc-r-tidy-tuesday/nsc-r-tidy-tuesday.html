@@ -1483,14 +1483,33 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 <div class="d-article">
 <p>The NSC-R Tidy Tuesday workshop sessions are inspired by the <a href="https://www.tidytuesday.com/">Tidy Tuesday</a> initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.</p>
-<p>Join this workshop meeting on Zoom by clicking <a href="https://us02web.zoom.us/j/84922771263?pwd=N1ZJN0xLNGI1TWFSTHBEYVI4aFdsZz09">this link</a></p>
+<p>Join this workshop meeting on Zoom by clicking <a href="https://us02web.zoom.us/j/83320826408?pwd=b2FTZENkUDRodEpqTnppd1NaYlBodz09">this link</a></p>
+<p>You are welcome to join the meeting and have a good time without any preparation, but you will probably get most from the meeting if some time before the workshop you spend an hour on preparation, by trying to perform some of the steps below.</p>
+<h3 id="preparation-for-the-workshop">Preparation for the workshop</h3>
+<ol type="1">
+<li><p>Create a new folder on your computer. You can name it whatever you want, but it is good practice to not include spaces. So, perhaps call it something like “tidytuesday_may2022”.</p></li>
+<li><p>Open up RStudio. In the top left, you will see blue cube icon which when you hover over it will say <em>Create a project</em>. Click on this icon, choose <em>existing directory</em>, <em>Browse</em>, and then find and select the folder you have just created (e.g., tidytuesday_may2022). Once the folder has been selected, click <em>Create Project</em>.</p></li>
+<li><p>You are now working in an R Project, hooray! One major benefit of working within an R Project is that all your working directories will now begin wherever the project is located (i.e., the tidytuesday_may2022 folder). Try this now by running <code>getwd()</code> in the R Console. If you save all your data, scripts and project materials here, or in subfolders, you will find it way easier to manage your work, and your code will look cleaner too, courtesy of the shorter working directories.</p></li>
+<li><p>Let’s start by creating some relevant folders in our project folder. You can do this manually, but let’s try it in RStudio. In the R Console, just type and run <code>dir.create("scripts")</code>. This should have created a new folder called <em>scripts</em> in your project folder. You can save all your scripts here. Try it again for our data folder: <code>dir.create("data")</code>. These subfolders should now existing within your project folder.</p></li>
+<li><p>For the workshop, we are going to use some open data on 911 calls in Detroit, United States. I have written a very short script which loads the data automatically. You just need to download this script, save it in the <em>scripts</em> folder, and run it. You can find the script <a href="https://github.com/langtonhugh/nscr_graphics/blob/main/scripts/tidytuesday_start_31may2022.R">here</a>. Either copy and paste the code into an R script, or right click on <em>Raw</em> (right hand side) and click <em>Save link as…</em>. Remember to save the script in your <em>scripts</em> folder.</p></li>
+<li><p>Open up the script and run it. It should download the data automatically and then end with a brief summary of the data thanks to <code>glimpse()</code>.</p></li>
+<li><p>Try to figure out the following. No pressure – you can ask us about anything queries or problems you have during the workshop!</p></li>
+</ol>
+<ul>
+<li>What variable names are in the data?</li>
+<li>How many 911 calls for service (i.e., rows) do we have?</li>
+<li>What is the average response time (<code>totalresponsetime</code>) for calls?</li>
+<li>What is the most common call type? The call type is defined by the <code>calldescription</code> variable.</li>
+<li>How many calls were in-progress shots fired (‘SHOTS FIRED IP’)?</li>
+<li>How does average response time differ between call types? Here, you might want to use <code>group_by()</code>.</li>
+<li>Explore some temporal trends. What hours of the day have the highest frequency of shots fired? Here, you will want to make use of functions in the <code>lubridate</code> package.</li>
+</ul>
+<p>See you on Tuesday!</p>
 <blockquote>
 <p><em>Sam Langton</em> is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on describing and explaining the spatial and temporal patterning of police demand. Sam is interested in promoting open science in criminology, particularly through open data and sharing his knowledge (and struggles) in R.</p>
 </blockquote>
 <h3 id="materials">Materials</h3>
-<ul>
-<li>You can find the materials for this workshop here when it becomes available.</li>
-</ul>
+<p>All you need is the script mentioned above, which can be viewed <a href="https://github.com/langtonhugh/nscr_graphics/blob/main/scripts/tidytuesday_start_31may2022.R">here</a>. Either copy and paste the code into an R script, or right click on <em>Raw</em> (right hand side) and click <em>Save link as…</em>. Remember to save the script in your <em>scripts</em> folder (see above).</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
