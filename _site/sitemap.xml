@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
     <loc>https://nscrweb.netlify.app/blog.html</loc>
-    <lastmod>2021-10-10T13:14:12+02:00</lastmod>
+    <lastmod>2022-03-04T14:15:44+01:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/</loc>
-    <lastmod>2022-04-08T14:33:07+02:00</lastmod>
+    <lastmod>2022-03-04T14:20:39+01:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/other.html</loc>
-    <lastmod>2022-02-24T09:07:39+01:00</lastmod>
+    <lastmod>2022-03-04T14:15:44+01:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/teaching.html</loc>
-    <lastmod>2021-10-06T16:38:37+02:00</lastmod>
+    <lastmod>2022-03-04T14:15:44+01:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-06-09-writing-r-packages/</loc>
@@ -22,7 +22,7 @@
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-05-31-nsc-r-tidy-tuesday/</loc>
-    <lastmod>2022-05-27T13:47:51+02:00</lastmod>
+    <lastmod>2022-05-27T22:34:27+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-05-24-nsc-r-tidy-tuesday/</loc>
