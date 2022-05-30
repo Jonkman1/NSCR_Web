@@ -24,7 +24,13 @@ Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.
 
 ### Materials
 
-- You can find the material for this workshop [here](https://rekadata.net/blog/hot-routes-tutorial/).
+- A tutorial on hot routes is [here](https://rekadata.net/blog/hot-routes-tutorial/).
+
+- A tutorials on street profile analysis is [here](https://rekadata.net/blog/street-profiles-tutorial/)
+
+- The slides from Reka's workshop presentation are [here](https://rekadata.net/blog/street-profiles-tutorial/)
+
+- The data used in Reka's workshop presentation are [here](https://github.com/maczokni/statistically_insignificant/tree/master/public/talks/data)
 
 
 
