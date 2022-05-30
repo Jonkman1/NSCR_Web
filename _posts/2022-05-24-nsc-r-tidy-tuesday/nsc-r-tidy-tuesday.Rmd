@@ -54,7 +54,7 @@ We would suggest you just spend a single hour on preparation, no matter how far 
 ### Materials & Instructions
 
 
-- The datasets `crimes.csv` and `population.csv` and the R script that created these datasets is in [this GitHub repository](https://github.com/bernasco/NSC-R_tidy_tuesday_20220524.git). 
+- The datasets `crimes.csv` and `population.csv`, the R script that created these datasets, and the R script that analyses them is in [this GitHub repository](https://github.com/bernasco/NSC-R_tidy_tuesday_20220524.git). 
 
 ### How to download files from GitHub
 
