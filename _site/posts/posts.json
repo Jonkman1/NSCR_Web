@@ -11,10 +11,10 @@
     ],
     "date": "2022-06-09",
     "categories": [],
-    "contents": "\r\nR packages are collections of functions and datasets that extend the base functionality of R. You are already familar with them because whenever you type, for example, library(dplyr) in your R script you are using a package `dplyr’ and its functions. In this workshop Sophie Curtis-Ham will demonstrate how you yourself can create R packages.\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\nSophie Curtis-Ham, PhD, is Senior Research and Insights Advisor at the New Zealand police. She is the author of the R package gpsmartr, a tool for supporting geographic offender profiling.\r\n\r\nMaterials\r\nMaterials will be put here once they become available.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nR packages are collections of functions and datasets that extend the base functionality of R. You are already familar with them because whenever you type, for example, library(dplyr) in your R script you are using a package `dplyr’ and its functions. In this workshop Sophie Curtis-Ham will demonstrate how you yourself can create R packages.\r\nNote that the workshop is in the morning: 10:00-11:00. Join this workshop meeting on Zoom by clicking this link\r\n\r\nSophie Curtis-Ham, PhD, is Senior Research and Insights Advisor at the New Zealand police. She is the author of the R package gpsmartr, a tool for supporting geographic offender profiling.\r\n\r\nMaterials\r\nMaterials will be put here once they become available.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-05-05T13:21:56+02:00",
-    "input_file": {}
+    "last_modified": "2022-06-01T23:57:19+02:00",
+    "input_file": "writing-r-packages.knit.md"
   },
   {
     "path": "posts/2022-05-31-nsc-r-tidy-tuesday/",
