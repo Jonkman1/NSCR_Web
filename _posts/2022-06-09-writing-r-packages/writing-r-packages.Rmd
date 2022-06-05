@@ -23,6 +23,15 @@ Note that the workshop is in the morning: **10:00-11:00**. Join this workshop me
 > **Sophie Curtis-Ham**, PhD, is Senior Research and Insights Advisor at the New Zealand police. She is the author of the R package `gpsmartr`, a tool for supporting geographic offender profiling.
 
 
+
 ### Materials
 
-Materials will be put here once they become available.
+The [slides](NSCR workshop R packages 20220609.pdf) that Sophie uses in the workshop.
+
+Sophie uses a couple of R packages in the workshop:
+
+To reproduce the examples, you need to have installed a couple of packages (devtools, usethis, tidyverse, rlang, broom, here). To install them all, run:
+`install.packages(c("devtools","usethis", "tidyverse", "rlang", "broom", "here"))`
+
+
+
