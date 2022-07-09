@@ -50,16 +50,17 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {   }
+  { color: #00769e; background-color: #f1f3f5; }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
+code span { color: #00769e; } /* Normal */
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { } /* Attribute */
+code span.at { color: #657422; } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
-code span.cf { color: #007ba5; } /* ControlFlow */
+code span.cf { color: #00769e; } /* ControlFlow */
 code span.ch { color: #20794d; } /* Char */
 code span.cn { color: #8f5902; } /* Constant */
 code span.co { color: #5e5e5e; } /* Comment */
@@ -73,9 +74,9 @@ code span.fl { color: #ad0000; } /* Float */
 code span.fu { color: #4758ab; } /* Function */
 code span.im { } /* Import */
 code span.in { color: #5e5e5e; } /* Information */
-code span.kw { color: #007ba5; } /* Keyword */
+code span.kw { color: #00769e; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
-code span.ot { color: #007ba5; } /* Other */
+code span.ot { color: #00769e; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
 code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
@@ -1027,10 +1028,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     margin-top: 1.5em;
   }
 
-  .figure img {
-    width: 100%;
-  }
-
   .figure .caption {
     color: rgba(0, 0, 0, 0.6);
     font-size: 12px;
@@ -1860,6 +1857,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
+        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
+          var fn = $(this).children()[0]
+          $(this).html(fn.shadowRoot.querySelector("sup"))
+          $(this).id = fn.id
+          fn.remove()
+        }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
           return "<p>" + $('#ref-' + ref).html() + "</p>";
@@ -1874,6 +1877,31 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
           placement: 'bottom-start'
         });
       });
+
+      // fix footnotes in tables (#411)
+      // replacing broken distill.pub feature
+      $('table d-footnote').each(function() {
+        // we replace internal showAtNode methode which is triggered when hovering a footnote
+        this.hoverBox.showAtNode = function(node) {
+          // ported from https://github.com/distillpub/template/pull/105/files
+          calcOffset = function(elem) {
+              let x = elem.offsetLeft;
+              let y = elem.offsetTop;
+              // Traverse upwards until an `absolute` element is found or `elem`
+              // becomes null.
+              while (elem = elem.offsetParent && elem.style.position != 'absolute') {
+                  x += elem.offsetLeft;
+                  y += elem.offsetTop;
+              }
+
+              return { left: x, top: y };
+          }
+          // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
+          const bbox = node.getBoundingClientRect();
+          const offset = calcOffset(node);
+          this.show([offset.left + bbox.width, offset.top + bbox.height]);
+        }
+      })
 
       // clear polling timer
       clearInterval(tid);
@@ -1973,6 +2001,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // mark non-body figures created by knitr chunks as 100% width
     $('.layout-chunk').each(function(i, val) {
       var figures = $(this).find('img, .html-widget');
+      // ignore leaflet img layers (#106)
+      figures = figures.filter(':not(img[class*="leaflet"])')
       if ($(this).attr('data-layout') !== "l-body") {
         figures.css('width', '100%');
       } else {
@@ -1995,7 +2025,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     // get rid of index.html references in header
     if (window.location.protocol !== "file:") {
       $('.distill-site-header a[href]').each(function(i,val) {
-        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+        $(this).attr('href', $(this).attr('href').replace(/^index[.]html/, "./"));
       });
     }
 
@@ -2354,7 +2384,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2411,57 +2441,55 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
-<h2 id="workshop-1-data-skills-for-reproducible-science">Workshop 1: Data Skills for Reproducible Science</h2>
-<p><a href="https://psyteachr.github.io/msc-data-skills/intro.html">See</a></p>
+<h2 id="workshop-1-data-skills-for-reproducible-science">Workshop 1:
+Data Skills for Reproducible Science</h2>
+<p><a
+href="https://psyteachr.github.io/msc-data-skills/intro.html">See</a></p>
 <h1 id="commands">Commands</h1>
-<p>Typing commands in the R Studio concole (bottom left window). Note that on a line in the editor, anything after is automagically green and treated as comment, not code (like ’*’ in Stata and SPSS)</p>
+<p>Typing commands in the R Studio concole (bottom left window). Note
+that on a line in the editor, anything after is automagically green and
+treated as comment, not code (like ’*’ in Stata and SPSS)</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'><a href='https://rdrr.io/r/base/rm.html'>rm</a></span><span class='op'>(</span>list<span class='op'>=</span><span class='fu'><a href='https://rdrr.io/r/base/ls.html'>ls</a></span><span class='op'>(</span><span class='op'>)</span><span class='op'>)</span>
-
-<span class='fl'>1</span> <span class='op'>+</span> <span class='fl'>1</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/r/base/rm.html'>rm</a></span><span class='op'>(</span>list<span class='op'>=</span><span class='fu'><a href='https://rdrr.io/r/base/ls.html'>ls</a></span><span class='op'>(</span><span class='op'>)</span><span class='op'>)</span></span>
+<span></span>
+<span><span class='fl'>1</span> <span class='op'>+</span> <span class='fl'>1</span></span></code></pre>
 </div>
 <pre><code>[1] 2</code></pre>
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='fl'>1</span> <span class='op'>+</span> <span class='fl'>2</span> <span class='op'>+</span> <span class='fl'>3</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fl'>1</span> <span class='op'>+</span> <span class='fl'>2</span> <span class='op'>+</span> <span class='fl'>3</span></span></code></pre>
 </div>
 <pre><code>[1] 6</code></pre>
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='fl'>1</span> <span class='op'>+</span>
-  <span class='fl'>2</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fl'>1</span> <span class='op'>+</span></span>
+<span>  <span class='fl'>2</span></span></code></pre>
 </div>
 <pre><code>[1] 3</code></pre>
 </div>
 <h1 id="strings">Strings</h1>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='st'>"Good morning"</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='st'>"Good morning"</span></span></code></pre>
 </div>
 <pre><code>[1] &quot;Good morning&quot;</code></pre>
 </div>
 Single quotes can be used as well, but not prefered
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='st'>'Good Morning'</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='st'>'Good Morning'</span></span></code></pre>
 </div>
 <pre><code>[1] &quot;Good Morning&quot;</code></pre>
 </div>
 <h1 id="quotes">Quotes</h1>
-<p>Use single quotes if the string must cntain double quotes, or vice versa</p>
+<p>Use single quotes if the string must cntain double quotes, or vice
+versa</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='st'>"'Good morning', she said"</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='st'>"'Good morning', she said"</span></span></code></pre>
 </div>
 <pre><code>[1] &quot;&#39;Good morning&#39;, she said&quot;</code></pre>
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='st'>'"Good morning", he replied'</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='st'>'"Good morning", he replied'</span></span></code></pre>
 </div>
 <pre><code>[1] &quot;\&quot;Good morning\&quot;, he replied&quot;</code></pre>
 </div>
@@ -2469,125 +2497,123 @@ Single quotes can be used as well, but not prefered
 The command cat prints to the screen whatever is between brackets
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'><a href='https://rdrr.io/r/base/cat.html'>cat</a></span><span class='op'>(</span><span class='st'>"'Good morning', she said"</span><span class='op'>)</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/r/base/cat.html'>cat</a></span><span class='op'>(</span><span class='st'>"'Good morning', she said"</span><span class='op'>)</span></span></code></pre>
 </div>
 <pre><code>&#39;Good morning&#39;, she said</code></pre>
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'><a href='https://rdrr.io/r/base/cat.html'>cat</a></span><span class='op'>(</span><span class='st'>'"Good morning", he replied'</span><span class='op'>)</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/r/base/cat.html'>cat</a></span><span class='op'>(</span><span class='st'>'"Good morning", he replied'</span><span class='op'>)</span></span></code></pre>
 </div>
 <pre><code>&quot;Good morning&quot;, he replied</code></pre>
 </div>
 <h1 id="variables">Variables</h1>
-<p>We start with variables that represent just one number (you may think of an SPSSS or Stata variable in a dataset with N=1)</p>
+<p>We start with variables that represent just one number (you may think
+of an SPSSS or Stata variable in a dataset with N=1)</p>
 <p>Use the assignment operator ‘&lt;-’</p>
 R stores the number in the variable ‘variable1’
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>variable1</span> <span class='op'>&lt;-</span> <span class='fl'>5</span>
-<span class='va'>variable1</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>variable1</span> <span class='op'>&lt;-</span> <span class='fl'>5</span></span>
+<span><span class='va'>variable1</span></span></code></pre>
 </div>
 <pre><code>[1] 5</code></pre>
 </div>
 alternatively (seldom very useful)
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'><a href='https://rdrr.io/r/base/assign.html'>assign</a></span><span class='op'>(</span><span class='st'>"variable2"</span>, <span class='fl'>7</span><span class='op'>)</span>  <span class='co'># note the variable name is between quotes hre</span>
-<span class='va'>variable2</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/r/base/assign.html'>assign</a></span><span class='op'>(</span><span class='st'>"variable2"</span>, <span class='fl'>7</span><span class='op'>)</span>  <span class='co'># note the variable name is between quotes hre</span></span>
+<span><span class='va'>variable2</span></span></code></pre>
 </div>
 <pre><code>[1] 7</code></pre>
 </div>
 We can use the variable in subsequent calculations
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>variable1</span> <span class='op'>*</span> <span class='va'>variable2</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>variable1</span> <span class='op'>*</span> <span class='va'>variable2</span></span></code></pre>
 </div>
 <pre><code>[1] 35</code></pre>
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># and assign the result to another variable</span>
-<span class='va'>variable3</span> <span class='op'>&lt;-</span> <span class='va'>variable1</span> <span class='op'>+</span> <span class='va'>variable2</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'># and assign the result to another variable</span></span>
+<span><span class='va'>variable3</span> <span class='op'>&lt;-</span> <span class='va'>variable1</span> <span class='op'>+</span> <span class='va'>variable2</span></span></code></pre>
 </div>
 </div>
 Just as in SPSS, you can overwrite the original value
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>variable1</span> <span class='op'>&lt;-</span> <span class='va'>variable1</span> <span class='op'>*</span> <span class='va'>variable2</span>
-<span class='va'>variable1</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>variable1</span> <span class='op'>&lt;-</span> <span class='va'>variable1</span> <span class='op'>*</span> <span class='va'>variable2</span></span>
+<span><span class='va'>variable1</span></span></code></pre>
 </div>
 <pre><code>[1] 35</code></pre>
 </div>
-<p>A variable does not need to be a single number, it can be a vector like our variables in Stata and SPSS</p>
+<p>A variable does not need to be a single number, it can be a vector
+like our variables in Stata and SPSS</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>myvariable</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>2</span>,<span class='fl'>3</span>,<span class='fl'>5</span>,<span class='fl'>7</span>,<span class='fl'>11</span>,<span class='fl'>13</span><span class='op'>)</span>
-<span class='va'>myvariable</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>myvariable</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>2</span>,<span class='fl'>3</span>,<span class='fl'>5</span>,<span class='fl'>7</span>,<span class='fl'>11</span>,<span class='fl'>13</span><span class='op'>)</span></span>
+<span><span class='va'>myvariable</span></span></code></pre>
 </div>
 <pre><code>[1]  2  3  5  7 11 13</code></pre>
 </div>
-<p>Just as in Stata or SPSS, assignment of values to variables is static. Here is an example from the online course:</p>
+<p>Just as in Stata or SPSS, assignment of values to variables is
+static. Here is an example from the online course:</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>this_year</span> <span class='op'>&lt;-</span> <span class='fl'>2019</span>
-<span class='va'>my_birth_year</span> <span class='op'>&lt;-</span> <span class='fl'>1976</span>
-<span class='va'>my_age</span> <span class='op'>&lt;-</span> <span class='va'>this_year</span> <span class='op'>-</span> <span class='va'>my_birth_year</span>
-<span class='va'>this_year</span> <span class='op'>&lt;-</span> <span class='fl'>2020</span>
-<span class='co'># your age is not updated automatically!</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>this_year</span> <span class='op'>&lt;-</span> <span class='fl'>2019</span></span>
+<span><span class='va'>my_birth_year</span> <span class='op'>&lt;-</span> <span class='fl'>1976</span></span>
+<span><span class='va'>my_age</span> <span class='op'>&lt;-</span> <span class='va'>this_year</span> <span class='op'>-</span> <span class='va'>my_birth_year</span></span>
+<span><span class='va'>this_year</span> <span class='op'>&lt;-</span> <span class='fl'>2020</span></span>
+<span><span class='co'># your age is not updated automatically!</span></span></code></pre>
 </div>
 </div>
 <p>Look at the upper right panel (‘Global Environment’)</p>
 <h1 id="functions">Functions</h1>
-<p>Almost everything is R works with functions. hey are small programs that you feed with something and that return something else.</p>
-Three numbers go in (the functionarguments), 10 come out (the value of the function)
+<p>Almost everything is R works with functions. hey are small programs
+that you feed with something and that return something else.</p>
+Three numbers go in (the functionarguments), 10 come out (the value of
+the function)
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'><a href='https://rdrr.io/r/stats/Normal.html'>rnorm</a></span><span class='op'>(</span>n<span class='op'>=</span><span class='fl'>10</span>, mean<span class='op'>=</span><span class='fl'>0</span>, sd<span class='op'>=</span><span class='fl'>1</span><span class='op'>)</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/r/stats/Normal.html'>rnorm</a></span><span class='op'>(</span>n<span class='op'>=</span><span class='fl'>10</span>, mean<span class='op'>=</span><span class='fl'>0</span>, sd<span class='op'>=</span><span class='fl'>1</span><span class='op'>)</span></span></code></pre>
 </div>
-<pre><code> [1] -0.32820639 -1.00897672 -0.97042965  0.01941504 -0.75280132
- [6]  1.55036098 -0.09778731  0.87746864 -1.27882892  0.67950274</code></pre>
+<pre><code> [1]  0.5975364 -0.7339870  1.1404772  0.6701006  1.4942599  0.2455571
+ [7]  0.5828026  0.1728996  0.5166907  0.4862442</code></pre>
 </div>
 <p>You often use a function in a function. sum() is also a function</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/stats/Normal.html'>rnorm</a></span><span class='op'>(</span>n<span class='op'>=</span><span class='fl'>10</span>, mean<span class='op'>=</span><span class='fl'>0</span>, sd<span class='op'>=</span><span class='fl'>1</span><span class='op'>)</span><span class='op'>)</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/stats/Normal.html'>rnorm</a></span><span class='op'>(</span>n<span class='op'>=</span><span class='fl'>10</span>, mean<span class='op'>=</span><span class='fl'>0</span>, sd<span class='op'>=</span><span class='fl'>1</span><span class='op'>)</span><span class='op'>)</span></span></code></pre>
 </div>
-<pre><code>[1] -0.3696878</code></pre>
+<pre><code>[1] -1.349058</code></pre>
 </div>
-<p>Getting help is easy for beginners, but understanding it is not always easy</p>
+<p>Getting help is easy for beginners, but understanding it is not
+always easy</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'><a href='https://rdrr.io/r/utils/help.html'>help</a></span><span class='op'>(</span><span class='st'>"rnorm"</span><span class='op'>)</span>
-<span class='op'>?</span><span class='va'>rnorm</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/r/utils/help.html'>help</a></span><span class='op'>(</span><span class='st'>"rnorm"</span><span class='op'>)</span></span>
+<span><span class='op'>?</span><span class='va'>rnorm</span></span></code></pre>
 </div>
 </div>
 <h1 id="packages">Packages</h1>
-<p>The power of R is in the packages. There are hundreds of them, for specific tasks. It can be overwhelming, esp. if multiple packages offer similar possibilities (i.e. inter-rater reliability assessment)</p>
+<p>The power of R is in the packages. There are hundreds of them, for
+specific tasks. It can be overwhelming, esp. if multiple packages offer
+similar possibilities (i.e. inter-rater reliability assessment)</p>
 <p>You can do it by commandline (take away #)</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># install.packages("ggExtra")</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'># install.packages("ggExtra")</span></span></code></pre>
 </div>
 </div>
-<p>Or via menu (Tools-Install packages) or pane Packages (Install). After installing: load package (one per session, typically at the top of yur script/syntax)</p>
+<p>Or via menu (Tools-Install packages) or pane Packages (Install).
+After installing: load package (one per session, typically at the top of
+yur script/syntax)</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://github.com/daattali/ggExtra'>ggExtra</a></span><span class='op'>)</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://github.com/daattali/ggExtra'>ggExtra</a></span><span class='op'>)</span></span></code></pre>
 </div>
 </div>
-<p>Read section 1.6.1 carefully. It is about how to organize your script</p>
-<div class="sourceCode" id="cb17"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<p>Read section 1.6.1 carefully. It is about how to organize your
+script</p>
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
@@ -2603,7 +2629,9 @@ Three numbers go in (the functionarguments), 10 come out (the value of the funct
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
 <div class="distill-site-nav distill-site-footer">
-<p>© NSC-R Workshops 2022. Thanks to Lisa Lendway, Alison Hill and Harrie Jonkman. Made with the R <a href="https://rstudio.github.io/distill/">distill</a> package.</p>
+<p>© NSC-R Workshops 2022. Thanks to Lisa Lendway, Alison Hill and
+Harrie Jonkman. Made with the R <a
+href="https://rstudio.github.io/distill/">distill</a> package.</p>
 </div>
 <!--/radix_placeholder_navigation_after_body-->
 

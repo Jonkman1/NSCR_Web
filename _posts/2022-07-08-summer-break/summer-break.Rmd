@@ -1,0 +1,25 @@
+---
+title: "Summer break 2022"
+description: |
+  The NSC-R Team wishes you a great summer
+author:
+  - name: NSC-R Team
+    url: 
+date: 07-08-2022
+output:
+  distill::distill_article:
+    self_contained: false
+
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+During July and August, no NSC-R workshops are being organized. We hope to be back in September with a new series. Please let us know if you have any ideas for the organization of the workshops, or if you have suggestions for topics or for instructors (including yourself).
+
+Have a great summer!
+
+The NSC-R Workshops team
+
+Wim Bernasco (wbernasco@nscr.nl), Sam Langton (slangton@nscr.nl), Asier Moneva (amoneva@nscr.nl) Alex Trinidad (atrinidad@nscr.nl) and Franziska Yasrebi-de Kom (FYasrebi@nscr.nl).
+

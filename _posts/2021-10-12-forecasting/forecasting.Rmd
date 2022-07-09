@@ -1,0 +1,24 @@
+---
+title: "COVID-19 crime forecasting models"
+description: |
+  COVID-19 crime forecasting models.
+author: 
+  - name: Matt Ashby
+    url: http://lesscrime.info/
+date: 10-28-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+> Matt Ashby is a lecturer in crime science at the Jill Dando Institute of Security and Crime Science at University College London (UCL). He is interested in crime analysis – particularly how crime concentrates in time and space – in crime prevention and in transport crime. You can find read more about Matt on his [website](http://lesscrime.info/).
+
+
+
