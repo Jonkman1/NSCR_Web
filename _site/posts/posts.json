@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2022-10-05-using-r-for-reproducible-social-science/",
+    "title": "2-day workshop on Using R for Reproducible Science",
+    "description": "These are support materials for the 2-day workshop *Using R for Reproducible Science*.",
+    "author": [
+      {
+        "name": "NSC-R Team",
+        "url": {}
+      }
+    ],
+    "date": "2022-10-05",
+    "categories": [],
+    "contents": "\r\nOn this place you will soon be able to find the materials for the\r\nworkshop, such as slides, and example code.\r\nThe NSC-R Workshops team\r\nWim Bernasco (wbernasco@nscr.nl), Sam Langton (slangton@nscr.nl),\r\nAsier Moneva (amoneva@nscr.nl) Alex Trinidad (atrinidad@nscr.nl) and\r\nFranziska Yasrebi-de Kom (FYasrebi@nscr.nl).\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-09-13T16:05:59+02:00",
+    "input_file": "using-r-for-reproducible-social-science.knit.md"
+  },
+  {
     "path": "posts/2022-07-08-summer-break/",
     "title": "Summer break 2022",
     "description": "The NSC-R Team wishes you a great summer",

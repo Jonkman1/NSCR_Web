@@ -1,0 +1,25 @@
+---
+title: "2-day workshop on Using R for Reproducible Science"
+description: |
+  These are support materials for the 2-day workshop *Using R for Reproducible Science*.
+author:
+  - name: NSC-R Team
+    url: 
+date: 10-05-2022
+output:
+  distill::distill_article:
+    self_contained: false
+
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+On this place you will soon be able to find the materials for the workshop, such as slides, and example code. 
+
+
+The NSC-R Workshops team
+
+Wim Bernasco (wbernasco@nscr.nl), Sam Langton (slangton@nscr.nl), Asier Moneva (amoneva@nscr.nl) Alex Trinidad (atrinidad@nscr.nl) and Franziska Yasrebi-de Kom (FYasrebi@nscr.nl).
+
