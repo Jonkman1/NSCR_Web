@@ -13,8 +13,8 @@
     "categories": [],
     "contents": "\r\nOn this place you will soon be able to find the materials for the\r\nworkshop, such as slides, and example code.\r\nThe NSC-R Workshops team\r\nWim Bernasco (wbernasco@nscr.nl), Sam Langton (slangton@nscr.nl),\r\nAsier Moneva (amoneva@nscr.nl) Alex Trinidad (atrinidad@nscr.nl) and\r\nFranziska Yasrebi-de Kom (FYasrebi@nscr.nl).\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-09-13T16:05:59+02:00",
-    "input_file": "using-r-for-reproducible-social-science.knit.md"
+    "last_modified": "2022-09-13T16:06:00+02:00",
+    "input_file": {}
   },
   {
     "path": "posts/2022-07-08-summer-break/",
@@ -132,8 +132,8 @@
     "categories": [],
     "contents": "\r\nTo participate in the workshop Using R for Reproducible\r\nSocial Science, you need to have access to a working R\r\ninstallation. This can be an installation on a remote computer (for NSCR\r\nparticipants) or a local installation on your laptop (for all\r\nothers).\r\nFor those who need to create a local installation on their laptop\r\n(i.e. the non-NSCR participants), below is a brief description on how to\r\ndownload the necessary software (it is free) and install it.\r\nThere are two pieces of software that must be installed: R\r\nand R Studio. At this point in time it is not important to\r\nunderstand how they relate, but you can think of R Studio as a car and\r\nof R as its motor.\r\nRemove any existing versions of both R Studio and R from the\r\ncomputer.\r\nDelete any lingering folders associated with R Studio or\r\nR\r\nInstall R\r\nNavigate to https://cran.r-project.org/bin/windows/base/\r\nAs of September 27, 2022, the latest version is 4.2.1.\r\nClick “Download R-4.2.1 for Windows”. See below.\r\nRun the downloaded application. Accepting defaults.\r\n\r\nInstall R Studio\r\nNavigate to https://www.rstudio.com/products/rstudio/download/\r\nScroll down and click download on the free version of “RStudio\r\nDesktop”.\r\nAs of September 27, 2022, the latest version is 2022.07.2+576.\r\nOn the following page, assuming you have installed R already (see\r\nabove), click “Download RStudio for Windows”.\r\nRun the downloaded application. Accepting defaults.\r\n\r\nTo start working with R, you only need to open R\r\nStudio\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-09-27T12:11:28+02:00",
-    "input_file": "installing-rstudio-and-r.knit.md"
+    "last_modified": "2022-09-27T12:14:59+02:00",
+    "input_file": {}
   },
   {
     "path": "posts/2022-05-03-nsc-r-tidy-tuesday/",
