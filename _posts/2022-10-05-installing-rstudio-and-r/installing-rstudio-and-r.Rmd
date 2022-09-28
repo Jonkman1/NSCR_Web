@@ -1,7 +1,7 @@
 ---
 title: "Installing R Studio and R software"
 description: |
-  This is a brief guide on how to install R Studio and R on your computer. If you work from a NSCR laptop, you can skip this guide because you can use the remote desktop server.
+  If you are a participant of the two-day workshop *Using R for Reproducible Social Science*, these notes may be useful to help you install R Studio and R on your computer. If you work from a NSCR laptop, you can skip this guide because you can use the remote desktop server.
 author:
   - name: NSC-R Team
     url: [URL]
@@ -18,21 +18,4 @@ knitr::opts_chunk$set(echo = FALSE)
 
 To participate in the workshop **Using R for Reproducible Social Science**, you need to have access to a working R installation. This can be an installation on a remote computer (for NSCR participants) or a local installation on your laptop (for all others). 
 
-For those who need to create a local installation on their laptop (i.e. the non-NSCR participants), below is a brief description on how to download the necessary software (it is free) and install it.
-
-There are two pieces of software that must be installed: *R* and *R Studio*. At this point in time it is not important to understand how they relate, but you can think of R Studio as a car and of R as its motor. 
-
-1. **Remove any existing versions of both R Studio and R from the computer.** 
-2. **Delete any lingering folders associated with R Studio or *R***
-3. **Install *R*** 
-    a.	Navigate to [https://cran.r-project.org/bin/windows/base/](https://cran.r-project.org/bin/windows/base/)
-    b.	As of September 27, 2022, the latest version is 4.2.1.
-    c.	Click “Download R-4.2.1 for Windows”. See below.
-    d.	Run the downloaded application. Accepting defaults.
-4. **Install *R Studio***
-    a.	Navigate to [https://www.rstudio.com/products/rstudio/download/](https://www.rstudio.com/products/rstudio/download/)
-    b.	Scroll down and click download on the free version of “RStudio Desktop”.
-    c.	As of September 27, 2022, the latest version is 2022.07.2+576.
-    d.	On the following page, assuming you have installed R already (see above), click “Download RStudio for Windows”.
-    e.	Run the downloaded application. Accepting defaults.
-5. **To start working with R, you only need to open *R Studio***
+If you need to create a local installation on your laptop (i.e. if you are not an NSCR participant), please visit the [Data Carpentries website](https://datacarpentry.org/r-socialsci/setup.html) for installations instructions (both Windows and MacOS). You can ignore the text under the header "For everyone".
