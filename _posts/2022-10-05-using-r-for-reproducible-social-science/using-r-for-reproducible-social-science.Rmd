@@ -19,7 +19,10 @@ knitr::opts_chunk$set(echo = FALSE)
 On this place you will soon be able to find the materials for the workshop, such as slides, and example code. 
 
 
-The NSC-R Workshops team
+**The [materials for day 1](day1_worksheet.html) of the workshop.**
 
-Wim Bernasco (wbernasco@nscr.nl), Sam Langton (slangton@nscr.nl), Asier Moneva (amoneva@nscr.nl) Alex Trinidad (atrinidad@nscr.nl) and Franziska Yasrebi-de Kom (FYasrebi@nscr.nl).
+
+
+
+
 
