@@ -19,7 +19,11 @@ knitr::opts_chunk$set(echo = FALSE)
 On this place you will soon be able to find the materials for the workshop, such as slides, and example code. 
 
 
-**The [materials for day 1](day1_worksheet.html) of the workshop.**
+- **The [materials for day 1](day1_worksheet.html) of the workshop.**
+
+- **The [materials for day 2 (morning)](day2_morning_worksheet.html).**
+
+- **The [materials for day 2 (afternoon)](day2_afternoon_worksheet.html).**
 
 
 
