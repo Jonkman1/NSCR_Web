@@ -25,6 +25,8 @@ On this place you will soon be able to find the materials for the workshop, such
 
 - **The [materials for day 2 (afternoon)](day2_afternoon_worksheet.html).**
 
+- **A [short script](join_can_be_more_complex_than_it_seems.R) that demonstrates joining with non-unique keys**
+
 
 
 

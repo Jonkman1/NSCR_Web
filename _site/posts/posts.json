@@ -1,5 +1,39 @@
 [
   {
+    "path": "posts/2022-11-15-nsc-r-tidy-tuesday/",
+    "title": "NSC-R Tidy Tuesday",
+    "description": "Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.",
+    "author": [
+      {
+        "name": "Wim Bernasco",
+        "url": "https://nscr.nl/en/medewerker/prof-dr-wim-bernasco/"
+      }
+    ],
+    "date": "2022-11-15",
+    "categories": [],
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which\r\nwas aimed at providing a safe and supportive forum for individuals to\r\npractice their data processing and visualization skills in R while\r\nworking with real-world data.\r\nJoin this workshop meeting on Zoom by clicking this\r\nlink\r\n\r\nWim Bernasco is a senior researcher at the\r\nNetherlands Institute for the Study of Crime and Law Enforcement (NSCR)\r\nand a professor in Spatial analysis of crime at the School of\r\nBusiness and Economics at the Vrije Universiteit Amsterdam. Most of his\r\nwork in criminology is about the geography of crime, offender decision\r\nmaking and situational causes of crime.\r\n\r\nMaterials\r\nAny support materials for the workshop will be posted here.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-10-13T22:23:59+02:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2022-11-01-conjunctive-analysis/",
+    "title": "Conjunctive analysis of case configurations",
+    "description": "What is conjunctive analysis and how to do it in R",
+    "author": [
+      {
+        "name": "Asier Moneva",
+        "url": "https://nscr.nl/en/medewerker/asier-moneva/"
+      }
+    ],
+    "date": "2022-11-01",
+    "categories": [],
+    "contents": "\r\nIn this workshop Asier Moneva will explain what\r\nconjunctive analysis of case configurations is about, and how it can be\r\nconducted in R with the help of the cacc package.\r\nJoin this workshop meeting on Zoom by clicking this\r\nlink\r\n\r\nAsier Moneva is a postdoc at the NSCR and The Hague\r\nUniversity of Applied Sciences with a background in criminology. He\r\nstarted specializing in crime analysis with R during his master’s degree\r\nand has since developed an interest in open science.\r\n\r\nMaterials\r\nAny support materials for the workshop will be posted here.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-10-13T22:24:26+02:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2022-10-05-installing-rstudio-and-r/",
     "title": "Installing R Studio and R software",
     "description": "If you are a participant of the two-day workshop *Using R for Reproducible Social Science*, these notes may be useful to help you install R Studio and R on your computer. If you work from a NSCR laptop, you can skip this guide because you can use the remote desktop server.",
@@ -28,10 +62,10 @@
     ],
     "date": "2022-10-05",
     "categories": [],
-    "contents": "\r\nOn this place you will soon be able to find the materials for the\r\nworkshop, such as slides, and example code.\r\nThe materials for day 1\r\nof the workshop.\r\nThe materials for\r\nday 2 (morning).\r\nThe materials for\r\nday 2 (afternoon).\r\n\r\n\r\n\r\n",
+    "contents": "\r\nOn this place you will soon be able to find the materials for the\r\nworkshop, such as slides, and example code.\r\nThe materials for day 1\r\nof the workshop.\r\nThe materials for\r\nday 2 (morning).\r\nThe materials for\r\nday 2 (afternoon).\r\nA short script that\r\ndemonstrates joining with non-unique keys\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-10-12T00:18:20+02:00",
-    "input_file": "using-r-for-reproducible-social-science.knit.md"
+    "last_modified": "2022-10-13T22:05:25+02:00",
+    "input_file": {}
   },
   {
     "path": "posts/2022-07-08-summer-break/",
@@ -614,24 +648,5 @@
     "preview": {},
     "last_modified": "2022-03-04T14:15:42+01:00",
     "input_file": {}
-  },
-  {
-    "path": "posts/welcome/",
-    "title": "Welcome",
-    "description": "A blog on the NSC-R Workshops.",
-    "author": [
-      {
-        "name": "Wim Bernasco, Alex Trinidad, Asier Moneva and Sam Langton",
-        "url": "https://nscr.nl"
-      }
-    ],
-    "date": "2021-06-06",
-    "categories": [],
-    "contents": "\r\nThis blog serves as an agenda for future workshop meetings and as an archive for past workshop meetings. Each post:\r\nbriefly describes date, time and topic of a workshop\r\nprovides the Zoom link where you can join the workshop meeting\r\nlists any necessary suggested pre-workshop reading material\r\nintroduces the workshop presenter\r\nprovides links to the workshop materials provided by the presenter\r\nprovides links to additional information on the workshop topic\r\nOpen sources that may help you learn about R in general\r\nGrolemund, G. & Wickham, H. (2019). R for Data Science\r\nBatra, N. (ed, 2021). The Epidemiologist R Handbook\r\nBaumer, B.S., Kaplan, D.T. & Horton, N.J. (2018). Modern Data Science with R\r\nIrizarry, R.A. (2019). Introduction to Data Science. Data Analysis and Prediction Algorithms with R\r\nKaplan, J. (2021). Crime by the Numbers: A Criminologist’s Guide to R\r\nNavarro, D. (2019). Learning statistics with R: A tutorial for psychology students and other beginners\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-    "preview": "posts/welcome/workshop.png",
-    "last_modified": "2022-03-04T14:15:43+01:00",
-    "input_file": {},
-    "preview_width": 480,
-    "preview_height": 480
   }
 ]

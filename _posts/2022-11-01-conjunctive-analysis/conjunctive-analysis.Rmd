@@ -1,0 +1,30 @@
+---
+title: "Conjunctive analysis of case configurations"
+description: |
+  What is conjunctive analysis and how to do it in R
+author:
+  - name: Asier Moneva
+    url: https://nscr.nl/en/medewerker/asier-moneva/
+date: 11-01-2022
+output:
+  distill::distill_article:
+    self_contained: false
+
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+In this workshop **Asier Moneva** will explain what conjunctive analysis of case configurations is about, and how it can be conducted in R with the help of the `cacc` package.  
+
+
+Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/81620041716?pwd=cjFCbG9TVHc0NTUrcmxmend5WHdCQT09)
+
+
+> **Asier Moneva** is a postdoc at the NSCR and The Hague University of Applied Sciences with a background in criminology. He started specializing in crime analysis with R during his master's degree and has since developed an interest in open science.
+
+
+### Materials
+
+Any support materials for the workshop will be posted here. 
