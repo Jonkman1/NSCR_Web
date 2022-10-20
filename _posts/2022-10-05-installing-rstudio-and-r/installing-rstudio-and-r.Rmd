@@ -1,7 +1,7 @@
 ---
 title: "Installing R Studio and R software"
 description: |
-  If you are a participant of the two-day workshop *Using R for Reproducible Social Science*, these notes may be useful to help you install R Studio and R on your computer. If you work from a NSCR laptop, you can skip this guide because you can use the remote desktop server.
+  If you are a participant of the two-day workshop on Using R for Reproducible Social Science, these notes may be useful to help you install R Studio and R on your computer. If you work from a NSCR laptop, you can skip this guide because you can use the remote desktop server.
 author:
   - name: NSC-R Team
     url: [URL]

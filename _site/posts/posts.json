@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2022-11-29-search-term-selection-systematic-reviews/",
+    "title": "Automated search term selection for systematic reviews",
+    "description": "Improve systematic reviews by automating search term selection using R package litsearchR.",
+    "author": [
+      {
+        "name": "Eliza Grames",
+        "url": "https://elizagrames.github.io/"
+      }
+    ],
+    "date": "2022-11-29",
+    "categories": [],
+    "contents": "\r\nIn this workshop, Eliza Grames will explain how the\r\nR package litsearchR can be used for quick, objective,\r\nreproducible development of search strategies in systematic reviews. The\r\npackage uses text-mining and keyword co-occurrence networks to identify\r\nimportant terms to include in a search strategy.\r\nPlease note that this workshop starts at 16:00.\r\nJoin this workshop meeting on Zoom by clicking this\r\nlink\r\n\r\nEliza Grames is a post-doctoral scholar at the\r\nUniversity of Nevada Reno. Amongst other topics, she works on methods to\r\nconduct meta-analyses on disparate and diverse time series datasets.\r\nEliza completed her PhD in Ecology and Evolutionary Biology in 2021 at\r\nthe University of Connecticut, where she worked on developing new\r\nmethods of evidence synthesis. Broadly speaking, she is interested in\r\nany involving cool research methods, birds, insects, conservation,\r\nquantitative ecology, and evidence synthesis. You can read more about\r\nEliza and her work on her\r\npersonal website.\r\n\r\nMaterials\r\nAny support materials for the workshop will be posted here.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-10-20T12:35:58+02:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2022-11-15-nsc-r-tidy-tuesday/",
     "title": "NSC-R Tidy Tuesday",
     "description": "Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.",
@@ -36,7 +53,7 @@
   {
     "path": "posts/2022-10-05-installing-rstudio-and-r/",
     "title": "Installing R Studio and R software",
-    "description": "If you are a participant of the two-day workshop *Using R for Reproducible Social Science*, these notes may be useful to help you install R Studio and R on your computer. If you work from a NSCR laptop, you can skip this guide because you can use the remote desktop server.",
+    "description": "If you are a participant of the two-day workshop on Using R for Reproducible Social Science, these notes may be useful to help you install R Studio and R on your computer. If you work from a NSCR laptop, you can skip this guide because you can use the remote desktop server.",
     "author": [
       {
         "name": "NSC-R Team",
@@ -47,7 +64,7 @@
     "categories": [],
     "contents": "\r\nTo participate in the workshop Using R for Reproducible\r\nSocial Science, you need to have access to a working R\r\ninstallation. This can be an installation on a remote computer (for NSCR\r\nparticipants) or a local installation on your laptop (for all\r\nothers).\r\nIf you need to create a local installation on your laptop (i.e. if\r\nyou are not an NSCR participant), please visit the Data Carpentries\r\nwebsite for installations instructions (both Windows and MacOS). You\r\ncan ignore the text under the header “For everyone”.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-09-28T19:36:25+02:00",
+    "last_modified": "2022-10-20T12:39:52+02:00",
     "input_file": {}
   },
   {
