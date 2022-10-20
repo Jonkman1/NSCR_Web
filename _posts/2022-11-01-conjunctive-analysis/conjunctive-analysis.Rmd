@@ -13,10 +13,10 @@ output:
 ---
 
 ```{r setup, include = FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = TRUE)
 ```
 
-In this workshop **Asier Moneva** will explain what conjunctive analysis of case configurations is about, and how it can be conducted in R with the help of the `cacc` package.  
+In this workshop **Asier Moneva** will explain what Conjunctive Analysis of Case Configurations (CACC) is about, and how it can be conducted in R with the help of the `cacc` package. Asier will first introduce the CACC and then perform a live demonstration of the `cacc` package from RStudio.  
 
 
 Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/81620041716?pwd=cjFCbG9TVHc0NTUrcmxmend5WHdCQT09)
@@ -27,4 +27,27 @@ Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.
 
 ### Materials
 
-Any support materials for the workshop will be posted here. 
+-   A [link](https://github.com/amoneva/cacc) to the development version of the `cacc` R package in GitHub. The `README.md` file contains a description of the package and walks readers through some examples.
+-   [Placeholder for the slides from Asier's workshop presentation]
+
+Asier will use the following R packages in the workshop:
+
+-   `devtools`
+-   `tidyverse`
+
+To install them, you can run the code below:
+
+```{r install}
+#| message: false
+
+if (! require("devtools")) install.packages(
+  pkgs = "devtools",
+  repos = "http://cran.us.r-project.org"
+)
+
+if (! require("tidyverse")) install.packages(
+  pkgs = "tidyverse",
+  repos = "http://cran.us.r-project.org"
+)
+```
+
