@@ -1,0 +1,33 @@
+---
+title: "Automated search term selection for systematic reviews"
+description: |
+  Improve systematic reviews by automating search term selection using R package litsearchR.
+author:
+  - name: Eliza Grames
+    url: https://elizagrames.github.io/
+date: 11-29-2022
+output:
+  distill::distill_article:
+    self_contained: false
+
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+In this workshop, **Eliza Grames** will explain how the R package `litsearchR` can be used for quick, objective, reproducible development of search strategies in systematic reviews. The package uses text-mining and keyword co-occurrence networks to identify important terms to include in a search strategy.
+
+**Please note that this workshop starts at 16:00.**
+
+
+Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/85729707022?pwd=akkza1Z3aTduZ3FHTjFXeVlvYXY1QT09)
+
+
+> **Eliza Grames** is a post-doctoral scholar at the University of Nevada Reno. Amongst other topics, she works on methods to conduct meta-analyses  on disparate and diverse time series datasets. Eliza completed her PhD in Ecology and Evolutionary Biology in 2021 at the University of Connecticut, where she worked on developing new methods of evidence synthesis. Broadly speaking, she is interested in any involving cool research methods, birds, insects, conservation, quantitative ecology, and evidence synthesis. You can read more about Eliza and her work on [her personal website](https://elizagrames.github.io/).
+
+
+
+### Materials
+
+Any support materials for the workshop will be posted here. 
