@@ -18,6 +18,20 @@ knitr::opts_chunk$set(echo = FALSE)
 
 The NSC-R Tidy Tuesday workshop sessions are inspired by the [Tidy Tuesday](https://www.tidytuesday.com/) initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.
 
+In this workshop, Wim will explore a Tidy Tuesday dataset about the Erasmus student mobility program. This dataset was used in the main Tidy Tuesday of week 10 in 2022. For more information on this data, including the codebook, see [the RForDataScience GitHub registry](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-03-08/readme.md). 
+
+In today's workshop, the focus will be on exploring, analyzing, and maybe visualizing student streams between countries. Example questions to be answered include:
+
+- How many students studied abroad? 
+- What are the top-10 receiving countries?
+- What are the top-10 sending countries?
+- Which are the 10 most frequent origin-destination country combinations
+- Are reverse flows (the flow from A to B and the flow from B to A) correlated?
+- How does total number of students from country A to country B depend on the total number of student from A and the total number of students from B?
+- Do adjacent countries attract more or less students than non-adjacent countries?
+
+
+
 Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/88577136907?pwd=bmVIVjJ5RElCNG9FM3BBazdBS1U4dz09)
 
 
@@ -27,4 +41,7 @@ Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.
 
 ### Materials
 
-Any support materials for the workshop will be posted here. 
+
+-   [This GitHub repository](https://github.com/bernasco/NSC-R_tidy_tuesday_20221115) contains a startup script (`script_student_mobility.R`)and two helper data files (`country_names.csv` and `adjacency.csv`).
+
+Wim will use the packages `here`, `tidyverse` and `tidytuesdayR` in the workshop. 

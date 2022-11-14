@@ -128,7 +128,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["nsc-r-tidy-tuesday_files/anchor-4.2.2/anchor.min.js","nsc-r-tidy-tuesday_files/bowser-1.9.3/bowser.min.js","nsc-r-tidy-tuesday_files/distill-2.2.21/template.v2.js","nsc-r-tidy-tuesday_files/header-attrs-2.11/header-attrs.js","nsc-r-tidy-tuesday_files/header-attrs-2.14/header-attrs.js","nsc-r-tidy-tuesday_files/jquery-1.11.3/jquery.min.js","nsc-r-tidy-tuesday_files/jquery-3.6.0/jquery-3.6.0.js","nsc-r-tidy-tuesday_files/jquery-3.6.0/jquery-3.6.0.min.js","nsc-r-tidy-tuesday_files/jquery-3.6.0/jquery-3.6.0.min.map","nsc-r-tidy-tuesday_files/popper-2.6.0/popper.min.js","nsc-r-tidy-tuesday_files/tippy-6.2.7/tippy-bundle.umd.min.js","nsc-r-tidy-tuesday_files/tippy-6.2.7/tippy-light-border.css","nsc-r-tidy-tuesday_files/tippy-6.2.7/tippy.css","nsc-r-tidy-tuesday_files/tippy-6.2.7/tippy.umd.min.js","nsc-r-tidy-tuesday_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"character","attributes":{},"value":["nsc-r-tidy-tuesday_files/anchor-4.2.2/anchor.min.js","nsc-r-tidy-tuesday_files/bowser-1.9.3/bowser.min.js","nsc-r-tidy-tuesday_files/distill-2.2.21/template.v2.js","nsc-r-tidy-tuesday_files/header-attrs-2.14/header-attrs.js","nsc-r-tidy-tuesday_files/jquery-3.6.0/jquery-3.6.0.js","nsc-r-tidy-tuesday_files/jquery-3.6.0/jquery-3.6.0.min.js","nsc-r-tidy-tuesday_files/jquery-3.6.0/jquery-3.6.0.min.map","nsc-r-tidy-tuesday_files/popper-2.6.0/popper.min.js","nsc-r-tidy-tuesday_files/tippy-6.2.7/tippy-bundle.umd.min.js","nsc-r-tidy-tuesday_files/tippy-6.2.7/tippy-light-border.css","nsc-r-tidy-tuesday_files/tippy-6.2.7/tippy.css","nsc-r-tidy-tuesday_files/tippy-6.2.7/tippy.umd.min.js","nsc-r-tidy-tuesday_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2475,6 +2475,29 @@ href="https://www.tidytuesday.com/">Tidy Tuesday</a> initiative, which
 was aimed at providing a safe and supportive forum for individuals to
 practice their data processing and visualization skills in R while
 working with real-world data.</p>
+<p>In this workshop, Wim will explore a Tidy Tuesday dataset about the
+Erasmus student mobility program. This dataset was used in the main Tidy
+Tuesday of week 10 in 2022. For more information on this data, including
+the codebook, see <a
+href="https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-03-08/readme.md">the
+RForDataScience GitHub registry</a>.</p>
+<p>In today’s workshop, the focus will be on exploring, analyzing, and
+maybe visualizing student streams between countries. Example questions
+to be answered include:</p>
+<ul>
+<li>How many students studied abroad?</li>
+<li>What are the top-10 receiving countries?</li>
+<li>What are the top-10 sending countries?</li>
+<li>Which are the 10 most frequent origin-destination country
+combinations</li>
+<li>Are reverse flows (the flow from A to B and the flow from B to A)
+correlated?</li>
+<li>How does total number of students from country A to country B depend
+on the total number of student from A and the total number of students
+from B?</li>
+<li>Do adjacent countries attract more or less students than
+non-adjacent countries?</li>
+</ul>
 <p>Join this workshop meeting on Zoom by clicking <a
 href="https://us02web.zoom.us/j/88577136907?pwd=bmVIVjJ5RElCNG9FM3BBazdBS1U4dz09">this
 link</a></p>
@@ -2487,7 +2510,15 @@ work in criminology is about the geography of crime, offender decision
 making and situational causes of crime.</p>
 </blockquote>
 <h3 id="materials">Materials</h3>
-<p>Any support materials for the workshop will be posted here.</p>
+<ul>
+<li><a
+href="https://github.com/bernasco/NSC-R_tidy_tuesday_20221115">This
+GitHub repository</a> contains a startup script
+(<code>script_student_mobility.R</code>)and two helper data files
+(<code>country_names.csv</code> and <code>adjacency.csv</code>).</li>
+</ul>
+<p>Wim will use the packages <code>here</code>, <code>tidyverse</code>
+and <code>tidytuesdayR</code> in the workshop.</p>
 <div class="sourceCode" id="cb1"><pre
 class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
