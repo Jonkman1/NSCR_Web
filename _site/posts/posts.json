@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2022-12-06-simulation/",
+    "title": "Simulation",
+    "description": "Learn how to use simulation in R.",
+    "author": [
+      {
+        "name": "Lisa DeBruine",
+        "url": "https://debruine.github.io/"
+      }
+    ],
+    "date": "2022-12-06",
+    "categories": [],
+    "contents": "\r\nIn this workshop, Lisa DeBruine will show how you\r\ncan use R to conduct simulations.\r\nJoin this workshop meeting on Zoom by clicking this\r\nlink\r\n\r\nLisa DeBruine is a professor of psychology at the\r\nUniversity of Glasgow School of Psychology and Neuroscience. She is a\r\nfounding member and current Associate Director of the Psychological\r\nScience Accelerator, a member of the APA Open Science and Methodology\r\nCommittee, a local lead for the UK Reproducibility Network, a member of\r\nthe ORCiD Researcher Advisory Council, and a member of the psyTeachR\r\nteam for reproducible research educational resources.You can read more\r\nabout Lisa and her work on her\r\npersonal website.\r\n\r\nMaterials\r\nAny support materials for the workshop will be posted here.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2022-11-14T22:57:32+01:00",
+    "input_file": "simulation.knit.md"
+  },
+  {
     "path": "posts/2022-11-29-search-term-selection-systematic-reviews/",
     "title": "Automated search term selection for systematic reviews",
     "description": "Improve systematic reviews by automating search term selection using R package litsearchR.",
