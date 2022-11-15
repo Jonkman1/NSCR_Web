@@ -11,10 +11,10 @@
     ],
     "date": "2022-12-06",
     "categories": [],
-    "contents": "\r\nIn this workshop, Lisa DeBruine will show how you\r\ncan use R to conduct simulations.\r\nJoin this workshop meeting on Zoom by clicking this\r\nlink\r\n\r\nLisa DeBruine is a professor of psychology at the\r\nUniversity of Glasgow School of Psychology and Neuroscience. She is a\r\nfounding member and current Associate Director of the Psychological\r\nScience Accelerator, a member of the APA Open Science and Methodology\r\nCommittee, a local lead for the UK Reproducibility Network, a member of\r\nthe ORCiD Researcher Advisory Council, and a member of the psyTeachR\r\nteam for reproducible research educational resources.You can read more\r\nabout Lisa and her work on her\r\npersonal website.\r\n\r\nMaterials\r\nAny support materials for the workshop will be posted here.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nIn this workshop, Lisa DeBruine will show how you\r\ncan use R to conduct simulations.\r\nThis session will cover the basics of simulation using the R package\r\nfaux. We will simulate data with factorial designs by\r\nspecifying the within and between-subjects factor structure, each cell\r\nmean and standard deviation, and correlations between cells where\r\nappropriate. This can be used to create simulated data sets to be used\r\nin preparing the analysis code for pre-registrations or registered\r\nreports. We will also create data sets for simulation-based power\r\nanalyses. Participants will need to have very basic knowledge of R and R\r\nMarkdown, and have installed faux, afex,\r\nbroom and tidyverse.\r\nJoin this workshop meeting on Zoom by clicking this\r\nlink\r\n\r\nLisa DeBruine is a professor of psychology at the\r\nUniversity of Glasgow School of Psychology and Neuroscience. She is a\r\nfounding member and current Associate Director of the Psychological\r\nScience Accelerator, a member of the APA Open Science and Methodology\r\nCommittee, a local lead for the UK Reproducibility Network, a member of\r\nthe ORCiD Researcher Advisory Council, and a member of the psyTeachR\r\nteam for reproducible research educational resources.You can read more\r\nabout Lisa and her work on her\r\npersonal website.\r\n\r\nMaterials\r\nThe materials used in the workshop are on Lisa’s\r\nGithub.\r\nThe RMarkdown (Rmd) file she will be working with is linked from\r\nthere at https://raw.githubusercontent.com/debruine/data-sim-workshops/master/inst/stubs/faux-stub.Rmd)\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2022-11-14T22:57:32+01:00",
-    "input_file": "simulation.knit.md"
+    "last_modified": "2022-11-15T17:11:55+01:00",
+    "input_file": {}
   },
   {
     "path": "posts/2022-11-29-search-term-selection-systematic-reviews/",
