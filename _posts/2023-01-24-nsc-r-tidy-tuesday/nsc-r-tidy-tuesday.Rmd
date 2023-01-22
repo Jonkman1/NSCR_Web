@@ -32,5 +32,5 @@ Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.
 
 ### Materials
 
-Materials for the workshop will be available here.
+- A do-it-yourself [start-up script](Franziska_tidy_tuesday_final_empty_script_to_prepare_for_participants.R) with questions to optionally prepare for the workshop.
 
