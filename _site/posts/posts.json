@@ -11,10 +11,10 @@
     ],
     "date": "2023-01-24",
     "categories": [],
-    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which\r\nwas aimed at providing a safe and supportive forum for individuals to\r\npractice their data processing and visualization skills in R while\r\nworking with real-world data.\r\nJoin this workshop meeting on Zoom by clicking this\r\nlink\r\n\r\nFranziska Yasrebi-de Kom is a PhD student at the\r\nNSCR.\r\n\r\nMaterials\r\nA do-it-yourself start-up\r\nscript with questions to optionally prepare for the workshop.\r\nA full script\r\ncontaining solutions to the exercises listed in the do-it-yourself\r\nscript.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which\r\nwas aimed at providing a safe and supportive forum for individuals to\r\npractice their data processing and visualization skills in R while\r\nworking with real-world data.\r\nJoin this workshop meeting on Zoom by clicking this\r\nlink\r\n\r\nFranziska Yasrebi-de Kom is a PhD student at the\r\nNSCR.\r\n\r\nMaterials\r\nA do-it-yourself start-up\r\nscript with questions to optionally prepare for the workshop.\r\nA full\r\nscript containing solutions to the exercises listed in the\r\ndo-it-yourself script.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2023-01-24T21:23:52+01:00",
-    "input_file": {}
+    "last_modified": "2023-01-24T21:31:51+01:00",
+    "input_file": "nsc-r-tidy-tuesday.knit.md"
   },
   {
     "path": "posts/2022-12-06-simulation/",
