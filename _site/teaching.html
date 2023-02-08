@@ -785,6 +785,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article table.gt_table td,
   d-article table.gt_table th {
     border-bottom: none;
+    font-size: 100%;
   }
 
   .html-widget {
@@ -1857,15 +1858,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
-          var fn = $(this).children()[0]
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
           $(this).html(fn.shadowRoot.querySelector("sup"))
           $(this).id = fn.id
           fn.remove()
         }
         var refs = $(this).attr('data-cites').split(" ");
         var refHtml = refs.map(function(ref) {
-          return "<p>" + $('#ref-' + ref).html() + "</p>";
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
         }).join("\n");
         window.tippy(this, {
           allowHTML: true,
@@ -2384,7 +2391,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2441,14 +2448,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
-<h2 id="workshop-1-data-skills-for-reproducible-science">Workshop 1:
-Data Skills for Reproducible Science</h2>
-<p><a
-href="https://psyteachr.github.io/msc-data-skills/intro.html">See</a></p>
+<h2 id="workshop-1-data-skills-for-reproducible-science">Workshop 1: Data Skills for Reproducible Science</h2>
+<p><a href="https://psyteachr.github.io/msc-data-skills/intro.html">See</a></p>
 <h1 id="commands">Commands</h1>
-<p>Typing commands in the R Studio concole (bottom left window). Note
-that on a line in the editor, anything after is automagically green and
-treated as comment, not code (like ’*’ in Stata and SPSS)</p>
+<p>Typing commands in the R Studio concole (bottom left window). Note that on a line in the editor, anything after is automagically green and treated as comment, not code (like ’*’ in Stata and SPSS)</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/r/base/rm.html'>rm</a></span><span class='op'>(</span>list<span class='op'>=</span><span class='fu'><a href='https://rdrr.io/r/base/ls.html'>ls</a></span><span class='op'>(</span><span class='op'>)</span><span class='op'>)</span></span>
@@ -2481,8 +2484,7 @@ Single quotes can be used as well, but not prefered
 <pre><code>[1] &quot;Good Morning&quot;</code></pre>
 </div>
 <h1 id="quotes">Quotes</h1>
-<p>Use single quotes if the string must cntain double quotes, or vice
-versa</p>
+<p>Use single quotes if the string must cntain double quotes, or vice versa</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span><span class='st'>"'Good morning', she said"</span></span></code></pre>
@@ -2506,8 +2508,7 @@ The command cat prints to the screen whatever is between brackets
 <pre><code>&quot;Good morning&quot;, he replied</code></pre>
 </div>
 <h1 id="variables">Variables</h1>
-<p>We start with variables that represent just one number (you may think
-of an SPSSS or Stata variable in a dataset with N=1)</p>
+<p>We start with variables that represent just one number (you may think of an SPSSS or Stata variable in a dataset with N=1)</p>
 <p>Use the assignment operator ‘&lt;-’</p>
 R stores the number in the variable ‘variable1’
 <div class="layout-chunk" data-layout="l-body">
@@ -2544,8 +2545,7 @@ Just as in SPSS, you can overwrite the original value
 </div>
 <pre><code>[1] 35</code></pre>
 </div>
-<p>A variable does not need to be a single number, it can be a vector
-like our variables in Stata and SPSS</p>
+<p>A variable does not need to be a single number, it can be a vector like our variables in Stata and SPSS</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>myvariable</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>2</span>,<span class='fl'>3</span>,<span class='fl'>5</span>,<span class='fl'>7</span>,<span class='fl'>11</span>,<span class='fl'>13</span><span class='op'>)</span></span>
@@ -2553,8 +2553,8 @@ like our variables in Stata and SPSS</p>
 </div>
 <pre><code>[1]  2  3  5  7 11 13</code></pre>
 </div>
-<p>Just as in Stata or SPSS, assignment of values to variables is
-static. Here is an example from the online course:</p>
+<p>Just as in Stata or SPSS, assignment of values to variables is static.
+Here is an example from the online course:</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>this_year</span> <span class='op'>&lt;-</span> <span class='fl'>2019</span></span>
@@ -2566,26 +2566,23 @@ static. Here is an example from the online course:</p>
 </div>
 <p>Look at the upper right panel (‘Global Environment’)</p>
 <h1 id="functions">Functions</h1>
-<p>Almost everything is R works with functions. hey are small programs
-that you feed with something and that return something else.</p>
-Three numbers go in (the functionarguments), 10 come out (the value of
-the function)
+<p>Almost everything is R works with functions. hey are small programs that you feed with something and that return something else.</p>
+Three numbers go in (the functionarguments), 10 come out (the value of the function)
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/r/stats/Normal.html'>rnorm</a></span><span class='op'>(</span>n<span class='op'>=</span><span class='fl'>10</span>, mean<span class='op'>=</span><span class='fl'>0</span>, sd<span class='op'>=</span><span class='fl'>1</span><span class='op'>)</span></span></code></pre>
 </div>
-<pre><code> [1]  0.76656872  1.26181141 -0.42663247  0.04350106 -1.21315238
- [6] -2.04499864  1.80180076 -0.44061917 -1.46230871 -1.20712544</code></pre>
+<pre><code> [1] -0.36245563 -0.14257557  0.83940688  0.67287844 -0.28745367
+ [6]  0.09313376  0.27266810 -1.55948568  0.10181458 -0.38677186</code></pre>
 </div>
 <p>You often use a function in a function. sum() is also a function</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/stats/Normal.html'>rnorm</a></span><span class='op'>(</span>n<span class='op'>=</span><span class='fl'>10</span>, mean<span class='op'>=</span><span class='fl'>0</span>, sd<span class='op'>=</span><span class='fl'>1</span><span class='op'>)</span><span class='op'>)</span></span></code></pre>
 </div>
-<pre><code>[1] -5.322349</code></pre>
+<pre><code>[1] 2.917389</code></pre>
 </div>
-<p>Getting help is easy for beginners, but understanding it is not
-always easy</p>
+<p>Getting help is easy for beginners, but understanding it is not always easy</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/r/utils/help.html'>help</a></span><span class='op'>(</span><span class='st'>"rnorm"</span><span class='op'>)</span></span>
@@ -2593,9 +2590,7 @@ always easy</p>
 </div>
 </div>
 <h1 id="packages">Packages</h1>
-<p>The power of R is in the packages. There are hundreds of them, for
-specific tasks. It can be overwhelming, esp. if multiple packages offer
-similar possibilities (i.e. inter-rater reliability assessment)</p>
+<p>The power of R is in the packages. There are hundreds of them, for specific tasks. It can be overwhelming, esp. if multiple packages offer similar possibilities (i.e. inter-rater reliability assessment)</p>
 <p>You can do it by commandline (take away #)</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
@@ -2603,17 +2598,14 @@ similar possibilities (i.e. inter-rater reliability assessment)</p>
 </div>
 </div>
 <p>Or via menu (Tools-Install packages) or pane Packages (Install).
-After installing: load package (one per session, typically at the top of
-yur script/syntax)</p>
+After installing: load package (one per session, typically at the top of yur script/syntax)</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://github.com/daattali/ggExtra'>ggExtra</a></span><span class='op'>)</span></span></code></pre>
 </div>
 </div>
-<p>Read section 1.6.1 carefully. It is about how to organize your
-script</p>
-<div class="sourceCode" id="cb17"><pre
-class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<p>Read section 1.6.1 carefully. It is about how to organize your script</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

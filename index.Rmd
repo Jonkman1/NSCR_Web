@@ -11,17 +11,23 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### What are the NSC-R Workshops?
 
-The **NSC-R Workshops** is a series of weekly one-hour online instructional sessions to support participants in developing their data science skills in R, and to promote open science principles. The NSC-R workshop meetings are organized by a team affliated with the Netherlands Institute for the Study of Crime and Law Enforcement [(NSCR)](https://www.nscr.nl/en/), but they are open to everyone, regardless of affiliation or skill level. 
+The **NSC-R Workshops** is a series of one-hour online instructional sessions to support participants in developing their data science skills in R, and to promote open science principles. The NSC-R workshop meetings are organized by a team affliated with the Netherlands Institute for the Study of Crime and Law Enforcement [(NSCR)](https://www.nscr.nl/en/), but they are open to everyone, regardless of affiliation or skill level. 
 
 ### The NSC-R Workshop Team
 
-The NSC-R Workshop Team coordinates the NSC-R Workshops. They discuss potential topics, invite presenters, plan the meetings and send invitations. Currently the team includes Wim Bernasco, Franziska Yasrebi-de Kom, Sam Langton, Asier Moneva and Alex Trinidad.
+The NSC-R Workshop Team coordinates the NSC-R Workshops. They discuss potential topics, invite presenters, plan the meetings and send invitations. Currently the team includes Alex Trinidad, Asier Moneva, Danielle van Westbroek-Stibbe, Franziska Yasrebi-de Kom, Sam Langton and Wim Bernasco.
 
 ### Contact Us and Get involved
 
 If you want your e-mail address on our mailing list, please send an e-mail to Wim Bernasco at wbernasco@nscr.nl.
 
-If you have suggestions for workshop topics, or are interested in presenting one, please send a message to Wim Bernasco  (wbernasco@nscr.nl), Franziska Yasrebi-de Kom (FYasrebi@nscr.nl), Sam Langton (slangton@nscr.nl), Asier Moneva (amoneva@nscr.nl) or Alex Trinidad (atrinidad@nscr.nl).
+If you have suggestions for workshop topics, or are interested in presenting one, please send a message to 
+Wim Bernasco (wbernasco@nscr.nl), 
+Sam Langton (slangton@nscr.nl), 
+Asier Moneva (amoneva@nscr.nl), 
+Alex Trinidad (atrinidad@nscr.nl), 
+Danielle van Westbroek-Stibbe (DStibbe@nscr.nl), or 
+Franziska Yasrebi-de Kom (FYasrebi@nscr.nl).
 
 
 
