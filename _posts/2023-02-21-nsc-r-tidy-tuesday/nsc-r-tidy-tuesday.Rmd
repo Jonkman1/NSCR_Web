@@ -10,7 +10,7 @@ output:
   distill::distill_article:
     self_contained: false
 # Remove the following line to publish
-draft: true
+draft: false
 ---
 
 
