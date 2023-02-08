@@ -1,22 +1,5 @@
 [
   {
-    "path": "posts/2023-02-21-nsc-r-tidy-tuesday/",
-    "title": "NSC-R Tidy Tuesday",
-    "description": "Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.",
-    "author": [
-      {
-        "name": "Alex Trinidad",
-        "url": "https://www.alexandertrinidad.com/"
-      }
-    ],
-    "date": "2023-02-22",
-    "categories": [],
-    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nIn this workshop, Alex Trinidad will show how to write your own R functions. This helps automating your work and making your R scripts cleaner, shorter and easier to maintain.\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\nAlex Trinidad is a postdoctoral researcher and lecturer at the Institute of Sociology and Social Psychology (ISS) at the University of Cologne, and a research fellow for the Crime Events in Context research group at the NSCR and for the Crim-Ap research group at the University of the Basque Country UPV/EHU. He is also a member of the NSC-R Workshops Team.\r\n\r\nMaterials\r\n\r\n\r\n\r\n",
-    "preview": {},
-    "last_modified": "2023-02-08T12:27:58+01:00",
-    "input_file": {}
-  },
-  {
     "path": "posts/2023-01-24-nsc-r-tidy-tuesday/",
     "title": "NSC-R Tidy Tuesday",
     "description": "Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.",
