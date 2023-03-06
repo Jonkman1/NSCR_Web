@@ -14,7 +14,7 @@
     "contents": "\r\nLearning is making mistakes and finding ways to solve them. This meeting will be about how to learn from mistakes when working with R. We will discuss how to recognize, understand and solve errors, and how to learn from online sources and the skills of other people in the R community.\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\nThe meeting will have a seminar-like format with multiple participants giving short presentations.\r\n\r\nMaterials\r\nTo prepare for the meeting, you want to take a look at these materials, which are being developed by Matt Ashby.\r\nTo run the tutorial, run these lines from the R Studio editor:\r\n# Install the 'remotes' packages\r\ninstall.packages(\"remotes\")\r\n# Using this package, install the crimemapping package from GitHub\r\nremotes::install_github(\"mpjashby/crimemapping\")\r\n# Run the tutorial\r\ncrimemapping::tutorial(\"07_handling_bugs\")\r\n\r\n\r\n\r\n",
     "preview": {},
     "last_modified": "2023-03-06T16:30:57+01:00",
-    "input_file": "getting-help.knit.md"
+    "input_file": {}
   },
   {
     "path": "posts/2023-02-21-nsc-r-tidy-tuesday/",
