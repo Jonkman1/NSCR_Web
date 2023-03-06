@@ -1,0 +1,51 @@
+---
+title: "NSC-R Tidy Tuesday"
+description: |
+  Solving errors and getting help when using R 
+author:
+  - name: NSC-R Workshops Team and others
+    url: https://nscrweb.netlify.app/
+date: 03-14-2023
+output:
+  distill::distill_article:
+    self_contained: false
+# Remove the following line to publish
+draft: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Learning is making mistakes and finding ways to solve them. This meeting will be about how to learn from mistakes when working with R. We will discuss how to recognize, understand and solve errors, and how to learn from online sources and the skills of other people in the R community.
+ 
+
+Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/85453464872?pwd=MXRjNVJ2TkFHcC8wNVBuWUUvYXVPQT09)
+
+
+> The meeting will have a seminar-like format with multiple participants giving short presentations. 
+
+
+### Materials
+
+To prepare for the meeting, you want to take a look at [these materials](http://books.lesscrime.info/learncrimemapping/07_handling_bugs/), which are being developed by Matt Ashby.
+
+To run the tutorial, run these lines from the R Studio editor:
+
+`# Install the 'remotes' packages`
+
+`install.packages("remotes")`
+
+`# Using this package, install the crimemapping package from GitHub`
+
+`remotes::install_github("mpjashby/crimemapping")`
+
+`# Run the tutorial`
+
+`crimemapping::tutorial("07_handling_bugs")`
+
+
+
+
+
