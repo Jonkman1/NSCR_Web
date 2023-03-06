@@ -1,5 +1,5 @@
 ---
-title: "NSC-R Tidy Tuesday"
+title: "Learning to learn R"
 description: |
   Solving errors and getting help when using R 
 author:
