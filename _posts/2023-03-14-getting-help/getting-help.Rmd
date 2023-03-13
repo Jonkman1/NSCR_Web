@@ -29,7 +29,7 @@ Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.
 
 ### Materials
 
-To prepare for the meeting, you want to take a look at [these materials](http://books.lesscrime.info/learncrimemapping/07_handling_bugs/), which are being developed by Matt Ashby.
+1. To prepare for the meeting, you want to take a look at [these materials](http://books.lesscrime.info/learncrimemapping/07_handling_bugs/), which are being developed by Matt Ashby.
 
 To run the tutorial, run these lines from the R Studio editor:
 
@@ -47,5 +47,5 @@ To run the tutorial, run these lines from the R Studio editor:
 
 
 
-
+2. Danielle will use [this example script](https://nscrweb.netlify.app/Materials/2023-03-14-getting-help/Debug_help_session.Rmd) to illustrate her presentation about debugging.
 
