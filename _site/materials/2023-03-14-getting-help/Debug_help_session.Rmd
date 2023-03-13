@@ -1,0 +1,167 @@
+---
+title: "Debugging"
+author: "Danielle Stibbe"
+date: "2023-03-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Debugging tools
+
+In this document, I demonstrate three common debugging tools used in R. Since I will include error-inducing commands in this document, **please do not try to knit it**. Instead, try to run the chunks separately, and try to play with the code to see what the different debugging tools do.
+
+## print()
+
+```{r}
+# Create a function to divide a by every item in vector b and returns the sum of those numbers:
+divide_a_by_b <- function(a, b) {
+  results <- c()
+  
+  for (i in b) {
+    # Contcatenate results 
+    results <- c(results, a/i)
+  }
+  
+  # Sum up
+  sum_results <- sum(results)
+  
+  return(sum_results)
+}
+
+output <- divide_a_by_b(2, -1:1)
+print(output)
+```
+
+The output is infinite, but why does that happen? To figure this out, it could help us to print the variables in the function as they are calculated:
+
+```{r}
+divide_a_by_b <- function(a, b) {
+  results <- c()
+  
+  for (i in b) {
+    # Print variables in use
+    print(paste0('a: ', a, '. Item in b: ', i, '. a/i: ', a/i))
+    
+    
+    # Contcatenate results 
+    results <- c(results, a/i)
+  }
+  
+  # Sum up
+  sum_results <- sum(results)
+  
+  return(sum_results)
+}
+
+output <- divide_a_by_b(2, -1:1)
+```
+
+Now we see that the second iteration in the function attempts dividing a by 0. This is because of how we defined `b` when we called the function. I would instead add an argument stopping the function if `b` includes 0.
+
+```{r}
+divide_a_by_b <- function(a, b) {
+  if (0 %in% b) {
+    stop('b includes a 0. Cannot divide by 0.')
+  }
+  
+  results <- c()
+  
+  for (i in b) {
+    # Print variables in use
+    print(paste0('a: ', a, '. Item in b: ', i, '. a/i: ', a/i))
+    
+    
+    # Contcatenate results 
+    results <- c(results, a/i)
+  }
+  
+  # Sum up
+  sum_results <- sum(results)
+  
+  return(sum_results)
+}
+
+output <- divide_a_by_b(2, -1:1)
+```
+
+## traceback()
+
+Sometimes, when writing your own code, you will stumble upon messy errors that are difficult to understand. One thing that could help understanding where the error stems from, is tracing back the error with the `traceback()` command.
+
+```{r}
+# Increment by 1
+inc <- function(a) {
+  a <- a + 1
+}
+
+# Decrement by 1
+dec <- function(a) {
+  a <- a - 1
+}
+
+# Reciprocate
+recip <- function(a) {
+  if(a == 0)
+    stop('division by zero will occur')
+  a <- 1 / a
+}
+
+myfunc <- function(a) {
+  x <- recip(inc(a))
+  y <- recip(dec(a)) 
+  x * y
+}
+```
+
+*Run the following one line at a time:*
+
+```{r}
+
+myfunc(1)
+myfunc(-1)
+```
+
+`traceback()` gives you the order of functions from which the error originates, in reverse order.
+
+*Note:* you can also get a traceback by clicking 'Show Traceback' in the Console of RStudio.
+
+## Debug()
+
+`traceback()` does not tell you *where in the function* the error originates from. If the solution doesn't seem obvious, you can run the function using `debug()`. Using this command with the name of the function as the argument will flag it for debugging. When debugging, each line in the function is executed one at a time.
+
+```{r}
+debug(myfunc)
+
+myfunc(-1)
+```
+
+Once in debugging mode, you can use the following prompts:
+
+-   'n' executes the current line and prints the [next]{.underline} one (so does 'Enter')
+
+-   'c' executes the rest of the function without stopping
+
+-   'Q' quits the debugging (so does 'Esc')
+
+-   'where' tells you which function you are in at the traceback
+
+-   `ls()` prints all objects in the local environment (within the function)
+
+-   Typing the object name tells you its value within the function.
+
+Remember to use `undebug()` when you're done to unflag the function. Otherwise, you will go to debugging mode every time you run the function.
+
+*Run the following one line at a time:*
+
+```{r}
+myfunc(2)
+
+undebug(myfunc)
+
+myfunc(2)
+```
+
+We can also use `debugonce()` to run a debugging one time.
