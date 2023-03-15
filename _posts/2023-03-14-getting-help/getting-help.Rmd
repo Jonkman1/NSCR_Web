@@ -50,4 +50,3 @@ To run the tutorial, run these lines from the R Studio editor:
 2. Danielle used [this example script](https://nscrweb.netlify.app/Materials/2023-03-14-getting-help/Debug_help_session.Rmd) to illustrate her presentation about debugging.
 
 3. Asier used [this example script](https://nscrweb.netlify.app/Materials/2023-03-14-getting-help/2023-03-14_nscr-reprex_v003) to illustrate his presentation about minimal reproducible examples or *reprexes*.
-
