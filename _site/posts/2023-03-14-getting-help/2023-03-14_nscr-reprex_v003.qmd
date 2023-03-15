@@ -1,0 +1,96 @@
+---
+title: "How to create a *reprex*"
+author: "Asier Moneva"
+date: "`r Sys.Date()`"
+format: html
+editor: visual
+---
+
+# Definition
+
+*Reprexes* are minimal, **repr**oducible **ex**amples of code. They can be referred to in multiple ways: MREs; minimal, complete and verifiable example (MCVE); minimal, workable example (MWE); or simply as *reprex*.
+
+Reprexes are useful to reproduce coding errors in the simplest way. They allow to document issues in your code or in someone else's code.
+
+# Characteristics
+
+There are three defining characteristics for reprexes (see [this post in StackOverflow](https://stackoverflow.com/help/minimal-reproducible-example/) for a detailed explanation):
+
+-   Minimal: they contain as little code as possible while reproducing the issue. This includes minimal data and code.
+
+-   Complete: they provide all necessary elements to understand the issue.
+
+-   Reproducible: they reproduce the issue.
+
+# How to make a *reprex* with `reprex` {reprex=""}
+
+The [`reprex` R package](https://reprex.tidyverse.org/articles/learn-reprex.html) is part of the `tidyverse` and assists with the process of creating a reprex*.* [Here](https://reprex.tidyverse.org/articles/reprex-dos-and-donts.html) you can find some advice on what to do and what *not* to do when writing a reprex. And [this](https://youtu.be/hlcftgeTAyY) is a video tutorial by Matt Ashby on how to write a reprex. Below you can find yet another simple example of how `reprex` works.
+
+```{r}
+#| label: reprex-example
+#| message: false 
+
+# Install {reprex} if needed
+# install.packages("reprex")
+
+# Load {reprex}
+library(reprex)
+
+# Build your reprex with {reprex} 
+reprex(
+  
+  # Add your R expression (syntax) in the `x` argument
+  x = {
+    
+    # Create minimal data
+    var1 <- c("a", "b", "c", "d", "e")
+    var2 <- 1:5
+    my_data <- data.frame(var1, var2)
+    
+    # Reproduce your issue with minimal code
+    mean(my_data$var1)
+    
+  },
+  
+  # (Optional) Add a working directory to export your reprex
+  # wd = ".",
+  
+  # (Optional) Format your output code based on *where* you plan to share your reprex
+  # Defaults to GitHub (gh)
+  # venue = "gh",
+  
+  # (Recommended) Add a time stamp and the {reprex} version
+  advertise = TRUE,
+  
+  # (Recommended) Add session details based on {sessioninfo} 
+  # Similar to adding `SessionInfo()` to your R expression
+  session_info = TRUE,
+  
+  # (Recommended) Apply the tidyverse style to your code
+  # See <https://style.tidyverse.org/>
+  style = TRUE
+  
+)
+```
+
+# Some practical advice
+
+-   Never underestimate a good old restart.
+
+-   When making your reprex, start from scratch to avoid reproducing any errors in the source code. Then build your reprex step-by-step.
+
+-   Check your own reprex before involving others! (I have started writing many reprexes and have almost always solved the issue in the process.)
+
+-   Some useful functions to build your minimal dataset include: `set.seed()`, `seq()`, `rep()`, `rnorm()`, `runif()`, `rbinom()`---and any other random number generators from base R---and `SessionInfo()`.
+
+# Resources
+
+-   [StackOverflow post on how to make a reprex](https://stackoverflow.com/help/minimal-reproducible-example)
+
+-   [RStudio Community post on how to make a reprex](https://community.rstudio.com/t/faq-how-to-do-a-minimal-reproducible-example-reprex-for-beginners/23061)
+
+-   [R-Bloggers post on how to make a reprex](https://www.r-bloggers.com/2020/10/how-to-make-a-reprex/)
+
+-   [The website of the reprex R package](https://reprex.tidyverse.org/articles/learn-reprex.html), and [some dos and don'ts](https://reprex.tidyverse.org/articles/reprex-dos-and-donts.html)
+
+-   [Matt Ashby's video on how to write a reprex](https://youtu.be/hlcftgeTAyY)
