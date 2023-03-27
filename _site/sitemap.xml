@@ -2,190 +2,194 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
     <loc>https://nscrweb.netlify.app/blog.html</loc>
-    <lastmod>2021-10-29T17:37:29+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/</loc>
-    <lastmod>2023-03-15T18:44:25+01:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/other.html</loc>
-    <lastmod>2022-03-08T15:24:08+01:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/teaching.html</loc>
-    <lastmod>2022-01-15T20:25:50+01:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
+  </url>
+  <url>
+    <loc>https://nscrweb.netlify.app/posts/2023-04-11-quarto/</loc>
+    <lastmod>2023-03-27T18:07:50+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2023-03-14-getting-help/</loc>
-    <lastmod>2023-03-15T19:02:05+01:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2023-02-21-nsc-r-tidy-tuesday/</loc>
-    <lastmod>2023-03-15T18:44:25+01:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2023-01-24-nsc-r-tidy-tuesday/</loc>
-    <lastmod>2023-03-15T18:44:25+01:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-12-06-simulation/</loc>
-    <lastmod>2023-03-15T18:44:25+01:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-11-29-search-term-selection-systematic-reviews/</loc>
-    <lastmod>2023-03-15T18:44:25+01:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-11-15-nsc-r-tidy-tuesday/</loc>
-    <lastmod>2023-03-15T18:44:25+01:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-11-01-conjunctive-analysis/</loc>
-    <lastmod>2022-10-20T15:52:52+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-10-05-installing-rstudio-and-r/</loc>
-    <lastmod>2022-10-20T15:32:08+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-10-05-using-r-for-reproducible-social-science/</loc>
-    <lastmod>2022-10-14T16:37:58+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-07-08-summer-break/</loc>
-    <lastmod>2022-10-14T16:37:58+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-06-09-writing-r-packages/</loc>
-    <lastmod>2022-10-14T16:37:58+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-05-31-nsc-r-tidy-tuesday/</loc>
-    <lastmod>2022-10-14T16:37:58+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-05-24-nsc-r-tidy-tuesday/</loc>
-    <lastmod>2022-10-14T16:37:58+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-05-17-hotroutesstreetprofiles/</loc>
-    <lastmod>2022-10-14T16:37:58+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-05-12-cbsdata/</loc>
-    <lastmod>2022-10-14T16:37:58+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-05-03-nsc-r-tidy-tuesday/</loc>
-    <lastmod>2022-10-14T16:37:58+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-04-28-multiple-imputation-in-r/</loc>
-    <lastmod>2022-05-06T13:11:52+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-04-19-nsc-r-tidy-tuesday/</loc>
-    <lastmod>2022-10-14T16:37:58+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-04-14-discrete-spatial-choice-in-r/</loc>
-    <lastmod>2022-10-14T16:37:58+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-04-05-nsc-r-tidy-tuesday/</loc>
-    <lastmod>2022-10-14T16:37:58+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-03-31-shiny-2of2/</loc>
-    <lastmod>2022-10-14T16:37:58+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-03-22-nsc-r-tidy-tuesday/</loc>
-    <lastmod>2022-10-14T16:37:58+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-03-17-shiny-1of2/</loc>
-    <lastmod>2022-10-14T16:37:58+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-03-08-nsc-r-tidy-tuesday/</loc>
-    <lastmod>2022-03-08T17:09:39+01:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-03-03-tidymodels/</loc>
-    <lastmod>2022-03-08T15:24:07+01:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-02-22-nsc-r-tidy-tuesday/</loc>
-    <lastmod>2022-03-08T15:33:41+01:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-02-17-looping-in-r/</loc>
-    <lastmod>2022-03-08T15:24:07+01:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-02-08-nsc-r-tidy-tuesday/</loc>
-    <lastmod>2022-10-14T16:37:58+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-02-03-text-analysis-in-r/</loc>
-    <lastmod>2022-04-19T14:54:26+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-01-25-nsc-r-tidy-tuesday/</loc>
-    <lastmod>2022-04-19T14:54:26+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-01-20-network-analysis-in-r/</loc>
-    <lastmod>2022-04-19T14:54:26+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:12+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2022-01-11-nsc-r-tidy-tuesday/</loc>
-    <lastmod>2022-04-19T14:54:26+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:11+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2021-12-07-distill/</loc>
-    <lastmod>2022-03-08T15:24:07+01:00</lastmod>
+    <lastmod>2023-03-27T18:06:11+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2021-11-25-github/</loc>
-    <lastmod>2022-03-08T15:24:07+01:00</lastmod>
+    <lastmod>2023-03-27T18:06:11+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2021-10-12-small_area_estimation/</loc>
-    <lastmod>2022-01-15T20:25:49+01:00</lastmod>
+    <lastmod>2023-03-27T18:06:11+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2021-10-12-forecasting/</loc>
-    <lastmod>2022-10-14T16:37:58+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:11+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2021-10-27-crimeforecastingmodels/</loc>
-    <lastmod>2022-01-15T20:25:49+01:00</lastmod>
+    <lastmod>2023-03-27T18:06:11+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2021-09-27-tidyverse/</loc>
-    <lastmod>2022-04-19T14:54:26+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:11+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2021-09-27-spatialregression/</loc>
-    <lastmod>2022-01-15T20:25:49+01:00</lastmod>
+    <lastmod>2023-03-27T18:06:11+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2021-09-14-opendata/</loc>
-    <lastmod>2022-04-19T14:54:26+02:00</lastmod>
+    <lastmod>2023-03-27T18:06:11+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2021-09-02-spatialdata/</loc>
-    <lastmod>2022-03-08T15:24:07+01:00</lastmod>
+    <lastmod>2023-03-27T18:06:11+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2021-07-06-rmarkdown/</loc>
-    <lastmod>2022-03-08T15:24:07+01:00</lastmod>
+    <lastmod>2023-03-27T18:06:11+02:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2021-06-24-workshop1-reproducibility/</loc>
-    <lastmod>2022-03-08T15:24:07+01:00</lastmod>
+    <lastmod>2023-03-27T18:06:11+02:00</lastmod>
   </url>
 </urlset>

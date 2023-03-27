@@ -1,0 +1,37 @@
+---
+title: "Quarto"
+description: |
+  Using R Studio with Quarto to write blogs and research papers 
+author:
+  - name: Harrie Jonkman
+    url: 
+date: 04-11-2023
+output:
+  distill::distill_article:
+    self_contained: false
+# Remove the following line to publish
+draft: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+We will soon host *our first hybrid NSC-R workshop*. You are very welcome to join us in the Colloquium Room at NSCR, which for the occasion will be labeled the `NSC-R Studio`. The workshop will of course also be hosted on Zoom as usual.
+
+In this NSC-R workshop Harrie Jonkman will show us how to work with `Quarto`. `Quarto` is a tool that helps you write research papers and blogs. It is a modern version of RMarkdown that is part of RStudio. `Quarto` can be used to write (reproducible) research papers and blogs that integrate text with data analysis and visualization. 
+
+After the workshop we should know how `Quarto` works and understand the basic principles of making a blog, and can transfer this knowledge to writing a paper or report (or making a website, or book). 
+
+To profit most from this workshop, you need to have a very basic knowledge of R and R Markdown. 
+ 
+
+Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/82952624450?pwd=U0IzYTNYbWZaajJtR3g1MUlVRjA2UT09)
+
+
+> *Harrie Jonkman* recently retired. He was senior researcher at the Verwey-Jonker Institute. He worked in the field of education and prevention and the social and cognitive development of children and youngsters. You can find more information on [his personal website](https://harriejonkmanweb.netlify.app/). He has his own blog [Harrie’s Hoekje](https://harrieshoekjequarto.netlify.app/) on modern data-analysis. 
+
+
+### Materials
+
