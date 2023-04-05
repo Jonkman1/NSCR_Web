@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2023-04-25-nsc-r-tidy-tuesday/",
+    "title": "NSC-R Tidy Tuesday",
+    "description": "Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.",
+    "author": [
+      {
+        "name": "Asier Moneva",
+        "url": "https://asiermoneva.com/"
+      }
+    ],
+    "date": "2023-04-25",
+    "categories": [],
+    "contents": "\r\nThis one-hour workshop starts at 13:30.\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\nAsier Moneva is a postdoc at the Netherlands Institute for the Study of Crime and Law Enforcement (NSCR) and at the Center of Expertise Cyber Security at The Hague University of Applied Sciences. He is also a member of the NSC-R Workshops Team. For more details check out his website.\r\n\r\nMaterials\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2023-04-05T14:04:38+02:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2023-04-21-walk-in-hour/",
     "title": "NSC-R Walk-In Hour",
     "description": "Drop by and meet our team to discuss any R-related issues",
@@ -14,7 +31,7 @@
     "contents": "\r\nThe NSC-R Walk-In Hour is a recurring event where you can drop by and meet our team to discuss any R-related issues. Whether you have urgent questions, want to work on your R project, or simply want to socialize with fellow R enthusiasts, you are welcome to join!\r\nThe Walk-In Hour takes place bi-weekly, normally on Fridays between 13:00 and 14:00. It has a hybrid format, with an in-person meeting in the Colloquium room at the NSCR and an open online Zoom session running in parallel.\r\nThere is no need to register. Simply bring your laptop and join us in person or online.\r\nIf you have a private R-related query, you can contact us via e-mail, Zoom private chat, or phone. There will be an NSC-R member present both online and offline to assist.\r\nJoin this event on Zoom by clicking this link\r\n\r\nThe NSC-R Workshops Team organizes workshops, courses and other events related to R. The members are Wim Bernasco, Sam Langton, Asier Moneva, Abby Onencan, Alex Trinidad, Danielle van Westbroek-Stibbe and Franziska Yasrebi-de Kom.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
     "last_modified": "2023-04-05T13:51:31+02:00",
-    "input_file": "NSC-R-walk-in-hour.knit.md"
+    "input_file": {}
   },
   {
     "path": "posts/2023-04-11-quarto/",

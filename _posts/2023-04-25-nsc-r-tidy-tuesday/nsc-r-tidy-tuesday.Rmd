@@ -1,0 +1,34 @@
+---
+title: "NSC-R Tidy Tuesday"
+description: |
+  Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.
+author:
+  - name: Asier Moneva
+    url: https://asiermoneva.com/
+date: 04-25-2023
+output:
+  distill::distill_article:
+    self_contained: false
+# Remove the following line to publish
+draft: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+**This one-hour workshop starts at 13:30**.
+
+The NSC-R Tidy Tuesday workshop sessions are inspired by the [Tidy Tuesday](https://www.tidytuesday.com/) initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.
+
+Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/88581742503?pwd=elRiRWVucXM1enNqN1JKTDM3a2dyQT09)
+
+
+> **Asier Moneva** is a postdoc at the Netherlands Institute for the Study of Crime and Law Enforcement (NSCR) and at the Center of Expertise Cyber Security at The Hague University of Applied Sciences. He is also a member of the NSC-R Workshops Team. For more details check out [his website](https://asiermoneva.com).
+
+
+### Materials
+
+
+
