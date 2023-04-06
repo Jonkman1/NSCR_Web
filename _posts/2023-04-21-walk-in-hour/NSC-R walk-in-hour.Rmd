@@ -18,7 +18,7 @@ draft: false
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-**Friday April 21, 13:00-14:00 (NSCR Colloquium room and [on Zoom](https://us02web.zoom.us/j/89204576839?pwd=MGhxZ3Rjcm9xcmpSVXpUZWhka1k2UT09))**
+**Friday April 21, 13:00-14:00 (NSCR Colloquium room and [on Zoom](https://us02web.zoom.us/j/82560454922?pwd=cUpKdkdvWjJ5dWVvNTRCUFBPbHNRUT09))**
 
 The NSC-R Walk-In Hour is a recurring event where you can drop by and meet our team to discuss any R-related issues. Whether you have urgent questions, want to work on your R project, or simply want to socialize with fellow R enthusiasts, you are welcome to join!
 
@@ -28,7 +28,7 @@ There is no need to register. Simply bring your laptop and join us in person or 
 
 If you have a private R-related query, you can contact us via e-mail, Zoom private chat, or phone. There will be an NSC-R member present both online and offline to assist.
 
-Join this event on Zoom by clicking [this link](https://us02web.zoom.us/j/89204576839?pwd=MGhxZ3Rjcm9xcmpSVXpUZWhka1k2UT09)
+Join this event on Zoom by clicking [this link](https://us02web.zoom.us/j/82560454922?pwd=cUpKdkdvWjJ5dWVvNTRCUFBPbHNRUT09)
 
 
 > The *NSC-R Workshops Team* organizes workshops, courses and other events related to R. The members are Wim Bernasco, Sam Langton, Asier Moneva, Abby Onencan, Alex Trinidad, Danielle van Westbroek-Stibbe and Franziska Yasrebi-de Kom. 
