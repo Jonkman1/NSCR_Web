@@ -1,0 +1,28 @@
+---
+title: "NSC-R Tidy Tuesday"
+description: |
+  Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.
+author:
+  - name: Wim Bernasco
+    url: https://nscr.nl/en/medewerker/prof-dr-wim-bernasco/
+date: 05-09-2023
+output:
+  distill::distill_article:
+    self_contained: false
+---
+The NSC-R Tidy Tuesday workshop sessions are inspired by the [Tidy Tuesday](https://www.tidytuesday.com/) initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data. 
+
+In this workshop (May 9, 2023, 13:00-14:00), Wim Bernasco will show how to write reproducible scripts to estimate regression models in R. The focus will be on ordinary least squares and logistic regression, but the techniques can easily be generalized to other regression models. 
+
+This is a hybrid workshop, physically in the Colloquium Room at NSCR and online on Zoom. To join online, click [here](https://us02web.zoom.us/j/89030539457?pwd=c0tOeG4rYldiWENQY3BVanJXM1UvUT09).
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+> *Wim Bernasco* is a senior researcher at NSCR and a member of the NSC-R Workshops team. His research focuses on the geography of crime.
+
+### Materials
+
+- Materials for this workshop will be posted [here](https://github.com/bernasco/NSC-R_tidy_tuesday_20230509) on GitHub.
