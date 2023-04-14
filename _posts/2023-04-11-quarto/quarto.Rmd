@@ -35,12 +35,11 @@ Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.
 
 ### Materials
 
-The materials that Harrie used in his workshop are not only about Quarto, they were also produced using Quatro. You can find them in three repositories on his GitHub space.
+The materials that Harrie used in his workshop are not only about Quarto, they were also produced using Quatro. Links to the Quarto-presentation and a Quarto-blog you find beneath. When you want to see how he made the presentation, the blog and the articles you find all the materials in three repositories on his GitHub space. So:
 
-- The introductory presentation is [here](https://github.com/Jonkman1/Quartoblogpresentation)
+- The introductory presentation you can find [here](https://quartoblogpresentation.netlify.app). All the material for this presentation in Quarto you can find   [here](https://github.com/Jonkman1/Quartoblogpresentation)
 
-- The Quarto-style version of the NSC-R Workshops website is [here](
-https://github.com/Jonkman1/Quartoblog)
+- The Quarto-style blogversion of the NSC-R Workshops website is [here](https://tt-blog.netlify.app). When you want to see how this blog is made you can find in this repository [here](https://github.com/Jonkman1/Quartoblog)
 
 - And examples of standalone articles created with Quarto are [here](
 https://github.com/Jonkman1/Quartoarticle)
