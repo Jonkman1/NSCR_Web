@@ -22,7 +22,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 The NSC-R Tidy Tuesday workshop sessions are inspired by the [Tidy Tuesday](https://www.tidytuesday.com/) initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.
 
-Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.us/j/88581742503?pwd=elRiRWVucXM1enNqN1JKTDM3a2dyQT09)
+The dataset for this hybrid workshop is the [Premier League Match Data 2021-2022](https://github.com/rfordatascience/tidytuesday/blob/master/data/2023/2023-04-04/readme.md) (via Evan Gower on Kaggle). Have you ever heard that some referees tend to give home advantage? Asier will look at which Premier League referees had the highest ratio of home and away wins in the 2021/22 season. Feel free to explore this question yourselves and share your experience with us.
+
+Join the  workshop either in-person at the NSCR Colloquium Room or on Zoom by clicking [this link](https://us02web.zoom.us/j/88581742503?pwd=elRiRWVucXM1enNqN1JKTDM3a2dyQT09)
 
 
 > **Asier Moneva** is a postdoc at the Netherlands Institute for the Study of Crime and Law Enforcement (NSCR) and at the Center of Expertise Cyber Security at The Hague University of Applied Sciences. He is also a member of the NSC-R Workshops Team. For more details check out [his website](https://asiermoneva.com).
@@ -30,5 +32,5 @@ Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.
 
 ### Materials
 
-
+Materials for this workshop will be posted here when they become available.
 
