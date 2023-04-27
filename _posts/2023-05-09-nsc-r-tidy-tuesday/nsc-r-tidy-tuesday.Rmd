@@ -12,7 +12,7 @@ output:
 ---
 The NSC-R Tidy Tuesday workshop sessions are inspired by the [Tidy Tuesday](https://www.tidytuesday.com/) initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data. 
 
-In this workshop (May 9, 2023, 13:00-14:00), Wim Bernasco will try to model song popularity using a dataset of tracks on Spotify.
+In this workshop (May 9, 2023, 13:00-14:00), Wim Bernasco will try to model song danceability using a dataset of tracks on Spotify.
 
 Even if you have no interest in popular music at all, you may find the workshop instructive for learning how to do regression analysis in R. 
 
@@ -34,7 +34,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 - Materials for this workshop will be posted [here](https://github.com/bernasco/NSC-R_tidy_tuesday_20230509) on GitHub.
 
-Some documentation on the is available [here](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-01-21/readme.md)
+Some documentation on the data is available [here](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-01-21/readme.md)
 
 The below lines of R code will help you download the data:
 
