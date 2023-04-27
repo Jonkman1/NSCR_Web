@@ -32,18 +32,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Materials
 
-- Materials for this workshop will be posted [here](https://github.com/bernasco/NSC-R_tidy_tuesday_20230509) on GitHub.
+- Materials for this workshop will be posted [here](https://github.com/bernasco/NSC-R_tidy_tuesday_20230509) on GitHub. You can use the short script `get_started.R` to read the data.
 
 Some documentation on the data is available [here](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-01-21/readme.md)
-
-The below lines of R code will help you download the data:
-
-
-`install_github("thebioengineer/tidytuesdayR")`
-
-
-`tuesdata <- tidytuesdayR::tt_load('2020-01-21') `
-
-
-`spotify_songs <- tuesdata$spotify_songs`
 
