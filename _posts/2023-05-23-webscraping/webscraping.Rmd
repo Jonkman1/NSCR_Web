@@ -1,0 +1,29 @@
+---
+title: "Webscraping"
+description: |
+  Use R to extract data from internet.
+author:
+  - name: Danielle van Westbroek-Stibbe
+    url: https://nscr.nl/medewerker/danielle-stibbe-msc/
+date: 05-23-2023
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+This is a hybrid workshop (May 23,2023, 13:00-14:00), physically in the Breakout Room at NSCR and online on Zoom. To join online, click [here](https://us02web.zoom.us/j/82224521098?pwd=ZG1wbXp0VllLc29DdEZ2eVlhT0lKQT09).
+
+
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+> *Danielle van Westbroek-Stibbe* is a PhD candidate at NSCR and a member of the NSC-R Workshops team. Her research focuses on cyberoffending.
+
+### Materials
+
+

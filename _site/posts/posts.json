@@ -1,5 +1,39 @@
 [
   {
+    "path": "posts/2023-06-02-walk-in-hour/",
+    "title": "NSC-R Walk-In Hour",
+    "description": "Drop by and meet our team to discuss any R-related issues",
+    "author": [
+      {
+        "name": "NSC-R Workshops Team",
+        "url": {}
+      }
+    ],
+    "date": "2023-06-02",
+    "categories": [],
+    "contents": "\r\nFriday June 2, 13:00-14:00 (NSCR Colloquium room and on Zoom)\r\nThe NSC-R Walk-In Hour is a recurring event where you can drop by and meet our team to discuss any R-related issues. Whether you have urgent questions, want to work on your R project, or simply want to socialize with fellow R enthusiasts, you are welcome to join!\r\nThe Walk-In Hour takes place bi-weekly, normally on Fridays between 13:00 and 14:00. It has a hybrid format, with an in-person meeting in the Colloquium room at the NSCR and an open online Zoom session running in parallel.\r\nThere is no need to register. Simply bring your laptop and join us in person or online.\r\nIf you have a private R-related query, you can contact us via e-mail, Zoom private chat, or phone. There will be an NSC-R member present both online and offline to assist.\r\nJoin this event on Zoom by clicking this link\r\n\r\nThe NSC-R Workshops Team organizes workshops, courses and other events related to R. The members are Wim Bernasco, Sam Langton, Asier Moneva, Abby Onencan, Alex Trinidad, and Danielle van Westbroek-Stibbe.\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2023-05-12T12:20:54+02:00",
+    "input_file": "NSC-R-walk-in-hour.knit.md"
+  },
+  {
+    "path": "posts/2023-05-23-webscraping/",
+    "title": "Webscraping",
+    "description": "Use R to extract data from internet.",
+    "author": [
+      {
+        "name": "Danielle van Westbroek-Stibbe",
+        "url": "https://nscr.nl/medewerker/danielle-stibbe-msc/"
+      }
+    ],
+    "date": "2023-05-23",
+    "categories": [],
+    "contents": "\r\nThis is a hybrid workshop (May 23,2023, 13:00-14:00), physically in the Breakout Room at NSCR and online on Zoom. To join online, click here.\r\n\r\nDanielle van Westbroek-Stibbe is a PhD candidate at NSCR and a member of the NSC-R Workshops team. Her research focuses on cyberoffending.\r\n\r\nMaterials\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2023-05-12T12:15:00+02:00",
+    "input_file": "webscraping.knit.md"
+  },
+  {
     "path": "posts/2023-05-09-nsc-r-tidy-tuesday/",
     "title": "NSC-R Tidy Tuesday",
     "description": "Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.",
