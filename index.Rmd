@@ -9,6 +9,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
+<center>
+
+![](images/logo_NSCR-EN.svg){width=60%}
+
+</centre> 
+
+
 ### What are the NSC-R Workshops?
 
 The **NSC-R Workshops** is a series of one-hour online instructional sessions to support participants in developing their data science skills in R, and to promote open science principles. The NSC-R workshop meetings are organized by a team affiliated with the Netherlands Institute for the Study of Crime and Law Enforcement [(NSCR)](https://www.nscr.nl/en/), but they are open to everyone, regardless of affiliation or skill level. 
