@@ -13,8 +13,8 @@
     "categories": [],
     "contents": "\r\nFriday June 2, 13:00-14:00 (NSCR Colloquium room and on Zoom)\r\nThe NSC-R Walk-In Hour is a recurring event where you can drop by and meet our team to discuss any R-related issues. Whether you have urgent questions, want to work on your R project, or simply want to socialize with fellow R enthusiasts, you are welcome to join!\r\nThe Walk-In Hour takes place bi-weekly, normally on Fridays between 13:00 and 14:00. It has a hybrid format, with an in-person meeting in the Colloquium room at the NSCR and an open online Zoom session running in parallel.\r\nThere is no need to register. Simply bring your laptop and join us in person or online.\r\nIf you have a private R-related query, you can contact us via e-mail, Zoom private chat, or phone. There will be an NSC-R member present both online and offline to assist.\r\nJoin this event on Zoom by clicking this link\r\n\r\nThe NSC-R Workshops Team organizes workshops, courses and other events related to R. The members are Wim Bernasco, Sam Langton, Asier Moneva, Abby Onencan, Alex Trinidad, and Danielle van Westbroek-Stibbe.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2023-05-12T12:20:54+02:00",
-    "input_file": "NSC-R-walk-in-hour.knit.md"
+    "last_modified": "2023-05-12T12:20:55+02:00",
+    "input_file": {}
   },
   {
     "path": "posts/2023-05-23-webscraping/",
@@ -30,8 +30,8 @@
     "categories": [],
     "contents": "\r\nThis is a hybrid workshop (May 23,2023, 13:00-14:00), physically in the Breakout Room at NSCR and online on Zoom. To join online, click here.\r\n\r\nDanielle van Westbroek-Stibbe is a PhD candidate at NSCR and a member of the NSC-R Workshops team. Her research focuses on cyberoffending.\r\n\r\nMaterials\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2023-05-12T12:15:00+02:00",
-    "input_file": "webscraping.knit.md"
+    "last_modified": "2023-05-12T12:15:01+02:00",
+    "input_file": {}
   },
   {
     "path": "posts/2023-05-09-nsc-r-tidy-tuesday/",
@@ -47,8 +47,8 @@
     "categories": [],
     "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nIn this workshop (May 9, 2023, 13:00-14:00), Wim Bernasco will try to model song popularity using a dataset of tracks on Spotify.\r\nEven if you have no interest in popular music at all, you may find the workshop instructive for getting ideas on how to do regression analysis in R.\r\nThe workshop will not delve into statistics, but rather show how to get linear regression and logistic regression models running in R and generate useful and reproducible output. The focus will be on ordinary least squares and logistic regression, but the techniques can easily be generalized to other regression models.\r\nThis is a hybrid workshop, physically in the Colloquium Room at NSCR and online on Zoom. To join online, click here.\r\n\r\nWim Bernasco is a senior researcher at NSCR and a member of the NSC-R Workshops team. His research focuses on the geography of crime.\r\n\r\nMaterials\r\nMaterials for this workshop will be posted here on GitHub. You can use the short script get_started.R to read the data.\r\nSome documentation on the data is available here\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2023-05-07T22:25:51+02:00",
-    "input_file": "nsc-r-tidy-tuesday.knit.md"
+    "last_modified": "2023-05-07T22:25:52+02:00",
+    "input_file": {}
   },
   {
     "path": "posts/2023-05-04-walk-in-hour/",
