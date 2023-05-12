@@ -32,5 +32,4 @@ Join this workshop meeting on Zoom by clicking [this link](https://us02web.zoom.
 
 ### Materials
 
-
-
+- [Here](https://github.com/alexandertrinidad/nsc_r_workshop_21_02_2023) you will find the R syntax to replicate the session. 
