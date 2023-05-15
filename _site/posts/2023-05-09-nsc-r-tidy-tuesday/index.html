@@ -2475,18 +2475,25 @@ d-appendix d-footnote-list a.footnote-backlink {
 
 <div class="d-article">
 <p>The NSC-R Tidy Tuesday workshop sessions are inspired by the <a href="https://www.tidytuesday.com/">Tidy Tuesday</a> initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.</p>
-<p>In this workshop (May 9, 2023, 13:00-14:00), Wim Bernasco will try to model song popularity using a dataset of tracks on Spotify.</p>
-<p>Even if you have no interest in popular music at all, you may find the workshop instructive for getting ideas on how to do regression analysis in R.</p>
-<p>The workshop will not delve into statistics, but rather show how to get linear regression and logistic regression models running in R and generate useful and reproducible output. The focus will be on ordinary least squares and logistic regression, but the techniques can easily be generalized to other regression models.</p>
-<p>This is a hybrid workshop, physically in the Colloquium Room at NSCR and online on Zoom. To join online, click <a href="https://us02web.zoom.us/j/89030539457?pwd=c0tOeG4rYldiWENQY3BVanJXM1UvUT09">here</a>.</p>
+<p>In this workshop (May 9, 2023, 13:00-14:00), Wim Bernasco tried to model song popularity using a dataset of tracks on Spotify.</p>
+<p>Even if you have no interest in popular music at all, you may find the materials presented in the workshop instructive for getting ideas on how to do regression analysis in R.</p>
+<p>The workshop did not delve into statistics, but rather show how to get linear regression and logistic regression models running in R and generate useful and reproducible output. The focus was be on ordinary least squares and (quite briefly) logistic regression, but the techniques can easily be generalized to other regression models.</p>
 <blockquote>
 <p><em>Wim Bernasco</em> is a senior researcher at NSCR and a member of the NSC-R Workshops team. His research focuses on the geography of crime.</p>
 </blockquote>
 <h3 id="materials">Materials</h3>
 <ul>
-<li>Materials for this workshop will be posted <a href="https://github.com/bernasco/NSC-R_tidy_tuesday_20230509">here</a> on GitHub. You can use the short script <code>get_started.R</code> to read the data.</li>
+<li><p>Materials for this workshop have been posted <a href="https://github.com/bernasco/NSC-R_tidy_tuesday_20230509">here</a> on GitHub. The Quarto document <code>regression_spotify.qmd</code> contains the annotated R script. You can use the short script <code>get_started.R</code> to read the data and conduct your own analysis.</p></li>
+<li><p>Some substabtive documentation on the data is available <a href="https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-01-21/readme.md">here</a></p></li>
 </ul>
-<p>Some documentation on the data is available <a href="https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-01-21/readme.md">here</a></p>
+<h3 id="downloading-files-from-github">Downloading files from GitHub</h3>
+<p>To download files from GitHub you can:</p>
+<p><code>Clone</code> the repository to create a local copy in your computer. To clone a repository, follow the instructions <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository">here</a>.</p>
+<p>Alternatively, you can:</p>
+<ol type="1">
+<li>Download all files compressed in a <code>ZIP</code>. To do this, go to the repository and click on the green <code>code</code> button, then select <code>download ZIP</code>. Unzip the downloaded file into a folder on your local computer.</li>
+<li>Download a specific file. To do this, select the desired file in the repository and click on the <code>raw</code> button. Then right click on the new page and select <code>save as</code>. Don’t forget to put the proper extension in the save name, like <code>.R</code> or <code>.Rmd</code>.</li>
+</ol>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
