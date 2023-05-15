@@ -12,16 +12,11 @@ output:
 ---
 The NSC-R Tidy Tuesday workshop sessions are inspired by the [Tidy Tuesday](https://www.tidytuesday.com/) initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data. 
 
-In this workshop (May 9, 2023, 13:00-14:00), Wim Bernasco will try to model song popularity using a dataset of tracks on Spotify.
+In this workshop (May 9, 2023, 13:00-14:00), Wim Bernasco tried to model song popularity using a dataset of tracks on Spotify.
 
-Even if you have no interest in popular music at all, you may find the workshop instructive for getting ideas on how to do regression analysis in R. 
+Even if you have no interest in popular music at all, you may find the materials presented in the workshop instructive for getting ideas on how to do regression analysis in R. 
 
-The workshop will not delve into statistics, but rather show how to get linear regression and logistic regression models running in R and generate useful and reproducible output. The focus will be on ordinary least squares and logistic regression, but the techniques can easily be generalized to other regression models. 
-
-This is a hybrid workshop, physically in the Colloquium Room at NSCR and online on Zoom. To join online, click [here](https://us02web.zoom.us/j/89030539457?pwd=c0tOeG4rYldiWENQY3BVanJXM1UvUT09).
-
-
-
+The workshop did not delve into statistics, but rather show how to get linear regression and logistic regression models running in R and generate useful and reproducible output. The focus was be on ordinary least squares and (quite briefly) logistic regression, but the techniques can easily be generalized to other regression models. 
 
 
 ```{r setup, include=FALSE}
@@ -32,7 +27,21 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### Materials
 
-- Materials for this workshop will be posted [here](https://github.com/bernasco/NSC-R_tidy_tuesday_20230509) on GitHub. You can use the short script `get_started.R` to read the data.
+- Materials for this workshop have been posted [here](https://github.com/bernasco/NSC-R_tidy_tuesday_20230509) on GitHub. The Quarto document `regression_spotify.qmd` contains the annotated R script. You can use the short script `get_started.R` to read the data and conduct your own analysis.
 
-Some documentation on the data is available [here](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-01-21/readme.md)
+- Some substabtive documentation on the data is available [here](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-01-21/readme.md)
+
+
+### Downloading files from GitHub
+
+To download files from GitHub you can:
+
+`Clone` the repository to create a local copy in your computer. To clone a repository, follow the instructions [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+
+Alternatively, you can:
+
+1.    Download all files compressed in a `ZIP`. To do this, go to the repository and click on the green `code` button, then select `download ZIP`. Unzip the downloaded file into a folder on your local computer.
+2.    Download a specific file. To do this, select the desired file in the repository and click on the `raw` button. Then right click on the new page and select `save as`. Don't forget to put the proper extension in the save name, like `.R` or `.Rmd`.
+
+
 
