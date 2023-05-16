@@ -18,7 +18,7 @@
   },
   {
     "path": "posts/2023-05-23-webscraping/",
-    "title": "Webscraping",
+    "title": "Web scraping",
     "description": "Use R to extract data from internet.",
     "author": [
       {
@@ -28,9 +28,9 @@
     ],
     "date": "2023-05-23",
     "categories": [],
-    "contents": "\r\nThis is a hybrid workshop (May 23,2023, 13:00-14:00), physically in the Breakout Room at NSCR and online on Zoom. To join online, click here.\r\n\r\nDanielle van Westbroek-Stibbe is a PhD candidate at NSCR and a member of the NSC-R Workshops team. Her research focuses on cyberoffending.\r\n\r\nMaterials\r\n\r\n\r\n\r\n",
+    "contents": "\r\nThis is a hybrid workshop (May 23,2023, 13:00-14:00), physically in the Breakout Room at NSCR and online on Zoom. To join online, click here.\r\nIn this NSC-R workshop Danielle van Westbroek-Stibbe will describe and demonstrate web scraping in R. Web scraping involves the extraction of data from websites, which can be done manually (e.g., copy-pasting) or automatically. This process extends beyond existing datasets, allowing you to retrieve any type of data found on a webpage. Once the information is saved to disk in HTML format, we can parse it to become more readable.\r\nIn this workshop, Danielle will demonstrate how we can use the R package “rvest” to extract data from the NSC-R Workshops website. During this demonstration, she will create a comprehensive dataset that encompasses the workshops conducted with the NSC-R community.\r\nContent of the workshop:\r\nWhat is web scraping and what is it used for?\r\nHTML basics\r\nWeb scraping and parsing in R\r\nRequired packages:\r\nFor web scraping and parsing: rvest\r\nFor tidy coding: dplyr\r\nTo read a little about web scraping before the workshop, please refer to this source.\r\n\r\nDanielle van Westbroek-Stibbe is a PhD candidate at NSCR and Utrecht Universiteit and a member of the NSC-R Workshops team. Her research focuses on cybercriminal decision-making.\r\n\r\n\r\nDanielle van Westbroek-Stibbe is a PhD candidate at NSCR and a member of the NSC-R Workshops team. Her research focuses on cyberoffending.\r\n\r\nMaterials\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2023-05-12T12:15:01+02:00",
+    "last_modified": "2023-05-16T15:59:32+02:00",
     "input_file": {}
   },
   {
@@ -48,7 +48,7 @@
     "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nIn this workshop (May 9, 2023, 13:00-14:00), Wim Bernasco tried to model song popularity using a dataset of tracks on Spotify.\r\nEven if you have no interest in popular music at all, you may find the materials presented in the workshop instructive for getting ideas on how to do regression analysis in R.\r\nThe workshop did not delve into statistics, but rather show how to get linear regression and logistic regression models running in R and generate useful and reproducible output. The focus was be on ordinary least squares and (quite briefly) logistic regression, but the techniques can easily be generalized to other regression models.\r\n\r\nWim Bernasco is a senior researcher at NSCR and a member of the NSC-R Workshops team. His research focuses on the geography of crime.\r\n\r\nMaterials\r\nMaterials for this workshop have been posted here on GitHub. The Quarto document regression_spotify.qmd contains the annotated R script. You can use the short script get_started.R to read the data and conduct your own analysis.\r\nSome substabtive documentation on the data is available here\r\nDownloading files from GitHub\r\nTo download files from GitHub you can:\r\nClone the repository to create a local copy in your computer. To clone a repository, follow the instructions here.\r\nAlternatively, you can:\r\nDownload all files compressed in a ZIP. To do this, go to the repository and click on the green code button, then select download ZIP. Unzip the downloaded file into a folder on your local computer.\r\nDownload a specific file. To do this, select the desired file in the repository and click on the raw button. Then right click on the new page and select save as. Don’t forget to put the proper extension in the save name, like .R or .Rmd.\r\n\r\n\r\n\r\n",
     "preview": {},
     "last_modified": "2023-05-15T13:03:33+02:00",
-    "input_file": "nsc-r-tidy-tuesday.knit.md"
+    "input_file": {}
   },
   {
     "path": "posts/2023-05-04-walk-in-hour/",
@@ -149,8 +149,8 @@
     "categories": [],
     "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which was aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nIn this workshop, Alex Trinidad will show how to write your own R functions. This helps automating your work and making your R scripts cleaner, shorter and easier to maintain.\r\nJoin this workshop meeting on Zoom by clicking this link\r\n\r\nAlex Trinidad is a postdoctoral researcher and lecturer at the Institute of Sociology and Social Psychology (ISS) at the University of Cologne, and a research fellow for the Crime Events in Context research group at the NSCR and for the Crim-Ap research group at the University of the Basque Country UPV/EHU. He is also a member of the NSC-R Workshops Team.\r\n\r\nMaterials\r\nHere you will find the R syntax to replicate the session.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2023-05-12T19:09:15+02:00",
-    "input_file": "nsc-r-tidy-tuesday.knit.md"
+    "last_modified": "2023-05-12T23:15:35+02:00",
+    "input_file": {}
   },
   {
     "path": "posts/2023-01-24-nsc-r-tidy-tuesday/",
