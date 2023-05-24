@@ -37,7 +37,7 @@ To read a little about web scraping, please refer to [this source](https://www.z
 
 ### Materials
 
-All elements that Danielle presented and discussed during the workshop are included in [this `Markdown` document](https://nscrweb.netlify.app/Materials/2023-05-23-webscraping/Web scraping tutorial.Rmd) which you can open (and adapt if you wish) and `knit` in the Rstudio environment).
+All elements that Danielle presented and discussed during the workshop are included in [this `Markdown` document](https://nscrweb.netlify.app/materials/2023-05-23-webscraping/Web scraping tutorial.Rmd) which you can open (and adapt if you wish) and `knit` in the Rstudio environment).
 
-Alternatively, you can also immediately view the result as a HTML document [here](https://nscrweb.netlify.app/Materials/2023-05-23-webscraping/Web scraping tutorial.html)
+Alternatively, you can also immediately view the result as a HTML document [here](https://nscrweb.netlify.app/materials/2023-05-23-webscraping/Web-scraping-tutorial.html)
 
