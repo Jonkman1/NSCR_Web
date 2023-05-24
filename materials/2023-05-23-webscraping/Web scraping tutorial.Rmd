@@ -1,0 +1,247 @@
+---
+title: "Web scraping"
+author: "Danielle van Westbroek-Stibbe"
+date: "2023-05-16"
+output: html_document
+---
+
+```{r setup, message=FALSE, warning=FALSE}
+if (! require("rvest")){
+  install.packages("rvest")
+}
+
+
+library(rvest)
+library(dplyr) 
+```
+
+## Web scraping
+
+Requirements:
+
+1.  Basic knowledge in R
+
+2.  The following packages installed: rvest, dplyr
+
+We will cover the following:
+
+1.  What is web scraping and what can we use it for?
+
+2.  HTML basics
+
+3.  Scraping HTML data in R
+
+### 1. What is Web scraping and what can we use it for?
+
+Web scraping refers to the extraction of data from a website. While this can be done manually, using R code can automate the process.
+
+This is not always straightforward; websites are designed differently, and web scrapers need to be tailored to those specific designs. Sometimes, websites are built to block these attempts, for example using some form of human verification. To tailor to this, web scrapers vary in complexity, from taking a snapshot of a URL at a specific moment in time, to mimicking human interaction with a website by clicking buttons and inserting input (called **crawling**, for more information: <https://www.zenrows.com/blog/web-scraping-r#is-r-good-for-web-scraping>).
+
+In this tutorial, I will present a way to scrape data from a website by taking a snapshot of the HTML code and extracting interesting information from there.
+
+Say that we are interested in creating a table describing all the NSC-R meetings. We can achieve it by scraping the data from this page: <https://nscrweb.netlify.app/blog.html>.
+
+### 2. HTML basics
+
+Web sites are created with HTML code that your browsers renders. We can inspect that HTML code to access more information about different elements in a page. For example, try to hover over a single meeting, right-click, and select "inspect". What you see is the html code behind the visual display of the page.
+
+This page is constructed, like many others, by a head, which we will ignore for now, and a body. An HTML page contains **nodes**, including **comments** and **elements**, which are constructed in a hierarchical way, like a tree. If an element contains any other elements, those are its **children**; if it is inside another element, that is its **parent**; if there are other elements within the same parent element, those are its **siblings**.
+
+If we inspect specific elements in the page, we notice that they contain their own hierarchical structure including multiple **tags**. A tag begins with \<*tag*\> and ends with \<*/tag*\>. Everything between those two markers is the tag's content.
+
+The first string in each tag marks the type of a tag, which can include a link (*a* tag), a header (*h1*/*h2*/*h3*... tags), a division of text (*div* tag), etc. The tags also include other arguments named **attributes** including the classification or identifier of each tag, which we will need to know in order to specify the location of the information we wish to extract. If any text appears in a tag, which is not another tag or a comment, it is referred to as **text**.
+
+Here is an example of HTML tag encompassing a single meeting:
+
+``` {<html>}
+<a href="posts/2023-06-02-walk-in-hour/" class="post-preview">
+  <script class="post-metadata" type="text/json">{"categories":[]}</script>
+  <div class="metadata">
+    <div class="publishedDate">June 2, 2023</div>
+    <div class="dt-authors">
+      <div class="dt-author">NSC-R Workshops Team</div>
+    </div>
+  </div>
+  <div class="thumbnail">
+    <img>
+  </div>
+  <div class="description">
+    <h2>NSC-R Walk-In Hour</h2>
+    <div class="dt-tags"></div>
+    <p>Drop by and meet our team to discuss any R-related issues</p>
+  </div>
+</a>
+</html>}
+```
+
+### 3. HTML Scraping with R
+
+Now that we know the hierarchical construction of the HTML file, we can download it and extract the relevant data.
+
+```{r html-reading}
+link <- "https://nscrweb.netlify.app/blog.html"
+
+page <- read_html(link)
+
+page 
+
+```
+
+We know from inspecting the page that the meetings are displayed on a list, under a *div* tag with *class* "posts-list". Let's extract that list from the HTML file and save it into an object.
+
+There are two ways to do this:
+
+1.  A CSS selector, which can be simple but rigid in my experience (default).
+
+2.  An XPATH identifier, which can be more complex but more versatile.
+
+```{r}
+# A CSS selector 
+post_list_css <- page |>
+  html_element(css = ".posts-list")
+post_list_css
+
+
+# An xpath identifier 
+post_list_xpath <- page |>
+  html_element(xpath = "//div[@class = 'posts-list']")
+
+post_list_xpath 
+```
+
+In general, what we want to specify is the type of tag, the type of attribute, and the attribute value. We can add or subtract from this specification to refer to more specific or more general elements.
+
+For CSS, using "." to refer to a child element and then the value of an attribute can be enough (providing you are referring to the correct tag). For XPATH, some more information is needed. A description of how each works is beyond the scope of this meeting, but use these resources for XPATH (<https://devhints.io/xpath>, <http://xpather.com/>) and this (<https://www.scrapingbee.com/blog/using-css-selectors-for-web-scraping/>) for CSS.
+
+Now that we have the list of posts, we want to be able to refer to specific posts. In our case, it's the a tags with class identified as "post-preview". The post list objects still refer to a list of posts within a div parent tag. Let's get a list of all *a* tags which parent each post:
+
+```{r}
+# The first refers to the header of the list, let's get rid of that
+post_list <- post_list_css |>
+  html_elements("a") 
+```
+
+Note that we could use html_elements to create a list of appropriate elements, or html_element to refer to a single or the first match.
+
+Now that we have a nice list of posts, we can dive into a single post and extract the data we want. Let's look again at the HTML snippet for a single post:
+
+``` {<html>}
+<a href="posts/2023-06-02-walk-in-hour/" class="post-preview">
+  <script class="post-metadata" type="text/json">{"categories":[]}</script>
+  <div class="metadata">
+    <div class="publishedDate">June 2, 2023</div>
+    <div class="dt-authors">
+      <div class="dt-author">NSC-R Workshops Team</div>
+    </div>
+  </div>
+  <div class="thumbnail">
+    <img>
+  </div>
+  <div class="description">
+    <h2>NSC-R Walk-In Hour</h2>
+    <div class="dt-tags"></div>
+    <p>Drop by and meet our team to discuss any R-related issues</p>
+  </div>
+</a>
+</html>}
+```
+
+For each post, we can extract:
+
+1.  Post title
+2.  Author
+3.  Description
+4.  Date
+5.  Link to meeting
+
+Let's use the first post to search for this data.
+
+```{r}
+first_post <- post_list[[1]]
+first_post
+
+# Extract the text of the title is in a h2 tag under the tag with value "description":
+first_post |>
+  html_element(".description") |>
+  html_element("h2") |>
+  html_text()
+
+# The description of the meeting is in a p tag under description
+first_post |>
+  html_element(".description") |>
+  html_element("p") |>
+  html_text()
+
+```
+
+Luckily, this page's html code is written in a very straightforward way. Sometimes, however, the code can be very messy and elements can be repetitive. We could be more specific in the way we refer to an html tag with the "xpath" argument instead of the defaulted css argument we have been using. This way, we can be much more versatile when referring to a tag:
+
+```{r}
+# The date is under the div tag with class publishedDate, so we can refer to "Date" as a partial class value:
+first_post |>
+  html_element(xpath = ".//div[contains(@class, 'Date')]") |>
+  html_text()
+
+# The meeting leader is under the div tag with class dt-author:
+first_post |>
+  html_element(xpath = ".//div[@class = 'dt-author']") |>
+  html_text()
+
+```
+
+We can also access information within a tag (also known as attributes) rather than the text it contains:
+
+```{r}
+# The link to the meeting information is in the a tag.
+# We can access the value of attribute "href" with the following code:
+first_post  |>
+  html_attr(name = "href")
+
+```
+
+Now that we found out how to find all data, let's save it into a dataframe.
+
+```{r}
+nsc_r_meetings <- data.frame(title = character(0),
+                             author = character(0),
+                             date = character(0),
+                             description = character(0),
+                             href = character(0))
+
+for (post in post_list) {
+  title <- post |> html_element(".description") |>
+    html_element("h2") |>
+    html_text()
+  
+  description <- post |>
+    html_element(".description") |>
+    html_element("p") |>
+    html_text()
+  
+  date <- post |>
+    html_element(xpath = ".//div[contains(@class, 'Date')]") |>
+    html_text()
+  
+  author <- post |>
+    html_element(xpath = ".//div[@class = 'dt-author']") |>
+    html_text()
+  
+  href <- post  |>
+            html_attr(name = "href") 
+  
+  nsc_r_meetings <- nsc_r_meetings |>
+    add_row(
+      title = title,
+      author = author,
+      date = date,
+      description = description,
+      href = href
+    )
+}
+
+nsc_r_meetings |>
+  head() |>
+  knitr::kable(caption = "NSC-R Meetings")
+```
+
+### After data data is extracted, you can begin with data cleaning and manipulation. Good luck!

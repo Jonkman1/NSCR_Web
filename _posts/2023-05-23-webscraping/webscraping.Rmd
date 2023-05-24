@@ -11,11 +11,11 @@ output:
     self_contained: false
 ---
 
-This is a hybrid workshop (May 23,2023, 13:00-14:00), physically in the Breakout Room at NSCR and online on Zoom. To join online, click [here](https://us02web.zoom.us/j/82224521098?pwd=ZG1wbXp0VllLc29DdEZ2eVlhT0lKQT09).
+This was a hybrid workshop (May 23,2023, 13:00-14:00), physically in the Breakout Room at NSCR and online on Zoom. 
 
-In this NSC-R workshop Danielle van Westbroek-Stibbe will describe and demonstrate web scraping in R. **Web scraping** involves the extraction of data from websites, which can be done manually (e.g., copy-pasting) or automatically. This process extends beyond existing datasets, allowing you to retrieve any type of data found on a webpage. Once the information is saved to disk in HTML format, we can **parse** it to become more readable.
+In this NSC-R workshop Danielle van Westbroek-Stibbe  described and demonstrated web scraping in R. **Web scraping** involves the extraction of data from websites, which can be done manually (e.g., copy-pasting) or automatically. This process extends beyond existing datasets, allowing you to retrieve any type of data found on a webpage. Once the information is saved to disk in HTML format, we can **parse** it to become more readable.
 
-In this workshop, Danielle will demonstrate how we can use the R package "rvest" to extract data from the NSC-R Workshops website. During this demonstration, she will create a comprehensive dataset that encompasses the workshops conducted with the NSC-R community.
+In this workshop, Danielle demonstrated how we can use the R package "rvest" to extract data from the NSC-R Workshops website. During this demonstration, she created a comprehensive dataset that encompasses the workshops conducted with the NSC-R community.
 
 Content of the workshop:
 
@@ -28,21 +28,16 @@ Required packages:
   - For web scraping and parsing: rvest
   - For tidy coding: dplyr
 
-To read a little about web scraping before the workshop, please refer to [this source](https://www.zenrows.com/blog/web-scraping-r#is-r-good-for-web-scraping).
-
-
-
+To read a little about web scraping, please refer to [this source](https://www.zenrows.com/blog/web-scraping-r#is-r-good-for-web-scraping).
 
 > Danielle van Westbroek-Stibbe is a PhD candidate at NSCR and Utrecht Universiteit and a member of the NSC-R Workshops team. Her research focuses on cybercriminal decision-making.
 
 
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
-
-> *Danielle van Westbroek-Stibbe* is a PhD candidate at NSCR and a member of the NSC-R Workshops team. Her research focuses on cyberoffending.
 
 ### Materials
 
-Presented materials will be posted here after the workshop. 
+All elements that Danielle presented and discussed during the workshop are included in [this `Markdown` document](https://nscrweb.netlify.app/Materials/2023-05-23-webscraping/Web scraping tutorial.Rmd) which you can open (and adapt if you wish) and `knit` in the Rstudio environment).
+
+Alternatively, you can also immediately view the result as a HTML document [here](https://nscrweb.netlify.app/Materials/2023-05-23-webscraping/Web scraping tutorial.html)
+
