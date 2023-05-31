@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2023-06-06-nsc-r-tidy-tuesday/",
+    "title": "NSC-R Tidy Tuesday",
+    "description": "Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.",
+    "author": [
+      {
+        "name": "Alex Trinidad",
+        "url": "https://www.alexandertrinidad.com/"
+      }
+    ],
+    "date": "2023-06-06",
+    "categories": [],
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nIn this workshop (June 6, 2023, 13:00-14:00), Alex Trinidad will discuss how to do regression diagnostrics in R.\r\nJoin this hybrid workshop in the NSCR Colloquium Room or online on Zoom here\r\n\r\nAlex Trinidad is a postdoctoral researcher and lecturer at the Institute of Sociology and Social Psychology (ISS) at the University of Cologne, and a research fellow for the Crime Events in Context research group at the NSCR and for the Crim-Ap research group at the University of the Basque Country UPV/EHU. He is also a member of the NSC-R Workshops Team.\r\n\r\nMaterials\r\nMaterials will be posted here online after the workshop.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2023-06-01T00:24:51+02:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2023-06-02-walk-in-hour/",
     "title": "NSC-R Walk-In Hour",
     "description": "Drop by and meet our team to discuss any R-related issues",
@@ -30,8 +47,8 @@
     "categories": [],
     "contents": "\r\nThis was a hybrid workshop (May 23,2023, 13:00-14:00), physically in the Breakout Room at NSCR and online on Zoom.\r\nIn this NSC-R workshop Danielle van Westbroek-Stibbe described and demonstrated web scraping in R. Web scraping involves the extraction of data from websites, which can be done manually (e.g., copy-pasting) or automatically. This process extends beyond existing datasets, allowing you to retrieve any type of data found on a webpage. Once the information is saved to disk in HTML format, we can parse it to become more readable.\r\nIn this workshop, Danielle demonstrated how we can use the R package “rvest” to extract data from the NSC-R Workshops website. During this demonstration, she created a comprehensive dataset that encompasses the workshops conducted with the NSC-R community.\r\nContent of the workshop:\r\nWhat is web scraping and what is it used for?\r\nHTML basics\r\nWeb scraping and parsing in R\r\nRequired packages:\r\nFor web scraping and parsing: rvest\r\nFor tidy coding: dplyr\r\nTo read a little about web scraping, please refer to this source.\r\n\r\nDanielle van Westbroek-Stibbe is a PhD candidate at NSCR and Utrecht Universiteit and a member of the NSC-R Workshops team. Her research focuses on cybercriminal decision-making.\r\n\r\nMaterials\r\nAll elements that Danielle presented and discussed during the workshop are included in this Markdown document which you can open (and adapt if you wish) and knit in the Rstudio environment).\r\nAlternatively, you can also immediately view the result as a HTML document here\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2023-05-24T12:42:25+02:00",
-    "input_file": "webscraping.knit.md"
+    "last_modified": "2023-05-24T12:42:26+02:00",
+    "input_file": {}
   },
   {
     "path": "posts/2023-05-09-nsc-r-tidy-tuesday/",
