@@ -1,0 +1,24 @@
+---
+title: "Summer break 2023"
+description: |
+  The NSC-R Team wishes you a great summer
+author:
+  - name: NSC-R Team
+    url: 
+date: 06-21-2023
+output:
+  distill::distill_article:
+    self_contained: false
+
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+During July, August and September 2023, no NSC-R workshops are being organized. We hope to see you back after the break.
+Have a great summer!
+
+The NSC-R Workshops team
+
+
+

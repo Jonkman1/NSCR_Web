@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2023-06-021-summer-break/",
+    "title": "Summer break 2023",
+    "description": "The NSC-R Team wishes you a great summer",
+    "author": [
+      {
+        "name": "NSC-R Team",
+        "url": {}
+      }
+    ],
+    "date": "2023-06-21",
+    "categories": [],
+    "contents": "\r\nDuring July, August and September 2023, no NSC-R workshops are being organized. We hope to see you back after the break.\r\nHave a great summer!\r\nThe NSC-R Workshops team\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2023-06-21T14:38:08+02:00",
+    "input_file": "summer-break.knit.md"
+  },
+  {
     "path": "posts/2023-06-06-nsc-r-tidy-tuesday/",
     "title": "NSC-R Tidy Tuesday",
     "description": "Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.",
@@ -13,8 +30,8 @@
     "categories": [],
     "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nIn this workshop (June 6, 2023, 13:00-14:00), Alex Trinidad will discuss how to do regression diagnostrics in R.\r\nJoin this hybrid workshop in the NSCR Colloquium Room or online on Zoom here\r\n\r\nAlex Trinidad is a postdoctoral researcher and lecturer at the Institute of Sociology and Social Psychology (ISS) at the University of Cologne, and a research fellow for the Crime Events in Context research group at the NSCR and for the Crim-Ap research group at the University of the Basque Country UPV/EHU. He is also a member of the NSC-R Workshops Team.\r\n\r\nMaterials\r\nHere you will find the R syntax to replicate the session.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2023-06-21T11:54:07+02:00",
-    "input_file": "nsc-r-tidy-tuesday.knit.md"
+    "last_modified": "2023-06-21T14:32:33+02:00",
+    "input_file": {}
   },
   {
     "path": "posts/2023-06-02-walk-in-hour/",
