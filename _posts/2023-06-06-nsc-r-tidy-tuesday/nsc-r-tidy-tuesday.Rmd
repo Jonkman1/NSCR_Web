@@ -21,5 +21,4 @@ Join this hybrid workshop in the NSCR Colloquium Room or online on Zoom [here](h
 
 
 ### Materials
-
-Materials will be posted here online after the workshop.
+- [Here](https://github.com/alexandertrinidad/nsc_r_workhsop_06_06_2023) you will find the R syntax to replicate the session. 
