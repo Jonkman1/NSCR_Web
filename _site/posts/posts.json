@@ -11,10 +11,10 @@
     ],
     "date": "2023-06-06",
     "categories": [],
-    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nIn this workshop (June 6, 2023, 13:00-14:00), Alex Trinidad will discuss how to do regression diagnostrics in R.\r\nJoin this hybrid workshop in the NSCR Colloquium Room or online on Zoom here\r\n\r\nAlex Trinidad is a postdoctoral researcher and lecturer at the Institute of Sociology and Social Psychology (ISS) at the University of Cologne, and a research fellow for the Crime Events in Context research group at the NSCR and for the Crim-Ap research group at the University of the Basque Country UPV/EHU. He is also a member of the NSC-R Workshops Team.\r\n\r\nMaterials\r\nMaterials will be posted here online after the workshop.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nIn this workshop (June 6, 2023, 13:00-14:00), Alex Trinidad will discuss how to do regression diagnostrics in R.\r\nJoin this hybrid workshop in the NSCR Colloquium Room or online on Zoom here\r\n\r\nAlex Trinidad is a postdoctoral researcher and lecturer at the Institute of Sociology and Social Psychology (ISS) at the University of Cologne, and a research fellow for the Crime Events in Context research group at the NSCR and for the Crim-Ap research group at the University of the Basque Country UPV/EHU. He is also a member of the NSC-R Workshops Team.\r\n\r\nMaterials\r\nHere you will find the R syntax to replicate the session.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2023-06-01T00:24:51+02:00",
-    "input_file": {}
+    "last_modified": "2023-06-21T11:54:07+02:00",
+    "input_file": "nsc-r-tidy-tuesday.knit.md"
   },
   {
     "path": "posts/2023-06-02-walk-in-hour/",
