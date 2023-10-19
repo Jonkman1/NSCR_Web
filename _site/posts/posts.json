@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2023-10-31-nsc-r-workshop-scoobie-doo/",
+    "title": "Tidy Tuesday with Scoobie-Doo",
+    "description": "What monsters were caught on Scooby-Doo? Who caught the most of them? How many of them remained uncaught?",
+    "author": [
+      {
+        "name": "Danielle van Westbroek-Stibbe",
+        "url": "https://nscr.nl/medewerker/danielle-stibbe-msc/"
+      }
+    ],
+    "date": "2023-10-31",
+    "categories": [],
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nThis workshop (October 31, 2023, 13:00-14:00) will be led by Danielle van Westbroek-Stibbe. Join this online workshop on Zoom here (meeting ID: 876 7170 0917, Password: 455700)\r\nUsing data from ScoobyPedia, we will practice data wrangling and visualization techniques taught in our recent Carpentry course “R for Social Scientists” to answer those questions and more.\r\nThe data we will use is provided and described by the Tidy Tuesday Initiative, and can be found here.”\r\n\r\nDanielle van Westbroek-Stibbe is a PhD candidate at NSCR and Utrecht Universiteit and a member of the NSC-R Workshops team. Her research focuses on cybercriminal decision-making.\r\n\r\nMaterials\r\nHere we will ASAP post an example script that loads the data contains the research questions addressed in the workshop.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2023-10-19T13:41:24+02:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2023-06-021-summer-break/",
     "title": "Summer break 2023",
     "description": "The NSC-R Team wishes you a great summer",
@@ -13,8 +30,8 @@
     "categories": [],
     "contents": "\r\nDuring July, August and September 2023, no NSC-R workshops are being organized. We hope to see you back after the break.\r\nHave a great summer!\r\nThe NSC-R Workshops team\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2023-06-21T14:38:08+02:00",
-    "input_file": "summer-break.knit.md"
+    "last_modified": "2023-06-21T14:38:09+02:00",
+    "input_file": {}
   },
   {
     "path": "posts/2023-06-06-nsc-r-tidy-tuesday/",

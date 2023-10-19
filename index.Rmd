@@ -24,7 +24,7 @@ There are workshops on specific topics (e.g. network analysis, missing values) a
 
 ### The NSC-R Workshop Team
 
-The NSC-R Workshop Team coordinates the NSC-R Workshops. They discuss potential topics, invite presenters, plan the meetings and send invitations. Currently the team includes Abby Onencan, Alex Trinidad, Asier Moneva, Danielle van Westbroek-Stibbe, Sam Langton and Wim Bernasco.
+The NSC-R Workshop Team coordinates the NSC-R Workshops. They discuss potential topics, invite presenters, plan the meetings and send invitations. Currently the team includes Abby Onencan, Alex Trinidad, Anne Coomans, Asier Moneva, Danielle van Westbroek-Stibbe, Sam Langton and Wim Bernasco.
 
 ### Contact Us and Get involved
 
@@ -32,6 +32,7 @@ If you want your e-mail address on (of off) our mailing list, please send an e-m
 
 If you have suggestions for workshop topics, or are interested in presenting one, please send a message to 
 Wim Bernasco (wbernasco@nscr.nl), 
+Anne Coomans (acoomans@nscr.nl), 
 Sam Langton (slangton@nscr.nl), 
 Asier Moneva (amoneva@nscr.nl), 
 Abby Onencan (onencan@law.eur.nl),
