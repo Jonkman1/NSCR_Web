@@ -23,6 +23,6 @@ The data we will use is provided and described by the Tidy Tuesday Initiative, a
 
 ### Materials
 
-To get started, you can use [this R script](https://nscrweb.netlify.app/materials/2023-10-31-scoobie-doo/scooby-do_exercises.R), which loads required libraries and the scooby-doo data and also contains some exercises. 
+To get started, you can use [this R script](https://nscrweb.netlify.app/materials/2023-10-31-scooby-doo/scooby-do_exercises.R), which loads required libraries and the scooby-doo data and also contains some exercises. 
 
 We will later post all materials discussed during the workshop.

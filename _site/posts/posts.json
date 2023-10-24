@@ -13,7 +13,7 @@
     "categories": [],
     "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nThis workshop (October 31, 2023, 13:00-14:00) will be led by Danielle van Westbroek-Stibbe. Join this online workshop on Zoom here (meeting ID: 876 7170 0917, Password: 455700)\r\nUsing data from ScoobyPedia, we will practice data wrangling and visualization techniques taught in our recent Carpentry course “R for Social Scientists” to answer those questions and more.\r\nThe data we will use is provided and described by the Tidy Tuesday Initiative, and can be found here.”\r\n\r\nDanielle van Westbroek-Stibbe is a PhD candidate at NSCR and Utrecht Universiteit and a member of the NSC-R Workshops team. Her research focuses on cybercriminal decision-making.\r\n\r\nMaterials\r\nTo get started, you can use this R script, which loads required libraries and the scooby-doo data and also contains some exercises.\r\nWe will later post all materials discussed during the workshop.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2023-10-24T14:05:40+02:00",
+    "last_modified": "2023-10-24T14:13:36+02:00",
     "input_file": {}
   },
   {
