@@ -13,12 +13,12 @@ output:
 
 The NSC-R Tidy Tuesday workshop sessions draw their inspiration from the Tidy Tuesday initiative, a dedicated platform aimed at fostering a secure and supportive environment for individuals seeking to hone their data processing and visualization skills in R, all while working with real-world data.
 
-# Reading group format
+### Reading group format
 In our previous “advanced” version of the workshop, we featured a team member or an external expert who led participants through more advanced methods. In this new season, we are transforming the advanced series of our workshops into a reading group format. Our aim is to offer a dynamic, interactive, and engaging way to explore the world of data analysis.
 
 Join this session November 14, 2023 at 13:00 CET on Zoom by clicking [here](https://us02web.zoom.us/j/83990211542?pwd=Ulc2SWpYVG1LYU5CQ2dsRzBaYXpPUT09) (Meeting ID: **839 9021 1542** ; password **368781**)
 
-# Regression and other stories
+### Regression and other stories
 
 We decided to work with the book *Regression and Other Stories* (ROS) by Andrew Gelman, Jennifer Hill and Aki Vehtari. This book was chosen because
 
@@ -26,23 +26,24 @@ We decided to work with the book *Regression and Other Stories* (ROS) by Andrew 
  - It is packed with practical R examples that are [also freely available online](https://avehtari.github.io/ROS-Examples/examples.html), enabling hands-on learning.
  - It covers a wealth of content on data analysis techniques used in criminological research.
 
-# Format
+### Format
 The format shifts from previous workshops to an interactive reading club approach. To keep participation maximally accessible to many, the sessions will continue to be online (on Zoom). To make them most instructive for everyone, we advice participants to read the designated chapter from *Regression and other stories* in advance and, when possible, practice with some of the examples. During the session, one of our team members will chair the discussion, where the participants will share their experiences and issues with the examples. The focus is on participation and collaborative learning, creating a relaxed atmosphere conducive to in-depth understanding.
 
 For our first session, November 14, 2023 at 13:00 CET, we will introduce the new format and delve into Chapter 1 of *Regression and Other Stories*. Be prepared to discuss the chapter's content, ask questions, and witness live coding in action. To join the session on Zoom, please click [here](https://us02web.zoom.us/j/83990211542?pwd=Ulc2SWpYVG1LYU5CQ2dsRzBaYXpPUT09) (Meeting ID: **839 9021 1542** ; password **368781**)
 
-# Key Objectives
+### Key Objectives
  - Participative learning: We believe that active participation enhances learning. This workshop is designed to encourage your active involvement.
  - Hands-on practice: You'll get the chance to practice R coding in real-time, bolstering your practical skills.
  - Exploration of R techniques: Together, we'll explore and understand various data analysis techniques.
 
-# Who should attend?
+### Who should attend?
 This workshop is perfect for you if
 
 - You're looking to enhance your R programming and data analysis skills.
 - You prefer a participative learning environment that emphasizes active engagement.
 - You're interested in gaining practical experience with data analysis techniques in R.
 
-# Materials
-- "Regression and Other Stories" (available online).
-- ROS examples
+### Materials
+- [The book *Regression and other stories](https://users.aalto.fi/~ave/ROS.pd)
+- [Examples from the book](https://avehtari.github.io/ROS-Examples/examples.html)
+

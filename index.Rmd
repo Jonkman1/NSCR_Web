@@ -20,7 +20,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 The **NSC-R Workshops** is a series of one-hour online instructional sessions to support participants in developing their data science skills in R, and to promote open science principles. The NSC-R workshop meetings are organized by a team affiliated with the Netherlands Institute for the Study of Crime and Law Enforcement [(NSCR)](https://www.nscr.nl/en/), but they are open to everyone, regardless of affiliation or skill level. 
 
-There are workshops on specific topics (e.g. network analysis, missing values) and `Tidy Tuesday` workshops that cover more basic skills and materials. A collection of these latter workshop materials have been brought together by Harrie Jonkman in a single document that you can find [here](  https://ttbook.netlify.app/).  
+There are workshops on specific topics (e.g. network analysis, missing values) and `Tidy Tuesday` workshops that cover more basic skills and materials. A collection of these latter workshop materials have been brought together by Harrie Jonkman in a single document that you can find [here](  https://ttbook.netlify.app/). 
+
+Starting November 2023 we are transforming the workshops on specific topics into a reading group, where we explore the world of data analysis using the book *Regression and other stories* by Gelman, Hill and Vehtari as a source of inspiration. Click [here](https://nscrweb.netlify.app/posts/2023-11-14-nsc-r-workshop-ros/) for more information.   
 
 ### The NSC-R Workshop Team
 
