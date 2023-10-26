@@ -1,0 +1,14 @@
+---
+title: "Tidy Tuesday Workshop"
+description: |
+  Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.
+author:
+  - name: Danielle van Westbroek-Stibbe
+    url: https://nscr.nl/medewerker/danielle-stibbe-msc/
+date: 11-28-2023
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+More information will follow soon.

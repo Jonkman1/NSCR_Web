@@ -1,0 +1,17 @@
+---
+title: "Tidy Tuesday Reading Club"
+description: |
+  Participate in dynamic, interactive and engaging reading group sessions to explore the world of data analysis.
+author:
+  - name: TBC
+    url: 
+date: 12-12-2023
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+More information will follow soon.
+
+
+ 
