@@ -20,7 +20,7 @@ Join this session November 14, 2023 at 13:00 CET on Zoom by clicking [here](http
 
 ### Regression and other stories
 
-We decided to work with the book *Regression and Other Stories* (ROS) by Andrew Gelman, Jennifer Hill and Aki Vehtari. This book was chosen because
+We decided to work with the book *Regression and other stories* (ROS) by Andrew Gelman, Jennifer Hill and Aki Vehtari. This book was chosen because
 
  - It is [freely available online](https://users.aalto.fi/~ave/ROS.pdf), ensuring easy access for all participants.
  - It is packed with practical R examples that are [also freely available online](https://avehtari.github.io/ROS-Examples/examples.html), enabling hands-on learning.

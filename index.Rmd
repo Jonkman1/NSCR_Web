@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### What are the NSC-R Workshops?
 
-The **NSC-R Workshops** is a series of one-hour online instructional sessions to support participants in developing their data science skills in R, and to promote open science principles. The NSC-R workshop meetings are organized by a team affiliated with the Netherlands Institute for the Study of Crime and Law Enforcement [(NSCR)](https://www.nscr.nl/en/), but they are open to everyone, regardless of affiliation or skill level. 
+The **NSC-R Workshops** is a series of one-hour online instructional sessions to support participants in developing their data science skills in R, and to promote open science principles. The NSC-R workshop meetings are organized by a team mostly affiliated with the Netherlands Institute for the Study of Crime and Law Enforcement [(NSCR)](https://www.nscr.nl/en/), but they are open to everyone, regardless of affiliation or skill level. 
 
 There are workshops on specific topics (e.g. network analysis, missing values) and `Tidy Tuesday` workshops that cover more basic skills and materials. A collection of these latter workshop materials have been brought together by Harrie Jonkman in a single document that you can find [here](  https://ttbook.netlify.app/). 
 
@@ -30,7 +30,7 @@ The NSC-R Workshop Team coordinates the NSC-R Workshops. They discuss potential 
 
 ### Contact Us and Get involved
 
-If you want your e-mail address on (of off) our mailing list, please send an e-mail to Wim Bernasco at wbernasco@nscr.nl.
+If you want your e-mail address on (or off) our mailing list, please send an e-mail to Wim Bernasco at wbernasco@nscr.nl.
 
 If you have suggestions for workshop topics, or are interested in presenting one, please send a message to 
 Ida Adamse (iadamse@nscr.nl)
