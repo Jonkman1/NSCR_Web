@@ -12,7 +12,7 @@ output:
 ---
 The NSC-R Tidy Tuesday workshop sessions are inspired by the [Tidy Tuesday](https://www.tidytuesday.com/) initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data. 
 
-This workshop (October 31, 2023, 13:00-14:00) was led by Danielle van Westbroek-Stibbe. Join this online workshop on Zoom [here](https://us02web.zoom.us/j/87671700917?pwd=aThJWkpzNEtESE40M2VzdnlodXEzdz09) (meeting ID: 876 7170 0917, Password: 455700)
+This workshop (October 31, 2023, 13:00-14:00) was led by Danielle van Westbroek-Stibbe. 
 
 Using data from ScoobyPedia, we practiced data wrangling and visualization techniques taught in our recent Carpentry course "R for Social Scientists" to answer those questions and more.
 
