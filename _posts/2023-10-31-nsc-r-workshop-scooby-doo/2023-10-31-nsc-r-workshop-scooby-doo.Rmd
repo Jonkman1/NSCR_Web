@@ -12,11 +12,11 @@ output:
 ---
 The NSC-R Tidy Tuesday workshop sessions are inspired by the [Tidy Tuesday](https://www.tidytuesday.com/) initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data. 
 
-This workshop (October 31, 2023, 13:00-14:00) will be led by Danielle van Westbroek-Stibbe. Join this online workshop on Zoom [here](https://us02web.zoom.us/j/87671700917?pwd=aThJWkpzNEtESE40M2VzdnlodXEzdz09) (meeting ID: 876 7170 0917, Password: 455700)
+This workshop (October 31, 2023, 13:00-14:00) was led by Danielle van Westbroek-Stibbe. Join this online workshop on Zoom [here](https://us02web.zoom.us/j/87671700917?pwd=aThJWkpzNEtESE40M2VzdnlodXEzdz09) (meeting ID: 876 7170 0917, Password: 455700)
 
-Using data from ScoobyPedia, we will practice data wrangling and visualization techniques taught in our recent Carpentry course "R for Social Scientists" to answer those questions and more.
+Using data from ScoobyPedia, we practiced data wrangling and visualization techniques taught in our recent Carpentry course "R for Social Scientists" to answer those questions and more.
 
-The data we will use is provided and described by the Tidy Tuesday Initiative, and can be found [here](https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-07-13/readme.md)."
+The data we used is provided and described by the Tidy Tuesday Initiative, and can be found [here](https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-07-13/readme.md)."
 
 
 > **Danielle van Westbroek-Stibbe** is a PhD candidate at NSCR and Utrecht Universiteit and a member of the NSC-R Workshops team. Her research focuses on cybercriminal decision-making.
@@ -25,4 +25,4 @@ The data we will use is provided and described by the Tidy Tuesday Initiative, a
 
 To get started, you can use [this R script](https://nscrweb.netlify.app/materials/2023-10-31-nsc-r-workshop-scooby-doo/scooby-do_exercises.R), which loads required libraries and the scooby-doo data and also contains some exercises. 
 
-We will later post all materials discussed during the workshop.
+To learn how the exercises discussed in the workshop can be completed, see [this document](https://nscrweb.netlify.app/materials/2023-10-31-nsc-r-workshop-scooby-doo/Scooby-Doo.pdf)
