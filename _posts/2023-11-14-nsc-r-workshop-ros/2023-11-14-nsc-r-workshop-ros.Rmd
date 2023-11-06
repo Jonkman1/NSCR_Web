@@ -16,7 +16,7 @@ The NSC-R Tidy Tuesday workshop sessions draw their inspiration from the Tidy Tu
 ### Reading group format
 In our previous “advanced” version of the workshop, we featured a team member or an external expert who led participants through more advanced methods. In this new season, we are transforming the advanced series of our workshops into a reading group format. Our aim is to offer a dynamic, interactive, and engaging way to explore the world of data analysis.
 
-Join this session November 14, 2023 at 13:00 CET on Zoom by clicking [here](https://us02web.zoom.us/j/83990211542?pwd=Ulc2SWpYVG1LYU5CQ2dsRzBaYXpPUT09) (Meeting ID: **839 9021 1542** ; password **368781**)
+Join this session November 14, 2023 at 13:00 CET on Zoom by clicking [here](https://us02web.zoom.us/j/83990211542?pwd=Ulc2SWpYVG1LYU5CQ2dsRzBaYXpPUT09).
 
 ### Regression and other stories
 
@@ -44,6 +44,6 @@ This workshop is perfect for you if
 - You're interested in gaining practical experience with data analysis techniques in R.
 
 ### Materials
-- [The book *Regression and other stories](https://users.aalto.fi/~ave/ROS.pd)
+- [The book Regression and other stories](https://users.aalto.fi/~ave/ROS.pd)
 - [Examples from the book](https://avehtari.github.io/ROS-Examples/examples.html)
 
