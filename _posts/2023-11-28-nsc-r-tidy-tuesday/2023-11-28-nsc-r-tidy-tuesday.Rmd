@@ -25,5 +25,5 @@ The data is provided and described by the Tidy Tuesday Initiative, and can be fo
 
 ### Materials
 
-Danielle will demonstrate and explain the contents of [this R script](https://nscrweb.netlify.app/materials/Scooby-Doo_visualization.R). 
+Danielle will demonstrate and explain the contents of [this R script](https://nscrweb.netlify.app/materials/2023-11-28-nsc-r-workshop-scooby-doo-visuals/Scooby-Doo_visualization.R). 
 
