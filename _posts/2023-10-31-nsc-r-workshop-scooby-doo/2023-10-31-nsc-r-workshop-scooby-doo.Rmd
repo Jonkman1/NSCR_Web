@@ -16,7 +16,7 @@ This workshop (October 31, 2023, 13:00-14:00) was led by Danielle van Westbroek-
 
 Using data from ScoobyPedia, we practiced data wrangling and visualization techniques taught in our recent Carpentry course "R for Social Scientists" to answer those questions and more.
 
-The data we used is provided and described by the Tidy Tuesday Initiative, and can be found [here](https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-07-13/readme.md)."
+The data we used is provided and described by the Tidy Tuesday Initiative, and can be found [here](https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-07-13/readme.md).
 
 
 > **Danielle van Westbroek-Stibbe** is a PhD candidate at NSCR and Utrecht Universiteit and a member of the NSC-R Workshops team. Her research focuses on cybercriminal decision-making.

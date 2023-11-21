@@ -3,15 +3,20 @@ title: "Tidy Tuesday Reading Club"
 description: |
   Participate in dynamic, interactive and engaging reading group sessions to explore the world of data analysis.
 author:
-  - name: TBC
-    url: 
+  - name: Sam Langton
+    url: https://www.samlangton.info/
 date: 12-12-2023
 output:
   distill::distill_article:
     self_contained: false
 ---
 
-More information will follow soon.
+The NSC-R Tidy Tuesday workshop sessions draw their inspiration from the Tidy Tuesday initiative, a dedicated platform aimed at fostering a secure and supportive environment for individuals seeking to hone their data processing and visualization skills in R, all while working with real-world data.
 
 
-Join this session December 12, 2023 at 13:00 CET on Zoom by clicking [here](https://us02web.zoom.us/j/4539912989?pwd=YzE1TElMcDhza0tXSHNVdHNmTklkZz09) 
+
+This workshop will be the second one in the Reading Club format. For details about this format, please read [the post of November 14](https://nscrweb.netlify.app/posts/2023-11-14-nsc-r-workshop-ros/). 
+
+This workshop will be chaired by Sam Langton. More information will follow soon.
+
+Join this session December 12, 2023 at 13:00 CET on Zoom by clicking [here](https://us02web.zoom.us/j/4539912989) 

@@ -11,6 +11,19 @@ output:
     self_contained: false
 ---
 
-More information will follow soon.
+The NSC-R Tidy Tuesday workshop sessions are inspired by the [Tidy Tuesday](https://www.tidytuesday.com/) initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.
 
-Join this session November 28, 2023 at 13:00 CET on Zoom by clicking [here](https://us02web.zoom.us/j/4539912989?pwd=YzE1TElMcDhza0tXSHNVdHNmTklkZz09) 
+This workshop (November 28, 2023, 13:00-14:00) will be led by Danielle van Westbroek-Stibbe.
+Please join us on November 28, 2023 at 13:00 CET on Zoom by clicking [here](https://us02web.zoom.us/j/4539912989)
+
+We will use the same data about Scooby-Doo episodes that we used in the workshop of October 31. This time, we will focus on visualization techniques using `ggplot`.
+
+The data is provided and described by the Tidy Tuesday Initiative, and can be found [here](https://github.com/rfordatascience/tidytuesday/blob/master/data/2021/2021-07-13/readme.md).
+
+
+> **Danielle van Westbroek-Stibbe** is a PhD candidate at NSCR and Utrecht Universiteit and a member of the NSC-R Workshops team. Her research focuses on cybercriminal decision-making.
+
+### Materials
+
+Danielle will demonstrate and explain the contents of [this R script](https://nscrweb.netlify.app/materials/Scooby-Doo_visualization.R). 
+
