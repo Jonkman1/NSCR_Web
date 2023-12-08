@@ -13,8 +13,8 @@
     "categories": [],
     "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions draw their inspiration from the Tidy Tuesday initiative, a dedicated platform aimed at fostering a secure and supportive environment for individuals seeking to hone their data processing and visualization skills in R, all while working with real-world data.\r\nThis workshop will be the second one in the Reading Club format. For details about this format, please read the post of November 14.\r\nThis workshop will be chaired by Sam Langton. In this session, we will focus on Chapter 2 of Regression and Other Stories. Please have a read (however brief!) of the chapter before the session. Sam will choose a few sections and code examples to run through (using the tidyverse) and we can then discuss them as a group.\r\nJoin this session December 12, 2023 at 13:00 CET on Zoom by clicking here and using the passcode ‘NSCR’.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2023-12-06T12:03:05+01:00",
-    "input_file": "2023-12-12-nsc-r-workshop-ros.knit.md"
+    "last_modified": "2023-12-08T22:41:27+01:00",
+    "input_file": {}
   },
   {
     "path": "posts/2023-11-28-nsc-r-tidy-tuesday/",
