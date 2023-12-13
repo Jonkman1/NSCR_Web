@@ -18,7 +18,11 @@
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2023-12-12-nsc-r-workshop-ros/</loc>
+<<<<<<< Updated upstream
     <lastmod>2023-12-08T22:41:27+01:00</lastmod>
+=======
+    <lastmod>2023-12-13T08:33:06+01:00</lastmod>
+>>>>>>> Stashed changes
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2023-11-28-nsc-r-tidy-tuesday/</loc>
@@ -26,7 +30,7 @@
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2023-11-14-nsc-r-workshop-ros/</loc>
-    <lastmod>2023-11-06T12:02:57+01:00</lastmod>
+    <lastmod>2023-12-13T08:34:54+01:00</lastmod>
   </url>
   <url>
     <loc>https://nscrweb.netlify.app/posts/2023-10-31-nsc-r-workshop-scooby-doo/</loc>
