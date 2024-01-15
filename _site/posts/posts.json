@@ -14,7 +14,7 @@
     "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions draw their inspiration from the Tidy Tuesday initiative, a dedicated platform aimed at fostering a secure and supportive environment for individuals seeking to hone their data processing and visualization skills in R, all while working with real-world data.\r\nThis workshop will be the third one in the Reading Club format. For details about this format, please read the post of November 14. You can keep up to date with the material for each session via the corresponding GitHub repository.\r\nThis workshop will be chaired by Wim Bernasco. In this session, we will focus on Chapter 3 of Regression and Other Stories. Please have a read (however brief!) of the chapter before the session. Wim will suggest to skim over sections 3.1-3.3 and focus on sections 3.4-3.6. But as this is a reading group, feel feel to propose a different focus.\r\nJoin this session January 23, 2024 at 13:00 CET on Zoom by clicking here and using the passcode ‘NSCR’.\r\nMaterials\r\nYou can keep up to date with the NSC-R Tidy Tuesday Reading Club materials via the corresponding GitHub repository.\r\n\r\n\r\n\r\n",
     "preview": {},
     "last_modified": "2024-01-15T09:50:34+01:00",
-    "input_file": "2024-01-23-nsc-r-workshop-ros.knit.md"
+    "input_file": {}
   },
   {
     "path": "posts/2024-01-09-nsc-r-tidy-tuesday/",
@@ -30,8 +30,8 @@
     "categories": [],
     "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nThis workshop (January 9, 2024, 13:00-14:00) will be led by Sam Langton. Sam will be exploring data scraped from the BBC news website on the ‘most read’ stories of the day. Please join us on January 9, 2024 at 13:00 CET on Zoom by clicking here using password NSCR.\r\n\r\nSam Langton is a postdoc researcher on the evidence-based policing programme at the NSCR. His research focuses on describing and explaining the spatial and temporal patterning of police demand. Sam is interested in promoting open science in criminology, particularly through open data and sharing his knowledge (and struggles) in R.\r\n\r\nMaterials\r\nThe materials for the workshop are available on the GitHub repository. The workshop will more or less follow the script named tidytuesday_9jan2024.R using the tt_subset.csv dataset in the data folder.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2024-01-09T10:38:40+01:00",
-    "input_file": "2024-01-09-nsc-r-tidy-tuesday.knit.md"
+    "last_modified": "2024-01-15T09:34:01+01:00",
+    "input_file": {}
   },
   {
     "path": "posts/2023-12-12-nsc-r-workshop-ros/",
