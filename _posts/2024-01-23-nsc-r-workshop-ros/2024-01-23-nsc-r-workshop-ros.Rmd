@@ -1,0 +1,24 @@
+---
+title: "Tidy Tuesday Reading Club"
+description: |
+  Participate in dynamic, interactive and engaging reading group sessions to explore the world of data analysis.
+author:
+  - name: Wim Bernasco
+    url: https://nscr.nl/en/medewerker/prof-dr-wim-bernasco/
+date: 01-23-2024
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+The NSC-R Tidy Tuesday workshop sessions draw their inspiration from the Tidy Tuesday initiative, a dedicated platform aimed at fostering a secure and supportive environment for individuals seeking to hone their data processing and visualization skills in R, all while working with real-world data.
+
+This workshop will be the third one in the Reading Club format. For details about this format, please read [the post of November 14](https://nscrweb.netlify.app/posts/2023-11-14-nsc-r-workshop-ros/). You can keep up to date with the material for each session via the corresponding [GitHub repository](https://github.com/langtonhugh/regression_book_nscr). 
+
+This workshop will be chaired by Wim Bernasco. In this session, we will focus on Chapter 3 of *Regression and Other Stories*. Please have a read (however brief!) of the chapter before the session. Wim will suggest to skim over sections 3.1-3.3 and focus on sections 3.4-3.6. But as this is a reading group, feel feel to propose a different focus.
+
+Join this session January 23, 2024 at 13:00 CET on Zoom by clicking [here](https://us02web.zoom.us/j/4539912989) and using the passcode 'NSCR'.
+
+## Materials
+
+You can keep up to date with the NSC-R Tidy Tuesday Reading Club materials via the corresponding [GitHub repository](https://github.com/langtonhugh/regression_book_nscr). 
