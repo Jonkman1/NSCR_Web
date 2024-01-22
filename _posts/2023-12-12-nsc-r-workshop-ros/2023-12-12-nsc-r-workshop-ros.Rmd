@@ -13,7 +13,7 @@ output:
 
 The NSC-R Tidy Tuesday workshop sessions draw their inspiration from the Tidy Tuesday initiative, a dedicated platform aimed at fostering a secure and supportive environment for individuals seeking to hone their data processing and visualization skills in R, all while working with real-world data.
 
-This workshop will be the second one in the Reading Club format. For details about this format, please read [the post of November 14](https://nscrweb.netlify.app/posts/2023-11-14-nsc-r-workshop-ros/). You can keep up to date with the material for each session via the corresponding [GitHub repository](https://github.com/langtonhugh/regression_book_nscr). 
+This workshop will be the second one in the Reading Club format. For details about this format, please read [the post of November 14](https://nscrweb.netlify.app/posts/2023-11-14-nsc-r-workshop-ros/). You can keep up to date with the material for each session via the corresponding [GitHub repository](https://github.com/langtonhugh/regression_book_nscr) or the [Reading Club Notebook](https://rosnotebook.netlify.app/) maintained by Harrie Jonkman.
 
 This workshop will be chaired by Sam Langton. In this session, we will focus on Chapter 2 of *Regression and Other Stories*. Please have a read (however brief!) of the chapter before the session. Sam will choose a few sections and code examples to run through (using the `tidyverse`) and we can then discuss them as a group.
 

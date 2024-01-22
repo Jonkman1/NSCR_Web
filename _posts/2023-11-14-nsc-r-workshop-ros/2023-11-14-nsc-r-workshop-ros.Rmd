@@ -46,4 +46,6 @@ This workshop is perfect for you if
 ### Materials
 - [The book Regression and other stories](https://users.aalto.fi/~ave/ROS.pd)
 - [Examples from the book](https://avehtari.github.io/ROS-Examples/examples.html)
+- [Our GitHub repository](https://github.com/langtonhugh/regression_book_nscr)
+- [The Reading Club Notebook](https://rosnotebook.netlify.app/) maintained by Harrie Jonkman.
 
