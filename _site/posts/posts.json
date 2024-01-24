@@ -1,5 +1,39 @@
 [
   {
+    "path": "posts/2024-02-20-nsc-r-workshop-ros/",
+    "title": "Tidy Tuesday Reading Club",
+    "description": "Participate in dynamic, interactive and engaging reading group sessions to explore the world of data analysis.",
+    "author": [
+      {
+        "name": "Harrie Jonkman",
+        "url": "https://harriejonkman.nl/"
+      }
+    ],
+    "date": "2024-02-20",
+    "categories": [],
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions draw their inspiration from the Tidy Tuesday initiative, a dedicated platform aimed at fostering a secure and supportive environment for individuals seeking to hone their data processing and visualization skills in R, all while working with real-world data.\r\nThis workshop will be the fourth one in the Reading Club format. For details about this format, please read the post of November 14. You can keep up to date with the material for each session via the corresponding GitHub repository or via the Reading Club Notebook maintained by Harrie Jonkman.\r\nThis workshop will be chaired by Harrie Jonkman. In this session, we will focus on Chapter 4 (on Statistical inference, pp. 49-68) of the book Regression and Other Stories. To make most of the workshops, we suggest you have a read (however brief!) of the chapter in advance.\r\nJoin this session February 20, 2024 at 13:00 CET on Zoom by clicking here and using the passcode ‘NSCR’.\r\nMaterials\r\nYou can keep up to date with the NSC-R Tidy Tuesday Reading Club materials via the corresponding GitHub repository or the Reading Club Notebook maintained by Harrie Jonkman.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2024-01-24T09:25:42+01:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2024-02-06-nsc-r-tidy-tuesday/",
+    "title": "Tidy Tuesday Workshop",
+    "description": "Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.",
+    "author": [
+      {
+        "name": "Alex Trinidad",
+        "url": "https://www.alexandertrinidad.com/"
+      }
+    ],
+    "date": "2024-02-06",
+    "categories": [],
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nThis workshop (February 6, 2024, 13:00-14:00 CET) will be led by Alex Trinidad. Please join us on Zoom by clicking here using password NSCR.\r\n\r\nAlex Trinidad is a postdoctoral researcher and lecturer at the Institute of Sociology and Social Psychology (ISS) at the University of Cologne. He is a research fellow at the NSCR, and a member of the NSC-R Workshops team.\r\n\r\nMaterials\r\nThe materials for the workshop will be made available here.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2024-01-24T09:16:40+01:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2024-01-23-nsc-r-workshop-ros/",
     "title": "Tidy Tuesday Reading Club",
     "description": "Participate in dynamic, interactive and engaging reading group sessions to explore the world of data analysis.",

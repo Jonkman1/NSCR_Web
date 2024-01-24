@@ -1,0 +1,23 @@
+---
+title: "Tidy Tuesday Workshop"
+description: |
+  Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.
+author:
+  - name: Alex Trinidad
+    url: https://www.alexandertrinidad.com/
+date: 02-06-2024
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+The NSC-R Tidy Tuesday workshop sessions are inspired by the [Tidy Tuesday](https://www.tidytuesday.com/) initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.
+
+This workshop (February 6, 2024, 13:00-14:00 CET) will be led by Alex Trinidad. Please join us  on Zoom by clicking [here](https://us02web.zoom.us/j/4539912989) using password *NSCR*.
+
+
+> *Alex Trinidad* is a postdoctoral researcher and lecturer at the Institute of Sociology and Social Psychology (ISS) at the University of Cologne. He is a research fellow at the NSCR, and a member of the NSC-R Workshops team.
+
+### Materials
+
+The materials for the workshop will be made available here.
