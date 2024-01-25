@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2024-03-05-nsc-r-tidy-tuesday/",
+    "title": "Tidy Tuesday Workshop",
+    "description": "Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.",
+    "author": [
+      {
+        "name": "Asier Moneva",
+        "url": "https://asiermoneva.com/"
+      }
+    ],
+    "date": "2024-03-05",
+    "categories": [],
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nThis workshop (March 5, 2024, 13:00-14:00 CET) will be led by Asier Moneva. Please join us on Zoom by clicking here using password NSCR.\r\n\r\nAsier Moneva is a postdoc at the Netherlands Institute for the Study of Crime and Law Enforcement (NSCR) and also at the Center of Expertise Cyber Security at The Hague University of Applied Sciences. He is a member of the NSC-R Workshops team.\r\n\r\nMaterials\r\nThe materials for the workshop will be made available here.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2024-01-25T01:22:17+01:00",
+    "input_file": "2024-03-05-nsc-r-tidy-tuesday.knit.md"
+  },
+  {
     "path": "posts/2024-02-20-nsc-r-workshop-ros/",
     "title": "Tidy Tuesday Reading Club",
     "description": "Participate in dynamic, interactive and engaging reading group sessions to explore the world of data analysis.",
