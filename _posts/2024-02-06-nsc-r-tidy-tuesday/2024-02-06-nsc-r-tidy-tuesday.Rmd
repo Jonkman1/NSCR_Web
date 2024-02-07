@@ -20,4 +20,4 @@ This workshop (February 6, 2024, 13:00-14:00 CET) will be led by Alex Trinidad. 
 
 ### Materials
 
-The materials for the workshop will be made available here.
+The materials for the workshop are available [here](https://github.com/alexandertrinidad/tidy_tuesday/blob/main/06022024_tt_syntax_workshop.R).
