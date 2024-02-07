@@ -45,10 +45,10 @@
     ],
     "date": "2024-02-06",
     "categories": [],
-    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nThis workshop (February 6, 2024, 13:00-14:00 CET) will be led by Alex Trinidad. Please join us on Zoom by clicking here using password NSCR.\r\n\r\nAlex Trinidad is a postdoctoral researcher and lecturer at the Institute of Sociology and Social Psychology (ISS) at the University of Cologne. He is a research fellow at the NSCR, and a member of the NSC-R Workshops team.\r\n\r\nMaterials\r\nThe materials for the workshop will be made available here.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nThis workshop (February 6, 2024, 13:00-14:00 CET) will be led by Alex Trinidad. Please join us on Zoom by clicking here using password NSCR.\r\n\r\nAlex Trinidad is a postdoctoral researcher and lecturer at the Institute of Sociology and Social Psychology (ISS) at the University of Cologne. He is a research fellow at the NSCR, and a member of the NSC-R Workshops team.\r\n\r\nMaterials\r\nThe materials for the workshop are available here.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2024-01-24T09:16:40+01:00",
-    "input_file": {}
+    "last_modified": "2024-02-06T14:30:04+01:00",
+    "input_file": "2024-02-06-nsc-r-tidy-tuesday.knit.md"
   },
   {
     "path": "posts/2024-01-23-nsc-r-workshop-ros/",
