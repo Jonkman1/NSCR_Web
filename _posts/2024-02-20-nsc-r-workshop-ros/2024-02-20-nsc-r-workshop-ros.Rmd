@@ -21,5 +21,5 @@ Join this session February 20, 2024 at 13:00 CET on Zoom by clicking [here](http
 
 ## Materials
 
-You can keep up to date with the NSC-R Tidy Tuesday Reading Club materials via the corresponding [GitHub repository](https://github.com/langtonhugh/regression_book_nscr) or the [Reading Club Notebook](https://rosnotebook.netlify.app/) maintained by Harrie Jonkman.
+You can keep up to date with the NSC-R Tidy Tuesday Reading Club materials via the corresponding [GitHub repository](https://github.com/langtonhugh/regression_book_nscr) or the [Reading Club Notebook](https://rosnotebook.netlify.app/) maintained by Harrie Jonkman. Look for chapter 4 *Statistical Inference*. The syntax you find [here](https://github.com/Jonkman1/ROS_reading_club_NSCR_notebook/blob/main/04-chapter.qmd). The presentation you find [here](https://65d336c15624edee4261215f--gleeful-bavarois-d00329.netlify.app/#/title-slide).
 
