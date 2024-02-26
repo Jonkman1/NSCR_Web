@@ -13,7 +13,12 @@ output:
 
 The NSC-R Tidy Tuesday workshop sessions are inspired by the [Tidy Tuesday](https://www.tidytuesday.com/) initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.
 
-This workshop (March 5, 2024, 13:00-14:00 CET) will be led by Asier Moneva. Please join us  on Zoom by clicking [here](https://us02web.zoom.us/j/4539912989) using password *NSCR*.
+This workshop (March 5, 2024, 13:00-14:00 CET) will be led by Asier Moneva. We will analyze [a Wikipedia-sourced dataset on events that happened on leap days](https://github.com/rfordatascience/tidytuesday/tree/master/data/2024/2024-02-27) (i.e. February 29th) and try to answer questions like
+ - Which cohort of leap day births is most represented in Wikipedia's data? 
+ - Are any years surprisingly underrepresented compared to nearby years? 
+ - What other patterns can we find in the data?"   
+
+Please join us  on Zoom by clicking [here](https://us02web.zoom.us/j/4539912989) using password *NSCR*.
 
 
 > *Asier Moneva* is a postdoc at the Netherlands Institute for the Study of Crime and Law Enforcement (NSCR) and also at the Center of Expertise Cyber Security at The Hague University of Applied Sciences. He is a member of the NSC-R Workshops team.
