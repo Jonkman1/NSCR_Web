@@ -3,8 +3,8 @@ title: "Tidy Tuesday Reading Club"
 description: |
   Participate in dynamic, interactive and engaging reading group sessions to explore the world of data analysis.
 author:
-  - name: TBC
-    url: https://nscrweb.netlify.app/blog
+  - name: Wim Bernasco
+    url: https://nscr.nl/en/medewerker/prof-dr-wim-bernasco/
 date: 03-19-2024
 output:
   distill::distill_article:

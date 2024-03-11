@@ -22,16 +22,16 @@
     "description": "Participate in dynamic, interactive and engaging reading group sessions to explore the world of data analysis.",
     "author": [
       {
-        "name": "TBC",
-        "url": "https://nscrweb.netlify.app/blog"
+        "name": "Wim Bernasco",
+        "url": "https://nscr.nl/en/medewerker/prof-dr-wim-bernasco/"
       }
     ],
     "date": "2024-03-19",
     "categories": [],
     "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions draw their inspiration from the Tidy Tuesday initiative, a dedicated platform aimed at fostering a secure and supportive environment for individuals seeking to hone their data processing and visualization skills in R, all while working with real-world data.\r\nThis workshop will be the fifth one in the Reading Club format. For details about this format, please read the post of November 14. You can keep up to date with the material for each session via the corresponding GitHub repository or via the Reading Club Notebook maintained by Harrie Jonkman.\r\nIn this session, we will focus on Chapter 5 (on Simulation, pp. 69-78) of the book Regression and Other Stories. To make most of the workshops, we suggest you have a read (however brief!) of the chapter in advance.\r\nJoin this session March 19, 2024 at 13:00 CET on Zoom by clicking here and using the passcode ‘NSCR’.\r\nMaterials\r\nYou can keep up to date with the NSC-R Tidy Tuesday Reading Club materials via the corresponding GitHub repository or the Reading Club Notebook maintained by Harrie Jonkman.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2024-02-10T08:31:48+01:00",
-    "input_file": {}
+    "last_modified": "2024-03-11T15:17:18+01:00",
+    "input_file": "2024-03-19-nsc-r-workshop-ros.knit.md"
   },
   {
     "path": "posts/2024-03-05-nsc-r-tidy-tuesday/",
