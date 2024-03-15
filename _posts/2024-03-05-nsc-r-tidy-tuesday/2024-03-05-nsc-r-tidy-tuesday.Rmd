@@ -26,4 +26,5 @@ Please join us  on Zoom by clicking [here](https://us02web.zoom.us/j/4539912989)
 
 ### Materials
 
-The materials for the workshop will be made available here.
+ - The [annotated version of the script that Asier live-coded]( https://github.com/amoneva/tidy_tuesday/blob/main/2024-week09_leap-day_demo.R) 
+ - [The script that Asier had prepared beforehand that produces the visualization circulated in the invitation email]( https://github.com/amoneva/tidy_tuesday/blob/main/2024-week09_leap-day.R)
