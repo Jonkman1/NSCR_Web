@@ -33,6 +33,7 @@ integration of generative AI technology, particularly OpenAI's GPT-3.5 and GPT-4
 into the R programming language ecosystem. Through a series of interactive sessions, 
 you will gain hands-on experience in harnessing the power of generative AI (chatGTP) 
 to enhance your R coding proficiency and streamline your data analytics workflows.
+
 This course comprises three independent sessions, each focusing on specific aspects 
 of ChatGPT integration in R:
 
@@ -46,11 +47,28 @@ In the second session, we'll delve deeper into practical interaction with ChatGP
 ### Session 3 (Tuesday April 30): Enhancing Workflow with AI Assistants
 Our final session will focus on leveraging AI assistants to streamline common tasks and accelerate development workflows in R. You'll explore advanced features such as generating code snippets and prototypes based on natural language descriptions using 'gptstudio'. Additionally, we'll delve into automating repetitive tasks and enhancing productivity through AI-driven automation with 'gpttools' and 'gptchatteR'. By the end of this session, you'll have unlocked new possibilities for efficiency and innovation in your R programming endeavours.
 
-### Preparation 
-Before our first session, it is advised that you register for a free account on the OpenAI platform and obtain your API key, which will allow you to interact with the ChatGPT model seamlessly.
-
+### Designed for beginners
 This course is designed for beginners, aiming to unlock new possibilities for efficiency and innovation in your R programming endeavours. Throughout our journey, emphasis will be placed on practical applications and hands-on exercises to reinforce learning objectives and empower you to seamlessly integrate AI into your R workflow. 
 
+### Preparation
+Before our first session, it is advised that you register for a free account on the OpenAI platform and obtain your API key, which will allow you to interact with the ChatGPT model seamlessly. To do this, follow these steps:
+
+
+  A. Obtaining your API key 
+  
+  Go to [https://openai.com/api/](https://openai.com/api/), register for a free account and obtain your API key located at [https://beta.openai.com/account/api-keys](https://beta.openai.com/account/api-keys).
+
+  B. Getting the API key
+  
+  1. Click on the OpenAI logo on the top left
+  2. Select “API keys”
+  3. Create new secret key
+  4. Give it a name
+  5. Give it “all” permissions
+  6. Click: create secret key
+  7. IMPORTANT: Copy the key before clicking “Done”
+  8. Save the key in a Rstudio text file. That file is easiest called `access_key.txt` Use a `.txt` file with just the API key, no string quotation mark
+  9. You will be prompted to pre-pay for usage (I paid mine using a credit card)
 
 
 > *Abby Onencan* is a researcher at the Erasmus School of Law at Erasmus University Rotterdam. Her research focuses on industrial environmental harms, specifically those resulting from the production and use of PFAS. She is a member of the NSC-R Workshops team.
