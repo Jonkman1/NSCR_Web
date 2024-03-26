@@ -1,7 +1,41 @@
 [
   {
+    "path": "posts/2024-04-30-nsc-r-tidy-tuesday/",
+    "title": "NSC-R Workshop on R and ChatGPT (3/3)",
+    "description": "Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.",
+    "author": [
+      {
+        "name": "Abby Onencan",
+        "url": "https://www.eur.nl/en/people/abby-onencan"
+      }
+    ],
+    "date": "2024-04-30",
+    "categories": [],
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the\r\nTidy Tuesday initiative, which is aimed at\r\nproviding a safe and supportive forum for individuals to practice their data processing\r\nand visualization skills in R while working with real-world data.\r\nThis workshop (Tuesday April 30, 2024, 13:00-14:00 CET) is the last in a series of three\r\nabout the use of ChatGPT in R. Together the three workshops form a beginners’\r\ncourse on how to integrate ChatGPT when working with R. They will be led by Abby Onencan.\r\nThe previous workshops in this course are on Monday April 2 and on monday April 15, 13:00-14:00.\r\nA complete description of all three sessions is in\r\nour post of April 2\r\nPlease join on Zoom by clicking here using password NSCR.\r\n\r\nAbby Onencan is a researcher at the Erasmus School of Law at Erasmus University Rotterdam. Her research focuses on industrial environmental harms, specifically those resulting from the production and use of PFAS. She is a member of the NSC-R Workshops team.\r\n\r\nMaterials\r\nThe materials for the workshop will be made available here.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2024-03-26T10:49:11+01:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2024-04-15-nsc-r-tidy-tuesday/",
+    "title": "NSC-R Workshop on R and ChatGPT (2/3)",
+    "description": "Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.",
+    "author": [
+      {
+        "name": "Abby Onencan",
+        "url": "https://www.eur.nl/en/people/abby-onencan"
+      }
+    ],
+    "date": "2024-04-15",
+    "categories": [],
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the\r\nTidy Tuesday initiative, which is aimed at\r\nproviding a safe and supportive forum for individuals to practice their data processing\r\nand visualization skills in R while working with real-world data.\r\nThis workshop (Monday April 15, 2024, 13:00-14:00 CET) is the second in a series of three\r\nabout the use of ChatGPT in R. Together the three workshops form a beginners’\r\ncourse on how to integrate ChatGPT when working with R. They will be led by Abby Onencan.\r\nThe previous workshop in this course is on Monday April 2 and the next is on Tuesday April 30, 13:00-14:00.\r\nA complete description of all three sessions is in\r\nour post of April 2\r\nPlease join on Zoom by clicking here using password NSCR.\r\n\r\nAbby Onencan is a researcher at the Erasmus School of Law at Erasmus University Rotterdam. Her research focuses on industrial environmental harms, specifically those resulting from the production and use of PFAS. She is a member of the NSC-R Workshops team.\r\n\r\nMaterials\r\nThe materials for the workshop will be made available here.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2024-03-26T10:49:25+01:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2024-04-02-nsc-r-tidy-tuesday/",
-    "title": "Tidy Tuesday Workshop on R and ChatGPT",
+    "title": "R and ChatGPT (1/3)",
     "description": "Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.",
     "author": [
       {
@@ -11,9 +45,9 @@
     ],
     "date": "2024-04-02",
     "categories": [],
-    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nThis workshop (April 2, 2024, 13:00-14:00 CET) will focus on R and ChatGPT, and be led by Abby Onencan. Please join us on Zoom by clicking here using password NSCR.\r\n\r\nAbby Onencan is a researcher at the Erasmus School of Law at Erasmus University Rotterdam. Her research focuses on industrial environmental harms, specifically those resulting from the production and use of PFAS. She is a member of the NSC-R Workshops team.\r\n\r\nMaterials\r\nThe materials for the workshop will be made available here.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the\r\nTidy Tuesday initiative, which is aimed at\r\nproviding a safe and supportive forum for individuals to practice their data processing\r\nand visualization skills in R while working with real-world data.\r\nThis workshop (April 2, 2024, 13:00-14:00 CET) is the first in a series of three\r\nabout the use of ChatGPT in R. Together the three workshops form a beginners’\r\ncourse on how to integrate ChatGPT when working with R. They will be led by Abby Onencan.\r\nThe next two workshops in this course are Monday April 15 and Tuesday April 30, 13:00-14:00.\r\nPlease join on Zoom by clicking here using password NSCR.\r\nIntroduction to ChatGPT Integration in R Programming: A Beginner’s Course\r\nWelcome to the “Introduction to ChatGPT Generative AI Integration in R Programming”\r\ncourse! This course is designed for beginners who are eager to explore the seamless\r\nintegration of generative AI technology, particularly OpenAI’s GPT-3.5 and GPT-4 LLMs,\r\ninto the R programming language ecosystem. Through a series of interactive sessions,\r\nyou will gain hands-on experience in harnessing the power of generative AI (chatGTP)\r\nto enhance your R coding proficiency and streamline your data analytics workflows.\r\nThis course comprises three independent sessions, each focusing on specific aspects\r\nof ChatGPT integration in R:\r\nSession 1 (Tuesday April 2): Setup, Library Installations, and Introduction to ‘askgpt’ Library\r\nIn our initial session, we’ll lay the foundation for AI integration in R by guiding you through the setup process. You’ll learn how to install the necessary libraries and packages, configure your environment for seamless communication with OpenAI’s servers, and utilize the ‘askgpt’ library for seeking coding assistance and troubleshooting from ChatGPT. By the end of this session, you’ll have established your development environment, installed 8 key libraries, and gained insights into using ‘askgpt’ library.\r\nSession 2 (Monday April 15): Exploring ChatGPT Tools for R\r\nIn the second session, we’ll delve deeper into practical interaction with ChatGPT within the R environment. You’ll discover how to access ChatGPT’s capabilities directly from your R console using the ‘air’ and ‘TheOpenAIR’ packages. Additionally, we’ll explore integrating ChatGPT into interactive tutorials and educational materials using ‘RTutor’. Through hands-on exercises, you’ll uncover the versatility and utility of ChatGPT tools in augmenting your R coding experience.\r\nSession 3 (Tuesday April 30): Enhancing Workflow with AI Assistants\r\nOur final session will focus on leveraging AI assistants to streamline common tasks and accelerate development workflows in R. You’ll explore advanced features such as generating code snippets and prototypes based on natural language descriptions using ‘gptstudio’. Additionally, we’ll delve into automating repetitive tasks and enhancing productivity through AI-driven automation with ‘gpttools’ and ‘gptchatteR’. By the end of this session, you’ll have unlocked new possibilities for efficiency and innovation in your R programming endeavours.\r\nPreparation\r\nBefore our first session, it is advised that you register for a free account on the OpenAI platform and obtain your API key, which will allow you to interact with the ChatGPT model seamlessly.\r\nThis course is designed for beginners, aiming to unlock new possibilities for efficiency and innovation in your R programming endeavours. Throughout our journey, emphasis will be placed on practical applications and hands-on exercises to reinforce learning objectives and empower you to seamlessly integrate AI into your R workflow.\r\n\r\nAbby Onencan is a researcher at the Erasmus School of Law at Erasmus University Rotterdam. Her research focuses on industrial environmental harms, specifically those resulting from the production and use of PFAS. She is a member of the NSC-R Workshops team.\r\n\r\nMaterials\r\nThe materials for the workshop will be made available here.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2024-02-10T08:53:06+01:00",
+    "last_modified": "2024-03-26T12:40:31+01:00",
     "input_file": {}
   },
   {
@@ -30,8 +64,8 @@
     "categories": [],
     "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions draw their inspiration from the Tidy Tuesday initiative, a dedicated platform aimed at fostering a secure and supportive environment for individuals seeking to hone their data processing and visualization skills in R, all while working with real-world data.\r\nThis workshop will be the fifth one in the Reading Club format. For details about this format, please read the post of November 14. You can keep up to date with the material for each session via the corresponding GitHub repository or via the Reading Club Notebook maintained by Harrie Jonkman.\r\nIn this session, we will focus on Chapter 5 (on Simulation, pp. 69-78) of the book Regression and Other Stories. To make most of the workshops, we suggest you have a read (however brief!) of the chapter in advance.\r\nJoin this session March 19, 2024 at 13:00 CET on Zoom by clicking here and using the passcode ‘NSCR’.\r\nMaterials\r\nYou can keep up to date with the NSC-R Tidy Tuesday Reading Club materials via the corresponding GitHub repository or the Reading Club Notebook maintained by Harrie Jonkman.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2024-03-11T15:17:18+01:00",
-    "input_file": "2024-03-19-nsc-r-workshop-ros.knit.md"
+    "last_modified": "2024-03-11T15:17:19+01:00",
+    "input_file": {}
   },
   {
     "path": "posts/2024-03-05-nsc-r-tidy-tuesday/",
@@ -48,7 +82,7 @@
     "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the Tidy Tuesday initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.\r\nThis workshop (March 5, 2024, 13:00-14:00 CET) will be led by Asier Moneva. We will analyze a Wikipedia-sourced dataset on events that happened on leap days (i.e. February 29th) and try to answer questions like\r\nWhich cohort of leap day births is most represented in Wikipedia’s data?\r\nAre any years surprisingly underrepresented compared to nearby years?\r\nWhat other patterns can we find in the data?\r\nPlease join us on Zoom by clicking here using password NSCR.\r\n\r\nAsier Moneva is a postdoc at the Netherlands Institute for the Study of Crime and Law Enforcement (NSCR) and also at the Center of Expertise Cyber Security at The Hague University of Applied Sciences. He is a member of the NSC-R Workshops team.\r\n\r\nMaterials\r\nThe annotated version of the script that Asier live-coded\r\nThe script that Asier had prepared beforehand that produces the visualization circulated in the invitation email\r\n\r\n\r\n\r\n",
     "preview": {},
     "last_modified": "2024-03-15T23:55:10+01:00",
-    "input_file": "2024-03-05-nsc-r-tidy-tuesday.knit.md"
+    "input_file": {}
   },
   {
     "path": "posts/2024-02-20-nsc-r-workshop-ros/",

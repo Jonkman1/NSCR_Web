@@ -1,5 +1,5 @@
 ---
-title: "Tidy Tuesday Workshop on R and ChatGPT"
+title: "R and ChatGPT (1/3)"
 description: |
   Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.
 author:
@@ -11,9 +11,46 @@ output:
     self_contained: false
 ---
 
-The NSC-R Tidy Tuesday workshop sessions are inspired by the [Tidy Tuesday](https://www.tidytuesday.com/) initiative, which is aimed at providing a safe and supportive forum for individuals to practice their data processing and visualization skills in R while working with real-world data.
+The NSC-R Tidy Tuesday workshop sessions are inspired by the 
+[Tidy Tuesday](https://www.tidytuesday.com/) initiative, which is aimed at 
+providing a safe and supportive forum for individuals to practice their data processing 
+and visualization skills in R while working with real-world data.
 
-This workshop (April 2, 2024, 13:00-14:00 CET) will focus on R and ChatGPT, and be led by Abby Onencan. Please join us  on Zoom by clicking [here](https://us02web.zoom.us/j/4539912989) using password *NSCR*.
+This workshop (April 2, 2024, 13:00-14:00 CET) is the first in a series of three 
+about the use of ChatGPT in R. Together the three workshops form a beginners' 
+course on how to integrate ChatGPT when working with R. They will be led by Abby Onencan.
+
+**The next two workshops in this course are Monday April 15 and Tuesday April 30, 13:00-14:00**. 
+
+Please join on Zoom by clicking [here](https://us02web.zoom.us/j/4539912989) using password *NSCR*.
+
+
+### Introduction to ChatGPT Integration in R Programming: A Beginner's Course
+
+Welcome to the "Introduction to ChatGPT Generative AI Integration in R Programming" 
+course! This course is designed for beginners who are eager to explore the seamless 
+integration of generative AI technology, particularly OpenAI's GPT-3.5 and GPT-4 LLMs,
+into the R programming language ecosystem. Through a series of interactive sessions, 
+you will gain hands-on experience in harnessing the power of generative AI (chatGTP) 
+to enhance your R coding proficiency and streamline your data analytics workflows.
+This course comprises three independent sessions, each focusing on specific aspects 
+of ChatGPT integration in R:
+
+
+### Session 1 (Tuesday April 2): Setup, Library Installations, and Introduction to 'askgpt' Library
+In our initial session, we'll lay the foundation for AI integration in R by guiding you through the setup process. You'll learn how to install the necessary libraries and packages, configure your environment for seamless communication with OpenAI's servers, and utilize the 'askgpt' library for seeking coding assistance and troubleshooting from ChatGPT. By the end of this session, you'll have established your development environment, installed 8 key libraries, and gained insights into using 'askgpt' library.
+
+### Session 2 (Monday April 15): Exploring ChatGPT Tools for R
+In the second session, we'll delve deeper into practical interaction with ChatGPT within the R environment. You'll discover how to access ChatGPT's capabilities directly from your R console using the 'air' and 'TheOpenAIR' packages. Additionally, we'll explore integrating ChatGPT into interactive tutorials and educational materials using 'RTutor'. Through hands-on exercises, you'll uncover the versatility and utility of ChatGPT tools in augmenting your R coding experience.
+
+### Session 3 (Tuesday April 30): Enhancing Workflow with AI Assistants
+Our final session will focus on leveraging AI assistants to streamline common tasks and accelerate development workflows in R. You'll explore advanced features such as generating code snippets and prototypes based on natural language descriptions using 'gptstudio'. Additionally, we'll delve into automating repetitive tasks and enhancing productivity through AI-driven automation with 'gpttools' and 'gptchatteR'. By the end of this session, you'll have unlocked new possibilities for efficiency and innovation in your R programming endeavours.
+
+### Preparation 
+Before our first session, it is advised that you register for a free account on the OpenAI platform and obtain your API key, which will allow you to interact with the ChatGPT model seamlessly.
+
+This course is designed for beginners, aiming to unlock new possibilities for efficiency and innovation in your R programming endeavours. Throughout our journey, emphasis will be placed on practical applications and hands-on exercises to reinforce learning objectives and empower you to seamlessly integrate AI into your R workflow. 
+
 
 
 > *Abby Onencan* is a researcher at the Erasmus School of Law at Erasmus University Rotterdam. Her research focuses on industrial environmental harms, specifically those resulting from the production and use of PFAS. She is a member of the NSC-R Workshops team.

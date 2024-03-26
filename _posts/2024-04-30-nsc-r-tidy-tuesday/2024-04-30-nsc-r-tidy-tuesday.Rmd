@@ -1,0 +1,36 @@
+---
+title: "R and ChatGPT (3/3)"
+description: |
+  Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.
+author:
+  - name: Abby Onencan
+    url: https://www.eur.nl/en/people/abby-onencan
+date: 04-30-2024
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+The NSC-R Tidy Tuesday workshop sessions are inspired by the 
+[Tidy Tuesday](https://www.tidytuesday.com/) initiative, which is aimed at 
+providing a safe and supportive forum for individuals to practice their data processing 
+and visualization skills in R while working with real-world data.
+
+This workshop (Tuesday April 30, 2024, 13:00-14:00 CET) is the last in a series of three 
+about the use of ChatGPT in R. Together the three workshops form a beginners' 
+course on how to integrate ChatGPT when working with R. They will be led by Abby Onencan.
+
+**The previous workshops in this course are on Monday April 2 and on monday April 15, 13:00-14:00**. 
+
+A complete description of all three sessions is in 
+[our post of April 2](https://nscrweb.netlify.app/posts/2023-04-02-nsc-r-tidy-tuesday/)
+
+
+Please join on Zoom by clicking [here](https://us02web.zoom.us/j/4539912989) using password *NSCR*.
+
+
+> *Abby Onencan* is a researcher at the Erasmus School of Law at Erasmus University Rotterdam. Her research focuses on industrial environmental harms, specifically those resulting from the production and use of PFAS. She is a member of the NSC-R Workshops team.
+
+### Materials
+
+The materials for the workshop will be made available here.
