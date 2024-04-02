@@ -39,13 +39,13 @@ of ChatGPT integration in R:
 
 
 ### Session 1 (Tuesday April 2): Setup, Library Installations, and Introduction to 'askgpt' Library
-In our initial session, we'll lay the foundation for AI integration in R by guiding you through the setup process. You'll learn how to install the necessary libraries and packages, configure your environment for seamless communication with OpenAI's servers, and utilize the 'askgpt' library for seeking coding assistance and troubleshooting from ChatGPT. By the end of this session, you'll have established your development environment, installed 8 key libraries, and gained insights into using 'askgpt' library.
+In our initial session, we'll lay the foundation for AI integration in R by guiding you through the setup process. You'll learn how to install the necessary libraries and packages, configure your environment for seamless communication with OpenAI's servers, and utilize the `askgpt` library for seeking coding assistance and troubleshooting from ChatGPT. By the end of this session, you'll have established your development environment, installed 8 key libraries, and gained insights into using `askgpt` library.
 
 ### Session 2 (Monday April 15): Exploring ChatGPT Tools for R
-In the second session, we'll delve deeper into practical interaction with ChatGPT within the R environment. You'll discover how to access ChatGPT's capabilities directly from your R console using the 'air' and 'TheOpenAIR' packages. Additionally, we'll explore integrating ChatGPT into interactive tutorials and educational materials using 'RTutor'. Through hands-on exercises, you'll uncover the versatility and utility of ChatGPT tools in augmenting your R coding experience.
+In the second session, we'll delve deeper into practical interaction with ChatGPT within the R environment. You'll discover how to access ChatGPT's capabilities directly from your R console using the `air` and `TheOpenAIR` packages. Additionally, we'll explore integrating ChatGPT into interactive tutorials and educational materials using `RTutor`. Through hands-on exercises, you'll uncover the versatility and utility of ChatGPT tools in augmenting your R coding experience.
 
 ### Session 3 (Tuesday April 30): Enhancing Workflow with AI Assistants
-Our final session will focus on leveraging AI assistants to streamline common tasks and accelerate development workflows in R. You'll explore advanced features such as generating code snippets and prototypes based on natural language descriptions using 'gptstudio'. Additionally, we'll delve into automating repetitive tasks and enhancing productivity through AI-driven automation with 'gpttools' and 'gptchatteR'. By the end of this session, you'll have unlocked new possibilities for efficiency and innovation in your R programming endeavours.
+Our final session will focus on leveraging AI assistants to streamline common tasks and accelerate development workflows in R. You'll explore advanced features such as generating code snippets and prototypes based on natural language descriptions using `gptstudio`. Additionally, we'll delve into automating repetitive tasks and enhancing productivity through AI-driven automation with `gpttools` and `gptchatteR`. By the end of this session, you'll have unlocked new possibilities for efficiency and innovation in your R programming endeavours.
 
 ### Designed for beginners
 This course is designed for beginners, aiming to unlock new possibilities for efficiency and innovation in your R programming endeavours. Throughout our journey, emphasis will be placed on practical applications and hands-on exercises to reinforce learning objectives and empower you to seamlessly integrate AI into your R workflow. 
@@ -75,10 +75,9 @@ Before our first session, it is advised that you install the latest version of R
 
 ### Materials
 
-The materials for the workshop will be made available here.
+Abby demonstrated the use of the `chatgpt` and `air` packages coding [this R Markdown script](https://nscrweb.netlify.app/materials/2024-04-02-nsc-r-workshop-chatgpt_1/Session1_ChatGTPR_2April2024vs6.Rmd). 
+
+The [output of the Rmarkdown script in PDF format](https://nscrweb.netlify.app/materials/2024-04-02-nsc-r-workshop-chatgpt_1/Session1_ChatGTPR_2April2024vs5.pdf) 
 
 
-
-Abby will demonstrate and explain the contents of [this R Markdown script](https://nscrweb.netlify.app/materials/2024-04-02-nsc-r-workshop-chatgpt_1/Session1_ChatGTPR_2April2024_Blank5.Rmd). 
-
-Here is an [Introduction to the course](https://nscrweb.netlify.app/materials/2024-04-02-nsc-r-workshop-chatgpt_1/Introduction_ChatGTPR_2April2024.docx) 
+A short [introduction to the course](https://nscrweb.netlify.app/materials/2024-04-02-nsc-r-workshop-chatgpt_1/Introduction_ChatGTPR_2April2024.docx) 

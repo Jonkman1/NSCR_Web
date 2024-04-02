@@ -3,9 +3,9 @@ title: "Introduction to ChatGTP Integration in RStudio"
 author: "Abby Muricho Onencan"
 session: 'Session One: Setup and Package air'
 output:
+  word_document: default
   html_document:
     df_print: paged
-  word_document: default
   pdf_document: default
 editor_options:
   markdown:
@@ -24,8 +24,8 @@ Obtain an API key from OpenAI at [<https://openai.com/api/%5D>. Click on
 #### *Step 2: Load Necessary Libraries:*
 
 ```{r}
-    # library(httr) for making HTTP requests
-    # library(jsonlite) to load a JSON parser and Generator
+library(httr)       # library(httr) for making HTTP requests
+library(jsonlite)   # library(jsonlite) to load a JSON parser and Generator
 ```
 
 #### *Step 3: Define your OpenAI API key and request body:*
@@ -38,17 +38,35 @@ Obtain an API key from OpenAI at [<https://openai.com/api/%5D>. Click on
 6.  Set the temperature
 
 ```{r}
-
+open_ai_key <- "YOUR_API-KEY"
+  request_body <- list(
+    model = "gpt-3.5-turbo-0125",
+    messages = list(
+      list(role = "user", content = "Say this is a test")
+    ),
+    max_tokens = 50,
+    temperature = 0.7
+  )
 ```
 
 #### *Step 4: Test request completion:*
 
 ```{r}
 # Send the POST request to OpenAI
-
-
+response <- POST(
+  url = "https://api.openai.com/v1/chat/completions",
+  add_headers(
+    "Content_Type" = "application/json",
+    "Authorization" = paste("Bearer", open_ai_key)
+  ),
+  body = request_body,
+  encode = "json"
+)
+  
+      
 # Extract and print the response
-
+response_content <- content(response, encoding = "UTF-8")
+print(response_content)
 ```
 
 *If you encounter error:*
@@ -79,66 +97,59 @@ Obtain an API key from OpenAI at [<https://openai.com/api/%5D>. Click on
     **explain_code()**, and **test_function()**.
 
 ```{r}
- # library(askgpt) for Asking GPT About R Stuff
+ library(askgpt)  # library(askgpt) for Asking GPT About R Stuff
 ```
 
 #### 1. The most important setting, however, is askgpt_config
 
-options(askgpt_config = "I'm 8 years old, please explain things easily")
-
-askgpt("What is an R function?")
-
 ```{r}
-
+# options(askgpt_config = "I'm 8 years old, please explain things easily")
+# askgpt("What is a function in R programming?")
 ```
 
 #### 2. Get to know each other:
 
-askgpt("who are you?")
-
 ```{r}
-
+# askgpt("who are you?")
 ```
 
 #### 3. Login help:
 
-askgpt("How do I login to chatgpt?")
-
 ```{r}
-
+# askgpt("How do I login to chatgpt?")
 ```
 
 #### 4. You are new to Rstudio and have no idea where to start:
 
-askgpt("I have no idea how to use Rstudio, help")
-
 ```{r}
-
+# askgpt("I have no idea how to use Rstudio, help")
 ```
 
-#### 5. Knit problems with askgpt:
-
-askgpt("do you know why I cannot knit when I am using askgpt?")
+#### 5. Remind chatGPT that you are an 8 year old:
 
 ```{r}
+# askgpt_config = "I'm 8 years old, please explain things easily"
 
+# askgpt("Please explain for an 8 year old")
 ```
 
-#### 6. Ask a coding question and save as a variable:
-
--   `askgpt`'s default is to store the results of your query as an
-    object and they can be saved as a variable (linechart_instructions
-    \<-).
-
--   askgpt("askgpt("Create a line graph with multiple lines representing
-    different groups (old, young, infants), use the provided sample data
-    and ggplot2 library in R. Finally, print the line graph." )
+#### 6. Knit problems with askgpt:
 
 ```{r}
-
+# askgpt("do you know why I cannot knit when I am using askgpt?")
 ```
 
-*Check if the askgpt solution works*
+#### 7. Ask a coding question and save as a variable:
+
+`askgpt`'s default is to store the results of your query as an object
+and they can be saved as a variable (linechart_instructions \<-).
+
+```{r}
+# askgpt("Create a line graph with multiple lines representing different groups (old, young, infants), use the provided sample data and ggplot2 library in R. Finally, print the line graph." )
+```
+
+*Check if the askgpt solution works (the results may be different
+eveytime you run the prompt)*
 
 ```{r}
 # Create sample data
@@ -162,44 +173,34 @@ x = "Time",
 y = "Value")
 ```
 
-#### 7. Annotate_code() function
-
-askgpt("give an example when I can use annotate_code function and
-explain why I need it")
+#### 8. Annotate_code() function
 
 ```{r}
-
+# askgpt("give an example when I can use annotate_code function and explain why I need it")
 ```
 
-#### 8. Explain_code() function
-
-askgpt("give an example when I can use explain_code function and explain
-why I need it")
+#### 9. Explain_code() function
 
 ```{r}
-
+# askgpt("give an example when I can use explain_code function and explain why I need it")
 ```
 
-#### 9. Test_function()
-
-askgpt("give an example when I can use test_function() and explain why I
-need it")
+#### 10. Test_function()
 
 ```{r}
-
+# askgpt("give an example when I can use test_function() and explain why I need it")
 ```
 
-#### 10. Askgpt prompts:
-
-askgpt("list a number of askgpt prompts used by r programmers" )
+#### 11. Askgpt prompts:
 
 ```{r}
-
+# askgpt("list a number of askgpt prompts used by r programmers" )
 ```
 
 *NB: These prompts are more conversational and answering the question
-**WHY** and **WHAT** - barely the question **HOW,** so you need another
-package if you are more interested with HOW R programming prompts.*
+**WHY** and **WHAT** - barely the question **HOW,** in relation to your
+specific dataset, so you need another package if you are more interested
+with HOW R programming prompts.*
 
 > ### 3. PACKAGE "AIR"
 
@@ -243,7 +244,8 @@ howto("Create a bar chart in R where the bars are colored (steel blue, green,
       print it")
 ```
 
-*Check if the package "air" solution works:*
+*Check if the askgpt solution works (the results may be different
+everytime you run the prompt)*
 
 ```{r}
 library(ggplot2)
@@ -271,7 +273,8 @@ howto("Create a line graph in R with multiple lines representing different
       Print the results as output in R Notebook" )
 ```
 
-*Check if the package "air" solution works:*
+*Check if the askgpt solution works (the results may be different
+everytime you run the prompt)*
 
 ```{r}
 # Sample data 
@@ -305,7 +308,8 @@ howto("Produce a scatter plot in R with customized point shapes and colors
       cows) and produce a key. Print the results as output in R Markdown.")
 ```
 
-*Check if the package "air" solution works:*
+*Check if the askgpt solution works (the results may be different
+everytime you run the prompt)*
 
 ```{r}
 # Sample data
@@ -335,50 +339,44 @@ legend("topright", legend = unique(animals$type), pch = c(1, 4, 5, 8),
 whatis("ggplot2 package")
 ```
 
-#### 5. Package "air":whatis(openai library)
-
-```{r}
-whatis("openai library")
-```
-
-#### 6. Package "air":whatis(RTutor gpt library)
+#### 5. Package "air":whatis(RTutor gpt library)
 
 ```{r}
 whatis("RTutor gpt library")
 ```
 
-#### 7. Package "air":whatis(TheOpenAir package)
+#### 6. Package "air":whatis(TheOpenAir package)
 
 ```{r}
 whatis("TheOpenAir package")
 ```
 
-#### 8. Package "air":whatis(gptchatteR library for chatgpt)
+#### 7. Package "air":whatis(gptchatteR library for chatgpt)
 
 ```{r}
 whatis("gptchatteR library for chatgpt")
 ```
 
-#### 9. Package "air":whatis (ask_gpt)
+#### 8. Package "air":whatis (ask_gpt)
 
 ```{r}
 whatis ("ask_gpt library available at https://github.com/cran/askgpt")
 ```
 
-#### 10. Package "air":whatis(gpttools)
+#### 9. Package "air":whatis(gpttools)
 
 ```{r}
 whatis("gpttools from JamesHWade/gpttools GitHub repo or R Universe")
 ```
 
-#### 11. Package "air":whatis(gtpchatter)
+#### 10. Package "air":whatis(gtpchatter)
 
 ```{r}
 whatis("the advantage of the advantage of the gtpchatter downloadable 
        from github: isinaltinkaya/gptchatteR")
 ```
 
-#### 12. Package "air":whatis(best ChatGTP Temperature)
+#### 11. Package "air":whatis(best ChatGTP Temperature)
 
 whatis("The OpenAI API incorporates a hyperparameter known as
 temperature that affects the computation of token probabilities when
