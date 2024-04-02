@@ -51,7 +51,7 @@ Our final session will focus on leveraging AI assistants to streamline common ta
 This course is designed for beginners, aiming to unlock new possibilities for efficiency and innovation in your R programming endeavours. Throughout our journey, emphasis will be placed on practical applications and hands-on exercises to reinforce learning objectives and empower you to seamlessly integrate AI into your R workflow. 
 
 ### Preparation
-Before our first session, it is advised that you register for a free account on the OpenAI platform and obtain your API key, which will allow you to interact with the ChatGPT model seamlessly. To do this, follow these steps:
+Before our first session, it is advised that you install the latest version of R (version 4.4.3) on your computer, and that you register for a free account on the OpenAI platform and obtain your API key, which will allow you to interact with the ChatGPT model seamlessly. To do this, follow these steps:
 
 
   A. Obtaining your API key 
@@ -68,7 +68,7 @@ Before our first session, it is advised that you register for a free account on 
   6. Click: create secret key
   7. IMPORTANT: Copy the key before clicking “Done”
   8. Save the key in a Rstudio text file. That file is easiest called `access_key.txt` Use a `.txt` file with just the API key, no string quotation mark
-  9. You will be prompted to pre-pay for usage (I paid mine using a credit card)
+  9. You will be prompted to pre-pay for usage (I paid mine using a credit card). For the entire course you will need less than 3 euros.
 
 
 > *Abby Onencan* is a researcher at the Erasmus School of Law at Erasmus University Rotterdam. Her research focuses on industrial environmental harms, specifically those resulting from the production and use of PFAS. She is a member of the NSC-R Workshops team.
