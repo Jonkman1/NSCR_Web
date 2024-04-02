@@ -76,3 +76,9 @@ Before our first session, it is advised that you install the latest version of R
 ### Materials
 
 The materials for the workshop will be made available here.
+
+
+
+Abby will demonstrate and explain the contents of [this R Markdown script](https://nscrweb.netlify.app/materials/2024-04-02-nsc-r-workshop-chatgpt_1/Session1_ChatGTPR_2April2024_Blank5.Rmd). 
+
+Here is an [Introduction to the course](https://nscrweb.netlify.app/materials/2024-04-02-nsc-r-workshop-chatgpt_1/Introduction_ChatGTPR_2April2024.docx) 
