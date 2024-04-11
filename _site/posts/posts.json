@@ -28,10 +28,10 @@
     ],
     "date": "2024-04-15",
     "categories": [],
-    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the\r\nTidy Tuesday initiative, which is aimed at\r\nproviding a safe and supportive forum for individuals to practice their data processing\r\nand visualization skills in R while working with real-world data.\r\nThis workshop (Monday April 15, 2024, 13:00-14:00 CET) is the second in a series of three\r\nabout the use of ChatGPT in R. Together the three workshops form a beginners’\r\ncourse on how to integrate ChatGPT when working with R. They will be led by Abby Onencan.\r\nThe previous workshop in this course is on Monday April 2 and the next is on Tuesday April 30, 13:00-14:00.\r\nA complete description of all three sessions is in\r\nour post of April 2\r\nPlease join on Zoom by clicking here using password NSCR.\r\n\r\nAbby Onencan is a researcher at the Erasmus School of Law at Erasmus University Rotterdam. Her research focuses on industrial environmental harms, specifically those resulting from the production and use of PFAS. She is a member of the NSC-R Workshops team.\r\n\r\nMaterials\r\nThe materials for the workshop will be made available here.\r\n\r\n\r\n\r\n",
+    "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the\r\nTidy Tuesday initiative, which is aimed at\r\nproviding a safe and supportive forum for individuals to practice their data processing\r\nand visualization skills in R while working with real-world data.\r\nThis workshop (Monday April 15, 2024, 13:00-14:00 CET) is the second in a series of three\r\nabout the use of ChatGPT in R. Together the three workshops form a beginners’\r\ncourse on how to integrate ChatGPT when working with R. They will be led by Abby Onencan.\r\nThe previous workshop in this course is on Monday April 2 and the next is on Tuesday April 30, 13:00-14:00.\r\nA complete description of all three sessions is in\r\nour post of April 2\r\nPlease join on Zoom by clicking here using password NSCR.\r\n\r\nAbby Onencan is a researcher at the Erasmus School of Law at Erasmus University Rotterdam. Her research focuses on industrial environmental harms, specifically those resulting from the production and use of PFAS. She is a member of the NSC-R Workshops team.\r\n\r\nMaterials\r\nJoin the session with this RMarkdown script.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2024-03-26T12:51:43+01:00",
-    "input_file": {}
+    "last_modified": "2024-04-11T17:58:32+02:00",
+    "input_file": "2024-04-15-nsc-r-tidy-tuesday.knit.md"
   },
   {
     "path": "posts/2024-04-02-nsc-r-tidy-tuesday/",

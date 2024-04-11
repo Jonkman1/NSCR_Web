@@ -1,0 +1,268 @@
+---
+title: "Session 2 on Interacting with data for research and teaching"
+output:
+  html_notebook: default
+  word_document: default
+---
+
+In this one-hour session, we'll delve into the practical applications of leveraging your data to enhance research and teaching purposes using three chatgpt tools: TheOpenAir, CodeLingo and RTutor. By the end of the session, you'll have beginner knowledge and experience to effectively utilize these tools in your own data analysis projects and educational endeavors.
+
+## 1. TheOpenAIR Package
+
+TheOpenAir package provides seamless integration of ChatGPT technology into R applications, allowing for interactive exploration and analysis of data. With TheOpenAir, you can harness the power of ChatGPT to generate code, insights, and visualizations tailored to your data analysis needs.
+
+### A. Functions Overview
+
+Functions provided by TheOpenAIR package:
+
+-   `chat()`: Interacts with the OpenAI API to send requests and retrieve responses.
+
+-   `count_tokens()`: Counts the number of ChatGPT tokens required for a given string.
+
+-   `write_code()`: Generates code in a specified language, useful for automating tasks. *We will not use this function in the session because it is used for chatgpt conversations in the R console, and may take time to load. It is replaced with the* **`code_generation_prompt`** for generating code related to a specific task or analysis.
+
+-   `extract_r_code()`: Extracts R code from a ChatGPT response containing code snippets.
+
+-   `refactor()`: Performs R-specific code refactoring for improved efficiency.
+
+-   **Others:**
+
+    -   `get_chatlog_id()`: Retrieves the ID of the current ChatGPT session for tracking purposes.
+
+    -   For detailed usage examples, refer to the documentation via `help(package = "TheOpenAIR")`.
+
+### B. Load libraries and connect to OpenAI API
+
+```{r setup, include=FALSE}
+# Step 1: Install and load necessary packages
+# install.packages(c("TheOpenAIR", "httr", "jsonlite"))
+# load the libraries
+
+
+
+# Step 2: API Key Set Up
+openai_api_key("YOUR_API_KEY")
+```
+
+### C. Example: Analyzing Data with ChatGPT
+
+In this example, we utilize the essential functions provided by TheOpenAIR package to interact with ChatGPT and fetch insights, count tokens, extract R code, refactor the code, and generated a scatter plot of fuel consumption vs. horsepower. This approach demonstrates the versatility and usefulness of TheOpenAIR package in real-world data analysis tasks.
+
+#### Step 1: Interact with ChatGPT
+
+```{r}
+# Define the question to ask ChatGPT
+
+
+# Call the chat function to get a response
+
+
+# Print ChatGPT response
+
+```
+
+#### Step 2: Count Tokens
+
+```{r}
+# Count tokens for the prompt 
+
+```
+
+#### Step 3: Instruct ChatGPT to Generate Scatterplot Code
+
+```{r}
+# Prompt ChatGPT to generate R code
+
+
+# Chat with ChatGPT
+
+
+# Print ChatGPT Response
+
+```
+
+#### Step 4: Extract code
+
+```{r}
+
+```
+
+#### Step 5: Refactor code (if needed)
+
+```{r}
+# Define a simple R code snippet
+code_snippet <- 
+
+# Load the mtcars dataset
+data(mtcars)
+
+# Create a scatter plot of Fuel Consumption vs. Horsepower
+plot(mtcars$hp, mtcars$mpg, main = "Fuel Consumption vs. Horsepower",
+     xlab = "Horsepower", ylab = "Miles per Gallon", col = "blue", pch = 19)
+
+# Calculate the correlation coefficient between Fuel Consumption and Horsepower
+correlation <- cor(mtcars$mpg, mtcars$hp)
+cat("Correlation between Fuel Consumption and Horsepower:", correlation, "\n")
+
+# Use the refactor() function
+refactored_code <- refactor(code_snippet)
+
+# Print the refactored code
+cat("Refactored Code:\n")
+cat(refactored_code)
+```
+
+## 
+
+### **D. Can TheOpenAir Create an R Shiny App in minutes with ChatGPT?**
+
+1.  [**Prompt ChatGPT to generate R code**]{.underline}
+
+```{r}
+# Prompt ChatGPT to generate R code
+
+
+# Chat with ChatGPT
+
+
+# Print ChatGPT Response
+
+```
+
+2.  [**Run the ChatGPT Code to check if it works**]{.underline}
+
+#### Step 1. Install required packages (if not already installed):
+
+```{r}
+# install.packages(c("shiny", "ggplot2", "httr"))
+```
+
+#### Step 2. Load the libraries
+
+```{r}
+library(shiny)
+library(ggplot2)
+library(httr)
+library(jsonlite)
+```
+
+#### Step 3. UI for the Shiny App
+
+```{r}
+ui <- fluidPage(
+  titlePanel("Diamonds Dataset Analysis"),
+  sidebarLayout(
+    sidebarPanel(
+      selectInput("x", "X-axis variable", choices = colnames(diamonds), 
+                  selected = "carat"),
+      selectInput("y", "Y-axis variable", choices = colnames(diamonds), 
+                  selected = "price")
+    ),
+    mainPanel(
+      plotOutput("plot")
+    )
+  )
+)
+```
+
+#### Step 4. Function to connect to OpenAI GPT-3 API
+
+```{r}
+chatgpt_api_call <- function(input_text) {
+  open_ai_key <- "YOUR_API_KEY"
+  request_body <- list(
+    model = "gpt-3.5-turbo-0125",
+    messages = list(
+      list(role = "user", content = input_text)
+    ),
+    max_tokens = 500,
+    temperature = 0.5
+  )
+  response <- tryCatch({
+    httr::POST(
+      url = "https://api.openai.com/v1/chat/completions",
+      add_headers(
+        "Content_Type" = "application/json",
+        "Authorization" = paste("Bearer", open_ai_key)
+      ),
+      body = request_body,
+      encode = "json"
+    )
+  }, error = function(e) {
+    print(paste("Error:", e$message))
+    NULL
+  })
+  
+  if (!is.null(response)) {
+    content(response)
+  } else {
+    NULL
+  }
+}
+```
+
+#### Step 5. Server for the Shiny App
+
+```{r}
+server <- function(input, output, session) {
+  
+  output$plot <- renderPlot({
+    ggplot(diamonds, aes_string(x = input$x, y = input$y)) + 
+      geom_point()
+  })
+  
+  # Interact with ChatGPT API
+  observe({
+    # Define the question for ChatGPT
+    question <- "Based on the summary of the mtcars dataset, could you provide insights or analysis regarding the relationship between fuel consumption and horsepower? Additionally, are there any notable patterns or outliers in the data that warrant further investigation?"
+    
+    # Call ChatGPT API
+    chat_response <- chatgpt_api_call(question)
+    
+    # Print ChatGPT response
+    if (!is.null(chat_response)) {
+      print(chat_response)
+    }
+  })
+}
+```
+
+#### Step 6. Run the application
+
+```{r}
+shinyApp(ui = ui, server = server)
+```
+
+## 2. **CodeLingo**
+
+[CodeLingo](https://analytica.shinyapps.io/codelingo) was developed by Analytica Data Science Solutions to serve as a tool for facilitating code translation across different programming languages. Here's a summary of the key points:
+
+-   **Functionality**: [CodeLingo](https://analytica.shinyapps.io/codelingo) allows users to translate code between various programming languages, including Java, Python, JavaScript, C, C++, PHP, and R.
+
+-   **Integration with OpenAI API**: Users are required to input their OpenAI API key to use [CodeLingo](https://analytica.shinyapps.io/codelingo). This integration enables the application to leverage ChatGPT technology for code translation.
+
+*Use the previous code generated using TheOpenAir package to convert it to Python.*
+
+## 3. RTutor.ai
+
+[RTutor](https://rtutor.ai/) is an innovative R package designed for creating interactive tutorials and teaching materials using real-world datasets using ChatGPT and R. The application's open-source code is available on GitHub. It was developed by Dr. Steven Ge, a bioinformatics professor. While primarily designed for educational and non-commercial use, RTutor offers a valuable tool for streamlining data analysis workflows.
+
+[RTutor](https://rtutor.ai/) streamlines the coding process, making it accessible to users with some R experience. [RTutor](https://rtutor.ai/) is a:
+
+-   GPT -4 powered data chatbot
+
+-   Good for exploratory and pleliminary analysis
+
+-   Interactive and reproduciable
+
+-   Free, locally as an R package
+
+*NB: We will use the online version because the offline version requires large memory and may hang during the session.*
+
+[RTutor](https://rtutor.ai/) enables:
+
+-   Educators to develop engaging and interactive learning experiences for students by embedding R code, explanations, and exercises directly into the tutorials.
+
+-   Users can benefit from RTutor's functionality without requiring a ChatGPT API key for basic usage.
+
+-   Users to upload datasets, ask questions, and receive R or Python code along with visualizations.

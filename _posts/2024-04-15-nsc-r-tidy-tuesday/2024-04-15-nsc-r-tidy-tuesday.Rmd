@@ -32,4 +32,7 @@ Please join on Zoom by clicking [here](https://us02web.zoom.us/j/4539912989) usi
 
 ### Materials
 
-The materials for the workshop will be made available here.
+Join the session with [this RMarkdown script](https://nscrweb.netlify.app/materials/2024-04-15-nsc-r-workshop-chatgpt_2/Session2_ChatGTPR_11April2024vs02- No Code.Rmd). 
+
+
+
