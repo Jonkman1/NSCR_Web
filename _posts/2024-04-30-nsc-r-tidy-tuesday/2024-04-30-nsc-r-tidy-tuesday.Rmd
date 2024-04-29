@@ -33,4 +33,11 @@ Please join on Zoom by clicking [here](https://us02web.zoom.us/j/4539912989) usi
 
 ### Materials
 
-The materials for the workshop will be made available here.
+To prepare for this third session, please
+
+ 1.    Open RStudio
+ 2.    Create a new R project named "GPTAutomation" and include the files from [this folder](https://nscrweb.netlify.app/materials/2024-04-30-nsc-r-workshop-chatgpt_3/GPTAutomation.rar)
+3. Install the listed packages (in the new R project) and set the API key. The packages are
+"shiny", "shiny.i18n", "shinyjs", "openai", "httr", "jsonlite", "chatgpt", "askgpt", and "gptstudio".
+
+
