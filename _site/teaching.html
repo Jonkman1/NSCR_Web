@@ -21,7 +21,7 @@
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -32,7 +32,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -2598,15 +2598,15 @@ Three numbers go in (the functionarguments), 10 come out (the value of the funct
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/r/stats/Normal.html'>rnorm</a></span><span class='op'>(</span>n<span class='op'>=</span><span class='fl'>10</span>, mean<span class='op'>=</span><span class='fl'>0</span>, sd<span class='op'>=</span><span class='fl'>1</span><span class='op'>)</span></span></code></pre>
 </div>
-<pre><code> [1] 1.32437577 0.20953618 0.42359087 1.13722710 0.39783149 1.65794214
- [7] 1.87316957 1.69241398 0.02059525 1.24530186</code></pre>
+<pre><code> [1] -0.3018427  1.7890404  0.7012630  0.6271979  1.3674671  1.8289752
+ [7] -1.1515849 -0.3928590 -2.0167808 -0.3174121</code></pre>
 </div>
 <p>You often use a function in a function. sum() is also a function</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/stats/Normal.html'>rnorm</a></span><span class='op'>(</span>n<span class='op'>=</span><span class='fl'>10</span>, mean<span class='op'>=</span><span class='fl'>0</span>, sd<span class='op'>=</span><span class='fl'>1</span><span class='op'>)</span><span class='op'>)</span></span></code></pre>
 </div>
-<pre><code>[1] -0.7619207</code></pre>
+<pre><code>[1] 0.5779118</code></pre>
 </div>
 <p>Getting help is easy for beginners, but understanding it is not always easy</p>
 <div class="layout-chunk" data-layout="l-body">

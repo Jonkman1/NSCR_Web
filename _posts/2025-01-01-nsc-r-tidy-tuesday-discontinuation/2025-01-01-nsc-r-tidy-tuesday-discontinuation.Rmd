@@ -1,0 +1,18 @@
+---
+title: "NSC-R Online Workshops discontinued"
+description: |
+  Improve your R skills in entertaining, inspiring and supportive sessions moderated by your own colleagues.
+author:
+  - name: Wim Bernasco
+    url: https://nscr.nl/en/medewerker/prof-dr-wim-bernasco/
+date: 01-01-2024
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+The NSC-R online workshops have been discontinued. They are partially replaced by an in-person four-day Carpentry-certified course about using R for reproducible science, annually organized by and taught by the NSC-R workshops team in October.
+
+
+> *Wim Bernasco* is a senior researcher at the NSCR and professor at the University of Amsterdam. He is a member of the NSC-R Workshops team.
+
