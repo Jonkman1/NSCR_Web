@@ -13,8 +13,8 @@
     "categories": [],
     "contents": "\r\nThe NSC-R Tidy Tuesday workshop sessions are inspired by the\r\nTidy Tuesday initiative, which is aimed at\r\nproviding a safe and supportive forum for individuals to practice their data processing\r\nand visualization skills in R while working with real-world data.\r\nThis workshop (Tuesday April 30, 2024, 13:00-14:00 CET) was the last in a series of three\r\nabout the use of ChatGPT in R. Together the three workshops form a beginners’\r\ncourse on how to integrate ChatGPT when working with R. They were led by Abby Onencan.\r\nThe previous workshops in this course are on Monday April 2 and on Monday April 15, 13:00-14:00.\r\nA complete description of all three sessions is in\r\nour post of April 2\r\n\r\nAbby Onencan is a researcher at the Erasmus School of Law at Erasmus University Rotterdam. Her research focuses on industrial environmental harms, specifically those resulting from the production and use of PFAS. She is a member of the NSC-R Workshops team.\r\n\r\nMaterials\r\nTo consult the materials used in this third session, please\r\nOpen RStudio\r\nCreate a new R project named “GPTAutomation” and include the files from\r\nthis folder (ZIP archive) or from\r\nthis folder (RAR archive). Both are compressed archives and contain the same files. Use whichever is more convenient.\r\nInstall the listed packages (in the new R project) and set the API key. The packages are\r\n“shiny”, “shiny.i18n”, “shinyjs”, “openai”, “httr”, “jsonlite”, “chatgpt”, “askgpt”, and “gptstudio”.\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-01-02T23:34:39+01:00",
-    "input_file": {}
+    "last_modified": "2025-01-02T23:46:06+01:00",
+    "input_file": "2024-04-30-nsc-r-tidy-tuesday.knit.md"
   },
   {
     "path": "posts/2024-04-15-nsc-r-tidy-tuesday/",
@@ -166,8 +166,8 @@
     "categories": [],
     "contents": "\r\nThe NSC-R online workshops have been discontinued. They are partially replaced by an in-person four-day Carpentry-certified course about using R for reproducible science, annually organized by and taught by the NSC-R workshops team in October.\r\n\r\nWim Bernasco is a senior researcher at the NSCR and professor at the University of Amsterdam. He is a member of the NSC-R Workshops team.\r\n\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2025-01-02T23:33:48+01:00",
-    "input_file": {}
+    "last_modified": "2025-01-02T23:46:34+01:00",
+    "input_file": "nsc-r-tidy-tuesday-discontinuation.knit.md"
   },
   {
     "path": "posts/2023-12-12-nsc-r-workshop-ros/",
