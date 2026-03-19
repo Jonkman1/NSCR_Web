@@ -20,8 +20,9 @@
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
+html { -webkit-text-size-adjust: 100%; }
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -32,7 +33,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -455,8 +456,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
 
   <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
   <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
   <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
@@ -2416,7 +2417,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.26/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2478,21 +2479,17 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <p><img src="images/logo_NSCR-EN.svg" style="width:60.0%" /></p>
 <p></centre></p>
 <h3 id="what-are-the-nsc-r-workshops">What are the NSC-R Workshops?</h3>
-<p>The <strong>NSC-R Workshops</strong> is a series of one-hour online instructional sessions to support participants in developing their data science skills in R, and to promote open science principles. The NSC-R workshop meetings are organized by a team mostly affiliated with the Netherlands Institute for the Study of Crime and Law Enforcement <a href="https://www.nscr.nl/en/">(NSCR)</a>, but they are open to everyone, regardless of affiliation or skill level.</p>
-<p>There are workshops on specific topics (e.g. network analysis, missing values) and <code>Tidy Tuesday</code> workshops that cover more basic skills and materials. A collection of these latter workshop materials have been brought together by Harrie Jonkman in a single document that you can find <a href="https://ttbook.netlify.app/">here</a>.</p>
-<p>Starting November 2023 we are transforming the workshops on specific topics into a reading group, where we explore the world of data analysis using the book <em>Regression and other stories</em> by Gelman, Hill and Vehtari as a source of inspiration. Click <a href="https://nscrweb.netlify.app/posts/2023-11-14-nsc-r-workshop-ros/">here</a> for more information.</p>
+<p>The <strong>NSC-R Workshops</strong> were a series of one‑hour online instructional sessions designed to support participants in developing their data science skills in R and to promote open science principles. These workshops took place from 2021 to 2024. The sessions were organized by a team primarily affiliated with the <a href="https://www.nscr.nl/en/">Netherlands Institute for the Study of Crime and Law Enforcement (NSCR)</a>, but they were open to everyone, regardless of affiliation or skill level.</p>
+<p>Please note that the NSC‑R online workshops were <a href="https://nscrweb.netlify.app/posts/2025-01-01-nsc-r-tidy-tuesday-discontinuation/">discontinued</a> in 2025. They have been partially replaced by an in-person, four‑day Carpentries‑certified course on R for Social Scientists, which is organized and taught annually in October by the former NSC‑R workshop team.</p>
+<p>On this website, you can still access the materials used during the sessions. Here you will find workshops on specific topics (e.g., network analysis, missing values) as well as ‘Tidy Tuesday’ workshops that cover more fundamental skills and materials. A collection of the latter workshop materials has been compiled by Harrie Jonkman into a single document, which can be found <a href="https://ttbook.netlify.app/">here</a>.</p>
 <h3 id="the-nsc-r-workshop-team">The NSC-R Workshop Team</h3>
-<p>The NSC-R Workshop Team coordinates the NSC-R Workshops. They discuss potential topics, invite presenters, plan the meetings and send invitations. Currently the team includes Abby Onencan, Alex Trinidad, Anne Coomans, Asier Moneva, Danielle van Westbroek-Stibbe, Ida Adamse, Sam Langton and Wim Bernasco.</p>
+<p>The NSC‑R Workshop Team coordinates the NSC‑R Workshops. They discuss potential topics, invite presenters, plan the meetings, and send out invitations. The current team members are Asier Moneva, Danielle van Westbroek‑Stibbe, and Wim Bernasco.</p>
+<p>Past team members include Ida Adamse, Anne Coomans, Sam Langton, Abby Onencan, and Alex Trinidad.</p>
 <h3 id="contact-us-and-get-involved">Contact Us and Get involved</h3>
 <p>If you want your e-mail address on (or off) our mailing list, please send an e-mail to Wim Bernasco at <a href="mailto:wbernasco@nscr.nl" class="email">wbernasco@nscr.nl</a>.</p>
 <p>If you have suggestions for workshop topics, or are interested in presenting one, please send a message to
-Ida Adamse (<a href="mailto:iadamse@nscr.nl" class="email">iadamse@nscr.nl</a>)
 Wim Bernasco (<a href="mailto:wbernasco@nscr.nl" class="email">wbernasco@nscr.nl</a>),
-Anne Coomans (<a href="mailto:acoomans@nscr.nl" class="email">acoomans@nscr.nl</a>),
-Sam Langton (<a href="mailto:slangton@nscr.nl" class="email">slangton@nscr.nl</a>),
-Asier Moneva (<a href="mailto:amoneva@nscr.nl" class="email">amoneva@nscr.nl</a>),
-Abby Onencan (<a href="mailto:onencan@law.eur.nl" class="email">onencan@law.eur.nl</a>),
-Alex Trinidad (<a href="mailto:atrinidad@nscr.nl" class="email">atrinidad@nscr.nl</a>), or
+Asier Moneva (<a href="mailto:amoneva@nscr.nl" class="email">amoneva@nscr.nl</a>), or
 Danielle van Westbroek-Stibbe (<a href="mailto:DStibbe@nscr.nl" class="email">DStibbe@nscr.nl</a>).</p>
 <center>
 <p><img src="images/workshop_2.png" style="width:30.0%" /></p>
@@ -2513,7 +2510,7 @@ Danielle van Westbroek-Stibbe (<a href="mailto:DStibbe@nscr.nl" class="email">DS
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
 <div class="distill-site-nav distill-site-footer">
-<p>© NSC-R Workshops 2022. Thanks to Lisa Lendway, Alison Hill and
+<p>© NSC-R Workshops 2026. Thanks to Lisa Lendway, Alison Hill, and
 Harrie Jonkman. Made with the R <a
 href="https://rstudio.github.io/distill/">distill</a> package.</p>
 </div>
